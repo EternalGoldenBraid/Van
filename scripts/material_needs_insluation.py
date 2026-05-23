@@ -76,6 +76,7 @@ class MaterialNeed:
     material: Material
     coverage_ratio: float = 1.0  # 1.0 = cover the full surface area
     note: Optional[str] = None
+    optional: bool = False
 
 
 def units_needed(surface_m2: float, need: MaterialNeed) -> int:
@@ -200,10 +201,11 @@ def main():
         ],
     }
 
-    def print_surface_needs(surface_name: str, surface_m2: float) -> float:
+    def print_surface_needs(surface_name: str, surface_m2: float) -> Tuple[float, float]:
         print("-"*30)
         print(f"{surface_name} ({surface_m2:.2f} m^2)")
-        subtotal = 0.0
+        subtotal_min = 0.0
+        subtotal_max = 0.0
         for need in needs_by_surface.get(surface_name, []):
             print()
             units = units_needed(surface_m2, need)
@@ -211,15 +213,22 @@ def main():
                 cost = None
             else:
                 cost = units * float(need.material.unit_price_eur)
-                subtotal += cost
+                subtotal_max += cost
+                if not need.optional:
+                    subtotal_min += cost
             dims = ""
             if need.material.unit_dims_mm is not None:
                 w, h, t = need.material.unit_dims_mm
                 dims = f" [{w}x{h}x{t}mm]"
             note = "" if need.note is None else f" ({need.note})"
+            optional = " [optional]" if need.optional else ""
             price = "unknown" if need.material.unit_price_eur is None else f"{need.material.unit_price_eur:.2f} EUR"
-            print(f"  - {need.material.name}{note}")
-            line = f"    {units} x {need.material.unit_name}{dims} (covers {need.material.unit_coverage_m2:.2f} m^2 each, {price})"
+            print(f"  - {need.material.name}{optional}{note}")
+            if need.material.unit_coverage_m2 is None:
+                coverage = "n/a"
+            else:
+                coverage = f"{need.material.unit_coverage_m2:.2f} m^2"
+            line = f"    {units} x {need.material.unit_name}{dims} (covers {coverage} each, {price})"
             if cost is None:
                 line += " -> unknown EUR"
             else:
@@ -227,16 +236,23 @@ def main():
             print(line)
             if need.material.url:
                 print(f"    {need.material.url}")
-        print(f"  {surface_name} subtotal: {subtotal:.2f} EUR")
+        print(f"  {surface_name} subtotal min..max: {subtotal_min:.2f} .. {subtotal_max:.2f} EUR")
         print("-"*30,"\n")
-        return subtotal
+        return subtotal_min, subtotal_max
 
-    grand = 0.0
-    grand += print_surface_needs("floor", floor_m2)
-    grand += print_surface_needs("walls", walls_m2)
-    grand += print_surface_needs("ceiling", ceiling_m2)
-    grand += print_surface_needs("doors", doors_m2)
-    print(f"Grand total (known prices only): {grand:.2f} EUR")
+    grand_min = 0.0
+    grand_max = 0.0
+    for surface_name, surface_m2 in [
+        ("floor", floor_m2),
+        ("floor_aux", floor_m2),
+        ("walls", walls_m2),
+        ("ceiling", ceiling_m2),
+        ("doors", doors_m2),
+    ]:
+        sub_min, sub_max = print_surface_needs(surface_name, surface_m2)
+        grand_min += sub_min
+        grand_max += sub_max
+    print(f"Grand total (known prices, min..max): {grand_min:.2f} .. {grand_max:.2f} EUR")
 
 
 if __name__ == "__main__":
