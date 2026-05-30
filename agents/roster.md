@@ -32,6 +32,8 @@ service-specific prefixes.
 - A user-managed agent should be able to start from its worktree and assigned
   Linear issue. The first prompt can be as small as: "Check your assigned issue
   and get the context."
+- The project context comes from the `Van Build` Linear project, not from a
+  repo-native task board.
 - The transient in-thread worker that created the first wiring diagram
   draft was not a persistent CLI session.
 - For new persistent agents, create a named worktree and add its resume command

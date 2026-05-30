@@ -30,6 +30,9 @@ Linear is the active task board. The old repo-native `docs/project_board.md`
 was removed after the current work was migrated into the `Van Build` Linear
 project.
 
+Project URL:
+- `https://linear.app/brutusvan/project/van-build-45e37d1faceb`
+
 The user created a Linear workspace/account for Brutus Van, and Codex Linear MCP
 was added locally as `linear` at `https://mcp.linear.app/mcp`. A fresh Codex
 session may be needed before Linear tools are available.
