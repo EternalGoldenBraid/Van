@@ -22,6 +22,7 @@ service-specific prefixes.
 | Agent | Territory | Linear | Worktree | Resume |
 | --- | --- | --- | --- | --- |
 | Main Codex session | Project coordination, Linear tracking, repo hygiene, physical-work planning | General / current thread | `/home/nicklas/Projects/Personal/Van/main` | `codex resume 019e7848-8459-7100-bf9f-10fa969a9bf3 -C /home/nicklas/Projects/Personal/Van/main` |
+| Electronics wiring diagram agent | Maintain `docs/electronics_wiring.drawio`, starting with the heater path | `VAN-23` child of `VAN-22` | `/home/nicklas/Projects/Personal/Van/van-23-heater-wiring` on branch `van-23-heater-wiring` | `codex resume 019e79a5-c112-7373-8fdd-a535f34446f7 -C /home/nicklas/Projects/Personal/Van/van-23-heater-wiring` |
 
 ## Notes
 
@@ -31,7 +32,7 @@ service-specific prefixes.
 - A user-managed agent should be able to start from its worktree and assigned
   Linear issue. The first prompt can be as small as: "Check your assigned issue
   and get the context."
-- The transient in-thread worker that created the first `docs/heater_wiring.drawio`
+- The transient in-thread worker that created the first wiring diagram
   draft was not a persistent CLI session.
 - For new persistent agents, create a named worktree and add its resume command
   here before relying on it after reboot.

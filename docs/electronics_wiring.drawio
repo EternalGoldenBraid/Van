@@ -1,0 +1,36 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram id="electronics-wiring" name="Electronics Wiring">
+    <mxGraphModel dx="2019" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="battery-feed" parent="1" style="whiteSpace=wrap;html=1;" value="Passenger-seat battery / feed source&lt;br&gt;+ and - terminals observed&lt;br&gt;Appears to be starter battery; confirm vs aux" vertex="1">
+          <mxGeometry height="70" width="150" x="-170" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="main-fuse-distribution" parent="1" style="whiteSpace=wrap;html=1;" value="Passenger-seat fuse point&lt;br&gt;Red and black pass through&lt;br&gt;Count/rating unknown" vertex="1">
+          <mxGeometry height="70" width="170" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="planar-heater" parent="1" style="whiteSpace=wrap;html=1;" value="PLANAR 44D / Air 4D heater&lt;br&gt;Red/black connector observed&lt;br&gt;Confirm voltage and label" vertex="1">
+          <mxGeometry height="80" width="170" x="480" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="controller-switch" parent="1" style="whiteSpace=wrap;html=1;" value="Controller / switch&lt;br&gt;Type and cable path unknown" vertex="1">
+          <mxGeometry height="70" width="170" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="whiteSpace=wrap;html=1;" value="Current observation: two-wire red/black heater supply harness appears to run to the passenger-seat battery area. Both red and black pass through the fuse area and clip into a red/black connector at the heater harness." vertex="1">
+          <mxGeometry height="80" width="470" x="60" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-feed-to-main" edge="1" parent="1" source="battery-feed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="main-fuse-distribution" value="red/black pair">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-fuse-to-heater" edge="1" parent="1" source="main-fuse-distribution" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="planar-heater" value="red/black harness">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-controller-to-heater" edge="1" parent="1" source="controller-switch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="planar-heater" value="control cable?">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
