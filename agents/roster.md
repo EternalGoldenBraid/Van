@@ -1,7 +1,8 @@
 # Agent Roster
 
 This file tracks active or reusable agents for the van build. Keep it simple:
-agent territory, linked Linear issue, working tree, and resume command.
+agent territory, linked Linear issue, working tree, and resume command. Do not
+list planned agents before they are actually launched.
 
 ## Workspace Layout
 
@@ -13,18 +14,23 @@ Preferred layout after the worktree migration:
 - `/home/nicklas/Projects/Personal/Van/<task-worktree>/` are sibling Git
   worktrees for bounded agent tasks.
 
-Use one branch per task, preferably matching the Linear issue.
+Use one branch per task, preferably matching the issue name without extra
+service-specific prefixes.
 
 ## Enrolled Agents
 
 | Agent | Territory | Linear | Worktree | Resume |
 | --- | --- | --- | --- | --- |
 | Main Codex session | Project coordination, Linear tracking, repo hygiene, physical-work planning | General / current thread | `/home/nicklas/Projects/Personal/Van/main` | `codex resume 019e7848-8459-7100-bf9f-10fa969a9bf3 -C /home/nicklas/Projects/Personal/Van/main` |
-| Heater documentation agent | Document the diesel heater model, manual, install state, penetrations, wiring, fuel path, and removal notes | `VAN-6` | existing external/session agent | Resume command not recorded yet |
-| Heater wiring diagram agent | Maintain `docs/heater_wiring.drawio` and trace heater-to-battery wiring from evidence | `VAN-23` | planned: `/home/nicklas/Projects/Personal/Van/van-23-heater-wiring` | Not started yet |
 
 ## Notes
 
+- When a new persistent agent starts, it should check this roster. If it is not
+  listed yet, it should add its own entry with territory, Linear issue, worktree,
+  branch, session/thread ID, and resume command.
+- A user-managed agent should be able to start from its worktree and assigned
+  Linear issue. The first prompt can be as small as: "Check your assigned issue
+  and get the context."
 - The transient in-thread worker that created the first `docs/heater_wiring.drawio`
   draft was not a persistent CLI session.
 - For new persistent agents, create a named worktree and add its resume command
