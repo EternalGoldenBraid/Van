@@ -27,14 +27,15 @@ concept.
 
 ## Project Management
 
-Use `docs/project_board.md` as the lightweight project board. Keep it concise:
-current work, next action, blockers, and decisions. Move detailed plans into
-separate files in `docs/` when a topic grows.
+Project management is not settled. A lightweight `docs/project_board.md` exists
+from an initial pass, but do not assume it is the final system.
 
-Current active task:
+The user created a Linear workspace/account for Brutus Van, and Codex Linear MCP
+was added locally as `linear` at `https://mcp.linear.app/mcp`. A fresh Codex
+session may be needed before Linear tools are available.
 
-- remove the existing diesel heater and document the installation state before
-  continuing floor work around that area
+Current active physical task: remove the existing diesel heater and document
+what remains before continuing floor work around that area.
 
 ## Floor Plan Context
 
