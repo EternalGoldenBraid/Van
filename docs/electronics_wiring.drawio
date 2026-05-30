@@ -16,14 +16,23 @@
         <mxCell id="main-fuse-distribution" parent="1" style="whiteSpace=wrap;html=1;" value="Passenger-seat fuse point&lt;br&gt;Red and black pass through&lt;br&gt;Count/rating unknown" vertex="1">
           <mxGeometry height="70" width="170" x="110" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="relay-1" parent="1" style="whiteSpace=wrap;html=1;" value="Relay 1" vertex="1">
+        <mxCell id="relay-1" parent="1" style="whiteSpace=wrap;html=1;" value="Relay 1&lt;br&gt;Wehrle 20 210 100A&lt;br&gt;12V / 20/30A / 10/17" vertex="1">
           <mxGeometry height="60" width="140" x="-40" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="relay-2" parent="1" style="whiteSpace=wrap;html=1;" value="Relay 2" vertex="1">
+        <mxCell id="relay-1-holder" parent="1" style="whiteSpace=wrap;html=1;" value="Relay socket holder 1&lt;br&gt;Wurth 734 12 2" vertex="1">
+          <mxGeometry height="60" width="160" x="140" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="relay-2" parent="1" style="whiteSpace=wrap;html=1;" value="Relay 2&lt;br&gt;Wehrle 20 210 100A&lt;br&gt;12V / 20/30A / 10/17" vertex="1">
           <mxGeometry height="60" width="140" x="-40" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="relay-3" parent="1" style="whiteSpace=wrap;html=1;" value="Relay 3" vertex="1">
+        <mxCell id="relay-2-holder" parent="1" style="whiteSpace=wrap;html=1;" value="Relay socket holder 2&lt;br&gt;Wurth 734 12 2" vertex="1">
+          <mxGeometry height="60" width="160" x="140" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="relay-3" parent="1" style="whiteSpace=wrap;html=1;" value="Relay 3&lt;br&gt;Wehrle 20 210 100A&lt;br&gt;12V / 20/30A / 10/17" vertex="1">
           <mxGeometry height="60" width="140" x="-40" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="relay-3-holder" parent="1" style="whiteSpace=wrap;html=1;" value="Relay socket holder 3&lt;br&gt;Wurth 734 12 2" vertex="1">
+          <mxGeometry height="60" width="160" x="140" y="610" as="geometry" />
         </mxCell>
         <mxCell id="planar-heater" parent="1" style="whiteSpace=wrap;html=1;" value="PLANAR 44D / Air 4D heater&lt;br&gt;Red/black connector observed&lt;br&gt;Confirm voltage and label" vertex="1">
           <mxGeometry height="80" width="170" x="480" y="145" as="geometry" />
@@ -37,30 +46,37 @@
         <mxCell id="edge-feed-to-main" edge="1" parent="1" source="battery-group" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.007;exitY=0.552;exitDx=0;exitDy=0;exitPerimeter=0;" target="main-fuse-distribution" value="red/black pair">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-battery-positive-to-relay-1" edge="1" parent="1" source="battery-positive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" target="relay-1" value="red wire">
+        <mxCell id="edge-battery-positive-to-relay-1" edge="1" parent="1" source="battery-positive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" target="relay-1-holder" value="red wire">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-71" y="354" />
-              <mxPoint x="-70" y="354" />
-              <mxPoint x="-70" y="480" />
+              <mxPoint x="220" y="354" />
+              <mxPoint x="220" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge-battery-positive-to-relay-2" edge="1" parent="1" source="battery-positive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" target="relay-2" value="red wire">
+        <mxCell id="edge-relay-1-to-holder" edge="1" parent="1" source="relay-1-holder" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="relay-1" value="relay plugged into holder">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-battery-positive-to-relay-2" edge="1" parent="1" source="battery-positive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" target="relay-2-holder" value="red wire">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-71" y="560" />
+              <mxPoint x="220" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge-battery-positive-to-relay-3" edge="1" parent="1" source="battery-positive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" target="relay-3" value="red wire">
+        <mxCell id="edge-relay-2-to-holder" edge="1" parent="1" source="relay-2-holder" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="relay-2" value="relay plugged into holder">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-battery-positive-to-relay-3" edge="1" parent="1" source="battery-positive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" target="relay-3-holder" value="red wire">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-71" y="434" />
-              <mxPoint x="-70" y="434" />
-              <mxPoint x="-70" y="640" />
+              <mxPoint x="220" y="434" />
+              <mxPoint x="220" y="640" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-relay-3-to-holder" edge="1" parent="1" source="relay-3-holder" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="relay-3" value="relay plugged into holder">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge-fuse-to-heater" edge="1" parent="1" source="main-fuse-distribution" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="planar-heater" value="red/black harness">
           <mxGeometry relative="1" as="geometry">
