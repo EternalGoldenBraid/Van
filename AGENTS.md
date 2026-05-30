@@ -21,6 +21,9 @@ This repository is for planning and tracking the van build.
 - Do not spawn or resume sub-agents unless the user explicitly asks for that.
   Preparing a worktree or documenting an agent slot is fine; starting the agent
   is user-controlled unless delegated explicitly.
+- Do not create Linear comments, change issue status, or otherwise write to
+  Linear unless the user explicitly asks for that specific write. Draft review
+  notes in chat first so the user can approve or edit them.
 - Do not commit or push changes unless the user explicitly asks for that.
 - When exploring external tools such as Linear, start with read-only checks and
   confirm before creating or updating real tasks.
