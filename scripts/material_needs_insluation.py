@@ -257,19 +257,19 @@ def main():
         unit_dims_mm=None,
     )
     a_metal_primer = Material(
-        name="Primer spray: aluminum/galvanized metal 400ml",
-        url="https://www.puuilo.fi/maston-pohjamaalispray-alumiini-galvanoitu-metalli-400ml",
+        name="Primer spray: white 400ml",
+        url="https://www.puuilo.fi/maston-spraymaali-100-pohjamaali-400ml-521-valkoinen",
         unit_name="can",
         unit_coverage_m2=1.0,
-        unit_price_eur=8.99,
+        unit_price_eur=4.99,
         unit_dims_mm=None,
     )
     a_metal_topcoat = Material(
-        name="Metal topcoat spray 400ml (Maston Hammer)",
-        url="https://www.puuilo.fi/maston-hammer-spraymaali-400ml-silea-musta",
+        name="Metal topcoat spray 400ml (Maston)",
+        url="https://www.puuilo.fi/maston-spraymaali-100-400ml-ral9010-223-maalarin-valkoinen",
         unit_name="can",
         unit_coverage_m2=1.0,
-        unit_price_eur=10.99,
+        unit_price_eur=4.99,
         unit_dims_mm=None,
     )
     a_alu_tape = Material(
@@ -322,10 +322,10 @@ def main():
     )
     a_wire_cup_brush = Material(
         name="Wire cup brush for drill (kuppiharja) 75mm RST",
-        url="https://www.puuilo.fi/wolfcraft-kuppiharja-rst-75mm",
+        url="https://www.puuilo.fi/wolfcraft-kuppiharja-messinki-35x80mm",
         unit_name="pc",
         unit_coverage_m2=1.0,
-        unit_price_eur=8.99,
+        unit_price_eur=14.99,
         unit_dims_mm=None,
     )
     a_metal_drill_bit_series = Material(
@@ -336,6 +336,24 @@ def main():
         unit_price_eur=5.99,
         unit_dims_mm=None,
     )
+    a_sikaflex_adhesive_sealant= Material(
+        name="Sikaflex adhesive sealant 11FC",
+        url="https://www.puuilo.fi/sikaflex-liima-ja-saumausmassa-11fc-purform-valkoinen-300ml",
+        unit_name="pc",
+        unit_coverage_m2=1.0,
+        unit_price_eur=17.99,
+        unit_dims_mm=None,
+    )
+    a_sikaflex_adhesive = Material(
+        name="Sikaflex adhesive 118",
+        url="https://www.puuilo.fi/sikaflex-asennusliima-118-extreme-grab-290ml",
+        unit_name="pc",
+        unit_coverage_m2=1.0,
+        unit_price_eur=17.99,
+        unit_dims_mm=None,
+    )
+    
+    
 
     # Per-surface needs. Keep this minimal: ratio covers partial coverage cases.
     needs_by_surface: Dict[str, List[MaterialNeed]] = {
@@ -356,11 +374,13 @@ def main():
             MaterialNeed(a_metal_primer, units=1),
             MaterialNeed(a_metal_topcoat, units=1),
             MaterialNeed(a_alu_tape, units=2),
-            MaterialNeed(a_masking_tape, units=1),
+            MaterialNeed(a_masking_tape, units=3),
             MaterialNeed(a_foam, units=1, optional=True, note="for XPS gaps / air sealing"),
-            MaterialNeed(a_pencil, units=1),
-            MaterialNeed(a_filter_p3, units=1),
+            MaterialNeed(a_pencil, units=3),
+            # MaterialNeed(a_filter_p3, units=1, optional=True, note="Might have these"),
             MaterialNeed(a_metal_drill_bit_series, units=1),
+            MaterialNeed(a_sikaflex_adhesive_sealant, units=1, note="Sealant for sealing rivets on the bare metal floor."),
+            MaterialNeed(a_sikaflex_adhesive, units=2, note="Adhesive for gluing structural elemgents"),
         ],
         "walls": [
             MaterialNeed(m_butyl, coverage_ratio=0.30, note="patch coverage"),
