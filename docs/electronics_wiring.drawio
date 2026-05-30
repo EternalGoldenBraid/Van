@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
   <diagram id="electronics-wiring" name="Electronics Wiring">
-    <mxGraphModel dx="1230" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="821" dy="261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,22 +17,22 @@
           <mxGeometry height="70" width="170" x="110" y="150" as="geometry" />
         </mxCell>
         <mxCell id="relay-1" parent="1" style="whiteSpace=wrap;html=1;" value="Relay 1&lt;br&gt;Wehrle 20 210 100A&lt;br&gt;12V / 20/30A / 10/17" vertex="1">
-          <mxGeometry height="60" width="140" x="-40" y="450" as="geometry" />
+          <mxGeometry height="60" width="140" x="-190" y="450" as="geometry" />
         </mxCell>
         <mxCell id="relay-1-holder" parent="1" style="whiteSpace=wrap;html=1;" value="Relay socket holder 1&lt;br&gt;Wurth 734 12 2" vertex="1">
-          <mxGeometry height="60" width="160" x="140" y="450" as="geometry" />
+          <mxGeometry height="60" width="160" x="110" y="450" as="geometry" />
         </mxCell>
         <mxCell id="relay-2" parent="1" style="whiteSpace=wrap;html=1;" value="Relay 2&lt;br&gt;Wehrle 20 210 100A&lt;br&gt;12V / 20/30A / 10/17" vertex="1">
-          <mxGeometry height="60" width="140" x="-40" y="530" as="geometry" />
+          <mxGeometry height="60" width="140" x="-190" y="530" as="geometry" />
         </mxCell>
         <mxCell id="relay-2-holder" parent="1" style="whiteSpace=wrap;html=1;" value="Relay socket holder 2&lt;br&gt;Wurth 734 12 2" vertex="1">
-          <mxGeometry height="60" width="160" x="140" y="530" as="geometry" />
+          <mxGeometry height="60" width="160" x="110" y="530" as="geometry" />
         </mxCell>
         <mxCell id="relay-3" parent="1" style="whiteSpace=wrap;html=1;" value="Relay 3&lt;br&gt;Wehrle 20 210 100A&lt;br&gt;12V / 20/30A / 10/17" vertex="1">
-          <mxGeometry height="60" width="140" x="-40" y="610" as="geometry" />
+          <mxGeometry height="60" width="140" x="-190" y="610" as="geometry" />
         </mxCell>
         <mxCell id="relay-3-holder" parent="1" style="whiteSpace=wrap;html=1;" value="Relay socket holder 3&lt;br&gt;Wurth 734 12 2" vertex="1">
-          <mxGeometry height="60" width="160" x="140" y="610" as="geometry" />
+          <mxGeometry height="60" width="160" x="110" y="610" as="geometry" />
         </mxCell>
         <mxCell id="planar-heater" parent="1" style="whiteSpace=wrap;html=1;" value="PLANAR 44D / Air 4D heater&lt;br&gt;Red/black connector observed&lt;br&gt;Confirm voltage and label" vertex="1">
           <mxGeometry height="80" width="170" x="480" y="145" as="geometry" />
@@ -47,10 +47,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge-battery-positive-to-relay-1" edge="1" parent="1" source="battery-positive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" target="relay-1-holder" value="red wire">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.8366" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="220" y="354" />
-              <mxPoint x="220" y="480" />
+              <mxPoint x="320" y="236" />
+              <mxPoint x="320" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -58,9 +59,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge-battery-positive-to-relay-2" edge="1" parent="1" source="battery-positive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" target="relay-2-holder" value="red wire">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.8266" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="220" y="560" />
+              <mxPoint x="320" y="236" />
+              <mxPoint x="320" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -68,10 +71,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge-battery-positive-to-relay-3" edge="1" parent="1" source="battery-positive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" target="relay-3-holder" value="red wire">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.8446" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="220" y="434" />
-              <mxPoint x="220" y="640" />
+              <mxPoint x="320" y="236" />
+              <mxPoint x="320" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
