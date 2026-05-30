@@ -2,6 +2,8 @@
 
 Status: racks removed; next step is lifting the cargo floor to inspect ribs/holes/rust and decide batten layout.
 
+Project tracking: see `docs/project_board.md`.
+
 ## Goal (Floor Only)
 - Patch/standardize any old holes in the metal floor with pop rivets.
 - Stop drafts (convection) and reduce noise.
@@ -33,4 +35,3 @@ Look at:
 3. Buy floor materials and auxiliary items.
 4. Patch holes + rust treat + prime + topcoat; let cure.
 5. Install floor stack.
-

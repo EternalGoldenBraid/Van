@@ -19,10 +19,22 @@ Important files:
 
 - `scripts/material_needs_insluation.py`: current material and cost calculator.
 - `docs/floor_plan.md`: concise current floor build plan.
+- `docs/project_board.md`: lightweight current task board.
 
 The script is intentionally rough but useful. Do not rewrite it into a framework
 unless the user explicitly asks. Prefer small commits that each implement one
 concept.
+
+## Project Management
+
+Use `docs/project_board.md` as the lightweight project board. Keep it concise:
+current work, next action, blockers, and decisions. Move detailed plans into
+separate files in `docs/` when a topic grows.
+
+Current active task:
+
+- remove the existing diesel heater and document the installation state before
+  continuing floor work around that area
 
 ## Floor Plan Context
 
