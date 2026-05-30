@@ -2,7 +2,7 @@
 
 Status: racks removed; next step is lifting the cargo floor to inspect ribs/holes/rust and decide batten layout.
 
-Project tracking: see `docs/project_board.md`.
+Project tracking: Linear project `Van Build`.
 
 ## Goal (Floor Only)
 - Patch/standardize any old holes in the metal floor with pop rivets.

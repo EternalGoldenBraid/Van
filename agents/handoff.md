@@ -19,7 +19,6 @@ Important files:
 
 - `scripts/material_needs_insluation.py`: current material and cost calculator.
 - `docs/floor_plan.md`: concise current floor build plan.
-- `docs/project_board.md`: lightweight current task board.
 
 The script is intentionally rough but useful. Do not rewrite it into a framework
 unless the user explicitly asks. Prefer small commits that each implement one
@@ -27,8 +26,9 @@ concept.
 
 ## Project Management
 
-Project management is not settled. A lightweight `docs/project_board.md` exists
-from an initial pass, but do not assume it is the final system.
+Linear is the active task board. The old repo-native `docs/project_board.md`
+was removed after the current work was migrated into the `Van Build` Linear
+project.
 
 The user created a Linear workspace/account for Brutus Van, and Codex Linear MCP
 was added locally as `linear` at `https://mcp.linear.app/mcp`. A fresh Codex
