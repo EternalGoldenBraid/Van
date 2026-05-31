@@ -24,6 +24,8 @@ This repository is for planning and tracking the van build.
 - Do not create Linear comments, change issue status, or otherwise write to
   Linear unless the user explicitly asks for that specific write. Draft review
   notes in chat first so the user can approve or edit them.
+- Before acting on any request, restate your interpretation and wait for
+  confirmation.
 - Do not commit or push changes unless the user explicitly asks for that.
 - When exploring external tools such as Linear, start with read-only checks and
   confirm before creating or updating real tasks.
