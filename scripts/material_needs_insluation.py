@@ -173,13 +173,37 @@ def main():
         unit_price_eur=38.99,
         unit_dims_mm=(1000, 1000, 13),
     )
-    m_pir = Material(
-        name="PIR board",
-        url="https://www.stark-suomi.fi/tuote/eristelevy-ff-pir-30-alk-30x600x2400-mm-1-44-m2-12gn",
-        unit_name="board",
+    m_ccf_13_roll = Material(
+        name="NMC solukumieristerulla itseliimautuva (13mm)",
+        url="https://www.k-rauta.fi/tuote/solukumieristerulla-nmc-13mm-itseliimautuva-11m/5413256413190",
+        unit_name="roll",
+        unit_coverage_m2=11.0,
+        unit_price_eur=259.00,
+        unit_dims_mm=(1000, 11000, 13),
+    )
+    m_ccf_19 = Material(
+        name="NMC solukumieristerulla itseliimautuva (19mm)",
+        url="https://www.k-rauta.fi/tuote/solukumieristerulla-nmc-19mm-itseliimautuva-8m/5413256413213",
+        unit_name="roll",
+        unit_coverage_m2=8.0,
+        unit_price_eur=254.00,
+        unit_dims_mm=(1000, 8000, 19),
+    )
+    m_pir_30 = Material(
+        name="FF-PIR 30 Sauna board (30mm)",
+        url="https://www.k-rauta.fi/tuote/eristyslevy-ff-pir-30-sauna-30x600x1200-tayspontti/6418711191339",
+        unit_name="pir_board",
+        unit_coverage_m2=0.6 * 1.2,
+        unit_price_eur=12.20,
+        unit_dims_mm=(600, 1200, 30),
+    )
+    m_pir_50 = Material(
+        name="FF-PIR 50 ALK board (50mm)",
+        url="https://www.k-rauta.fi/tuote/eristyslevy-ff-pir-50-alk-50x600x2400-tayspontti/6418711191162",
+        unit_name="pir_board",
         unit_coverage_m2=0.6 * 2.4,
-        unit_price_eur=29.15,
-        unit_dims_mm=(600, 2400, 30),
+        unit_price_eur=31.20,
+        unit_dims_mm=(600, 2400, 50),
     )
     m_xps_underfloor_heating = Material(
         name="Topaway XPS-lattialämmitys",
@@ -204,6 +228,14 @@ def main():
         unit_coverage_m2=0.033 * 2.4,
         unit_price_eur=9.19,
         unit_dims_mm=(33, 2400, 33),
+    )
+    m_batten_30x48 = Material(
+        name="Rima mitallistettu 30x48 VI",
+        url="https://www.k-rauta.fi/tuote/rima-mitallistettu-30x48-vi/6438313486626",
+        unit_name="m",
+        unit_coverage_m2=1.0,
+        unit_price_eur=1.10,
+        unit_dims_mm=(30, 1000, 48),
     )
     m_plywood = Material(
         name="Plywood (owned)",
@@ -246,6 +278,70 @@ def main():
         unit_name="box",
         unit_coverage_m2=1.0,
         unit_price_eur=6.99,
+        unit_dims_mm=None,
+    )
+    a_m6_washer_aisi316 = Material(
+        name="AISI 316 washer DIN125A M6, 12 pcs",
+        url=None,
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=2.29,
+        unit_dims_mm=None,
+    )
+    a_m6_locknut_aisi316 = Material(
+        name="AISI 316 locknut DIN985 M6, 12 pcs",
+        url=None,
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=2.89,
+        unit_dims_mm=None,
+    )
+    a_m6_bolt_30_aisi316 = Material(
+        name="AISI 316 hex bolt DIN933 M6x30, 10 pcs",
+        url=None,
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=3.99,
+        unit_dims_mm=None,
+    )
+    a_m10_washer_aisi316 = Material(
+        name="AISI 316 washer DIN125A M10, 10 pcs",
+        url=None,
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=2.99,
+        unit_dims_mm=None,
+    )
+    a_m10_locknut_aisi316 = Material(
+        name="AISI 316 locknut DIN985 M10, 6 pcs",
+        url=None,
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=3.29,
+        unit_dims_mm=None,
+    )
+    a_m10_bolt_30_aisi316 = Material(
+        name="AISI 316 hex bolt DIN933 M10x30, 4 pcs",
+        url=None,
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=4.49,
+        unit_dims_mm=None,
+    )
+    a_m10_bolt_40_aisi316 = Material(
+        name="AISI 316 hex bolt DIN933 M10x40, 2 pcs",
+        url=None,
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=3.49,
+        unit_dims_mm=None,
+    )
+    a_stainless_hardware_shipping = Material(
+        name="Delivery and handling for AISI 316 sealing hardware",
+        url=None,
+        unit_name="order",
+        unit_coverage_m2=1.0,
+        unit_price_eur=3.90,
         unit_dims_mm=None,
     )
     a_rust_converter = Material(
@@ -352,6 +448,46 @@ def main():
         unit_price_eur=17.99,
         unit_dims_mm=None,
     )
+    a_rivnuts = Material(
+        name="Niittimutteri Fix Master avoin tasakanta Zn M6 500kpl",
+        url="https://www.k-rauta.fi/tuote/niittimutteri-fix-master-avoin-tasakanta-zn-m6-500kpl/6417926358452",
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=54.90,
+        unit_dims_mm=None,
+    )
+    a_rivnut_gun = Material(
+        name="Niittimutteripihti Rapid RP110",
+        url="https://www.k-rauta.fi/tuote/niittimutteripihti-rapid-rp110/4051661041327",
+        unit_name="pc",
+        unit_coverage_m2=1.0,
+        unit_price_eur=89.90,
+        unit_dims_mm=None,
+    )
+    a_m6_bolt_40_zinc_100 = Material(
+        name="Kuusioruuvi PROF DIN933 täyskierre M6x40 8.8 sähkösinkitty 100kpl",
+        url="https://www.k-rauta.fi/tuote/kuusioruuvi-prof-din933-tayskierre-m6x40-88-sahkosinkitty-100kpl/6438313619604",
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=6.95,
+        unit_dims_mm=None,
+    )
+    a_pocket_screws_a2_4x40 = Material(
+        name="Yleisruuvi PROF kupukanta rst A2 4x40 200pc",
+        url="https://www.k-rauta.fi/tuote/yleisruuvi-prof-kupukanta-rst-a2/53109097",
+        unit_name="pack",
+        unit_coverage_m2=1.0,
+        unit_price_eur=15.95,
+        unit_dims_mm=None,
+    )
+    a_pocket_hole_jig = Material(
+        name="Tomber tapitussarja 6-10mm 12-os",
+        url="https://www.puuilo.fi/tomber-tapitussarja-6-10mm-12-os#",
+        unit_name="pc",
+        unit_coverage_m2=1.0,
+        unit_price_eur=10.99,
+        unit_dims_mm=None,
+    )
     
     
 
@@ -367,8 +503,15 @@ def main():
         ],
         "floor_aux": [
             MaterialNeed(a_step_drill, units=1),
-            MaterialNeed(a_rivet_pliers, units=1),
-            MaterialNeed(a_rivets_assort, units=1),
+            # Rivet pliers and pop rivets are intentionally omitted: return them.
+            MaterialNeed(a_m6_washer_aisi316, units=6, note="AISI 316 sealing hardware for floor holes."),
+            MaterialNeed(a_m6_locknut_aisi316, units=3, note="AISI 316 sealing hardware for floor holes."),
+            MaterialNeed(a_m6_bolt_30_aisi316, units=3, note="AISI 316 sealing hardware for floor holes."),
+            MaterialNeed(a_m10_washer_aisi316, units=2, note="AISI 316 sealing hardware for larger floor holes."),
+            MaterialNeed(a_m10_locknut_aisi316, units=2, note="AISI 316 sealing hardware for larger floor holes."),
+            MaterialNeed(a_m10_bolt_30_aisi316, units=2, note="AISI 316 sealing hardware for larger floor holes."),
+            MaterialNeed(a_m10_bolt_40_aisi316, units=1, note="AISI 316 sealing hardware for deeper/larger floor holes."),
+            MaterialNeed(a_stainless_hardware_shipping, units=1),
             MaterialNeed(a_wire_cup_brush, units=1),
             MaterialNeed(a_rust_converter, units=1, optional=True, note="If persistent rust."),
             MaterialNeed(a_metal_primer, units=1),
@@ -379,20 +522,28 @@ def main():
             MaterialNeed(a_pencil, units=3),
             # MaterialNeed(a_filter_p3, units=1, optional=True, note="Might have these"),
             MaterialNeed(a_metal_drill_bit_series, units=1),
-            MaterialNeed(a_sikaflex_adhesive_sealant, units=1, note="Sealant for sealing rivets on the bare metal floor."),
+            MaterialNeed(a_sikaflex_adhesive_sealant, units=1, note="Sealant for sealing stainless bolts/washers on the bare metal floor."),
             MaterialNeed(a_sikaflex_adhesive, units=2, note="Adhesive for gluing structural elemgents"),
         ],
         "walls": [
-            MaterialNeed(m_butyl, coverage_ratio=0.30, note="patch coverage"),
-            MaterialNeed(m_ccf_13, coverage_ratio=1.00),
-            MaterialNeed(m_pir, coverage_ratio=1.00),
-            MaterialNeed(m_wool, coverage_ratio=0.30),
+            # MaterialNeed(m_butyl, coverage_ratio=0.30, note="patch coverage"),
+            MaterialNeed(m_ccf_19, coverage_ratio=1.00),
+            MaterialNeed(m_pir_30, coverage_ratio=1.00),
+            MaterialNeed(m_batten_30x48, units=5, note="5m wall batten estimate"),
+            # MaterialNeed(m_wool, coverage_ratio=0.30),
+        ],
+        "walls_aux": [
+            MaterialNeed(a_rivnuts, units=1, note="500 pcs; M6x14, 9mm hole, 0.5-3.0mm grip range"),
+            MaterialNeed(a_m6_bolt_40_zinc_100, units=1, note="M6x40 bolts for 30mm battens into M6 rivnuts"),
+            MaterialNeed(a_pocket_screws_a2_4x40, units=1, note="~200 pcs for angled vertical-to-horizontal batten joints; test with jig/offcut"),
+            MaterialNeed(a_pocket_hole_jig, units=1),
+            MaterialNeed(a_rivnut_gun, units=1, note="M3-M6; test on scrap/non-critical hole before batch-setting steel M6 rivnuts"),
         ],
         "ceiling": [
-            MaterialNeed(m_butyl, coverage_ratio=0.20, note="optional; patch coverage"),
-            MaterialNeed(m_ccf_13, coverage_ratio=1.00),
-            MaterialNeed(m_pir, coverage_ratio=1.00),
-            MaterialNeed(m_wool, coverage_ratio=1.00),
+            # MaterialNeed(m_butyl, coverage_ratio=0.20, note="optional; patch coverage"),
+            MaterialNeed(m_ccf_13_roll, coverage_ratio=1.00),
+            MaterialNeed(m_pir_50, coverage_ratio=1.00),
+            # MaterialNeed(m_wool, coverage_ratio=1.00),
         ],
         "doors": [
             MaterialNeed(m_butyl, coverage_ratio=0.30, note="patch coverage"),
@@ -446,6 +597,7 @@ def main():
         ("floor", floor_m2),
         ("floor_aux", floor_m2),
         ("walls", walls_m2),
+        ("walls_aux", walls_m2),
         ("ceiling", ceiling_m2),
         ("doors", doors_m2),
     ]:
