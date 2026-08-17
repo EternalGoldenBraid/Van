@@ -75,24 +75,34 @@ def print_section(section: Section) -> Tuple[float, float]:
 
 def main() -> None:
     print("12V Victron-oriented van electronics shopping baseline")
-    print("Store focus: Suomen Akut")
+    print("Store focus: Suomen Akut, Renogy, and nearby Finnish accessory sources")
     print()
     print("Scope assumptions")
-    print("  - New independent 12V house bank for fan and future house loads.")
+    print("  - New independent 12V house bank for fan, remote-work loads, and future house loads.")
+    print("  - Baseline battery bank is now 2 x 12.8V 200Ah Renogy Pro BT/Heat batteries.")
     print("  - Existing old auxiliary system is left physically in place for now.")
     print("  - Do not tie old auxiliary battery directly to the new house battery.")
     print("  - Copper cable lengths / lug counts are intentionally left out until runs are measured.")
     print()
 
-    battery_power_plus_100 = Product(
-        name="Power Plus LFP12-100EV akku12,8V100Ah",
+    battery_renogy_pro_200 = Product(
+        name="Renogy 12V 200Ah Pro Lithium self-heating, BT",
         url=(
-            "https://www.suomenakut.fi/akut-ja-paristot/"
-            "power-plus-lfp12-100ev-akku12-8v100ah-330x172x215-lifepo4-1280wh-bt-heat/"
-            "p/2173/"
+            "https://renogy.fi/tuotteet/renogy/akut/"
+            "12v-200ah-pro-lithium-self-heating--bt-_-P2043351"
         ),
         unit_name="pc",
-        unit_price_eur=450.0,
+        unit_price_eur=1199.90,
+    )
+    battery_power_plus_200 = Product(
+        name="Power Plus LFP12-200EV akku12,8V200Ah",
+        url=(
+            "https://www.suomenakut.fi/akut-ja-paristot/"
+            "power-plus-lfp12-200ev-akku12-8v200ah-501x186x240-lifepo4-2560wh-bt-heat/"
+            "p/700221/"
+        ),
+        unit_name="pc",
+        unit_price_eur=890.0,
     )
     battery_victron_superpack_200 = Product(
         name="Victron SuperPack akku 12,8V/200Ah",
@@ -205,6 +215,15 @@ def main() -> None:
         unit_name="pc",
         unit_price_eur=13.5,
     )
+    busbar_250_6p_cover = Product(
+        name="Victron kytkentäkisko 250A 6P + suoja",
+        url=(
+            "https://www.suomenakut.fi/aurinkoenergia/"
+            "victron-kytkentakisko-250a-6p-suoja/p/8719076056416/"
+        ),
+        unit_name="pc",
+        unit_price_eur=69.0,
+    )
     lynx_distributor = Product(
         name="Victron Lynx Distributor - DC-jakokisko",
         url=(
@@ -251,20 +270,120 @@ def main() -> None:
         unit_name="box",
         unit_price_eur=25.0,
     )
+    battery_cable_pair_50_100cm = Product(
+        name="Akkukaapeli pari 50mm2 100cm, silmukat 8mm ja 10mm",
+        url=(
+            "https://www.suomenakut.fi/aurinkoenergia/"
+            "akkukaapeli-pari-50mm2-100cm-kaapelisilmukat-8mm-ja-10mm/p/9723/"
+        ),
+        unit_name="pair",
+        unit_price_eur=40.0,
+    )
+    battery_parallel_pair_50_30cm = Product(
+        name="Rinnankytkentäkaapelipari 50mm2 30cm, silmukka 8mm",
+        url=(
+            "https://www.suomenakut.fi/aurinkoenergia/"
+            "rinnankytkentakaapelipari-50mm2-30cm-kaapelisilmukka-8mm/p/9705/"
+        ),
+        unit_name="pair",
+        unit_price_eur=24.0,
+    )
+    lug_50_m8 = Product(
+        name="Kaapelisilmukka 50mm2 M8 Ouneva",
+        url=(
+            "https://www.suomenakut.fi/akut-ja-paristot/"
+            "kaapelisilmukka-50mm2-8mm-reialla-50-8-ouneva/p/6410052011451/"
+        ),
+        unit_name="pc",
+        unit_price_eur=3.70,
+    )
+    lug_50_m10 = Product(
+        name="50mm2 M10 cable lug placeholder",
+        url="https://www.puuilo.fi/autotarvikkeet/autosahko/liittimet-katkaisimet-releet-ja-tarvikkeet/kaapelikengat",
+        unit_name="pc",
+        unit_price_eur=4.19,
+    )
+    heatshrink_black_large = Product(
+        name="Kutisteletku musta 2:1 50.8mm-25.4mm 1m",
+        url=(
+            "https://www.suomenakut.fi/lisavarusteet/ajoneuvojen-lisavarusteet/"
+            "kutistesukat-ja-suojaputket/c/6803/"
+        ),
+        unit_name="m",
+        unit_price_eur=10.0,
+    )
+    heatshrink_red_large = Product(
+        name="Kutisteletku punainen 2:1 38.1mm-19mm 1m",
+        url=(
+            "https://www.suomenakut.fi/lisavarusteet/ajoneuvojen-lisavarusteet/"
+            "kutistesukat-ja-suojaputket/c/6803/"
+        ),
+        unit_name="m",
+        unit_price_eur=4.0,
+    )
+    cable_spiral_8mm = Product(
+        name="Kaapelinsuojaspiraali 8mm musta",
+        url=(
+            "https://www.suomenakut.fi/lisavarusteet/ajoneuvojen-lisavarusteet/"
+            "kutistesukat-ja-suojaputket/c/6803/"
+        ),
+        unit_name="m",
+        unit_price_eur=0.95,
+    )
+    duplex_wire_2x15_10m = Product(
+        name="Johto 2-napainen 2 x 1.5mm2 10m",
+        url=(
+            "https://www.motonet.fi/tuoteryhmat/autotarvikkeet/autosahko/"
+            "johdot-ja-asennustarvikkeet/johdot?category=3c2316ba-b240-11e5-88f1-730a0916b598"
+        ),
+        unit_name="roll",
+        unit_price_eur=13.90,
+    )
+    lug_assortment_small = Product(
+        name="Kaapelikenkälajitelma 60-os. 6-25mm2",
+        url="https://www.puuilo.fi/autotarvikkeet/autosahko/liittimet-katkaisimet-releet-ja-tarvikkeet/kaapelikengat",
+        unit_name="set",
+        unit_price_eur=14.99,
+    )
+    install_consumables = Product(
+        name="Cable ties, mounts, labels, abrasion protection, grommets allowance",
+        url=None,
+        unit_name="allowance",
+        unit_price_eur=35.0,
+    )
+    crimper_6_50 = Product(
+        name="Kramfors kaapeliliittimen puristuspihti 6-50mm2",
+        url="https://www.puuilo.fi/kramfors-kaapeliliittimen-puristuspihti-6-50mm2",
+        unit_name="pc",
+        unit_price_eur=25.29,
+    )
+    fluke_365_clamp_meter = Product(
+        name="Fluke-365/E pihtimittari",
+        url=(
+            "https://www.suomenakut.fi/akut-ja-paristot/"
+            "fluke-365-e-pihtimittari/p/95969559874/"
+        ),
+        unit_name="pc",
+        unit_price_eur=599.0,
+    )
 
     sections = [
         Section(
             name="recommended_core_12v_house_bank",
             note=(
-                "Recommended first build: self-contained 100Ah LiFePO4, 30A DC-DC charging, "
+                "Recommended first build: 400Ah / 5120Wh nominal battery bank, 30A DC-DC charging, "
                 "Victron monitoring, Victron high-current distribution, and a separate blade-fuse block "
-                "for MaxxFan and other 12V loads."
+                "for MaxxFan and other 12V loads. Battery-parallel fuse/bus topology is provisional "
+                "until physical layout is settled."
             ),
             items=[
                 LineItem(
-                    battery_power_plus_100,
-                    units=1,
-                    note="Recommended first battery. Integrated Bluetooth + heating, simpler than Victron Smart + external BMS.",
+                    battery_renogy_pro_200,
+                    units=2,
+                    note=(
+                        "Chosen for now over cheaper unknowns: 12.8V 200Ah / 2560Wh each, "
+                        "Bluetooth, self-heating, 200A max continuous discharge, and documented parallel support."
+                    ),
                 ),
                 LineItem(
                     smartshunt_500,
@@ -278,13 +397,19 @@ def main() -> None:
                 ),
                 LineItem(
                     mega_holder,
-                    units=2,
-                    note="One battery-main holder, one starter-side Orion input holder.",
+                    units=4,
+                    note=(
+                        "Provisional: two battery-positive fuses, one common main fuse, "
+                        "and one starter-side Orion input fuse. Confirm exact topology before purchase."
+                    ),
                 ),
                 LineItem(
                     mega_fuse_150,
-                    units=1,
-                    note="Main catastrophic fuse close to the new house battery positive.",
+                    units=3,
+                    note=(
+                        "Provisional battery-bank protection: battery A, battery B, and common main. "
+                        "May change if terminal fuses or another battery-combiner layout is selected."
+                    ),
                 ),
                 LineItem(
                     mega_fuse_40,
@@ -295,6 +420,13 @@ def main() -> None:
                     orion_tr_smart_30,
                     units=1,
                     note="Recommended alternator charger for the new 12V house bank.",
+                ),
+                LineItem(
+                    busbar_250_6p_cover,
+                    units=1,
+                    note=(
+                        "Provisional battery-combiner busbar for two-battery layout before common main protection."
+                    ),
                 ),
                 LineItem(
                     lynx_distributor,
@@ -320,6 +452,68 @@ def main() -> None:
                     blade_fuse_assortment,
                     units=1,
                     note="Branch fuses for MaxxFan and other low-current loads.",
+                ),
+            ],
+        ),
+        Section(
+            name="recommended_wiring_accessories_and_cable_rough_in",
+            note=(
+                "FarOutRide-style accessory pass: cable, lugs, heat shrink, abrasion protection, "
+                "and branch wiring. Quantities are rough until the electrical box location and cable runs are measured."
+            ),
+            items=[
+                LineItem(
+                    battery_cable_pair_50_100cm,
+                    units=4,
+                    note=(
+                        "Rough allowance for 50mm2 positive/negative trunks and equal-length battery-bank leads. "
+                        "Final lengths and lug hole sizes still need measurement."
+                    ),
+                ),
+                LineItem(
+                    battery_parallel_pair_50_30cm,
+                    units=2,
+                    note="Short 50mm2 jumpers/spares for the two-battery parallel layout if geometry allows.",
+                ),
+                LineItem(
+                    lug_50_m8,
+                    units=8,
+                    note="Spare/custom 50mm2 M8 lugs for battery, busbar, shunt, and Lynx terminations.",
+                ),
+                LineItem(
+                    lug_50_m10,
+                    units=4,
+                    note="Placeholder for 50mm2 M10 lugs if final hardware requires M10 instead of M8.",
+                ),
+                LineItem(
+                    heatshrink_black_large,
+                    units=2,
+                    note="Large black heat shrink for high-current cable ends.",
+                ),
+                LineItem(
+                    heatshrink_red_large,
+                    units=2,
+                    note="Large red heat shrink / polarity marking for high-current cable ends.",
+                ),
+                LineItem(
+                    cable_spiral_8mm,
+                    units=10,
+                    note="Abrasion protection where cables pass near wood, metal, or sharp edges.",
+                ),
+                LineItem(
+                    duplex_wire_2x15_10m,
+                    units=1,
+                    note="Small-load branch wiring allowance for MaxxFan/USB/control circuits.",
+                ),
+                LineItem(
+                    lug_assortment_small,
+                    units=1,
+                    note="Small ring/fork lugs for branch circuits; exact terminals depend on the fuse block and outlets.",
+                ),
+                LineItem(
+                    install_consumables,
+                    units=1,
+                    note="Budget placeholder for ties, mounts, labels, loom, grommets, tape, and small fasteners.",
                 ),
             ],
         ),
@@ -360,6 +554,34 @@ def main() -> None:
             ],
         ),
         Section(
+            name="optional_measurement_tools",
+            include_in_grand_total=False,
+            note=(
+                "Diagnostic tools are kept separate from the build BOM. "
+                "This was the only clamp-style current meter found on Suomen Akut at the time of checking."
+            ),
+            items=[
+                LineItem(
+                    crimper_6_50,
+                    units=1,
+                    optional=True,
+                    note=(
+                        "One-time tool for 6-50mm2 uninsulated tube lugs. "
+                        "A shop-made cable set or borrowed hydraulic crimper may be better for final install."
+                    ),
+                ),
+                LineItem(
+                    fluke_365_clamp_meter,
+                    units=1,
+                    optional=True,
+                    note=(
+                        "Clamp meter for current measurement without opening the cable. "
+                        "Functionally suitable, but priced like a pro tool rather than a casual garage buy."
+                    ),
+                ),
+            ],
+        ),
+        Section(
             name="optional_upgrades_and_alternatives",
             include_in_grand_total=False,
             note=(
@@ -367,10 +589,18 @@ def main() -> None:
             ),
             items=[
                 LineItem(
-                    battery_victron_superpack_200,
-                    units=1,
+                    battery_power_plus_200,
+                    units=2,
                     optional=True,
-                    note="Premium Victron battery path with larger capacity and integrated protection.",
+                    note=(
+                        "Cheaper 2 x 200Ah BT/Heat alternative if two identical units are actually available."
+                    ),
+                ),
+                LineItem(
+                    battery_victron_superpack_200,
+                    units=2,
+                    optional=True,
+                    note="Premium Victron 2 x 200Ah path with larger capacity and integrated protection.",
                 ),
                 LineItem(
                     battery_victron_smart_100,
@@ -405,7 +635,7 @@ def main() -> None:
     print(f"Grand total (recommended core + optional sections, min..max): {grand_min:.2f} .. {grand_max:.2f} EUR")
     print()
     print("Not yet priced in this script")
-    print("  - Copper cable lengths and lug sizes: must be measured on-van first.")
+    print("  - Exact copper cable lengths and final lug hole sizes: must be measured on-van first.")
     print("  - Starter-battery side mechanical routing parts and pass-through protection.")
     print("  - Solar panels, roof gland, PV cable, and mounting hardware.")
     print("  - Shore-power inlet, AC protection, and outlet hardware if shore is added.")

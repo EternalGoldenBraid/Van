@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1" pages="2">
   <diagram id="victron-12v-plan" name="Victron 12V Option">
-    <mxGraphModel dx="2442" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2350" pageHeight="1320" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="2442" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2800" pageHeight="1320" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="proposed" parent="1" style="fontColor=#e5e7eb;swimlane;startSize=30;fillColor=#0f172a;strokeColor=#60a5fa;fontStyle=1;fontSize=13;" value="Proposed new independent 12V Victron house subsystem" vertex="1">
-          <mxGeometry height="950" width="2680" x="-170" y="380" as="geometry" />
+          <mxGeometry height="950" width="3050" x="-170" y="380" as="geometry" />
         </mxCell>
         <mxCell id="src-starter" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#312e81;strokeColor=#a78bfa;" value="Starter battery / alternator" vertex="1">
           <mxGeometry height="70" width="180" x="50" y="60" as="geometry" />
@@ -78,8 +78,8 @@
         <mxCell id="mppt" link="https://www.suomenakut.fi/aurinkoenergia/victron-smartsolar-mppt-100-30-saadin-bluetooth/p/8719076040170/" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#052e16;strokeColor=#4ade80;sketch=1;curveFitting=1;jiggle=2;dashed=1;" value="Victron SmartSolar MPPT&lt;br&gt;100/30&lt;br&gt;optional&lt;br&gt;&lt;a href=&quot;https://www.suomenakut.fi/aurinkoenergia/victron-smartsolar-mppt-100-30-saadin-bluetooth/p/8719076040170/&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;link&lt;/font&gt;&lt;/a&gt;" vertex="1">
           <mxGeometry height="98" width="180" x="900" y="212" as="geometry" />
         </mxCell>
-        <mxCell id="house-battery" link="https://www.suomenakut.fi/akut-ja-paristot/power-plus-lfp12-100ev-akku12-8v100ah-330x172x215-lifepo4-1280wh-bt-heat/p/2173/" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#60a5fa;" value="New 12V house battery&lt;br&gt;recommended first pass:&lt;br&gt;self-contained 100Ah LiFePO4&lt;br&gt;&lt;a href=&quot;https://www.suomenakut.fi/akut-ja-paristot/power-plus-lfp12-100ev-akku12-8v100ah-330x172x215-lifepo4-1280wh-bt-heat/p/2173/&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;link&lt;/font&gt;&lt;/a&gt;" vertex="1">
-          <mxGeometry height="98" width="190" x="55" y="400" as="geometry" />
+        <mxCell id="house-battery" link="https://www.suomenakut.fi/akut-ja-paristot/power-plus-lfp12-200ev-akku12-8v200ah-501x186x240-lifepo4-2560wh-bt-heat/p/700221/" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#60a5fa;" value="New 12V house battery&lt;br&gt;Power Plus LFP12-200EV&lt;br&gt;12.8V 200Ah / 2560Wh BT+Heat&lt;br&gt;discharge: 100A rec / 200A max cont.&lt;br&gt;&lt;a href=&quot;https://www.suomenakut.fi/akut-ja-paristot/power-plus-lfp12-200ev-akku12-8v200ah-501x186x240-lifepo4-2560wh-bt-heat/p/700221/&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;product&lt;/font&gt;&lt;/a&gt; / &lt;a href=&quot;https://www.suomenakut.fi/storage/product_files/1/700221-LFP12-200EV_796fafaa931944c38b48cbf39b160fe6.pdf&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;datasheet&lt;/font&gt;&lt;/a&gt;" vertex="1">
+          <mxGeometry height="118" width="210" x="45" y="390" as="geometry" />
         </mxCell>
         <mxCell id="main-fuse" link="https://www.suomenakut.fi/aurinkoenergia/megasulake-150a-32v-1kpl-victron/p/8719076016601/" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#facc15;" value="150A main fuse&lt;br&gt;&lt;a href=&quot;https://www.suomenakut.fi/aurinkoenergia/megasulake-150a-32v-1kpl-victron/p/8719076016601/&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;link&lt;/font&gt;&lt;/a&gt;" vertex="1">
           <mxGeometry height="78" width="120" x="320" y="410" as="geometry" />
@@ -96,6 +96,9 @@
         <mxCell id="load-sizing-next" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#cbd5e1;fontStyle=1;" value="Next sizing step&lt;br&gt;List 12V loads and max amps. Choose realistic simultaneous current + margin.&lt;br&gt;Set Lynx branch fuse to protect the feeder cable. Size positive and negative feeder cables for fuse rating and voltage drop." vertex="1">
           <mxGeometry height="96" width="760" x="700" y="825" as="geometry" />
         </mxCell>
+        <mxCell id="main-cable-spec" link="https://www.suomenakut.fi/aurinkoenergia/akkukaapeli-pari-50mm2-100cm-kaapelisilmukat-8mm-ja-10mm/p/9723/" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#cbd5e1;" value="Main battery trunk cabling&lt;br&gt;First pass: 50 mm2 copper for 150A main fuse&lt;br&gt;Use same size on positive and negative paths&lt;br&gt;Final length + lug sizes still measured on van&lt;br&gt;&lt;a href=&quot;https://www.suomenakut.fi/aurinkoenergia/akkukaapeli-pari-50mm2-100cm-kaapelisilmukat-8mm-ja-10mm/p/9723/&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;50 mm2 battery cable pair candidate&lt;/font&gt;&lt;/a&gt;" vertex="1">
+          <mxGeometry height="112" width="300" x="40" y="760" as="geometry" />
+        </mxCell>
         <mxCell id="shunt" link="https://www.suomenakut.fi/lisavarusteet/victron-smartshunt-500a-50mv-9-90vdc-bluetooth-ve-direct/p/8719076044253/" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#60a5fa;" value="Victron SmartShunt&lt;br&gt;&lt;a href=&quot;https://www.suomenakut.fi/lisavarusteet/victron-smartshunt-500a-50mv-9-90vdc-bluetooth-ve-direct/p/8719076044253/&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;link&lt;/font&gt;&lt;/a&gt;" vertex="1">
           <mxGeometry height="78" width="120" x="320" y="590" as="geometry" />
         </mxCell>
@@ -110,6 +113,9 @@
         </mxCell>
         <mxCell id="laptop-usbc" link="https://powerwerx.com/panel-mount-dual-usbc-65w-qc4-pd" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#052e16;strokeColor=#4ade80;" value="Laptop via hardwired USB-C PD outlet&lt;br&gt;65W target; 12V input about 6-7A&lt;br&gt;&lt;a href=&quot;https://powerwerx.com/panel-mount-dual-usbc-65w-qc4-pd&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;65W PD outlet candidate&lt;/font&gt;&lt;/a&gt;&lt;br&gt;Fuse: &lt;a href=&quot;https://www.motonet.fi/tuote/laattasulake-75a-ruskea-5kpl?product=48-1607&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;7.5A blade fuse&lt;/font&gt;&lt;/a&gt;&lt;br&gt;Cable: &lt;a href=&quot;https://www.motonet.fi/tuote/johto-2-napainen-2x15mm-5m?product=48-1456&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;2 x 1.5 mm2 stranded&lt;/font&gt;&lt;/a&gt;&lt;br&gt;Device cable: &lt;a href=&quot;https://www.verkkokauppa.com/fi/product/781264/Samsung-USB-C-kaapeli&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;100W / 5A USB-C&lt;/font&gt;&lt;/a&gt;" vertex="1">
           <mxGeometry height="152" width="285" x="2330" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="diesel-heater" link="https://autoterm.com/product/autoterm-air-4d" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#052e16;strokeColor=#4ade80;" value="Diesel heater&lt;br&gt;Plate: PLANAR-44D-12-GP-P&lt;br&gt;12V, diesel, 4.0 kW heat&lt;br&gt;running spec 10-57W&lt;br&gt;&lt;a href=&quot;https://linear.app/brutusvan/issue/VAN-6/document-heater-holes-wiring-fuel-intake-and-exhaust#comment-a4803280&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;plate photo&lt;/font&gt;&lt;/a&gt; / &lt;a href=&quot;https://autoterm.com/product/autoterm-air-4d&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;heater specs&lt;/font&gt;&lt;/a&gt;&lt;br&gt;Fuse: &lt;a href=&quot;https://www.motonet.fi/tuote/laattasulake-25a-kirkas-5kpl?product=48-1625&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;25A blade fuse&lt;/font&gt;&lt;/a&gt;&lt;br&gt;Cable: existing red/black feed or &lt;a href=&quot;https://autoterm.com/product/512-power-supply-cable-3647&quot;&gt;&lt;font color=&quot;#93c5fd&quot;&gt;12V harness 3647&lt;/font&gt;&lt;/a&gt;" vertex="1">
+          <mxGeometry height="168" width="285" x="2050" y="470" as="geometry" />
         </mxCell>
         <mxCell id="other-loads" parent="proposed" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#052e16;strokeColor=#4ade80;" value="Other 12V loads&lt;br&gt;lights / USB / heater controls" vertex="1">
           <mxGeometry height="60" width="170" x="1820" y="620" as="geometry" />
@@ -161,13 +167,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-e8" edge="1" parent="proposed" source="house-battery" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#ff3b30;" target="main-fuse" value="">
+        <mxCell id="p-e8" edge="1" parent="proposed" source="house-battery" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#ff3b30;" target="main-fuse" value="150A / 50 mm2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p-e9" edge="1" parent="proposed" source="main-fuse" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#ff3b30;" target="main-switch" value="">
+        <mxCell id="p-e9" edge="1" parent="proposed" source="main-fuse" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#ff3b30;" target="main-switch" value="150A / 50 mm2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p-e10" edge="1" parent="proposed" source="main-switch" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#ff3b30;" target="lynx" value="">
+        <mxCell id="p-e10" edge="1" parent="proposed" source="main-switch" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#ff3b30;" target="lynx" value="150A / 50 mm2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p-e11" edge="1" parent="proposed" source="lynx" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#ff3b30;" target="fuse-block" value="">
@@ -197,6 +203,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="p-e22" edge="1" parent="proposed" source="fuse-block" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#ff3b30;" target="diesel-heater" value="25A / Autoterm harness">
+          <mxGeometry relative="1" x="-0.15" y="-18" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1180" y="560" />
+              <mxPoint x="1995" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="p-e13" edge="1" parent="proposed" source="fuse-block" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#ff3b30;" target="monitor-other-loads" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -208,7 +223,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-e14" edge="1" parent="proposed" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#cbd5e1;fillColor=#111827;" target="shunt" value="">
+        <mxCell id="p-e14" edge="1" parent="proposed" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#cbd5e1;fillColor=#111827;" target="shunt" value="150A / 50 mm2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="210" y="540" />
@@ -217,7 +232,7 @@
             <mxPoint x="210" y="500" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-e15" edge="1" parent="proposed" source="shunt" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#cbd5e1;fillColor=#111827;" target="neg-bus" value="main negative trunk">
+        <mxCell id="p-e15" edge="1" parent="proposed" source="shunt" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#cbd5e1;fillColor=#111827;" target="neg-bus" value="main negative trunk: 150A / 50 mm2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="380" y="785" />
@@ -248,6 +263,13 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1970" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-e23" edge="1" parent="proposed" source="neg-bus" style="fontColor=#e5e7eb;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=#000000;strokeWidth=2;strokeColor=#cbd5e1;fillColor=#111827;" target="diesel-heater" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1995" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
