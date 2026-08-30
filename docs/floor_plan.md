@@ -1,8 +1,12 @@
 # Floor Plan (Current)
 
-Status: racks removed; next step is lifting the cargo floor to inspect ribs/holes/rust and decide batten layout.
+Status: floor insulation is cut to size but remains removable. Final hole
+sealing, floor installation, and wall frames that trap the floor are blocked
+until the rust-protection company confirms the treatment sequence.
 
 Project tracking: Linear project `Van Build`.
+
+Cross-plan dependency: see `docs/insulation_blockers_plan.md`.
 
 ## Goal (Floor Only)
 - Patch/standardize any old holes in the metal floor with pop rivets.
@@ -26,12 +30,18 @@ Look at:
 - `floor` for area-based materials (butyl/CCF/XPS/plywood).
 - `floor_aux` for tools/consumables (rivets, step drill, primer/topcoat, aluminum tape, foam, respirator, etc.).
 
-## Today’s Work Order
-1. Lift the cargo floor, vacuum, photograph, and mark:
+## Current Work Order
+1. Keep the cut XPS and other floor layers loose and removable.
+2. Photograph, number, and measure:
    - hole locations/sizes
    - rust spots
    - factory drains/weep points (do not block)
-2. Decide: batten grid needed (rib depth/flatness).
-3. Buy floor materials and auxiliary items.
-4. Patch holes + rust treat + prime + topcoat; let cure.
-5. Install floor stack.
+3. On Monday, 31 August 2026, confirm with the rust-protection company:
+   - whether holes must be sealed before or after their treatment
+   - what preparation and product compatibility they require
+   - which access points and drains must remain open
+   - required drying/curing time before covering the floor
+4. Patch holes and treat/prime/topcoat rust in the confirmed order.
+5. Let all products cure for the specified time.
+6. Install the floor stack.
+7. Only then install wall frames that bear on or prevent removal of the floor.
