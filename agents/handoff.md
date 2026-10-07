@@ -37,8 +37,9 @@ The user created a Linear workspace/account for Brutus Van, and Codex Linear MCP
 was added locally as `linear` at `https://mcp.linear.app/mcp`. A fresh Codex
 session may be needed before Linear tools are available.
 
-Current active physical task: remove the existing diesel heater and document
-what remains before continuing floor work around that area.
+Current active physical task (2026-10-06): prepare and seal remaining old
+pop-rivet floor holes before permanent floor installation. See
+[`docs/floor_sealing_logbook.md`](../docs/floor_sealing_logbook.md).
 
 ## Floor Plan Context
 
@@ -57,24 +58,22 @@ Measured holes are roughly 5.5-6.0 mm, with some enlarged during removal.
 
 ## Hole And Rust Treatment Decision
 
-The current working approach:
+The current chosen approach (2026-10-06) supersedes the earlier rivet plan:
 
-- clean rust mechanically with wire brush/drill attachment
-- degrease with IPA
-- use rust converter only where rust remains in pits
-- use standard metal primer
-- use normal metal top coat
-- close holes with rivets
-- use Sikaflex 11 FC as sealant around/under rivet heads
+- inside bolt -> washer -> bike-inner-tube rubber seal -> van floor ->
+  rubber seal -> washer -> outside nut
+- mechanically remove loose rust, clean, and dry both faces and hole edges
+- the user owns CRC Rust Seal 750 ml; its retailer says it also protects without
+  paint, so a separate primer is not assumed mandatory over the converter
+- confirm application/cure instructions before clamping the seals and check
+  leak-tightness before covering the floor
+- Rostex Super Akva is recommended, not purchased, for fresh bare-steel cut
+  edges; it requires a compatible water-based topcoat, not an assumed Maston
+  spray finish
 
-The user considered 8 mm watertight rivets because locally available sealed
-rivets in smaller sizes were difficult to find. The tradeoff is that 8 mm
-requires enlarging existing 5.5-6.0 mm holes. Do not assume this is settled until
-the user confirms what they bought and what hole sizes remain after cleanup.
-
-If standard rivets are used instead of sealed rivets, the sealant bead matters:
-apply a small bead around the hole, set the rivet through it, pull the rivet, and
-smooth a thin bead around the rivet head.
+The floor remains blocked by these holes. Underbody treatment is now expected
+in about a month; the exact appointment needs reconfirmation. See the linked
+logbook for product sources, coating limitations, and next actions.
 
 ## Current Material Notes
 

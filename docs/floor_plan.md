@@ -1,15 +1,20 @@
 # Floor Plan (Current)
 
-Status: floor insulation is cut to size but remains removable. Final hole
-sealing, floor installation, and wall frames that trap the floor are blocked
-until the rust-protection company confirms the treatment sequence.
+Status (2026-10-06): general accessible interior corrosion work is complete,
+but old pop-rivet holes still need local rust preparation and sealing.
+Permanent floor installation and wall framing that traps it remain blocked.
+Door interiors will be inspected and treated as each door is insulated.
+Exterior-only underbody treatment is now expected in about a month; reconfirm
+the exact appointment rather than relying on the earlier 20 December date.
 
 Project tracking: Linear project `Van Build`.
 
 Cross-plan dependency: see `docs/insulation_blockers_plan.md`.
+Current sealing decision and coating sources: see
+[`floor_sealing_logbook.md`](floor_sealing_logbook.md).
 
 ## Goal (Floor Only)
-- Patch/standardize any old holes in the metal floor with pop rivets.
+- Seal old pop-rivet holes with the chosen bolt/washer/rubber assembly.
 - Stop drafts (convection) and reduce noise.
 - Install insulated, screw-down floor that stays serviceable.
 
@@ -31,17 +36,12 @@ Look at:
 - `floor_aux` for tools/consumables (rivets, step drill, primer/topcoat, aluminum tape, foam, respirator, etc.).
 
 ## Current Work Order
-1. Keep the cut XPS and other floor layers loose and removable.
-2. Photograph, number, and measure:
-   - hole locations/sizes
-   - rust spots
-   - factory drains/weep points (do not block)
-3. On Monday, 31 August 2026, confirm with the rust-protection company:
-   - whether holes must be sealed before or after their treatment
-   - what preparation and product compatibility they require
-   - which access points and drains must remain open
-   - required drying/curing time before covering the floor
-4. Patch holes and treat/prime/topcoat rust in the confirmed order.
-5. Let all products cure for the specified time.
-6. Install the floor stack.
-7. Only then install wall frames that bear on or prevent removal of the floor.
+1. Prepare and protect the remaining hole edges and seal the holes using the
+   assembly in the sealing logbook; preserve factory drains and access points.
+2. Confirm coatings have cured and seals are leak-tight.
+3. Install and fix the floor stack.
+4. Install wall framing that bears on or prevents removal of the floor.
+5. When insulating each door, inspect and treat any visible corrosion while the
+   interior remains accessible; preserve its drains and mechanisms.
+6. Have the company complete the agreed exterior-only underside treatment on
+   the reconfirmed date.

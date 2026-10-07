@@ -1,13 +1,15 @@
 # Insulation Blockers
 
-Status: active plan as of Saturday, 29 August 2026.
+Status: floor sealing gate updated on 6 October 2026; other layout decisions
+remain as previously recorded.
 
 ## Work Order
 
 1. Place and frame the confirmed driver-side window.
 2. Reserve the roof-fan opening before insulating the ceiling.
-3. Call the rust-protection company on Monday, 31 August.
-4. Finish the floor after the treatment and sealing order is confirmed.
+3. Reconfirm exterior-only underbody treatment, now expected in about a month.
+4. Prepare and seal remaining old floor holes; confirm coating cure and
+   leak-tightness before installing the floor.
 5. Install wall framing that would trap the floor.
 6. Decide the other three windows within approximately one week; insulate the
    sliding and rear doors last.
@@ -85,18 +87,8 @@ checked. Ceiling insulation must leave this opening accessible.
 
 ## Floor
 
-Keep the cut XPS loose and do not install wall frames that prevent floor
-removal.
-
-On Monday, ask the rust-protection company:
-
-1. Should non-factory holes be riveted and sealed before or after treatment?
-2. What cleaning, rust treatment, primer, and paint should be completed first?
-3. Are the treatment products compatible with Sikaflex 11 FC and the planned
-   coatings?
-4. Which drains and treatment-access points must remain open?
-5. What cure time is required before installing the floor?
-
-Then complete rust treatment and hole sealing in the confirmed order, observe
-the cure times, install the floor, and only afterward install wall framing that
-traps it.
+General visible interior floor and wall corrosion work is complete, but old
+pop-rivet holes remain unsealed. Keep the floor removable until local hole
+preparation, sealing, coating cure, and leak checks are complete. See
+[`docs/floor_sealing_logbook.md`](floor_sealing_logbook.md) for the chosen
+bolt/washer/inner-tube seal assembly and coating sources.
