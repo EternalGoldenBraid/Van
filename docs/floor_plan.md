@@ -45,3 +45,14 @@ Look at:
    interior remains accessible; preserve its drains and mechanisms.
 6. Have the company complete the agreed exterior-only underside treatment on
    the reconfirmed date.
+
+## Accepted Tradeoff
+
+Finishing the interior before professional treatment means the company cannot apply its full
+interior/cavity treatment. This gives up professional coverage of seams and
+enclosed areas that become inaccessible behind the conversion.
+
+General visible interior floor and wall treatment is complete; the remaining
+floor holes still require local preparation and sealing. Door interiors will
+be handled during their insulation. Continuing the build after sealing is not
+equivalent to the company's complete interior treatment.

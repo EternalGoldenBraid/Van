@@ -43,4 +43,4 @@ Persistent agent/session coordination stays in `agents/roster.md`.
 
 Add a short safety or earlier-evidence section only when it changes what the
 next person may safely assume or do. The stove example is
-[wood_stove_README.md](wood_stove_README.md).
+[wood_stove/README.md](wood_stove/README.md).

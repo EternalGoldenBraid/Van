@@ -37,9 +37,80 @@ The user created a Linear workspace/account for Brutus Van, and Codex Linear MCP
 was added locally as `linear` at `https://mcp.linear.app/mcp`. A fresh Codex
 session may be needed before Linear tools are available.
 
+Current tooling note:
+
+- GitHub Copilot CLI in this environment does not currently expose the Linear
+  MCP setup, so do not rely on stale session memory for Linear-backed facts.
+- If fresh Linear issue data or photos are needed, resume this thread in Codex
+  and use the live Linear MCP there.
+
 Current active physical task (2026-10-06): prepare and seal remaining old
 pop-rivet floor holes before permanent floor installation. See
 [`docs/floor_sealing_logbook.md`](../docs/floor_sealing_logbook.md).
+
+## Electrical Planning Handoff For Codex
+
+Current planning artifacts:
+
+- `scripts/material_needs_electronics.py`: Victron-leaning 12V shopping list
+  based on Suomen Akut pricing, with optional shore/solar/upgrade/tooling
+  sections.
+- `docs/electronics_victron_12v.drawio`: current planning diagram showing the
+  unresolved old auxiliary path and the proposed new 12V subsystem.
+
+Current electrical conclusions:
+
+- Recommended baseline remains a new independent **12V** house subsystem, not
+  24V or 48V.
+- The proposed positive-side structure is:
+  battery -> main fuse -> main switch -> positive distribution
+  (`Victron Lynx Distributor` in the current plan).
+- The proposed negative-side structure is:
+  battery negative -> `SmartShunt` -> negative busbar -> all negative returns.
+- The user now understands the role split between:
+  - main battery fuse
+  - Lynx branch fuses
+  - small-load fuse block fuses
+  - SmartShunt as measurement only, not protection
+- The inverter is treated as a future DC load with:
+  - positive feed from the positive distribution/Lynx branch
+  - negative return after the SmartShunt via the negative busbar
+- The Lynx Distributor is understood as a convenience/integration choice, not a
+  hard requirement. A busbar + separate fuse holders is still a valid fallback.
+
+Current alternator / old auxiliary open question:
+
+- There is an existing old auxiliary battery/system that appears to have some
+  alternator-linked charging path and existing inverters attached.
+- Repo/session history previously identified observed relay hardware near the
+  passenger-seat battery area as:
+  - `3 x Wehrle 20 210 100A`
+  - `Wurth 734 12 2` sockets
+- That hardware alone still does **not** prove the full old charging topology.
+- The current working rule remains:
+  **do not tie the old auxiliary battery directly to the new house bank.**
+- It may be possible to leave the old aux system in place temporarily while
+  adding a new DC-DC charger branch for the new house system, but only after
+  the old path is traced and the alternator-side load is understood.
+
+What Codex should do next:
+
+1. Use live Linear MCP to inspect the latest issue context, images, and any
+   notes related to the existing auxiliary battery / relay / alternator setup.
+2. Identify whether the old system is using a split-charge relay, VSR,
+   combiner, DC-DC charger, or something else.
+3. Determine whether the new DC-DC charger can safely coexist in parallel from
+   the starter/alternator side while the old aux system remains in place.
+4. After that, move into sizing work for:
+   - branch currents
+   - fuse ratings
+   - cable cross-sections
+   - cable lengths once the user measures real routing distances on-van
+
+Known practical limitation:
+
+- Cable runs are not yet measured on the van, so final cable gauge and fuse
+  recommendations are still blocked on physical measurement.
 
 ## Floor Plan Context
 

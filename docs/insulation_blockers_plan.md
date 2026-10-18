@@ -5,16 +5,48 @@ remain as previously recorded.
 
 ## Work Order
 
-1. Place and frame the confirmed driver-side window.
-2. Reserve the roof-fan opening before insulating the ceiling.
-3. Reconfirm exterior-only underbody treatment, now expected in about a month.
-4. Prepare and seal remaining old floor holes; confirm coating cure and
-   leak-tightness before installing the floor.
-5. Install wall framing that would trap the floor.
-6. Decide the other three windows within approximately one week; insulate the
-   sliding and rear doors last.
+1. Prepare and seal the remaining old floor holes, confirm coating cure and
+   leak-tightness, then install the floor.
+2. Place and frame the confirmed driver-side window.
+3. Install wall framing that would previously have trapped the loose floor.
+4. Leave the front fan stripe accessible and insulate the rest of the ceiling.
+5. Select the sliding-door window; inspect and insulate the sliding and rear
+   doors last.
+6. Complete the agreed exterior-only professional rust treatment; now expected
+   in about a month, with the exact appointment still to be reconfirmed.
 
 Electronics planning is handled separately.
+
+## Work That Can Continue Now
+
+- Prepare and seal the remaining floor holes; permanent installation is blocked
+  until coatings have cured and seals are leak-tight.
+- Cut and dry-fit wall insulation in bays that cannot contain the selected
+  driver-side window.
+- After the floor is fixed, install wall battens where they do not obstruct
+  later wiring or openings.
+- Leave the full 900 x 450 mm window candidate zones removable until one
+  position is deliberately selected.
+- Leave the front fan stripe accessible and insulate the remaining ceiling.
+
+Do not choose the window location while permanently attaching the surrounding
+work. Mark both candidate rectangles on the van first and inspect both sides.
+
+## Near-Term Layout Enabler
+
+A passenger-seat swivel is useful for testing the real living area and may be
+ordered before the stove is selected. It is not an insulation blocker.
+
+Before ordering, confirm the exact van model year and seat base, the adapter's
+vehicle approval, under-seat batteries or electronics, airbag and occupancy
+sensor wiring, seat-belt anchorage, and finished seat height. Start with the
+passenger seat; a driver swivel may additionally require resolving the
+handbrake and control clearances.
+
+Remove the cab divider only after checking its mounting, registration or
+insurance implications, and how tools or cargo will be restrained during the
+unfinished build. Use a curtain as the reversible first closure; defer a
+plywood partition or door until the living layout is proven.
 
 ## Windows
 
@@ -23,9 +55,9 @@ Electronics planning is handled separately.
 | Position | Direction | Status |
 | --- | --- | --- |
 | Driver-side cargo wall, without sliding door | [Nomadic Ark ACG4](https://www.leisurevehiclewindows.co.uk/home/acg4-range-glass-acrylic/) awning window, 900 x 450 mm, white internal frame; order code `ACG4-900450-ABB` | **Selected.** Choose forward or rearward position and verify the cutout before framing. |
-| Passenger-side sliding door | Nomadic Ark thermally broken awning window; size/model still open | Decide within approximately one week. |
-| Rear left door | Smaller thermally broken window, probably not awning style | Decide within approximately one week. |
-| Rear right door | Smaller thermally broken window, probably not awning style | Decide within approximately one week. |
+| Passenger-side sliding door | No window in the current build | **Deferred.** Leave the door uncut and insulate it normally. Adding a window later will require local rework. |
+| Rear left door | [Autoikkuna `FT14-LB P`](https://www.autoikkuna.com/product/719/takaoven-ikkuna-vasen-tumma-ford-transit-2014--h2h3), large OEM-fit fixed glass | **Selected.** Use a removable insulated cover in winter. |
+| Rear right door | [Autoikkuna `FT14-RB P`](https://www.autoikkuna.com/product/720/takaoven-ikkuna-oikea-tumma-ford-transit-2014--h2h3), large OEM-fit fixed glass | **Selected.** Use a removable insulated cover in winter. |
 
 Candidate suppliers:
 
@@ -34,16 +66,17 @@ Candidate suppliers:
 - [Leisure Vehicle Windows Nomadic Ark range](https://www.leisurevehiclewindows.co.uk/nomadicark-double-glazed-van-conversion-windows/)
 - [Outbound double-tempered-glass windows](https://www.outbound.eu/products/windows/)
 
+See [`docs/window_plan.md`](window_plan.md) for the concise selection and cost
+summary.
+
 The Finnish ACG4 listing is `ACG4-900450-AB`, while the current UK order code
 is `ACG4-900450-ABB`. Confirm the blind, internal-frame colour, tint, wall
 thickness, and included parts before ordering.
 
 ### Thermal Decision
 
-The previously considered Autoikkuna OEM-fit windows
-([rear left](https://www.autoikkuna.com/product/719/takaoven-ikkuna-vasen-tumma-ford-transit-2014--h2h3),
-[rear right](https://www.autoikkuna.com/product/720/takaoven-ikkuna-oikea-tumma-ford-transit-2014--h2h3),
-and [passenger side](https://www.autoikkuna.com/product/192/sivuikkuna-oikea-tumma-ford-transit-2014-))
+The selected Autoikkuna rear windows and the previously considered
+[passenger-side OEM window](https://www.autoikkuna.com/product/192/sivuikkuna-oikea-tumma-ford-transit-2014-)
 are large, bonded, single-pane automotive glass. They have no insulating
 cavity. Nomadic Ark ACG windows have an outer tempered-glass pane, inner
 acrylic pane, argon-filled cavity, and thermally broken frame.
@@ -60,6 +93,17 @@ closed-cell-foam cover can extend over the glass and interior frame, provided
 it does not obstruct latches, seals, drainage, or ventilation and can be
 removed to dry condensation.
 
+### Winter Door Strategy
+
+Use the insulated, windowless sliding door as the normal winter entrance. Keep
+the rear doors closed and cover both large fixed panes with removable,
+close-fitting insulated covers. This preserves the factory-size rear view in
+warmer seasons without requiring a cover on the frequently used sliding door.
+
+The covers should overlap the glass perimeter, fit without interfering with
+door latches or seals, and be removable so the glass and frames can be checked
+and dried.
+
 ### Driver-Side Location Gate
 
 Before building its placeholder frame:
@@ -75,15 +119,19 @@ manufacturer's cutout drawing or physical template.
 
 ## Roof Fan
 
-Mark the most forward position that:
+Use the shared fan position defined in
+[`docs/roof_layout_plan.md`](roof_layout_plan.md). It must work with the
+cargo-first, balanced, and full-solar roof options.
 
-- avoids structural roof ribs
-- leaves the fan flange sufficiently flat or uses a shaped adapter
-- clears the present and planned roof rack
-- leaves room for the ceiling and cable route
+Do not cut until the roof, ribs, fan flange, and physical template have been
+measured. Leave the full horizontal fan bay accessible for now; insulate the
+rest of the cargo ceiling.
 
-Do not cut until the physical fan/template or manufacturer cutout has been
-checked. Ceiling insulation must leave this opening accessible.
+A possible future wood-stove chimney is not a current insulation blocker.
+Insulate its candidate area normally, but keep the ceiling finish removable and
+do not route hidden wiring through the provisional flue corridor. Once the
+stove, location, clearances, shielding, and flue kit are selected, remove only
+the local ceiling and insulation required for the approved penetration.
 
 ## Floor
 
@@ -92,3 +140,10 @@ pop-rivet holes remain unsealed. Keep the floor removable until local hole
 preparation, sealing, coating cure, and leak checks are complete. See
 [`docs/floor_sealing_logbook.md`](floor_sealing_logbook.md) for the chosen
 bolt/washer/inner-tube seal assembly and coating sources.
+
+Inspect and treat the rear and sliding-door interiors during their insulation,
+while their drains, seams, and mechanisms remain accessible.
+
+This accepts less professional interior/cavity coverage in exchange for
+continuing the conversion before winter. See [`docs/floor_plan.md`](floor_plan.md)
+for the detailed sequence.

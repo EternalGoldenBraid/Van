@@ -7,6 +7,10 @@ This repository is for planning and tracking the van build.
 - Read `agents/handoff.md` before making planning or script changes.
 - Check `agents/roster.md` when resuming or coordinating active Codex agents.
 - Keep the current plan in `docs/` and the executable estimates in `scripts/`.
+- For draw.io electrical diagrams, when adding inline nodes to an existing power
+  path, expand/reflow the containing layout so the route remains readable.
+  Do not squeeze new components into an already-spaced path and leave cramped
+  edge labels or overlapping routes.
 - Treat `scripts/material_needs_insluation.py` as a practical planning script, not
   a polished package.
 - Prefer small semantic commits.
