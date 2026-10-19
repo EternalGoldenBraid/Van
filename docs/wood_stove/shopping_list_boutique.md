@@ -1,9 +1,9 @@
 # Boutique Traditional Shopping List
 
 **Session (Copilot CLI):** `e190de56-148f-44f3-adc6-c8c9129359be`
-**Updated:** 2026-10-13
-**Status:** stove ready to select at checkout; chimney order still needs the
-measurements listed at the end. Nothing confirmed ordered.
+**Updated:** 2026-10-19
+**Status:** Boutique Traditional ordered (user confirmed 2026-10-19).
+Jeremias parts and flashing not ordered; delivery of the stove not confirmed.
 
 ## Assembly
 
@@ -16,22 +16,23 @@ Separate brackets secure and support the chimney.
 
 ### 1. Stove
 
-**1 x Boutique Camping Traditional**, SKU BC01293. **EUR 355**, listed available.
+**ORDERED: 1 x Boutique Camping Traditional**, SKU BC01293.
+Previously listed EUR 355; paid total not recorded.
 Includes six flue sections, spark arrestor, top plate and ashtray.
 Use the included flue below the insulated section; no extra pipe order yet.
 https://boutiquecamping.com/en-eu/products/traditional-wood-burning-stove?view=v2
 
 ### 2. Connection To The Insulated Pipe
 
-**1 x matching connection**, built into the first insulated section or bought
-separately. Do not buy both.
-**Hold: confirm the selected connection fits Boutique's actual pipe ends.**
-Separate-piece candidate, not a verified fit:
+**NOT ORDERED: 1 x Jeremias DW-FU 80 mm single-wall-to-twin-wall connector.**
+Selected purchase candidate: "Uebergang einwandig auf doppelwandig fuer Ferro".
+Nominal-size fit risk accepted by the user; check the actual joint before firing.
+If using a first section with a suitable built-in connection, do not buy both.
 https://www.kamin-store24.de/Jeremias-DW-FU-Uebergang-einwandig-auf-doppelwandig-fuer-Ferro
 
 ### 3. Insulated Twin-wall Pipe
 
-**Jeremias DW-FU, 80 mm inside / 145 mm outside.**
+**NOT ORDERED: Jeremias DW-FU, 80 mm inside / 145 mm outside.**
 Select 1000, 500 or 250 mm sections; choose the first section together with item 2.
 **Hold: length and quantity need the stove-to-roof measurement.**
 Plain lengths include joint-locking bands where required, not the stove-pipe
@@ -40,23 +41,41 @@ https://www.kamin-store24.de/Jeremias-DW-FU-Laengenelemente-in-verschiedenen-Aus
 
 ### 4. Chimney Cap
 
-**Placeholder: 1 x rain cap compatible with DW-FU 80 mm.**
-Choose the exact cap and any required spark screen later. This page is a lead,
-not a selected cap:
+**NOT ORDERED: 1 x matching Jeremias DW-FU 80 mm rain cap.**
+Initial choice: "Muendungsabschluss mit Haube"; exact basket variant and any
+required spark screen still to confirm. No marine-cap comparison needed now.
 https://www.kamin-store24.de/Jeremias-DW-FU-Muendungen-und-Regenhauben-in-verschiedenen-Ausfuehrungen
 
 ### 5. Roof Flashing And Seal
 
-**1 x flashing for the 145 mm outside of the chimney**, plus sealant and fixings
-suited to the metal roof. The linked DW-FU page uses the **80 mm** size selection.
-**Hold: choose the base shape to fit the van roof.**
-Buy a weather collar only if the chosen flashing does not already include one.
-https://www.kamin-store24.de/Jeremias-Dachdurchfuehrungen-in-verschiedenen-Ausfuehrungen
-https://www.kamin-store24.de/Jeremias-DW-FU-Wetterkragen-und-Wandrosetten-in-verschiedenen-Ausfuehrungen
+**NOT ORDERED: 1 x high-temperature silicone boot for the 145 mm outside pipe**,
+plus manufacturer-specified roof sealant and fixings. No Jeremias metal flashing.
+**Source within the EU; supplier/brand not yet selected.**
+EU alternative to Dektite: **Master Flash Standard #4 red silicone**,
+69-177 mm pipe range, 254 x 254 mm base. Manufacturer lists -74 C cold
+resistance, +225 C continuous / +260 C intermittent heat resistance.
+The boot covers -40 C and -30 C.
+
+**Poland, Aztec manufacturer shop:** PLN 199.90, listed in stock 2026-10-19.
+Finland delivery/cost still to confirm with shop@e-aztec.eu.
+https://e-aztec.eu/master-flash-standard-4-red-silicone/3-45-546
+
+**Germany, ofen.de:** silicone Masterflash listed 70-178 mm / 254 mm square
+base, EUR 228.50 incl. displayed VAT; listed 10-15 working days.
+Finland packet shipping EUR 17.90 published. Verify final checkout total
+and exact part; the extra size property/title says 75-195 mm (also covers 145).
+https://www.ofen.de/rohrmanschette-silikon-70-bis-178-mm-rohrdurchfuehrung-dachdurchfuehrung
+https://www.ofen.de/lieferung-versand
+
+**NOT ORDERED: compatible sealant and fixings.** Neither EU listing establishes
+an included kit. Dektite's FX902 is not a Master Flash specification.
+Check cured sealant suits -40 C and the painted steel roof; follow curing limits.
+**Hold: roof fit, fixings and supplier choice.** EU dispatch to mainland Finland
+avoids import clearance; ordinary checkout VAT still applies.
 
 ### 6. Chimney Supports
 
-**Separate chimney support/brackets and mounting fixings.**
+**NOT ORDERED: separate chimney support/brackets and mounting fixings.**
 Choose DW-FU **80 mm** supports, sized to the gap between pipe and mounting point.
 Standard chimney supports with made-to-fit vehicle brackets are an option.
 **Hold: bracket type, number and weight-bearing support need deciding.**
@@ -66,9 +85,12 @@ https://www.kamin-store24.de/Jeremias-DW-FU-Wand-und-Deckenhalter-in-verschieden
 
 ### 7. Heat Protection And Stove Mounting
 
-**Roof/ceiling heat protection, hearth, required heat shields and stove fixings.**
+**MISSING / ownership not recorded:** roof/ceiling heat protection, hearth,
+required heat shields and stove fixings.
 **Hold: sizes and parts depend on the installation clearances.**
-If the outside chimney will be removed for driving, also select its closure.
+Goal: keep chimney and cap fitted while driving; resolve support and retention
+for road loads. A weatherproof/insulating cold-stove closure remains unselected.
+Never close the flue while a fire or hot embers remain.
 https://www.kamin-store24.de/mediafiles/PDF/Jeremias_DE_Montageanleitung_DW-FU.pdf
 
 ## Other Equipment
@@ -82,8 +104,9 @@ Check what is already owned before ordering:
 
 ## Before Ordering The Chimney
 
-Measure the included pipe's ends and the stove-outlet-to-roof height at the
-chosen mounting position. Set the operating height above the roof, overall
+Select the nominal 80 mm connector with its accepted purchase risk. Measure
+the stove-outlet-to-roof height at the chosen mounting position to select pipe
+lengths. Set the operating height above the roof, overall
 driving height, roof clearance, flashing fit and support arrangement.
 Then select the held items above. Do not cut the roof before these are resolved.
 
@@ -92,9 +115,9 @@ Its tent flashing is not the complete roof heat-protection assembly.
 Operating precautions and accessory details are in [README](README.md).
 
 Kamin-store24 lists Finland delivery. Chimney prices depend on the selected
-variants; confirm the basket total. Confirm Boutique's Finland delivery and
-tax/import charges before paying. Used or assembled goods are excluded from
-its published unwanted-return policy.
+variants; confirm the basket total. Boutique is ordered; paid total and delivery
+date are not recorded. Used or assembled goods are excluded from its published
+unwanted-return policy.
 https://www.kamin-store24.de/Versand-und-Zahlung
 https://boutiquecamping.com/en-eu/pages/delivery-shipping
 https://boutiquecamping.com/en-eu/policies/refund-policy

@@ -1,12 +1,87 @@
 # Wood Stove Plan
 
 **Session (Copilot CLI):** `e190de56-148f-44f3-adc6-c8c9129359be`
-**Updated:** 2026-10-13
-**Status:** Boutique Camping Traditional selected for purchase; not confirmed
-ordered. The complete installed chimney and clearance envelope remain unresolved.
+**Updated:** 2026-10-19
+**Status:** Boutique Camping Traditional ordered, confirmed by the user
+2026-10-19; delivery not confirmed. Jeremias connector, insulated pipe and cap
+are planned, not ordered. Silicone roof flashing, supports, heat protection and
+cold-stove closure remain to resolve.
 
 The actionable parts, ordering links and purchase holds are in
 [Boutique shopping list](shopping_list_boutique.md).
+The linked [draw.io installation diagram](boutique-chimney-plan.drawio) shows
+purchase status. The Excalidraw comparison is not maintained as the current plan.
+
+**Current parts decision:** use a matching Jeremias DW-FU 80 mm cap initially,
+with replacement possible later; no further cap comparison needed now. The user
+accepts buying the nominal 80 mm connector before its Boutique fit is verified.
+Check fit before firing. Insulated lengths/quantity still need measurement.
+The goal is to leave chimney and cap fitted while driving; retention and
+supports must suit road loads. Source silicone weather flashing separately.
+
+**Selected approach:** high-temperature silicone boot, sourced within the EU.
+Brand/supplier remain open; the EU alternatives below are not Dektite products.
+No flashing ordered.
+
+**EU sourcing, checked 2026-10-19:**
+
+- **Aztec manufacturer shop, Poland:** Master Flash Standard #4 red silicone,
+  69-177 mm pipe range, 254 x 254 mm base; covers the 145 mm DW-FU shell.
+  Listed in stock at PLN 199.90. Product-specific manufacturer data gives
+  -74 C cold resistance, +225 C continuous / +260 C intermittent heat
+  resistance. Finland delivery/cost not verified; shop@e-aztec.eu.
+https://e-aztec.eu/master-flash-standard-4-red-silicone/3-45-546
+https://e-aztec.eu/kontakt/12
+https://e-aztec.eu/wysylka/16
+
+- **ofen.de GmbH, Germany:** Masterflash silicone, listed 70-178 mm pipe range,
+  254 x 254 mm base, same published temperature limits. EUR 228.50 including
+  displayed VAT; listed lead time 10-15 working days. Published packet
+  shipping to Finland EUR 17.90; final checkout VAT/shipping total may differ.
+  Extra product property/title says 75-195 mm; both ranges include 145 mm,
+  but confirm the exact supplied part. German company/address and EU DHL
+  delivery documented. This is the more expensive option with explicit
+  Finland shipping terms.
+https://www.ofen.de/rohrmanschette-silikon-70-bis-178-mm-rohrdurchfuehrung-dachdurchfuehrung
+https://www.ofen.de/lieferung-versand
+https://www.ofen.de/impressum
+
+EU dispatch to mainland Finland avoids import clearance; normal seller-collected
+VAT still applies. Confirm compatible fixings and sealant separately: neither
+listing establishes an included installation kit. The Dektite FX902 requirement
+must not be transferred to Master Flash.
+
+**Dektite technical reference, not the current UK purchase route:** red silicone
+DFE204RE fits 75-175 mm outside pipe diameters, with a 280 x 280 mm flexible
+aluminium-edged base for metal roofs (0-45 degrees). The proposed DW-FU shell is
+145 mm. DEKS specifies -50 to +200 C continuous, +250 C intermittent at the
+roofline, covering the expected -40 C / -30 C exposure. This is a dimensionally
+suitable metal-roof candidate, not a completed
+Transit penetration design; check base fit, pipe contact temperature and fixing
+instructions. The boot rating does not establish the fixing sealant's service
+or application-temperature limits; confirm cured sealant suits -40 C and the
+painted steel roof, and follow its curing conditions.
+https://www.deks.co.uk/dektite-premium
+https://www.deks.co.uk/s/Flashings-Brochure-April-2026b.pdf
+
+DEKS specifies FX902 for DFE204RE: 3 x 75 ml low-modulus silicone,
+75 self-drilling screws, 75 caps and instructions. These are pack contents,
+not installation quantities. Retained as a Dektite-specific reference only.
+https://www.deks.co.uk/fixing-kits
+
+**Finnish sourcing:** Staypro.fi lists an EJOT Dektite DFE5 for 110-170 mm pipes,
+but explicitly says EPDM, not silicone; it is not the selected high-temperature
+alternative. EJOT Sormat is a local supply enquiry lead, not confirmed stock
+of DFE204RE. No supplier contact made.
+https://www.staypro.fi/rakennus-sisatilat/kiinnitys/ejot-dektite-dfe5-110-170-mm-putkiliitantatiiviste-1-kplpakkaus-dfe5-110-170-mm-3005580
+https://ejot.fi/
+
+**Van precedent:** WoodlandNomad shows a flexible orange boot at 6:40; its exact
+specification is unknown. Cubic's legacy metal-roof kit uses a Dektite boot
+around its insulated outer sleeve. Neither establishes that Boutique's tent
+flashing fits a Transit roof; that kit remains unselected.
+https://www.youtube.com/watch?v=tUj66P54ZHw&t=400s
+https://cubicminiwoodstoves.com/products/metal-roof-exit-kit
 
 ## Current Direction
 
@@ -244,8 +319,10 @@ https://www.finlex.fi/fi/lainsaadanto/2018/729
 - Establish clean low-output suitability and draft for the complete chimney:
   diameter, height, insulation and bends matter; a connector alone is insufficient.
 - Measure against [roof layout](../roof_layout_plan.md); specify system-specific
-  penetration clearances, hearth/shields, supports, weather flashing, cap and
-  driving closure. Flashing is not fire protection; preserve required airspaces.
+  penetration clearances, hearth/shields, supports and weather flashing.
+  The matching Jeremias cap is the chosen starting route; resolve road-load
+  retention for travel and a separate cold-stove closure. Flashing is not fire
+  protection; preserve required airspaces.
 - Provide make-up air and CO/smoke alarms. No MaxxFan extraction with a lit
   stove unless designed/tested for depressurization and smoke spillage.
 
@@ -311,9 +388,10 @@ to buy a separate piece, but these variants are not verified to fit Boutique.
 The separate DW37F080 candidate is designed for Ferro-Lux; its page-42 drawing
 shows a 78 mm connecting end despite the nominal 80 mm size. Boutique's actual
 end diameters and joint geometry are unpublished in the reviewed material.
-Measure them and confirm the intended joint direction, seating and sealing
-with the selected system before ordering either route. Nominal 80 mm on both
-products does not establish a compatible joint.
+The user accepts purchasing the nominal 80 mm separate connector before fit is
+verified. Confirm actual fit, intended joint direction, seating and sealing with
+the selected system before firing. Nominal 80 mm on both products does not
+establish a compatible joint.
 https://www.kamin-store24.de/Jeremias-DW-FU-Uebergang-einwandig-auf-doppelwandig-fuer-Ferro
 https://www.kamin-store24.de/mediafiles/PDF/Jeremias_DE_Bauteilzeichnungen_DW-FU.pdf
 
