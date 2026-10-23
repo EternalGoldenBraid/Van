@@ -25,7 +25,8 @@ Current sealing decision and coating sources: see
 4. Battens grid (glued), with CCF cut out under battens so wood bonds to metal.
 5. XPS infill boards (Topway heating boards are acceptable even if you do not install heating yet).
 6. Plywood subfloor, screwed into battens.
-7. Later: decide stove position; consider through-bolting with backing plates.
+7. Before closing access: check proposed stove mounting and any need for
+   through-bolting with backing plates.
 
 ## Shopping List (Floor)
 Run:
@@ -36,14 +37,24 @@ Look at:
 - `floor_aux` for tools/consumables (rivets, step drill, primer/topcoat, aluminum tape, foam, respirator, etc.).
 
 ## Current Work Order
-1. Prepare and protect the remaining hole edges and seal the holes using the
+
+Updated work sequence (2026-10-23), also documented in the
+[floor working chapter](blog/floor/index.md).
+
+1. Remove the floor to expose the remaining holes and installation areas.
+2. Prepare and protect the remaining hole edges and seal the holes using the
    assembly in the sealing logbook; preserve factory drains and access points.
-2. Confirm coatings have cured and seals are leak-tight.
-3. Install and fix the floor stack.
-4. Install wall framing that bears on or prevents removal of the floor.
-5. When insulating each door, inspect and treat any visible corrosion while the
+3. Confirm coatings have cured and seals are leak-tight.
+4. Resolve and fit the stove replacement-air vent while access is open,
+   including its free area, safe intake location and weather sealing.
+5. Apply closed-cell foam to the internal wheel arches and finish the
+   accessible floor junctions.
+6. Check access for future stove attachments, then refit and finish the floor
+   insulation and floor stack.
+7. Install wall framing that bears on or prevents removal of the floor.
+8. When insulating each door, inspect and treat any visible corrosion while the
    interior remains accessible; preserve its drains and mechanisms.
-6. Have the company complete the agreed exterior-only underside treatment on
+9. Have the company complete the agreed exterior-only underside treatment on
    the reconfirmed date.
 
 ## Accepted Tradeoff
