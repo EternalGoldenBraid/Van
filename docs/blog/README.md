@@ -1,6 +1,6 @@
 # The Van Build
 
-**Work in progress, updated 2026-10-23.** A record of converting a Ford Transit
+**Work in progress, updated 2026-10-24.** A record of converting a Ford Transit
 L3H3 into a winter-capable living and working space: decisions, costs, plans,
 construction and eventually what works in use.
 
@@ -74,13 +74,21 @@ node --test docs/blog/tests/layout-explorer.test.mjs
 
 ## GitHub Pages
 
-This static site can be hosted as this repository's GitHub Pages project site,
-at `https://eternalgoldenbraid.github.io/Van/` with the default domain.
-The repository is public; Pages is not currently configured.
+The GitHub Pages address is `https://eternalgoldenbraid.github.io/Van/`.
+Publication makes the blog and its downloadable evidence publicly accessible.
 
-Publication requires a GitHub Actions workflow that builds `docs/blog/`,
-uploads `docs/blog/_build/html` as a Pages artifact and deploys it, with
-**Settings -> Pages -> Source: GitHub Actions**. Publish the generated site,
-not the raw Markdown directory. Review the drafts and downloadable evidence
-for public release before enabling deployment. No deployment workflow or
-publication is configured by this documentation change.
+The workflow in `.github/workflows/blog-pages.yml` publishes relevant pushes to
+**`docs/van-build-blog`**, leaving `main` unchanged. It checks the interactive
+geometry, builds Sphinx with warnings treated as errors, uploads only
+`docs/blog/_build/html` and deploys that artifact. Generated HTML stays out of
+Git. Review drafts and downloadable evidence before pushing changes that
+publish them.
+
+Repository configuration uses **Settings -> Pages -> Source: GitHub Actions**.
+The `github-pages` environment must allow deployments from
+`docs/van-build-blog`. To retry a failed deployment, open its run under
+**Actions -> Publish van-build blog** and choose **Re-run all jobs** after
+fixing the cause.
+
+If the publishing branch changes, update the workflow branch filter and the
+environment's deployment rules together.
