@@ -147,9 +147,10 @@ The current chosen approach (2026-10-06) supersedes the earlier rivet plan:
   paint, so a separate primer is not assumed mandatory over the converter
 - confirm application/cure instructions before clamping the seals and check
   leak-tightness before covering the floor
-- Rostex Super Akva is recommended, not purchased, for fresh bare-steel cut
-  edges; it requires a compatible water-based topcoat, not an assumed Maston
-  spray finish
+- Rostex Super Akva and Panssari Akva are selected, not purchased, as the
+  shared brush-on system for fresh bare-steel cut edges. The topcoat colour
+  target is RAL 9010; quantities and stock/tint checks live in
+  `docs/diesel_heater/shopping_list.md`.
 
 The floor remains blocked by these holes. Underbody treatment is now expected
 in about a month; the exact appointment needs reconfirmation. See the linked

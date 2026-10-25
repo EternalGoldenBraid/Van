@@ -6,14 +6,16 @@ travelling.
 
 ## K-Rauta Pälkäne Items
 
+The primer, RAL 9010 topcoat, brushes, P240 paper and preparation wash are
+already listed in the heater's
+[shared coating kit](../diesel_heater/index.md#shared-coatings-and-preparation).
+Buy that kit once and reuse it here.
+
 | Item | Qty | Use / Notes | Source |
 | --- | --- | --- | --- |
-| Metallista 2-in-1 brush-on corrosion paint, 0.225 l | 1 | Coat every cut edge and drilled hole; water-based, suitable for galvanized steel without separate primer. | [K-Rauta](https://www.k-rauta.fi/tuote/metallista-2-in-1-puolihimmea-ruosteenestomaali/47525123/6408070144787) |
-| FXA general brush set, 25/35/70 mm | 1 | Apply corrosion paint with the 25 mm brush. | [K-Rauta](https://www.k-rauta.fi/tuote/sivellinsarja-fxa-253570mm-yleissiveltimet-sisakayttoon/6405422547999) |
 | FXA fine metal jigsaw blades, 1–3 mm sheet (3-pack) | 1 pack | Cut the 400 x 400 mm roof opening. | [K-Rauta](https://www.k-rauta.fi/tuote/pistosahantera-fxa-metalli-ja-muovi-n-1-3mm-76mm-tpi-21-3kpl/6438313743781) |
 | Bosch HSS metal drill set, 2–10 mm | 1 | Drill corner, pilot and flange holes. | [K-Rauta](https://www.k-rauta.fi/tuote/metalliporanterasarja-bosch-2-10mm-hss-r-pointtec-7-osainen/3165140917650) |
 | FXA metal file set, 3 pcs | 1 | Deburr the roof cutout and drilled holes. | [K-Rauta](https://www.k-rauta.fi/tuote/viilasarja-fxa-200mm-3kpl/6438313304104) |
-| Mirka Gold Proflex P240 abrasive sheet | 1 | Smooth cut edges after filing. | [K-Rauta](https://www.k-rauta.fi/tuote/hiomapaperi-mirka-gold-proflex-230x280mm-p240/6416868509922) |
 | PROF painter's tape, 50 mm x 50 m | 1 | Mark cut lines and protect surrounding paint. | [K-Rauta](https://www.k-rauta.fi/tuote/maalarinteippi-prof-50mm-x-50m/6405422534067) |
 | PROF clear safety glasses | 1 | Eye protection while drilling and cutting. | [K-Rauta](https://www.k-rauta.fi/tuote/suojalasit-prof-basic-polykarbonaatti-kirkas/6438313599845) |
 | FXA cartridge gun | 0–1 | Buy only if a usable cartridge gun is not already on hand. | [K-Rauta](https://www.k-rauta.fi/tuote/patruunapuristin-fxa-luuranko/6438313304753) |

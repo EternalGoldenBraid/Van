@@ -18,7 +18,9 @@
 - Aim for individual penetrations for fuel, combustion air and exhaust rather
   than the old large mounting-plate opening.
 - Mark from the heater/template, then check underside access and drill.
-- A step drill or metal hole saw is under consideration for the floor holes.
+- The reported holes are between 20 and 30 mm; a Bosch 6–30 mm step drill is
+  selected, not purchased. Deburr with the existing files and coat the cut
+  edges using the [shared primer/topcoat kit](#shared-coatings-and-preparation).
 
 ```{figure} images/installation_02.jpg
 :name: fig-diesel-heater-step-well

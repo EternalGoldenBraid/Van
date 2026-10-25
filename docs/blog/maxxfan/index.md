@@ -29,8 +29,9 @@
    - Drill the flange fastener holes while catching all metal filings.
 3. **Protect bare steel edges**
    - Clean the cut edge and drilled holes with isopropyl alcohol.
-   - Brush-coat every bare metal edge and hole with corrosion paint
-     (`Metallista 2-in-1`) and allow it to cure before bedding the flange.
+   - Brush-coat every bare metal edge and hole with the
+     [shared Rostex Super Akva / Panssari Akva kit](../diesel_heater/index.md#shared-coatings-and-preparation)
+     and allow it to cure before bedding the flange.
 4. **Bed and seal the receiving flange (butyl levelling method)**
    - Dry-fit the receiving flange over the opening.
    - Build up short strips of plain, non-reinforced RV butyl tape in the roof

@@ -7,15 +7,10 @@ Stock figures below are K-Rauta Palkane availability checked on 15 September
 
 ## Buy From K-Rauta Palkane
 
-- [Metallista 2-in-1 brush-on corrosion paint, 0.225 l](https://www.k-rauta.fi/tuote/metallista-2-in-1-puolihimmea-ruosteenestomaali/47525123/6408070144787)
-  - Buy: 1
-  - Palkane stock: 5
-  - Use: coat every cut edge and drilled hole. Water-based, suitable for
-    galvanized steel, and does not require separate primer.
-- [FXA general brush set, 25/35/70 mm](https://www.k-rauta.fi/tuote/sivellinsarja-fxa-253570mm-yleissiveltimet-sisakayttoon/6405422547999)
-  - Buy: 1
-  - Palkane stock: 59
-  - Use: apply the corrosion paint with the 25 mm brush.
+- [Shared coating and preparation kit](diesel_heater/shopping_list.md#shared-coatings-and-preparation)
+  - Buy once for the heater and roof fan: Rostex Super Akva primer, Panssari
+    Akva topcoat in RAL 9010, brushes, P240 paper and Panssaripesu.
+  - Use: protect cut edges and drilled holes.
 - [FXA fine metal jigsaw blades, 1-3 mm sheet, 3-pack](https://www.k-rauta.fi/tuote/pistosahantera-fxa-metalli-ja-muovi-n-1-3mm-76mm-tpi-21-3kpl/6438313743781)
   - Buy: 1 pack
   - Palkane stock: 4 packs
@@ -29,10 +24,6 @@ Stock figures below are K-Rauta Palkane availability checked on 15 September
   - Palkane stock: 7
   - Use: deburr the opening and drilled holes. Buy even if the existing files
     are found.
-- [Mirka Gold Proflex P240 abrasive sheet](https://www.k-rauta.fi/tuote/hiomapaperi-mirka-gold-proflex-230x280mm-p240/6416868509922)
-  - Buy: 1
-  - Palkane stock: 11
-  - Use: smooth the cut edge after filing.
 - [PROF painter's tape, 50 mm x 50 m](https://www.k-rauta.fi/tuote/maalarinteippi-prof-50mm-x-50m/6405422534067)
   - Buy: 1
   - Palkane stock: 55
