@@ -16,7 +16,21 @@ The later **sliding-door step-well relocation** is a separate [diesel heater ins
 
 ## Removal photographs
 
-Source images and original observations are attached to [VAN-6 in Linear](https://linear.app/brutusvan/issue/VAN-6/document-heater-holes-wiring-fuel-intake-and-exhaust). Relevant photos include **259–261** (original heater), **275–276** (exhaust attachment), **277–282** (wiring, controls and removal), and **302–304** (fuel line and connectors).
+Source images and original observations are attached to [VAN-6 in Linear](https://linear.app/brutusvan/issue/VAN-6/document-heater-holes-wiring-fuel-intake-and-exhaust). The complete set includes **259–261** (original heater), **275–276** (exhaust attachment), **277–282** (wiring, controls and removal), and **302–304** (fuel line and connectors).
+
+### Fuel line and pump disconnection
+
+```{figure} images/302.jpg
+:alt: Fuel pump disconnection during removal.
+
+Fuel pump disconnection (photo 302, from VAN-6).
+```
+
+```{figure} images/303.jpg
+:alt: Fuel pump disconnection during removal.
+
+Fuel pump disconnection (photo 303, from VAN-6).
+```
 
 ```{figure} images/304.jpg
 :alt: Fuel-pump connector and fuel-line state photographed during heater removal.
@@ -24,4 +38,4 @@ Source images and original observations are attached to [VAN-6 in Linear](https:
 Fuel-pump connector and fuel-line state during heater removal (photo 304, from VAN-6).
 ```
 
-Additional original photos remain in Linear; this is the first successful direct import.
+The remaining original photographs are available in Linear and have not yet been imported into GitHub.
