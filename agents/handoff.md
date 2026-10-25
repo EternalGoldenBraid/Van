@@ -26,6 +26,10 @@ The script is intentionally rough but useful. Do not rewrite it into a framework
 unless the user explicitly asks. Prefer small commits that each implement one
 concept.
 
+Build documentation and the blog share `main`. Use temporary branches for drafts;
+relevant pushes to `main` publish the blog. The canonical diesel-heater shopping
+list is `docs/diesel_heater/shopping_list.md`, included directly by its blog page.
+
 ## Project Management
 
 Linear is the active task board. The old repo-native `docs/project_board.md`

@@ -19,13 +19,25 @@ service-specific prefixes.
 
 ## Enrolled Agents
 
-| Agent | Territory | Linear | Worktree | Resume |
-| --- | --- | --- | --- | --- |
-| Main Codex session | Project coordination, Linear tracking, repo hygiene, physical-work planning | General / current thread | `/home/nicklas/Projects/Personal/Van/main` | `codex resume 019e7848-8459-7100-bf9f-10fa969a9bf3 -C /home/nicklas/Projects/Personal/Van/main` |
-| Electronics wiring diagram agent | Maintain `docs/electronics_wiring.drawio`, starting with the heater path | `VAN-23` child of `VAN-22` | `/home/nicklas/Projects/Personal/Van/van-23-heater-wiring` on branch `van-23-heater-wiring` | `codex resume 019e79a5-c112-7373-8fdd-a535f34446f7 -C /home/nicklas/Projects/Personal/Van/van-23-heater-wiring` |
+Copilot CLI and Codex store session files locally on the machine where the
+session ran (`~/.copilot/session-state/<id>` and `~/.codex/sessions/`). A
+session ID can only be resumed on the machine that holds its local state (unless
+copied over); on another machine, start a named session (e.g.
+`copilot --name wood-stove`) and point it at the territory's handoff docs.
+
+| Agent | Territory | Client / Linear | Machine | Worktree | Resume / Start |
+| --- | --- | --- | --- | --- | --- |
+| Wood stove research & chimney sourcing | `docs/blog/wood_stove/` (installation, research, shopping list with costs, story drafts) | Copilot CLI | Laptop & Desktop | `/home/nicklas/Projects/Van` | `copilot --resume e190de56-148f-44f3-adc6-c8c9129359be` |
+| Wood stove diagrams | `docs/wood_stove/boutique-chimney-plan.{drawio,excalidraw}` | Codex | Desktop (`gitnicklas@pm.me`) | `/home/nicklas/Projects/Van` | `codex resume 01a14f95-1070-76a1-8f77-e63c4bc7ac8b -C /home/nicklas/Projects/Van` |
+| Floor sealing & cut-edge protection | `docs/floor_sealing_logbook.md`, `docs/floor_plan.md` | Copilot CLI | Laptop (`nestai.com`) | `/home/nicklas/Projects/Van` | On laptop: `copilot --resume 7d21c491-efb2-4df8-90bc-f5c31d6ea54f`<br>On desktop: `copilot --name floor-sealing` (read `docs/floor_sealing_logbook.md`) |
+| Blog dashboard & diesel heater docs | `docs/blog/index.md`, `docs/blog/diesel_heater/`, `docs/diesel_heater/shopping_list.md` | Copilot CLI | Desktop (`gitnicklas@pm.me`) | `/home/nicklas/Projects/Van` (`main`) | `copilot --resume 78934608-4dae-4eff-8ad0-2f71547ae5ae` |
+| Main Codex session | Project coordination, Linear tracking, repo hygiene, physical-work planning | Codex / General | Laptop (`/Personal/Van/main`) | `/home/nicklas/Projects/Personal/Van/main` | `codex resume 019e7848-8459-7100-bf9f-10fa969a9bf3 -C /home/nicklas/Projects/Personal/Van/main` |
+| Electronics wiring diagram agent | Maintain `docs/electronics_wiring.drawio`, starting with the heater path | Codex / `VAN-23` child of `VAN-22` | Laptop (`/Personal/Van/...`) | `/home/nicklas/Projects/Personal/Van/van-23-heater-wiring` | `codex resume 019e79a5-c112-7373-8fdd-a535f34446f7 -C /home/nicklas/Projects/Personal/Van/van-23-heater-wiring` |
 
 ## Notes
 
+- Record all resumable agent/session IDs here in `agents/roster.md` rather than
+  inside public blog pages under `docs/blog/`.
 - When a new persistent agent starts, it should check this roster. If it is not
   listed yet, it should add its own entry with territory, Linear issue, worktree,
   branch, session/thread ID, and resume command.
