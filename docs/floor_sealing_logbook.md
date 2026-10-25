@@ -50,5 +50,5 @@ are fitted; treatment cannot be relied on to reach beneath clamped seals.
 [crc]: https://www.puuilo.fi/crc-rust-seal-ruosteenmuunnin-750ml
 [krauta]: https://www.k-rauta.fi/tuote/rostex-super-akva-ruosteenestopohjamaali-vaaleanharmaa/54058886/6408070053157
 [primer]: https://tikkurila.fi/sites/default/files/pim/documents/Rostex_Super_Akva_FI_PDS_Tikkurila.pdf
-[stove]: wood_stove/README.md
+[stove]: blog/wood_stove/research.md
 [floor]: floor_plan.md

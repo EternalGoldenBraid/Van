@@ -19,6 +19,8 @@ Important files:
 
 - `scripts/material_needs_insluation.py`: current material and cost calculator.
 - `docs/floor_plan.md`: concise current floor build plan.
+- `docs/blog/README.md`: whole-van blog, build-stage navigation and preview
+  instructions. Stove stories are one section; earlier stages remain to write.
 
 The script is intentionally rough but useful. Do not rewrite it into a framework
 unless the user explicitly asks. Prefer small commits that each implement one
@@ -44,9 +46,12 @@ Current tooling note:
 - If fresh Linear issue data or photos are needed, resume this thread in Codex
   and use the live Linear MCP there.
 
-Current active physical task (2026-10-06): prepare and seal remaining old
-pop-rivet floor holes before permanent floor installation. See
-[`docs/floor_sealing_logbook.md`](../docs/floor_sealing_logbook.md).
+Current physical work sequence (2026-10-23): remove the floor, seal old rivet
+holes using the [existing plan](../docs/floor_sealing_logbook.md), fit the stove
+replacement-air vent, apply closed-cell foam to the internal wheel arches,
+then finish the floor insulation. The
+[floor working chapter](../docs/blog/floor/index.md) is the current instruction;
+stove installation planning and gathering tools/materials follow.
 
 ## Electrical Planning Handoff For Codex
 

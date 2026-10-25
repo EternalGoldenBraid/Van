@@ -1,4 +1,4 @@
-<mxfile host="Electron" version="31.3.2" modified="2026-10-19T13:30:00+00:00">
+<mxfile host="Electron" version="31.3.2" modified="2026-10-20T11:20:00+00:00">
   <diagram id="boutique-chimney" name="Boutique chimney plan">
     <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageWidth="1400" pageHeight="1050" pageScale="1" math="0" shadow="0" background="#ffffff">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="title" value="Boutique Traditional | chimney plan" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=28;fontColor=#243447;fontStyle=1;strokeColor=none;fillColor=none;">
           <mxGeometry as="geometry" x="35" y="20" width="1040" height="34" />
         </mxCell>
-        <mxCell id="subtitle" value="2026-10-19 / STOVE ORDERED / Other parts not ordered / Schematic, not to scale; installation still to resolve" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#687787;fontStyle=0;strokeColor=none;fillColor=none;">
+        <mxCell id="subtitle" value="2026-10-20 / STOVE ORDERED / Other parts not ordered / Schematic, not to scale; installation still to resolve" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#687787;fontStyle=0;strokeColor=none;fillColor=none;">
           <mxGeometry as="geometry" x="35" y="65" width="1260" height="28" />
         </mxCell>
         <mxCell id="assembly-panel" value="" vertex="1" parent="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#d5dee6;strokeWidth=1;dashed=0;">
@@ -49,7 +49,7 @@
         <mxCell id="insulated-bore" link="https://www.kamin-store24.de/Jeremias-DW-FU-Laengenelemente-in-verschiedenen-Ausfuehrungen" tooltip="DW-FU candidate: select 80 mm bore; length and connection still to confirm." value="" vertex="1" parent="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#1971c2;strokeWidth=2;dashed=0;">
           <mxGeometry as="geometry" x="506" y="205" width="38" height="300" />
         </mxCell>
-        <mxCell id="flashing" link="https://e-aztec.eu/master-flash-standard-4-red-silicone/3-45-546" tooltip="NOT ORDERED. Silicone route; EU alternative Master Flash Standard #4, 69-177 mm, 254 mm square base. Different brand from Dektite. See EU sources on right; roof fit to confirm." edge="1" parent="1" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#b45f06;strokeWidth=3;endArrow=none;startArrow=none;endSize=9;startSize=9;dashed=0;">
+        <mxCell id="flashing" link="https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97738778" tooltip="NOT ORDERED. Finland checkout lead: Hobby Hall Master Flash silicone #5, 101-209 mm pipe range, 279 mm square base. Expected EUR 119.74 with displayed Helsinki pickup rate and platform fee. Dispatch warehouse country and roof fit unverified; supplier not selected." edge="1" parent="1" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#b45f06;strokeWidth=3;endArrow=none;startArrow=none;endSize=9;startSize=9;dashed=0;">
           <mxGeometry as="geometry" relative="1">
             <mxPoint as="sourcePoint" x="450" y="353" />
             <mxPoint as="targetPoint" x="600" y="353" />
@@ -184,10 +184,10 @@
             <mxPoint as="targetPoint" x="482" y="245" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="roof-label" link="https://e-aztec.eu/master-flash-standard-4-red-silicone/3-45-546" tooltip="Silicone route selected. EU Master Flash alternatives, dimensions, cold rating and delivery status on the right; supplier not selected." value="&lt;a href=&quot;https://e-aztec.eu/master-flash-standard-4-red-silicone/3-45-546&quot; style=&quot;color: #b45f06;&quot;&gt;Silicone roof flashing&lt;/a&gt;" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#b45f06;fontStyle=0;strokeColor=none;fillColor=none;">
+        <mxCell id="roof-label" link="https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97738778" tooltip="Silicone route selected. Finland checkout lead, product-specific cold ratings and dispatch caveat on the right; supplier not selected." value="&lt;a href=&quot;https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97738778&quot; style=&quot;color: #b45f06;&quot;&gt;Silicone roof flashing&lt;/a&gt;" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#b45f06;fontStyle=0;strokeColor=none;fillColor=none;">
           <mxGeometry as="geometry" x="65" y="440" width="290" height="32" />
         </mxCell>
-        <mxCell id="roof-note" value="NOT ORDERED / EU options at right&lt;br&gt;Heat protection + airspaces separate.&lt;br&gt;Boot does not support chimney." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#687787;fontStyle=0;strokeColor=none;fillColor=none;">
+        <mxCell id="roof-note" value="NOT ORDERED / Sources at right&lt;br&gt;Heat protection + airspaces separate.&lt;br&gt;Boot does not support chimney." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#687787;fontStyle=0;strokeColor=none;fillColor=none;">
           <mxGeometry as="geometry" x="65" y="475" width="350" height="70" />
         </mxCell>
         <mxCell id="roof-leader" edge="1" parent="1" value="" style="edgeStyle=none;html=1;rounded=0;strokeColor=#b45f06;strokeWidth=2;endArrow=open;startArrow=none;endSize=9;startSize=9;dashed=0;">
@@ -325,37 +325,37 @@
           <mxGeometry as="geometry" x="45" y="924" width="1300" height="60" />
         </mxCell>
         <mxCell id="flashing-kit-panel" value="" vertex="1" parent="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#fffaf3;strokeColor=#e9b66b;strokeWidth=1;">
-          <mxGeometry as="geometry" x="1400" y="115" width="650" height="735" />
+          <mxGeometry as="geometry" x="1400" y="115" width="650" height="870" />
         </mxCell>
-        <mxCell id="flashing-kit-heading" value="EU silicone flashing sources" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=26;fontColor=#243447;fontStyle=1;strokeColor=none;fillColor=none;">
+        <mxCell id="flashing-kit-heading" value="Silicone flashing / Finland checkout" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=26;fontColor=#243447;fontStyle=1;strokeColor=none;fillColor=none;">
           <mxGeometry as="geometry" x="1425" y="139" width="600" height="36" />
         </mxCell>
-        <mxCell id="flashing-purchase" link="https://e-aztec.eu/master-flash-standard-4-red-silicone/3-45-546" value="&lt;a href=&quot;https://e-aztec.eu/master-flash-standard-4-red-silicone/3-45-546&quot; style=&quot;color: #b45f06;&quot;&gt;Poland: Aztec / Master Flash Standard #4&lt;/a&gt;" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#b45f06;strokeColor=none;fillColor=none;">
+        <mxCell id="flashing-purchase" link="https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97738778" value="&lt;a href=&quot;https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97738778&quot; style=&quot;color: #b45f06;&quot;&gt;Hobby Hall: Master Flash red silicone #5&lt;/a&gt;" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#b45f06;strokeColor=none;fillColor=none;">
           <mxGeometry as="geometry" x="1425" y="195" width="600" height="32" />
         </mxCell>
-        <mxCell id="flashing-dimensions" value="Red silicone, 69-177 mm pipe range; 254 x 254 mm base.&lt;br&gt;Covers the 145 mm shell. Listed in stock: PLN 199.90.&lt;br&gt;Finland delivery not verified; contact shop@e-aztec.eu." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#243447;strokeColor=none;fillColor=none;">
-          <mxGeometry as="geometry" x="1425" y="237" width="600" height="72" />
+        <mxCell id="flashing-dimensions" value="101-209 mm pipe range; 279 x 279 mm base.&lt;br&gt;EUR 89.45 + Posti 29.90 + fee 0.39 = 119.74.&lt;br&gt;Displayed Helsinki rate; postcode total to check.&lt;br&gt;Guest checkout available; no quotation needed.&lt;br&gt;Delivery estimate: 6 Nov 2026 (postcode-dependent)." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#243447;strokeColor=none;fillColor=none;">
+          <mxGeometry as="geometry" x="1425" y="237" width="600" height="120" />
         </mxCell>
         <mxCell id="flashing-cold-panel" value="" vertex="1" parent="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#d8f5ee;strokeColor=#087f8c;strokeWidth=1;">
-          <mxGeometry as="geometry" x="1425" y="330" width="600" height="100" />
+          <mxGeometry as="geometry" x="1425" y="380" width="600" height="100" />
         </mxCell>
-        <mxCell id="flashing-cold-detail" value="MASTER FLASH SILICONE: cold resistance to -74 C.&lt;br&gt;+225 C continuous / +260 C intermittent heat resistance.&lt;br&gt;-40 C and -30 C covered; sealant limits are separate." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#087f8c;strokeColor=none;fillColor=none;">
-          <mxGeometry as="geometry" x="1440" y="345" width="570" height="75" />
+        <mxCell id="flashing-cold-detail" value="MASTER FLASH #5: cold resistance to -74 C.&lt;br&gt;+225 C continuous / +260 C intermittent heat resistance.&lt;br&gt;-40 C and -30 C covered; sealant limits are separate." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#087f8c;strokeColor=none;fillColor=none;">
+          <mxGeometry as="geometry" x="1440" y="395" width="570" height="75" />
         </mxCell>
-        <mxCell id="flashing-temperature-source" link="https://e-aztec.eu/master-flash-standard-4-red-silicone/3-45-546" value="&lt;a href=&quot;https://e-aztec.eu/master-flash-standard-4-red-silicone/3-45-546&quot; style=&quot;color: #1971c2;&quot;&gt;Aztec manufacturer shop: material + temperature data&lt;/a&gt;" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#1971c2;strokeColor=none;fillColor=none;">
-          <mxGeometry as="geometry" x="1425" y="440" width="600" height="27" />
+        <mxCell id="flashing-temperature-source" link="https://master-flash.eu/master-flash-silicone-2/master-flash-standard/" value="&lt;a href=&quot;https://master-flash.eu/master-flash-silicone-2/master-flash-standard/&quot; style=&quot;color: #1971c2;&quot;&gt;Manufacturer: Standard #5 / SQ502RA dimensions + limits&lt;/a&gt;" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#1971c2;strokeColor=none;fillColor=none;">
+          <mxGeometry as="geometry" x="1425" y="490" width="600" height="27" />
         </mxCell>
-        <mxCell id="fixing-kit-purchase" link="https://www.ofen.de/rohrmanschette-silikon-70-bis-178-mm-rohrdurchfuehrung-dachdurchfuehrung" tooltip="German retailer. Listed Masterflash silicone 70-178 mm. Its extra property/title says 75-195 mm; both cover 145 mm, but confirm exact supplied part. Finland packet delivery listed." value="&lt;a href=&quot;https://www.ofen.de/rohrmanschette-silikon-70-bis-178-mm-rohrdurchfuehrung-dachdurchfuehrung&quot; style=&quot;color: #b45f06;&quot;&gt;Germany: ofen.de / Masterflash silicone&lt;/a&gt;" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#b45f06;strokeColor=none;fillColor=none;">
-          <mxGeometry as="geometry" x="1425" y="485" width="600" height="32" />
+        <mxCell id="fixing-kit-purchase" link="https://heatingworld.nl/flexibele-dakdoorvoeren/flexibele-dakdoorvoeren-silicone/flexibele-silicone-dakdoorvoer-121-254-mm-rood" tooltip="Quotation-only alternative, dispatched from Oud-Beijerland. Finland total unconfirmed. Silicone: -50 C cold, +200 C continuous / +250 C intermittent." value="&lt;a href=&quot;https://heatingworld.nl/flexibele-dakdoorvoeren/flexibele-dakdoorvoeren-silicone/flexibele-silicone-dakdoorvoer-121-254-mm-rood&quot; style=&quot;color: #b45f06;&quot;&gt;Quotation alternative: Heating World, NL&lt;/a&gt;" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#b45f06;strokeColor=none;fillColor=none;">
+          <mxGeometry as="geometry" x="1425" y="535" width="600" height="32" />
         </mxCell>
-        <mxCell id="fixing-kit-contents" value="70-178 mm pipe range; 254 x 254 mm base listed.&lt;br&gt;EUR 228.50 incl. VAT; listed lead time 10-15 working days.&lt;br&gt;Finland packet shipping EUR 17.90 published; check total." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#243447;strokeColor=none;fillColor=none;">
-          <mxGeometry as="geometry" x="1425" y="527" width="600" height="72" />
+        <mxCell id="fixing-kit-contents" value="EUR 82.20 incl. displayed VAT; fixing kit included.&lt;br&gt;121-254 mm pipe range; 304 mm square base; silicone.&lt;br&gt;Finland delivery by quotation, not normal checkout.&lt;br&gt;Aztec Poland-only checkout retained in shopping list." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#243447;strokeColor=none;fillColor=none;">
+          <mxGeometry as="geometry" x="1425" y="577" width="600" height="96" />
         </mxCell>
-        <mxCell id="flashing-install-checks" value="Both options NOT ORDERED. Select compatible fixings&lt;br&gt;and sealant; do not assume a kit is included or use FX902&lt;br&gt;as a Master Flash specification. Check roof fit, bare-steel&lt;br&gt;protection and sealant service/cure temperatures." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#243447;strokeColor=none;fillColor=none;">
-          <mxGeometry as="geometry" x="1425" y="620" width="600" height="96" />
+        <mxCell id="flashing-install-checks" value="NOT ORDERED. Supplier not selected; roof fit to check.&lt;br&gt;Master Flash: sealant / fixing kit not established.&lt;br&gt;Heating World: included kit contents to confirm.&lt;br&gt;Check cut edges; -40 C sealant service; follow cure limits." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#243447;strokeColor=none;fillColor=none;">
+          <mxGeometry as="geometry" x="1425" y="695" width="600" height="96" />
         </mxCell>
-        <mxCell id="flashing-sourcing-status" link="https://www.ofen.de/lieferung-versand" value="&lt;a href=&quot;https://www.ofen.de/lieferung-versand&quot; style=&quot;color: #1971c2;&quot;&gt;ofen.de: published Finland shipping terms&lt;/a&gt;&lt;br&gt;EU dispatch to mainland Finland avoids import clearance;&lt;br&gt;normal checkout VAT still applies. Checked 2026-10-19.&lt;br&gt;Master Flash is an alternative brand, not Dektite." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#687787;strokeColor=none;fillColor=none;">
-          <mxGeometry as="geometry" x="1425" y="735" width="600" height="96" />
+        <mxCell id="flashing-sourcing-status" link="https://hobbyhall.fi/fi/myyja/pro-baltic" value="&lt;a href=&quot;https://hobbyhall.fi/fi/myyja/pro-baltic&quot; style=&quot;color: #1971c2;&quot;&gt;Hobby Hall seller: Pro Baltic, MB, Lithuania&lt;/a&gt;&lt;br&gt;Actual dispatch warehouse country not published.&lt;br&gt;EU dispatch is NOT verified for this listing.&lt;br&gt;Guest route checked to personal details; no data sent.&lt;br&gt;Cart emptied. Checked 2026-10-20. No supplier contact." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#687787;strokeColor=none;fillColor=none;">
+          <mxGeometry as="geometry" x="1425" y="810" width="600" height="150" />
         </mxCell>
         <mxCell id="footer" value="Concept only: bracket locations and opening size are symbolic. Provide make-up air + CO/smoke alarms; avoid unverified fan extraction." vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=16;fontColor=#687787;fontStyle=0;strokeColor=none;fillColor=none;">
           <mxGeometry as="geometry" x="35" y="1018" width="1340" height="35" />
