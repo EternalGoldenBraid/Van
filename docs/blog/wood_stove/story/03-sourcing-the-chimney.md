@@ -32,10 +32,7 @@ separate Master Flash silicone #4 boot fits around that outer diameter.
 Actual fit, clearances, fire protection and mounting still need resolving
 in the physical installation.
 
-The assembly is illustrated in {numref}`fig-chimney-drawio`, with an earlier
-concept in {numref}`fig-chimney-excalidraw`. The
-[interactive layout explorer](../layout.md) makes the height and placement
-assumptions adjustable without changing either source drawing.
+The assembly is illustrated in {numref}`fig-chimney-drawio`.
 
 I chose the 1000 mm section, with 940 mm of effective installed length.
 The 500 mm alternative could leave too little length to span the required
@@ -94,8 +91,8 @@ https://www.feuerdepot.de/ihre-versandkosten
 | **Combined known order amounts, excluding stove** | **394.16** |
 
 This is a dated snapshot of the orders, not a second running budget. The
-[cost ledger](../costs.md) holds the evidence, tax breakdown, historical quotes
-and later corrections. The Feuerdepot checkout displayed 19% VAT; an earlier
+[shopping list](../shopping_list_boutique.md) holds current costs and later
+corrections. The Feuerdepot checkout displayed 19% VAT; an earlier
 projection using Finnish 25.5% VAT was an estimate, not an extra amount to add
 to the order.
 

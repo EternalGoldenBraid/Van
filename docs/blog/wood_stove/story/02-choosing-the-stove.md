@@ -54,7 +54,7 @@ has not been recorded, so that figure is a historical price, not a claimed
 receipt total. Delivery, taxes and any import or handling charges need the
 order confirmation or invoice.
 
-That gap stays explicit in the [cost ledger](../costs.md). It would be easy to
+That gap stays explicit in the [shopping list](../shopping_list_boutique.md). It would be easy to
 make the project look cheaper by treating an unknown delivery charge as zero,
 or by counting only the stove. Neither would be an honest account.
 

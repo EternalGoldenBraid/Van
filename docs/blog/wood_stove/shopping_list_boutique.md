@@ -1,133 +1,119 @@
-# Boutique Traditional Shopping List
+# Wood-Stove Shopping List
 
-**Updated:** 2026-10-21. **In progress: ordered parts are not a complete
-installation.** Adhesives/sealants, supports, attachment hardware and heat
-protection still need selection, quantities and prices. Delivery and installation
-are not confirmed.
+**Updated 2026-10-25.** Working inventory for the
+[installation process](installation-plan.md). Main orders are recorded;
+delivery and on-hand quantities are not confirmed. Do not reorder them from
+this list without checking receipt.
 
-The [cost ledger](costs.md) records order amounts and unknown costs.
-The [technical notes](research.md) retain sources, alternatives and open
-installation questions.
+Use the **remaining materials** and **tools** tables when assembling a bulk
+order. Each line has a stable item ID; keep it when updating the selected
+product. `TBD` means unresolved, not zero. Shared tools/consumables should be
+counted once across work packages, with ownership checked before buying.
 
-## Assembly
+{download}`Download this shopping list as Markdown <shopping_list_boutique.md>`
+for collection alongside other work-package lists.
 
-**Stove -> included single-wall flue -> DW37F080 connector ->
-DW13080 insulated section -> DW1076080 terminal/rain hood.**
+Prices here are recorded checkout product amounts, not current supplier quotes
+or reconciled bank/invoice totals. Currency is EUR.
+The installation's [requirements and checks](installation-plan.md#requirements-and-checks)
+are kept in the procedure.
 
-At the roof: **separate fire protection + silicone weather boot + structural
-support.** The boot is neither a firestop nor a chimney support.
+## Ordered Parts
 
-## Ordered
+| Item ID | Item / source | Required qty | Status | Recorded product amount (EUR) |
+| --- | --- | --- | --- | ---: |
+| WS-01 | [Boutique Traditional BC01293][stove] | 1 stove | Ordered 2026-10-19; receipt unconfirmed | Unknown; old 355.00 listing is not paid total |
+| WS-02 | [Jeremias DW37F080 connector, DN80][connector] | 1 pc | Ordered 2026-10-21; receipt unconfirmed | 37.61 |
+| WS-03 | [Jeremias DW13080 plain 1000 mm insulated element][pipe] | 1 pc | Ordered 2026-10-21; receipt unconfirmed | 107.71 |
+| WS-04 | [Jeremias DW1076080 integrated terminal/hood][cap] | 1 pc | Ordered 2026-10-21; receipt unconfirmed | 87.20 |
+| WS-05 | [Master Flash Standard #4 / SQ402RA, Hobby Hall 97737833][boot] | 1 boot | Ordered by 2026-10-21; expected 2026-11-05 per user, receipt unconfirmed | 86.35 |
 
-### 1. Stove
+WS-02/03/04: Feuerdepot goods **232.52 + 45.00 delivery = 277.52 EUR**.
+WS-05: **86.35 + 29.90 delivery + 0.39 fee = 116.64 EUR**.
+Known order amounts: **394.16 EUR excluding stove** and unfinished installation.
+Invoice/payment reconciliation remains open.
 
-**1 x Boutique Camping Traditional**, SKU BC01293.
-User-confirmed ordered 2026-10-19. Earlier listing EUR 355.00;
-actual paid/delivered total unknown.
-Includes six flue sections, spark arrestor, top plate and ashtray.
-Use the included flue below the insulated section; no extra single-wall pipe
-order yet.
-https://boutiquecamping.com/en-eu/products/traditional-wood-burning-stove?view=v2
+### Order Costs And Unknowns
 
-### 2. Connection To The Insulated Pipe
+Feuerdepot's final checkout displayed **19% VAT**, including **44.30 VAT** and
+**233.22 net** within its 277.52 total. These are the displayed rounded amounts;
+do not add VAT again. Hobby Hall's checkout did not itemize a VAT rate/amount;
+its terms describe tax-inclusive prices.
 
-**1 x Jeremias DW37F080**, Ferro-Lux to DW-FU, DN80.
-Ordered from Feuerdepot 2026-10-21, EUR 37.61 at checkout.
-Nominal-size fit risk accepted; check actual mating ends, joint direction
-and seating before firing.
-https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-uebergang-ferro-lux-dw-fu-jeremias-dw-fu/?number=DW37F080
+The stove's actual purchase amount, delivery, tax/import/handling charges and
+any fees are unrecorded. The historical 355.00 listing is not its paid total.
+**The full installation cost is not yet calculable.**
 
-### 3. Insulated Twin-wall Pipe
+Remaining materials and tools below are unpriced. Extra pipe/connector work,
+optional cookware, commissioning fuel, material waste and any paid installation,
+inspection/approval or insurer costs are also unrecorded. Add later delivery,
+import, payment, refund and return charges when evidenced. Personal research/build
+labour has not been monetized.
 
-**1 x Jeremias DW13080, plain 1000 mm DW-FU**, 80 mm bore / 145 mm outside.
-Ordered from Feuerdepot 2026-10-21, EUR 107.71 at checkout.
-Effective installed length 940 mm. The longer section provides layout margin;
-final indoor/outdoor split and fit still need measurement.
-Joint-locking bands do not anchor the chimney to the vehicle.
-https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-laengenelement-1000-mm-doppelwandig-dw-fu/?number=DW13080
+## Included Parts To Check On Receipt
 
-### 4. Chimney Terminal And Rain Hood
+These are part of existing orders, not extra purchases.
 
-**1 x Jeremias DW1076080, integrated terminal/rain hood**, DW-FU DN80.
-Ordered from Feuerdepot 2026-10-21, EUR 87.20 at checkout.
-This is the complete terminal, not a retrofit hood alone.
-Any added spark screen needs its restriction, retention and cleaning considered.
-https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-regenhaube-mit-muendungsabschluss-doppelwandig-dw-fu/?number=DW1076080
+| Item ID | Included item | Recorded qty | Status |
+| --- | --- | --- | --- |
+| WS-06 | Boutique supplied single-wall flue | 6 sections | Included in stove listing; check received contents |
+| WS-07 | Boutique spark arrestor, top plate and ashtray | 1 each | Included in stove listing; check received contents and selected assembly |
+| WS-08 | DW-FU joint-locking bands | TBD | Length listing says included where needed; check actual contents and required count |
 
-The three Feuerdepot parts total **EUR 232.52 + EUR 45.00 delivery =
-EUR 277.52**, with 19% VAT displayed at final checkout. Invoice/payment
-reconciliation is still open.
+No separate boot adhesive/fixing kit is established as included. No additional
+single-wall pipe order is planned before measuring the delivered assembly.
 
-### 5. Silicone Weather Boot
+## Remaining Materials: Select, Quantify, Then Buy
 
-**1 x Master Flash Standard #4 / SQ402RA**, Hobby Hall listing 97737833,
-marketplace seller Pro Baltic. Ordered, user-confirmed by 2026-10-21.
-EUR 86.35 + EUR 29.90 delivery + EUR 0.39 platform fee = **EUR 116.64**
-in the user's checkout screenshot.
+All rows below are **unpriced**. No specific product or quantity is selected
+unless stated. Resolve the selection input before putting a row into a bulk order.
 
-69-177 mm pipe range, 254 x 254 mm base; covers the 145 mm outer shell.
-Manufacturer rating -74 C to +225 C continuous, +260 C intermittent.
-These are boot ratings, not sealant or roof-clearance specifications.
-No included adhesive/sealant or fixing kit is established.
-https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97737833
-https://master-flash.eu/master-flash-silicone-2/master-flash-standard/
+| Item ID | Item | Required qty | Status | Selection input / source |
+| --- | --- | --- | --- | --- |
+| WS-09 | Boot-compatible roof sealant/adhesive | TBD cartridges | Select, price and obtain | Boot/roof interface and application/cure conditions |
+| WS-10 | Other joint/installation sealants or adhesives, if specified | TBD | Conditional on method | Actual system instructions; avoid duplicating WS-09 |
+| WS-11 | Roof boot mechanical fixings | TBD pcs | Select, price and obtain | Boot mounting pattern and vehicle roof |
+| WS-12 | Chimney supports/clamps and vehicle-side brackets | TBD pcs | Design, price and obtain | 145 mm shell, mounting gap and attachment layout; [system support examples][supports] |
+| WS-13 | Stove restraints and backing/attachment plates | TBD pcs | Design, price and obtain | Final stove position and vehicle attachment points |
+| WS-14 | Attachment bolts, washers, nuts and screws | TBD by size | Select, price and obtain | WS-12/13 design; excludes boot fixings counted in WS-11 |
+| WS-15 | Hearth/platform materials | TBD area/pieces | Design, price and obtain | Measured layout and selected construction |
+| WS-16 | Wall/ceiling shields and roof-passage protection | TBD area/pieces | Design, price and obtain | Specified passage, airspaces and shield construction |
+| WS-17 | Cut-edge coating and preparation consumables | TBD | Check owned stock; select any missing items | Chosen coating process; share with other metalwork packages |
+| WS-18 | CO alarm, smoke alarm and suitable extinguisher | TBD | Check ownership, then obtain missing items | Selected equipment and mounting locations |
+| WS-19 | Stove/flue thermometer | TBD | Not ordered | Compatible type and measuring location |
+| WS-20 | 80 mm stainless-flue-compatible brush and rods | TBD | Not ordered | Actual cleaning route and reach |
+| WS-21 | Heat-resistant gloves and ash tools/container | TBD | Check ownership, then obtain missing items | Handling/maintenance kit |
+| WS-22 | Cold-stove weather/insulation closure | TBD | Deferred; not selected | Final chimney arrangement |
 
-## Still To Select, Price And Obtain
+The replacement-air vent is managed in the
+[floor work package](../floor/replacement_air.md); do not duplicate its fittings
+in this list. Extra pipe or connector work remains conditional on the actual
+dry-fit. Optional cookware/Dutch oven and an added spark screen are not committed
+bulk-order items.
 
-### 6. Adhesives, Sealants And Attachment Hardware
+## Tools: Check Owned Or Borrowed Before Buying
 
-**Not yet selected or priced:** boot-compatible roof adhesive/sealant,
-any other specified installation adhesives/sealants, screws, bolts, washers,
-nuts, clamps and attachment plates.
+All quantities, ownership and purchase costs remain to be checked.
 
-Choose products for the actual interfaces and manufacturer instructions.
-Verify compatibility with the painted steel roof, cured cold-temperature
-service, heat exposure and application/cure conditions. Do not transfer
-Dektite's FX902 specification to Master Flash or assume a generic adhesive
-can replace mechanical support or required chimney clearances.
+| Item ID | Tool group | Required qty | Status / next check |
+| --- | --- | --- | --- |
+| WS-T01 | Tape measure, square/level, markers and templates | TBD | Inventory available tools |
+| WS-T02 | Suitable sheet-metal cutter, drill/bits and deburring tools | TBD | Choose against the actual cut and fixings |
+| WS-T03 | Swarf collection, masking and nearby-surface protection | TBD | Inventory shared metalwork kit |
+| WS-T04 | Sealant applicator and preparation supplies | TBD | Check against selected products |
+| WS-T05 | Clamps and matching fastening hand tools | TBD | Check against support/restraint design |
+| WS-T06 | PPE | TBD | Inventory available kit |
 
-### 7. Chimney Supports
+## Maintaining The Order List
 
-**Not yet selected or priced:** separate chimney supports/brackets, vehicle-side
-mounts and retention for road loads.
-Size supports for the DW-FU 145 mm outer shell and actual mounting gap.
-Standard system supports on made-to-fit vehicle brackets are an option, not
-a completed design. Carry weight and lateral loads into sound vehicle structure
-while allowing the system's required thermal movement.
-The joint bands, silicone boot and thin supplied flue are not vehicle anchors.
-https://www.kamin-store24.de/Jeremias-DW-FU-Wand-und-Deckenhalter-in-verschiedenen-Ausfuehrungen
-https://www.kamin-store24.de/mediafiles/PDF/Jeremias_DE_Montageanleitung_DW-FU.pdf
+For a selected row, replace `TBD` with the required quantity/unit and record the
+exact SKU, supplier link, on-hand quantity, quantity to buy, dated price and
+delivery charge. Keep purchase status separate from receipt status. Add actual
+spending and order charges here; do not add an unknown amount as zero.
 
-### 8. Heat Protection And Stove Mounting
-
-**Not yet selected or priced:** roof/ceiling heat protection, hearth,
-required wall shields and stove restraints.
-Sizes and materials depend on measured layout and required clearances.
-Preserve required airspaces; do not pack insulation around the chimney on
-the assumption that more insulation always makes the passage safer.
-The goal is to leave the chimney/cap fitted while driving; road retention
-still needs resolving.
-
-### 9. Other Equipment
-
-Check existing ownership before buying; these costs are not included:
-
-- CO alarm, smoke alarm and suitable extinguisher.
-- Stove/flue thermometer with compatible mounting.
-- 80 mm stainless-flue-compatible cleaning brush and rods.
-- Heat-resistant gloves and ash tools/container.
-- Cold-stove weather/insulation closure; never close a live/hot stove.
-- Optional flat-bottom Dutch oven, sized to the actual cooktop and supported load.
-
-## Before Installation
-
-Measure the selected hearth height, outlet-to-roof distance, transition position,
-roof build-up and terminal projection. Establish model/system-specific
-clearances, make-up air, fire protection and structural supports.
-Verify actual connector fit, intended joint direction and cleaning access.
-Do not use the ordered length or a nominal 80 mm match as proof of safe fit
-or adequate draft.
-
-Record the remaining materials, quantities, purchases and any extra delivery
-in the [cost ledger](costs.md). The known subtotal excludes these unfinished
-items and the stove's unrecorded paid total.
+[stove]: https://boutiquecamping.com/en-eu/products/traditional-wood-burning-stove?view=v2
+[connector]: https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-uebergang-ferro-lux-dw-fu-jeremias-dw-fu/?number=DW37F080
+[pipe]: https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-laengenelement-1000-mm-doppelwandig-dw-fu/?number=DW13080
+[cap]: https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-regenhaube-mit-muendungsabschluss-doppelwandig-dw-fu/?number=DW1076080
+[boot]: https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97737833
+[supports]: https://www.kamin-store24.de/Jeremias-DW-FU-Wand-und-Deckenhalter-in-verschiedenen-Ausfuehrungen

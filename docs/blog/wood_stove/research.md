@@ -1,6 +1,5 @@
 # Technical Notes And Research
 
-**Session (Copilot CLI):** `e190de56-148f-44f3-adc6-c8c9129359be`
 **Updated:** 2026-10-21
 **Status:** Boutique Camping Traditional ordered, confirmed by the user
 2026-10-19. Master Flash silicone #4 boot also ordered, confirmed by
@@ -11,10 +10,11 @@ weather-seal fixings and cold-stove closure remain to resolve.
 
 The actionable parts, ordering links and purchase holds are in
 [Boutique shopping list](shopping_list_boutique.md).
-See the [cost ledger](costs.md) for order amounts and the
+See the [shopping list](shopping_list_boutique.md) for order amounts and the
 [build-story drafts](story/01-what-the-stove-is-for.md) for the narrative.
 The diagram's purchase badges predate the latest orders; use the shopping list
-for current status. The Excalidraw comparison is not the current plan.
+for current status. The older Excalidraw concept is archived outside the site
+in `docs/wood_stove/`.
 
 **Current parts decision:** use a matching Jeremias DW-FU 80 mm cap initially,
 with replacement possible later; no further cap comparison needed now. The user
@@ -399,26 +399,11 @@ https://www.finlex.fi/fi/lainsaadanto/2018/729
 
 ## Installation Holds
 
-- **Final dimensions are blocked on clearances and projections.** All figures
-  above are published hardware dimensions or explicitly labelled estimates,
-  not safe installation envelopes. Equal clearances are a comparison
-  assumption only. Obtain
-  deployed front/side drawings and model-specific body/flue clearances,
-  including any permitted shielded reductions; allow door operation and
-  loading space. Do not infer reduced clearances from Bison's vermiculite.
-- Final height depends on hearth elevation, measured outlet-to-roof distance,
-  transition lengths, chimney supports and required termination above roof.
-  Neither supplied tent-flue height nor shipping-box size settles it.
-- Verify adapter fit, joint direction, insertion depth and temperature suitability.
-- Establish clean low-output suitability and draft for the complete chimney:
-  diameter, height, insulation and bends matter; a connector alone is insufficient.
-- Measure against the [roof layout](https://github.com/EternalGoldenBraid/Van/blob/main/docs/roof_layout_plan.md); specify system-specific
-  penetration clearances, hearth/shields, supports and weather flashing.
-  The matching Jeremias cap is the chosen starting route; resolve road-load
-  retention for travel and a separate cold-stove closure. Flashing is not fire
-  protection; preserve required airspaces.
-- Provide make-up air and CO/smoke alarms. No MaxxFan extraction with a lit
-  stove unless designed/tested for depressurization and smoke spillage.
+The working checklist is now collected in
+[installation requirements and checks](installation-plan.md#requirements-and-checks).
+The [installation process](installation-plan.md) records the measurements,
+decisions and work sequence. This research page retains supporting sources and
+historical comparisons, not a second installation checklist.
 
 ## Boutique Hardware Reference
 
@@ -501,11 +486,11 @@ https://jeremias.fi/tuoteet/elementtipiiput/dw-kaksiseinaemaeinen-piippujaerjest
 https://www.kamin-store24.de/Versand-und-Zahlung
 https://www.feuerdepot.de/ihre-versandkosten
 
-**Operation:** provide make-up air, maintain cleaning access, inspect the flue
-frequently during initial use, and use dry wood. Clean glass or long burn time
-does not establish clean low-output combustion. Never close the chimney while
-a fire or hot coals remain. Resale of the stove does not recover installation
-work or guarantee that a replacement can use the same flue.
+**Operation:** see the consolidated
+[requirements and checks](installation-plan.md#requirements-and-checks).
+Clean glass or long burn time does not establish clean low-output combustion.
+Resale does not recover installation work or guarantee that a replacement can
+use the same flue.
 
 ## Earlier Accessory Notes
 

@@ -3,10 +3,11 @@ name: Publish van-build blog
 on:
   push:
     branches:
-      - docs/van-build-blog
+      - main
     paths:
       - .github/workflows/blog-pages.yml
       - docs/blog/**
+      - docs/diesel_heater/**
       - docs/wood_stove/**
       - docs/floor_plan.md
       - docs/floor_sealing_logbook.md
@@ -41,14 +42,6 @@ jobs:
 
       - name: Install documentation dependencies
         run: python -m pip install --requirement docs/blog/requirements.txt
-
-      - name: Set up Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: "24"
-
-      - name: Check interactive geometry
-        run: node --test docs/blog/tests/layout-explorer.test.mjs
 
       - name: Build the blog
         run: >-

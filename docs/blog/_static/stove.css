@@ -1,0 +1,108 @@
+:root {
+    --stove-blue: #185e9b;
+    --stove-blue-bg: #edf5fc;
+    --stove-amber: #855000;
+    --stove-amber-bg: #fff6e5;
+    --stove-green: #24633e;
+    --stove-green-bg: #edf7f0;
+    --stove-neutral: #5b6574;
+    --stove-neutral-bg: #f1f3f6;
+}
+
+body[data-theme="dark"] {
+    --stove-blue: #8dc8ff;
+    --stove-blue-bg: #182c40;
+    --stove-amber: #f3c572;
+    --stove-amber-bg: #352b1c;
+    --stove-green: #8ad6a6;
+    --stove-green-bg: #1b3025;
+    --stove-neutral: #b5becc;
+    --stove-neutral-bg: #252b34;
+}
+
+@media (prefers-color-scheme: dark) {
+    body:not([data-theme="light"]) {
+        --stove-blue: #8dc8ff;
+        --stove-blue-bg: #182c40;
+        --stove-amber: #f3c572;
+        --stove-amber-bg: #352b1c;
+        --stove-green: #8ad6a6;
+        --stove-green-bg: #1b3025;
+        --stove-neutral: #b5becc;
+        --stove-neutral-bg: #252b34;
+    }
+}
+
+:is(#wood-stove, #wood-stove-installation, #wood-stove-shopping-list) > section {
+    --stove-accent: var(--stove-blue);
+    --stove-tint: var(--stove-blue-bg);
+    margin-block: 2.5rem;
+}
+
+:is(#wood-stove, #wood-stove-installation, #wood-stove-shopping-list) > section > h2 {
+    color: var(--stove-accent);
+    background: var(--stove-tint);
+    border-inline-start: 0.25rem solid var(--stove-accent);
+    border-radius: 0 0.35rem 0.35rem 0;
+    padding: 0.65rem 0.85rem;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+#wood-stove-installation > #decisions-and-trade-offs,
+#wood-stove-shopping-list > :is(#remaining-materials-select-quantify-then-buy,
+    #tools-check-owned-or-borrowed-before-buying) {
+    --stove-accent: var(--stove-amber);
+    --stove-tint: var(--stove-amber-bg);
+}
+
+#wood-stove-installation > #chosen-assembly,
+#wood-stove-shopping-list > :is(#ordered-parts, #included-parts-to-check-on-receipt) {
+    --stove-accent: var(--stove-green);
+    --stove-tint: var(--stove-green-bg);
+}
+
+#wood-stove-installation > :is(#requirements-and-checks, #references-and-progress),
+#wood-stove-shopping-list > #maintaining-the-order-list {
+    --stove-accent: var(--stove-neutral);
+    --stove-tint: var(--stove-neutral-bg);
+}
+
+#wood-stove-installation > #requirements-and-checks {
+    padding: 1rem;
+    background: var(--stove-neutral-bg);
+    border: 1px solid var(--color-background-border);
+    border-radius: 0.5rem;
+}
+
+#wood-stove-installation > #requirements-and-checks > h2 {
+    margin-top: 0;
+}
+
+#wood-stove-installation .stove-next {
+    border-color: var(--stove-blue);
+    box-shadow: none;
+}
+
+#wood-stove-installation .stove-next > .admonition-title {
+    background: var(--stove-blue-bg);
+    color: var(--stove-blue);
+}
+
+:is(#wood-stove-installation, #wood-stove-shopping-list) th {
+    background: var(--stove-tint);
+    color: var(--stove-accent);
+}
+
+#wood-stove-installation > :is(#decisions-and-trade-offs,
+    #measure-and-fix-the-layout) td:last-child {
+    background: var(--stove-amber-bg);
+}
+
+#wood-stove-shopping-list #order-costs-and-unknowns > h3 {
+    color: var(--stove-amber);
+}
+
+:is(#wood-stove-installation, #wood-stove-shopping-list) td > p {
+    line-height: 1.6;
+}

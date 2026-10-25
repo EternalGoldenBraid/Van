@@ -48,8 +48,8 @@ A stove price is not an installation budget. The chimney, weather seal,
 supports, hearth, shielding, restraints and safety equipment all matter.
 Research and fabrication take time too.
 
-The [cost ledger](../costs.md) keeps those distinctions visible. It separates
-the amounts attached to confirmed orders from quotes, optional accessories
+The [shopping list](../shopping_list_boutique.md) keeps those distinctions visible.
+It separates the amounts attached to confirmed orders from optional accessories
 and items that still have no price. The full project cost is not known yet.
 
 Next: [choosing the stove](02-choosing-the-stove.md).
