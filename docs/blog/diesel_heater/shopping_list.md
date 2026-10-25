@@ -1,6 +1,7 @@
-# Diesel heater — shopping list
+# Diesel Heater — Shopping List
 
-For the ongoing Planar 44D relocation. **Nothing here is marked purchased.** Prices and availability can change.
+For the ongoing Planar 44D relocation. **Nothing here is marked purchased.**
+Prices and availability can change.
 
 | Priority | Item | Candidate / source | Status |
 | --- | --- | --- | --- |
@@ -11,11 +12,14 @@ For the ongoing Planar 44D relocation. **Nothing here is marked purchased.** Pri
 | If replacement required | Mounting seal/gasket | Exact Planar 44D seal part number and local seller to verify. | Existing gasket retained |
 | When fitting | Rust protection for cut floor edges | Check supplies already on hand before buying; use product appropriate to bare vehicle steel. | Check existing stock |
 
-## Measurements and decisions before buying
+## Measurements And Decisions Before Buying
 
-- Measure the *actual* outside diameter of the proposed steel sleeve. Reported ~22 mm ID and ~1 mm wall imply ~24 mm OD nominally, but one observation suggested 23 mm OD.
+- Measure the *actual* outside diameter of the proposed steel sleeve. Reported
+  ~22 mm ID and ~1 mm wall imply ~24 mm OD nominally, but one observation
+  suggested 23 mm OD.
 - Measure the required hole diameters from the heater/template, not by guess.
 - Check whether current clamps can be reused.
 - Verify nearby Finnish stock and current prices for items actually chosen.
 
-Keep speculative alternatives out of the purchase list unless they are genuinely useful fallbacks.
+Keep speculative alternatives out of the purchase list unless they are
+genuinely useful fallbacks.
