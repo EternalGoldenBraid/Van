@@ -39,3 +39,16 @@ service-specific prefixes.
 - For new persistent agents, create a named worktree and add its resume command
   here before relying on it after reboot.
 - Do not store secrets, API keys, or private credentials in this file.
+
+## Documentation Style for All Agents
+
+Treat the repository as the **distilled current state of the build**, not a transcript or a general-purpose installation manual.
+
+- **High information density:** preserve measurements, installed parts, decisions, purchase status, useful photos, links and genuine open questions.
+- **Avoid clutter:** omit obvious reminders, repeated general safety warnings, boilerplate disclaimers and hypothetical alternatives that do not affect the actual build.
+- **Separate facts from plans:** clearly distinguish installed, measured, proposed, ordered and unverified details; do not invent confirmation.
+- **Shopping lists should be actionable:** prioritize items actually needed, direct product links, quantities, and purchase status; keep irrelevant candidates out.
+- **Review before writing:** propose selective documentation updates at meaningful milestones rather than automatically committing every conversational decision.
+- Preserve specific, material safety constraints where they change a design or action; avoid turning notes into exhaustive generic guidance.
+
+These conventions apply to every agent editing project documentation.
