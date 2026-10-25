@@ -9,20 +9,29 @@ each package as the work develops.
 
 ## Current Work
 
-- **Diesel heater:** finish the installation already started.
-  [Diesel heater log](diesel_heater/index.md).
-- **Floor and air vent:** seal the rivet holes and fit the replacement-air
-  vent. [Floor instructions](floor/index.md).
-- **Window locations:** reserve the openings; window installation can wait.
+- **Diesel heater:** Planar 44D relocation in sliding-door step well —
+  [Log](diesel_heater/index.md) ·
+  [Shopping list](diesel_heater/shopping_list.md).
+- **Floor rivet holes:** seal the old pop-rivet holes —
+  [Plan & shopping list](floor/rivet_holes.md).
+- **Replacement-air inlet (*korvausilma*):** fit the floor intake (*räppänä*)
+  for the wood stove and MaxxFan —
+  [Plan & shopping list](floor/replacement_air.md).
+- **Floor levelling & XPS support:** eliminate soft spots under the plywood
+  floor — [Plan & shopping list](floor/levelling.md).
+- **Window locations:** reserve openings; window installation can wait.
   {download}`Window planning notes <../window_plan.md>`.
 
 ## Upcoming
 
-- **Roof fan:** install the MaxxFan.
-  {download}`Fan installation notes <../maxxfan_installation.md>`.
-- **Insulation:** finish the wheel arches and floor, then the ceiling and walls.
-- **Wood stove:** plan and carry out the installation.
-  [Installation planning](wood_stove/installation-plan.md).
+- **Roof fan (MaxxFan Deluxe):** cut and bed the 400 x 400 mm roof fan —
+  [Plan](maxxfan/index.md) ·
+  [Shopping list](maxxfan/shopping_list.md).
+- **Insulation:** finish wheel arches, ceiling and walls.
+- **Wood stove:** Boutique Traditional + Jeremias DW-FU installation —
+  [Overview](wood_stove/index.md) ·
+  [Plan](wood_stove/installation-plan.md) ·
+  [Shopping list](wood_stove/shopping_list_boutique.md).
 
 ## Later
 
