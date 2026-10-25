@@ -11,6 +11,8 @@ parts are not treated as installed.
 
 ## Build Stages
 
+- [Work-package overview](work-packages.md): a short summary of current,
+  upcoming and later work, linking to instructions where available.
 - [Floor insulation: the next work](floor/index.md): remove the floor, seal
   old rivet holes, fit the stove replacement-air vent, insulate the internal
   wheel arches and finish the floor insulation.
