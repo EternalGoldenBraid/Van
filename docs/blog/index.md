@@ -2,6 +2,10 @@
 
 Ford Transit L3H3 conversion dashboard.
 
+## Done
+
+- **[VAN-6 — heater removal](heater_removal/index.md):** recorded removal and original wiring, fuel and exhaust routing.
+
 ## Right Now
 
 - **Diesel heater:** finish the installation already started —
@@ -23,6 +27,7 @@ Ford Transit L3H3 conversion dashboard.
 :caption: Van build
 
 work-packages
+heater_removal/index
 diesel_heater/index
 floor/index
 wood_stove/index
