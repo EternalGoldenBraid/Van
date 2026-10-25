@@ -6,6 +6,7 @@ each package as the work develops.
 ## Current Work
 
 - **Diesel heater:** finish the installation already started.
+  [Diesel heater log](diesel_heater/index.md).
 - **Floor and air vent:** seal the rivet holes and fit the replacement-air
   vent. [Floor instructions](floor/index.md).
 - **Window locations:** reserve the openings; window installation can wait.
