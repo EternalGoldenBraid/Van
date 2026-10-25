@@ -3,6 +3,10 @@
 A short overview, with instructions linked where available. We will expand
 each package as the work develops.
 
+## Done
+
+- **[VAN-6 — Document heater holes, wiring, fuel, intake, and exhaust](heater_removal/index.md):** completed heater-removal record, with original photographs in Linear.
+
 ## Current Work
 
 - **Diesel heater:** finish the installation already started.
