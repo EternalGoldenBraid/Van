@@ -88,14 +88,15 @@ well.
 - [ ] Have the installed exhaust joint checked at inspection.
 - [ ] Add final mounted and underside photos.
 
+## Shopping List
+
+```{include} ../../diesel_heater/shopping_list.md
+:start-line: 2
+:heading-offset: 1
+```
+
+{download}`Download shopping list as Markdown <../../diesel_heater/shopping_list.md>`.
+
 ## Related
 
-- [Diesel heater shopping list](shopping_list.md)
 - [VAN-6 — heater holes, wiring, fuel, intake and exhaust](https://linear.app/brutusvan/issue/VAN-6/document-heater-holes-wiring-fuel-intake-and-exhaust)
-
-```{toctree}
-:hidden:
-:caption: Diesel heater
-
-shopping_list
-```

@@ -1,4 +1,7 @@
-```{include} ../../diesel_heater/shopping_list.md
-```
+---
+orphan: true
+---
 
-{download}`Download shopping list as Markdown <../../diesel_heater/shopping_list.md>`.
+# Diesel Heater — Shopping List
+
+[Open the shopping list in the relocation page](index.md#shopping-list).

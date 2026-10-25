@@ -10,7 +10,7 @@ Ford Transit L3H3 conversion dashboard.
 
 - **Diesel heater:** Planar 44D relocation in sliding-door step well —
   [Log](diesel_heater/index.md) ·
-  [Shopping list](diesel_heater/shopping_list.md).
+  [Shopping list](diesel_heater/index.md#shopping-list).
 - **Floor rivet holes:** seal the old pop-rivet holes —
   [Plan & shopping list](floor/rivet_holes.md).
 - **Replacement-air inlet (*korvausilma*):** fit the floor intake (*räppänä*)
@@ -24,7 +24,7 @@ Ford Transit L3H3 conversion dashboard.
 ## Work Packages
 
 - [All work packages](work-packages.md)
-- [Diesel heater](diesel_heater/index.md) ([shopping list](diesel_heater/shopping_list.md))
+- [Diesel heater](diesel_heater/index.md) ([shopping list](diesel_heater/index.md#shopping-list))
 - [Floor work packages](floor/index.md):
   [Rivet holes](floor/rivet_holes.md) ·
   [Replacement air (*korvausilma*)](floor/replacement_air.md) ·

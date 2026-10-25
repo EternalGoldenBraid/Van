@@ -16,7 +16,7 @@ parts are not treated as installed.
 - [Heater removal](heater_removal/index.md): completed removal record and
   original routing photographs.
 - [Diesel heater](diesel_heater/index.md): active Planar 44D relocation log,
-  photos and [shopping list](diesel_heater/shopping_list.md).
+  photos and embedded [shopping list](diesel_heater/index.md#shopping-list).
 - [Floor work packages](floor/index.md):
   [rivet-hole sealing](floor/rivet_holes.md),
   [replacement-air inlet (*korvausilma*)](floor/replacement_air.md), and
@@ -84,7 +84,8 @@ Publication makes the blog and its downloadable evidence publicly accessible.
 All build documentation and blog source live on **`main`**. Use temporary
 branches for drafts and merge them into `main` when ready to publish.
 The diesel-heater shopping list is maintained in
-`docs/diesel_heater/shopping_list.md`; the blog includes that file directly.
+`docs/diesel_heater/shopping_list.md`; the relocation page includes that file
+directly under Shopping List.
 
 The workflow in `.github/workflows/blog-pages.yml` publishes relevant pushes to
 **`main`**, including changes to the canonical heater shopping list. It builds

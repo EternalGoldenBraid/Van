@@ -11,7 +11,7 @@ each package as the work develops.
 
 - **Diesel heater:** Planar 44D relocation in sliding-door step well —
   [Log](diesel_heater/index.md) ·
-  [Shopping list](diesel_heater/shopping_list.md).
+  [Shopping list](diesel_heater/index.md#shopping-list).
 - **Floor rivet holes:** seal the old pop-rivet holes —
   [Plan & shopping list](floor/rivet_holes.md).
 - **Replacement-air inlet (*korvausilma*):** fit the floor intake (*räppänä*)
