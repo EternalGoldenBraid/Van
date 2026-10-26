@@ -1,7 +1,7 @@
 # Work Packages
 
-A short overview, with instructions linked where available. We will expand
-each package as the work develops.
+A short overview, with instructions linked where available. Filter shopping
+items by work package in the [interactive shopping graph](shopping-graph.md).
 
 ## Done
 

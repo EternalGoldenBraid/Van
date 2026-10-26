@@ -23,7 +23,7 @@ Ford Transit L3H3 conversion dashboard.
 
 ## Work Packages
 
-- [All work packages](work-packages.md)
+- [All work packages](work-packages.md) · [Interactive shopping graph](shopping-graph.md)
 - [Diesel heater](diesel_heater/index.md) ([shopping list](diesel_heater/index.md#shopping-list))
 - [Floor work packages](floor/index.md):
   [Rivet holes](floor/rivet_holes.md) ·
@@ -37,6 +37,7 @@ Ford Transit L3H3 conversion dashboard.
 :caption: Van build
 
 work-packages
+shopping-graph
 heater_removal/index
 diesel_heater/index
 floor/index

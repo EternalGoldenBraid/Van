@@ -1,0 +1,907 @@
+{
+  "node_types": [
+    "work_package",
+    "shopping_item"
+  ],
+  "nodes": [
+    {
+      "id": "item:aisi316_m10_fasteners",
+      "node_type": "shopping_item",
+      "name": "AISI 316 M10x30 & M10x40 bolts, M10 washers & M10 Nyloc nuts",
+      "status": "planned",
+      "sku": null,
+      "supplier": "Puuilo / K-Rauta",
+      "qty": "2+1 / 2 / 2 packs",
+      "url": null,
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Enlarged floor hole clamping stacks."
+    },
+    {
+      "id": "item:aisi316_m6_fasteners",
+      "node_type": "shopping_item",
+      "name": "AISI 316 M6x30 bolts, M6 washers & M6 Nyloc nuts",
+      "status": "planned",
+      "sku": null,
+      "supplier": "Puuilo / K-Rauta",
+      "qty": "3 / 6 / 3 packs",
+      "url": null,
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Standard pop-rivet hole clamping stacks."
+    },
+    {
+      "id": "item:alu_tape_50mm",
+      "node_type": "shopping_item",
+      "name": "Tarmo aluminum tape, 50 mm x 25 m",
+      "status": "planned",
+      "sku": null,
+      "supplier": "Puuilo",
+      "qty": "1–3 rolls",
+      "url": "https://www.puuilo.fi/tarmo-alumiiniteippi-50mmx25m",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Taping XPS board joints."
+    },
+    {
+      "id": "item:bike_tube_seals",
+      "node_type": "shopping_item",
+      "name": "Bike inner-tube rubber washers/seals",
+      "status": "owned",
+      "sku": null,
+      "supplier": "Handmade",
+      "qty": "Cut set",
+      "url": null,
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Clamped on both faces of each floor rivet hole."
+    },
+    {
+      "id": "item:bosch_hss_drill_set_2_10",
+      "node_type": "shopping_item",
+      "name": "Bosch HSS metal drill set, 2–10 mm (7 pcs)",
+      "status": "planned",
+      "sku": "3165140917650",
+      "supplier": "K-Rauta",
+      "qty": "1 set",
+      "url": "https://www.k-rauta.fi/tuote/metalliporanterasarja-bosch-2-10mm-hss-r-pointtec-7-osainen/3165140917650",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Pilot and flange screw holes."
+    },
+    {
+      "id": "item:boutique_stove",
+      "node_type": "shopping_item",
+      "name": "Boutique Camping Traditional Wood Burning Stove (BC01293)",
+      "status": "ordered",
+      "sku": "BC01293",
+      "supplier": "Boutique Camping",
+      "qty": "1 stove",
+      "url": "https://boutiquecamping.com/en-eu/products/traditional-wood-burning-stove?view=v2",
+      "ordered_date": "2026-10-19",
+      "doc_path": null,
+      "notes": "Includes 6x single-wall flue sections, spark arrestor, top plate, ashtray."
+    },
+    {
+      "id": "item:brass_cup_brush",
+      "node_type": "shopping_item",
+      "name": "Wolfcraft brass wire cup brush, 75 mm",
+      "status": "candidate",
+      "sku": null,
+      "supplier": "Puuilo",
+      "qty": "1 pc",
+      "url": "https://www.puuilo.fi/wolfcraft-kuppiharja-messinki-35x80mm",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Mechanical rust removal around floor holes."
+    },
+    {
+      "id": "item:brushes_sokeva_3pc",
+      "node_type": "shopping_item",
+      "name": "Sokeva sivellinsarja Tomera 3-osaa",
+      "status": "ordered",
+      "sku": "10155894",
+      "supplier": "Puuilo",
+      "qty": "1 set",
+      "url": "https://www.puuilo.fi/sokeva-sivellinsarja-tomera-3-osaa",
+      "ordered_date": "2026-10-26",
+      "doc_path": null,
+      "notes": "Shared coating brushes; replaces FXA brush set."
+    },
+    {
+      "id": "item:centre_punch_pajala",
+      "node_type": "shopping_item",
+      "name": "Pajala automaattipistepuikko",
+      "status": "ordered",
+      "sku": "10166529",
+      "supplier": "Puuilo",
+      "qty": "1 pc",
+      "url": "https://www.puuilo.fi/pajala-automaattipistepuikko",
+      "ordered_date": "2026-10-26",
+      "doc_path": null,
+      "notes": "Automatic centre punch; replaces Tamo candidate."
+    },
+    {
+      "id": "item:crc_rust_seal",
+      "node_type": "shopping_item",
+      "name": "CRC Rust Seal rust converter 750 ml",
+      "status": "owned",
+      "sku": null,
+      "supplier": "Puuilo",
+      "qty": "1 can",
+      "url": "https://www.puuilo.fi/crc-rust-seal-ruosteenmuunnin-750ml",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "For remaining rust around old rivet holes."
+    },
+    {
+      "id": "item:cutting_oil_boltoff",
+      "node_type": "shopping_item",
+      "name": "Bolt-Off leikkuuöljy 500ml",
+      "status": "ordered",
+      "sku": "10007400",
+      "supplier": "Puuilo",
+      "qty": "1 can (500 ml)",
+      "url": "https://www.puuilo.fi/bolt-off-leikkuuoljy-500ml",
+      "ordered_date": "2026-10-26",
+      "doc_path": null,
+      "notes": "Shared cutting/drilling lubricant for sheet metal."
+    },
+    {
+      "id": "item:finnfoam_xps_30mm",
+      "node_type": "shopping_item",
+      "name": "Finnfoam FI-300 XPS, 30 x 600 x 2500 mm",
+      "status": "planned",
+      "sku": "6418711190431",
+      "supplier": "K-Rauta",
+      "qty": "As needed",
+      "url": "https://www.k-rauta.fi/tuote/eristyslevy-finnfoam-fi-300-30x600x2500-suorareunainen/6418711190431",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "XPS infill & shimming under yielding floor zones."
+    },
+    {
+      "id": "item:fxa_jigsaw_blades_metal",
+      "node_type": "shopping_item",
+      "name": "FXA fine metal jigsaw blades, 1–3 mm sheet (3-pack)",
+      "status": "planned",
+      "sku": "6438313743781",
+      "supplier": "K-Rauta",
+      "qty": "1 pack",
+      "url": "https://www.k-rauta.fi/tuote/pistosahantera-fxa-metalli-ja-muovi-n-1-3mm-76mm-tpi-21-3kpl/6438313743781",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Sheet-metal roof cutouts."
+    },
+    {
+      "id": "item:jeremias_dw1076080",
+      "node_type": "shopping_item",
+      "name": "Jeremias DW-FU rain cap / terminal DW1076080 (DN80)",
+      "status": "ordered",
+      "sku": "DW1076080",
+      "supplier": "Feuerdepot",
+      "qty": "1 pc",
+      "url": "https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-regenhaube-mit-muendungsabschluss-doppelwandig-dw-fu/?number=DW1076080",
+      "ordered_date": "2026-10-21",
+      "doc_path": null,
+      "notes": "Integrated terminal hood."
+    },
+    {
+      "id": "item:jeremias_dw13080",
+      "node_type": "shopping_item",
+      "name": "Jeremias DW-FU 1000 mm insulated pipe DW13080 (DN80)",
+      "status": "ordered",
+      "sku": "DW13080",
+      "supplier": "Feuerdepot",
+      "qty": "1 pc",
+      "url": "https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-laengenelement-1000-mm-doppelwandig-dw-fu/?number=DW13080",
+      "ordered_date": "2026-10-21",
+      "doc_path": null,
+      "notes": "940 mm effective installed length."
+    },
+    {
+      "id": "item:jeremias_dw37f080",
+      "node_type": "shopping_item",
+      "name": "Jeremias DW-FU adapter DW37F080 (DN80)",
+      "status": "ordered",
+      "sku": "DW37F080",
+      "supplier": "Feuerdepot",
+      "qty": "1 pc",
+      "url": "https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-uebergang-ferro-lux-dw-fu-jeremias-dw-fu/?number=DW37F080",
+      "ordered_date": "2026-10-21",
+      "doc_path": null,
+      "notes": "Single-to-twin-wall transition."
+    },
+    {
+      "id": "item:korvausilma_collar_mesh_vent",
+      "node_type": "shopping_item",
+      "name": "Through-floor collar, stainless rodent mesh & closeable interior damper",
+      "status": "tbd",
+      "sku": null,
+      "supplier": "TBD (measure hole first)",
+      "qty": "1 set",
+      "url": null,
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Measure existing floor hole diameter before selecting."
+    },
+    {
+      "id": "item:master_flash_sq402ra",
+      "node_type": "shopping_item",
+      "name": "Master Flash Standard #4 red silicone roof boot (SQ402RA)",
+      "status": "ordered",
+      "sku": "97737833",
+      "supplier": "Hobby Hall",
+      "qty": "1 boot",
+      "url": "https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97737833",
+      "ordered_date": "2026-10-21",
+      "doc_path": null,
+      "notes": "High-temp silicone roof flashing boot."
+    },
+    {
+      "id": "item:metal_files_ipa",
+      "node_type": "shopping_item",
+      "name": "Metal files & isopropyl alcohol (IPA)",
+      "status": "owned",
+      "sku": null,
+      "supplier": "Existing tools",
+      "qty": "Owned",
+      "url": null,
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Used for deburring and degreasing."
+    },
+    {
+      "id": "item:nmc_ccf_6mm",
+      "node_type": "shopping_item",
+      "name": "NMC self-adhesive CCF insulation, 6 mm",
+      "status": "planned",
+      "sku": null,
+      "supplier": "Puuilo",
+      "qty": "As needed",
+      "url": "https://www.puuilo.fi/nmc-solukumieriste-liimalla-6mm-x-1m-x-1m",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Rib valley levelling & internal wheel arches."
+    },
+    {
+      "id": "item:pine_battens_33x33",
+      "node_type": "shopping_item",
+      "name": "Planed pine battens, Cello 33 x 33 x 2400 mm",
+      "status": "planned",
+      "sku": "6420611090315",
+      "supplier": "K-Rauta",
+      "qty": "As needed",
+      "url": "https://www.k-rauta.fi/tuote/hoylatty-cello-33x33x2400-us-1-3-manty/6420611090315",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Floor support grid."
+    },
+    {
+      "id": "item:planar_44d_kit",
+      "node_type": "shopping_item",
+      "name": "Planar 44D-12-GP-P heater, retained gasket, fuel pump/line & exhaust",
+      "status": "owned",
+      "sku": null,
+      "supplier": "Existing van",
+      "qty": "1 set",
+      "url": null,
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Removed during underside cleaning; relocating to step well."
+    },
+    {
+      "id": "item:rostex_super_akva",
+      "node_type": "shopping_item",
+      "name": "Tikkurila Rostex Super Akva primer, light grey, 0.3 l",
+      "status": "ordered",
+      "sku": "rostex-super-akva-0.3l",
+      "supplier": "Pintavari",
+      "qty": "1 tin (0.3 l)",
+      "url": "https://pintavari.fi/products/rostex-super-akva-v-harm-0-3l",
+      "ordered_date": "2026-10-26",
+      "doc_path": null,
+      "notes": "Shared brush-on anti-corrosion primer for bare steel."
+    },
+    {
+      "id": "item:rv_butyl_tape",
+      "node_type": "shopping_item",
+      "name": "RV butyl bedding tape (~25–30 mm x 3 mm)",
+      "status": "planned",
+      "sku": null,
+      "supplier": "RV / Marine supplier",
+      "qty": "2 rolls",
+      "url": null,
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Level roof rib valleys and bed MaxxFan flange."
+    },
+    {
+      "id": "item:rv_roof_lap_sealant",
+      "node_type": "shopping_item",
+      "name": "UV-resistant RV roof lap sealant",
+      "status": "planned",
+      "sku": null,
+      "supplier": "RV / Marine supplier",
+      "qty": "1–2 cartridges",
+      "url": null,
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Perimeter and screw-head sealing on MaxxFan flange."
+    },
+    {
+      "id": "item:sandpaper_p240",
+      "node_type": "shopping_item",
+      "name": "Bosser hioma-arkki P240",
+      "status": "ordered",
+      "sku": "10167359",
+      "supplier": "Puuilo",
+      "qty": "5 sheets",
+      "url": "https://www.puuilo.fi/bosser-hioma-arkki-p240",
+      "ordered_date": "2026-10-26",
+      "doc_path": null,
+      "notes": "Smooth filed edges & feather paint; replaces Mirka P240."
+    },
+    {
+      "id": "item:screws_rst_4_5x50",
+      "node_type": "shopping_item",
+      "name": "Wurth terassi-/lauderuuvi RST AISI410 4,5x50mm 250kpl",
+      "status": "ordered",
+      "sku": "10075605",
+      "supplier": "Puuilo",
+      "qty": "1 box (250 pcs)",
+      "url": "https://www.puuilo.fi/wurth-terassi-lauderuuvi-rst-aisi410-4-5x50mm-250kpl",
+      "ordered_date": "2026-10-26",
+      "doc_path": null,
+      "notes": "Stainless screws for subfloor-to-batten and timber frame fixing."
+    },
+    {
+      "id": "item:sikaflex_118_grab",
+      "node_type": "shopping_item",
+      "name": "Sikaflex-118 Extreme Grab, 290 ml",
+      "status": "planned",
+      "sku": null,
+      "supplier": "Puuilo",
+      "qty": "As needed",
+      "url": "https://www.puuilo.fi/sikaflex-asennusliima-118-extreme-grab-290ml",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Bonding floor battens to prepared steel."
+    },
+    {
+      "id": "item:sikaflex_11fc",
+      "node_type": "shopping_item",
+      "name": "Sikaflex-11 FC Purform sealant, 300 ml",
+      "status": "candidate",
+      "sku": null,
+      "supplier": "Puuilo",
+      "qty": "1 cartridge",
+      "url": "https://www.puuilo.fi/sikaflex-liima-ja-saumausmassa-11fc-purform-valkoinen-300ml",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Weather sealing floor penetrations."
+    },
+    {
+      "id": "item:spray_adhesive_crc",
+      "node_type": "shopping_item",
+      "name": "CRC Power Stick sprayliima 500ml",
+      "status": "ordered",
+      "sku": "10166294",
+      "supplier": "Puuilo",
+      "qty": "1 can (500 ml)",
+      "url": "https://www.puuilo.fi/crc-power-stick-sprayliima-500ml",
+      "ordered_date": "2026-10-26",
+      "doc_path": null,
+      "notes": "Spray contact adhesive for insulation / foam bonding."
+    },
+    {
+      "id": "item:step_drill_6_30",
+      "node_type": "shopping_item",
+      "name": "Kramfors askelpora HSS 6–30 mm",
+      "status": "ordered",
+      "sku": "10129724",
+      "supplier": "Puuilo",
+      "qty": "1 pc",
+      "url": "https://www.puuilo.fi/kramfors-askelpora-hss-6-30",
+      "ordered_date": "2026-10-26",
+      "doc_path": null,
+      "notes": "Replaces Bosch 6–30 mm and Wolfcraft 4–10 mm step drill candidates."
+    },
+    {
+      "id": "item:stove_remaining_fitout",
+      "node_type": "shopping_item",
+      "name": "Wood stove hearth, heat shields, chimney brackets, high-temp boot sealant & CO/smoke alarms",
+      "status": "tbd",
+      "sku": "WS-09..WS-22",
+      "supplier": "TBD",
+      "qty": "See WS shopping list",
+      "url": null,
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Finalise after dry-fitting delivered stove & chimney parts."
+    },
+    {
+      "id": "item:unica_akva_maali",
+      "node_type": "shopping_item",
+      "name": "Tikkurila Unica Akva Maali A topcoat, white, 0.225 l",
+      "status": "ordered",
+      "sku": "unica-akva-a-0.225l",
+      "supplier": "Pintavari",
+      "qty": "1 tin (0.225 l)",
+      "url": "https://pintavari.fi/products/unica-akva-a-0-225l",
+      "ordered_date": "2026-10-26",
+      "doc_path": null,
+      "notes": "Shared brush-on water-borne topcoat over Rostex Super Akva."
+    },
+    {
+      "id": "wp:diesel_heater",
+      "node_type": "work_package",
+      "name": "Diesel heater (Planar 44D relocation)",
+      "status": "active",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/diesel_heater/index.md",
+      "notes": "Relocating Planar 44D into sliding-door step well."
+    },
+    {
+      "id": "wp:floor_levelling",
+      "node_type": "work_package",
+      "name": "Floor levelling & XPS support",
+      "status": "active",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/floor/levelling.md",
+      "notes": "Eliminate soft/yielding spots under plywood subfloor."
+    },
+    {
+      "id": "wp:floor_replacement_air",
+      "node_type": "work_package",
+      "name": "Replacement-air inlet (korvausilma / räppänä)",
+      "status": "active",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/floor/replacement_air.md",
+      "notes": "Through-floor make-up air intake for wood stove and MaxxFan."
+    },
+    {
+      "id": "wp:floor_rivet_holes",
+      "node_type": "work_package",
+      "name": "Floor rivet-hole sealing",
+      "status": "active",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/floor/rivet_holes.md",
+      "notes": "Bolt + washer + inner-tube rubber seal + CRC Rust Seal."
+    },
+    {
+      "id": "wp:maxxfan",
+      "node_type": "work_package",
+      "name": "Roof fan (MaxxFan Deluxe)",
+      "status": "upcoming",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/maxxfan/index.md",
+      "notes": "400x400 mm roof opening, butyl rib levelling & 12V feed."
+    },
+    {
+      "id": "wp:wood_stove",
+      "node_type": "work_package",
+      "name": "Wood stove (Boutique Traditional + Jeremias DW-FU)",
+      "status": "upcoming",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/index.md",
+      "notes": "Boutique stove + Jeremias DW-FU 80 mm insulated chimney."
+    }
+  ],
+  "edges": [
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:bosch_hss_drill_set_2_10",
+      "role": "required",
+      "notes": "Pilot and flange screw holes."
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:brushes_sokeva_3pc",
+      "role": "required",
+      "notes": "Shared cut-edge primer/topcoat application"
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:centre_punch_pajala",
+      "role": "required",
+      "notes": "Centre-punch step-well holes"
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:cutting_oil_boltoff",
+      "role": "required",
+      "notes": "Step-drilling heater penetrations"
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:metal_files_ipa",
+      "role": "required",
+      "notes": "Deburr & degrease step-well holes"
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:planar_44d_kit",
+      "role": "required",
+      "notes": "Core heater & fuel/exhaust kit"
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:rostex_super_akva",
+      "role": "required",
+      "notes": "Prime step-well cut edges"
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:sandpaper_p240",
+      "role": "required",
+      "notes": "Feather step-well hole edges"
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:step_drill_6_30",
+      "role": "required",
+      "notes": "20–30 mm step-well holes"
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:unica_akva_maali",
+      "role": "required",
+      "notes": "Topcoat step-well cut edges"
+    },
+    {
+      "work_package_id": "wp:floor_levelling",
+      "shopping_item_id": "item:alu_tape_50mm",
+      "role": "required",
+      "notes": "Seal XPS seams"
+    },
+    {
+      "work_package_id": "wp:floor_levelling",
+      "shopping_item_id": "item:finnfoam_xps_30mm",
+      "role": "required",
+      "notes": "Level & support plywood subfloor"
+    },
+    {
+      "work_package_id": "wp:floor_levelling",
+      "shopping_item_id": "item:nmc_ccf_6mm",
+      "role": "required",
+      "notes": "Rib levelling & wheel arches"
+    },
+    {
+      "work_package_id": "wp:floor_levelling",
+      "shopping_item_id": "item:pine_battens_33x33",
+      "role": "required",
+      "notes": "Floor batten grid"
+    },
+    {
+      "work_package_id": "wp:floor_levelling",
+      "shopping_item_id": "item:screws_rst_4_5x50",
+      "role": "required",
+      "notes": "Screw plywood subfloor into 33x33 mm battens"
+    },
+    {
+      "work_package_id": "wp:floor_levelling",
+      "shopping_item_id": "item:sikaflex_118_grab",
+      "role": "required",
+      "notes": "Glue battens to floor steel"
+    },
+    {
+      "work_package_id": "wp:floor_levelling",
+      "shopping_item_id": "item:spray_adhesive_crc",
+      "role": "required",
+      "notes": "Bonding CCF / XPS shims and insulation layers"
+    },
+    {
+      "work_package_id": "wp:floor_replacement_air",
+      "shopping_item_id": "item:brushes_sokeva_3pc",
+      "role": "required",
+      "notes": "Cut-edge coating"
+    },
+    {
+      "work_package_id": "wp:floor_replacement_air",
+      "shopping_item_id": "item:korvausilma_collar_mesh_vent",
+      "role": "required",
+      "notes": "Make-up air inlet hardware"
+    },
+    {
+      "work_package_id": "wp:floor_replacement_air",
+      "shopping_item_id": "item:rostex_super_akva",
+      "role": "required",
+      "notes": "Prime air-inlet cut edge"
+    },
+    {
+      "work_package_id": "wp:floor_replacement_air",
+      "shopping_item_id": "item:sikaflex_11fc",
+      "role": "required",
+      "notes": "Seal through-floor air collar"
+    },
+    {
+      "work_package_id": "wp:floor_replacement_air",
+      "shopping_item_id": "item:step_drill_6_30",
+      "role": "shared_tool",
+      "notes": "Pilot/collar hole work"
+    },
+    {
+      "work_package_id": "wp:floor_replacement_air",
+      "shopping_item_id": "item:unica_akva_maali",
+      "role": "required",
+      "notes": "Topcoat air-inlet edge"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:aisi316_m10_fasteners",
+      "role": "required",
+      "notes": "Enlarged hole bolt stacks"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:aisi316_m6_fasteners",
+      "role": "required",
+      "notes": "Standard hole bolt stacks"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:bike_tube_seals",
+      "role": "required",
+      "notes": "Inner & outer rubber seals"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:brass_cup_brush",
+      "role": "required",
+      "notes": "Brush loose rust"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:brushes_sokeva_3pc",
+      "role": "required",
+      "notes": "CRC Rust Seal / primer brush application"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:centre_punch_pajala",
+      "role": "shared_tool",
+      "notes": "Mark floor holes"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:crc_rust_seal",
+      "role": "required",
+      "notes": "Rust converter on rivet holes"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:cutting_oil_boltoff",
+      "role": "shared_tool",
+      "notes": "Drilling enlarged floor holes"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:metal_files_ipa",
+      "role": "required",
+      "notes": "Clean around rivet holes"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:rostex_super_akva",
+      "role": "required",
+      "notes": "Prime fresh bare-steel hole edges"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:sandpaper_p240",
+      "role": "required",
+      "notes": "Prep around rivet holes"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:sikaflex_11fc",
+      "role": "optional",
+      "notes": "Supplemental sealing if needed"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:step_drill_6_30",
+      "role": "required",
+      "notes": "Enlarging/cleaning M6/M10 floor holes"
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:unica_akva_maali",
+      "role": "required",
+      "notes": "Topcoat primed hole edges"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:bosch_hss_drill_set_2_10",
+      "role": "required",
+      "notes": "Pilot and flange screw holes."
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:brushes_sokeva_3pc",
+      "role": "required",
+      "notes": "Roof cutout edge coating"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:centre_punch_pajala",
+      "role": "required",
+      "notes": "Mark roof corner & flange holes"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:cutting_oil_boltoff",
+      "role": "required",
+      "notes": "Drilling & jigsawing 400x400 roof opening"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:fxa_jigsaw_blades_metal",
+      "role": "required",
+      "notes": "Cut 400x400 mm roof opening"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:metal_files_ipa",
+      "role": "required",
+      "notes": "Deburr & degrease roof opening"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:rostex_super_akva",
+      "role": "required",
+      "notes": "Prime 400x400 roof cutout edge"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:rv_butyl_tape",
+      "role": "required",
+      "notes": "Bedding flange & rib levelling"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:rv_roof_lap_sealant",
+      "role": "required",
+      "notes": "Seal flange perimeter & screw heads"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:sandpaper_p240",
+      "role": "required",
+      "notes": "Feather roof cutout paint edge"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:screws_rst_4_5x50",
+      "role": "shared_material",
+      "notes": "Interior timber support frame fastening"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:step_drill_6_30",
+      "role": "shared_tool",
+      "notes": "Corner/cable holes"
+    },
+    {
+      "work_package_id": "wp:maxxfan",
+      "shopping_item_id": "item:unica_akva_maali",
+      "role": "required",
+      "notes": "Topcoat roof cutout edge"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:boutique_stove",
+      "role": "required",
+      "notes": "Primary wood stove"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:brushes_sokeva_3pc",
+      "role": "required",
+      "notes": "Roof penetration cut-edge coating"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:centre_punch_pajala",
+      "role": "shared_tool",
+      "notes": "Mark roof boot & bracket holes"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:cutting_oil_boltoff",
+      "role": "required",
+      "notes": "Drilling & cutting chimney roof opening"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:fxa_jigsaw_blades_metal",
+      "role": "shared_tool",
+      "notes": "Cut circular roof opening"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:jeremias_dw1076080",
+      "role": "required",
+      "notes": "Chimney terminal"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:jeremias_dw13080",
+      "role": "required",
+      "notes": "Insulated chimney section"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:jeremias_dw37f080",
+      "role": "required",
+      "notes": "Flue transition"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:master_flash_sq402ra",
+      "role": "required",
+      "notes": "Exterior roof weather seal"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:metal_files_ipa",
+      "role": "required",
+      "notes": "Deburr & degrease chimney opening"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:rostex_super_akva",
+      "role": "required",
+      "notes": "Prime cold roof-cutout edge if within temp limits"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:sandpaper_p240",
+      "role": "required",
+      "notes": "Feather chimney cutout paint edge"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:step_drill_6_30",
+      "role": "shared_tool",
+      "notes": "Roof/bracket penetrations"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_remaining_fitout",
+      "role": "required",
+      "notes": "See docs/blog/wood_stove/shopping_list_boutique.md"
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:unica_akva_maali",
+      "role": "required",
+      "notes": "Topcoat cold roof-cutout edge"
+    }
+  ]
+}
