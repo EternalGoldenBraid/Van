@@ -18,14 +18,17 @@
 - Aim for individual penetrations for fuel, combustion air and exhaust rather
   than the old large mounting-plate opening.
 - Used a hand-cut cardboard template, checked against the heater and adjusted
-  to fit the step riser. Marked the holes with a centre punch and drilled using
-  a step drill.
+  to fit the step riser. Marked the holes with the Pajala automatic centre
+  punch (`10166529`) and drilled using the Kramfors 6–30 mm HSS step drill
+  (`10129724`) and Bolt-Off cutting oil (`10007400`) ordered on 2026-10-26.
 - **28 October:** The two large combustion-air/exhaust openings and the small
   holes are visible in the finished step riser. The fuel opening was approached
   conservatively with a trial fit rather than enlarging it blindly.
-- Applied rust-preventive metal paint to the cut edges from inside the van.
-  Underside edge treatment and local removal of unknown underbody coating
-  around the hot exhaust route were still planned at this stage.
+- Deburred with the existing files and applied the
+  [shared primer/topcoat kit](#shared-coatings-and-preparation) to the cut
+  edges from inside the van. Underside edge treatment and local removal of
+  unknown underbody coating around the hot exhaust route were still planned at
+  this stage.
 - Photos taken: front view of the new hole pattern, underside view showing
   their emergence through the coated metal, and the cardboard template with
   the corrugated exhaust passing through it. **Photos not yet copied into

@@ -6,11 +6,13 @@ travelling.
 
 ## K-Rauta Pälkäne Items
 
-The shared Rostex Super Akva primer and white Unica Akva Maali topcoat were
-ordered on 2026-10-26. Brushes, P240 paper and preparation wash are listed in
-the heater's
-[shared coating kit](../diesel_heater/index.md#shared-coatings-and-preparation).
-Reuse the same paints here; do not order another set.
+The shared Rostex Super Akva primer and white Unica Akva Maali topcoat
+(Pintavari), plus the Sokeva Tomera brush set (`10155894`), Bosser P240 sanding
+sheets (`10167359`), Pajala automatic centre punch (`10166529`), Kramfors
+6–30 mm step drill (`10129724`) and Bolt-Off cutting oil (`10007400`) (Puuilo)
+were **ordered on 2026-10-26** — see the heater's
+[shared coating & drilling kit](../diesel_heater/index.md#shared-coatings-and-preparation).
+Reuse the same kit here; do not order another set.
 
 | Item | Qty | Use / Notes | Source |
 | --- | --- | --- | --- |
@@ -35,7 +37,7 @@ Reuse the same paints here; do not order another set.
 
 - [ ] MaxxFan Deluxe unit, receiving flange, interior garnish, supplied screws and template
 - [ ] Drill/driver, jigsaw, hand screwdriver (for final even flange tightening)
-- [ ] Tape measure, square, marker and centre punch
+- [ ] Tape measure, square, marker and centre punch (Pajala `10166529` **ordered 2026-10-26**)
 - [ ] Plastic sheet/cardboard, tape and vacuum for catching metal swarf inside the van
 - [ ] Wire stripper, ratchet crimper, heat gun and multimeter
 - [ ] Stable roof access platform, gloves and hearing protection

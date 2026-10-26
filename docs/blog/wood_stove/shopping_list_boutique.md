@@ -78,7 +78,7 @@ unless stated. Resolve the selection input before putting a row into a bulk orde
 | WS-14 | Attachment bolts, washers, nuts and screws | TBD by size | Select, price and obtain | WS-12/13 design; excludes boot fixings counted in WS-11 |
 | WS-15 | Hearth/platform materials | TBD area/pieces | Design, price and obtain | Measured layout and selected construction |
 | WS-16 | Wall/ceiling shields and roof-passage protection | TBD area/pieces | Design, price and obtain | Specified passage, airspaces and shield construction |
-| WS-17 | Cut-edge coating and preparation consumables | TBD | Check owned stock; select any missing items | Chosen coating process; share with other metalwork packages |
+| WS-17 | Cut-edge coating and preparation consumables | Shared kit | Rostex Super Akva + Unica Akva (Pintavari) & Sokeva brushes `10155894` + Bosser P240 `10167359` (Puuilo) **ordered 2026-10-26**; `Tikkurila Panssaripesu` still to buy | [Shared heater/fan coating kit](../diesel_heater/index.md#shared-coatings-and-preparation) |
 | WS-18 | CO alarm, smoke alarm and suitable extinguisher | TBD | Check ownership, then obtain missing items | Selected equipment and mounting locations |
 | WS-19 | Stove/flue thermometer | TBD | Not ordered | Compatible type and measuring location |
 | WS-20 | 80 mm stainless-flue-compatible brush and rods | TBD | Not ordered | Actual cleaning route and reach |
@@ -97,8 +97,8 @@ All quantities, ownership and purchase costs remain to be checked.
 
 | Item ID | Tool group | Required qty | Status / next check |
 | --- | --- | --- | --- |
-| WS-T01 | Tape measure, square/level, markers and templates | TBD | Inventory available tools |
-| WS-T02 | Suitable sheet-metal cutter, drill/bits and deburring tools | TBD | Choose against the actual cut and fixings |
+| WS-T01 | Tape measure, square/level, markers and templates | TBD | Pajala automatic centre punch (`10166529`) **ordered 2026-10-26**; inventory remaining tools |
+| WS-T02 | Suitable sheet-metal cutter, drill/bits and deburring tools | TBD | Kramfors 6–30 mm step drill (`10129724`) & Bolt-Off cutting oil (`10007400`) **ordered 2026-10-26**; files owned; choose sheet-metal cutter for roof opening |
 | WS-T03 | Swarf collection, masking and nearby-surface protection | TBD | Inventory shared metalwork kit |
 | WS-T04 | Sealant applicator and preparation supplies | TBD | Check against selected products |
 | WS-T05 | Clamps and matching fastening hand tools | TBD | Check against support/restraint design |
