@@ -8,8 +8,9 @@ Stock figures below are K-Rauta Palkane availability checked on 15 September
 ## Buy From K-Rauta Palkane
 
 - [Shared coating and preparation kit](diesel_heater/shopping_list.md#shared-coatings-and-preparation)
-  - Buy once for the heater and roof fan: Rostex Super Akva primer, Panssari
-    Akva topcoat in RAL 9010, brushes, P240 paper and Panssaripesu.
+  - Rostex Super Akva primer and white Unica Akva Maali topcoat were ordered
+    on 2026-10-26; reuse them here. Brushes, P240 paper and Panssaripesu are
+    listed in the shared kit.
   - Use: protect cut edges and drilled holes.
 - [FXA fine metal jigsaw blades, 1-3 mm sheet, 3-pack](https://www.k-rauta.fi/tuote/pistosahantera-fxa-metalli-ja-muovi-n-1-3mm-76mm-tpi-21-3kpl/6438313743781)
   - Buy: 1 pack

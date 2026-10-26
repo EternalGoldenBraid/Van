@@ -30,7 +30,7 @@
 3. **Protect bare steel edges**
    - Clean the cut edge and drilled holes with isopropyl alcohol.
    - Brush-coat every bare metal edge and hole with the
-     [shared Rostex Super Akva / Panssari Akva kit](../diesel_heater/index.md#shared-coatings-and-preparation)
+     [shared Rostex Super Akva / Unica Akva Maali kit](../diesel_heater/index.md#shared-coatings-and-preparation)
      and allow it to cure before bedding the flange.
 4. **Bed and seal the receiving flange (butyl levelling method)**
    - Dry-fit the receiving flange over the opening.

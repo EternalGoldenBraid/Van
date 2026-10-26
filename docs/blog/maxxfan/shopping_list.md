@@ -6,10 +6,11 @@ travelling.
 
 ## K-Rauta Pälkäne Items
 
-The primer, RAL 9010 topcoat, brushes, P240 paper and preparation wash are
-already listed in the heater's
+The shared Rostex Super Akva primer and white Unica Akva Maali topcoat were
+ordered on 2026-10-26. Brushes, P240 paper and preparation wash are listed in
+the heater's
 [shared coating kit](../diesel_heater/index.md#shared-coatings-and-preparation).
-Buy that kit once and reuse it here.
+Reuse the same paints here; do not order another set.
 
 | Item | Qty | Use / Notes | Source |
 | --- | --- | --- | --- |

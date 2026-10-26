@@ -1,8 +1,8 @@
 # Diesel heater — shopping list
 
-**Next stop:** K-Rauta Pälkäne. For the heater relocation, buy the drilling and
-coating supplies below and reuse the listed installation parts. All purchases
-are **planned, not ordered**; local stock and tinting availability are unconfirmed.
+**Next stop:** K-Rauta Pälkäne for the remaining drilling and preparation supplies.
+The shared primer and topcoat were **ordered on 2026-10-26** from Pintavari.
+Other purchases below remain unconfirmed; reuse the listed installation parts.
 
 ## Marking And Drilling
 
@@ -13,22 +13,18 @@ are **planned, not ordered**; local stock and tinting availability are unconfirm
 
 ## Shared Coatings And Preparation
 
-Buy this kit **once** for the heater and MaxxFan cut edges; reuse for other
-prepared bare-steel edges. These quantities are the shared purchase, not an
-additional set per work package.
+Use this kit for the heater and MaxxFan cut edges and other prepared bare-steel
+edges. The ordered paints are shared; do not buy an additional set per work package.
 
-| Buy | Qty | Selection |
+| Item | Qty | Status / Selection |
 | --- | --- | --- |
-| [Rostex Super Akva, light-grey primer, 1/3 l](https://www.k-rauta.fi/tuote/rostex-super-akva-ruosteenestopohjamaali-vaaleanharmaa/54058886/6408070053133) | 1 tin | Brush-on primer for prepared steel and galvanised steel. EAN **6408070053133**; do not select the 3 l variant. |
-| [Panssari Akva A, 0.9 l](https://www.k-rauta.fi/tuote/panssari-akva-peltikattomaali/47525140/6408070050583) | 1 tin | Brush-on, water-based topcoat. Request **RAL 9010** tint; confirm the shop's formula. EAN **6408070050583**. |
+| [Rostex Super Akva, light-grey primer, 0.3 l](https://pintavari.fi/products/rostex-super-akva-v-harm-0-3l) | 1 tin | **Ordered 2026-10-26.** Brush-on primer for prepared steel and galvanised steel. |
+| [Unica Akva Maali A, 0.225 l](https://pintavari.fi/products/unica-akva-a-0-225l) | 1 tin | **Ordered 2026-10-26.** Brush-on, water-based topcoat; untinted white A-base. |
 | [FXA brush set, 25/35/70 mm](https://www.k-rauta.fi/tuote/sivellinsarja-fxa-253570mm-yleissiveltimet-sisakayttoon/6405422547999) | 1 set | Small brushes for the primer and topcoat. |
 | [Mirka Gold Proflex P240, 230 × 280 mm](https://www.k-rauta.fi/tuote/hiomapaperi-mirka-gold-proflex-230x280mm-p240/6416868509922) | 2 sheets | Smooth filed edges and feather the adjacent sound paint. |
 | [Tikkurila Panssaripesu, 1 l](https://www.k-rauta.fi/tuote/panssaripesu-tikkurila-peltikaton-pesuneste/47525152/6408070052051) | 1 bottle | Manufacturer-specified preparation wash; rinse and dry before coating. EAN **6408070052051**. |
 
-**Before ordering the paint:** K-Rauta marks Panssari Akva as outgoing stock.
-Confirm the 0.9 l tin and RAL 9010 tint are available; Panssari Roof is a
-different product, not an automatic substitution. RAL 9010 matches the recorded
-Maston 223 colour choice, not a verified Transit factory paint code.
+The ordered white is not a verified match to RAL 9010 or the Transit factory paint.
 
 ## Already available / not buying for this work package
 
@@ -46,14 +42,13 @@ Maston 223 colour choice, not a verified Transit factory paint code.
 ## Coating Notes
 
 [Tikkurila specifies Rostex Super Akva](https://tikkurila.fi/sites/default/files/pim/documents/Rostex_Super_Akva_FI_PDS_Tikkurila_0.pdf)
-under [Panssari Akva](https://tikkurila.fi/sites/default/files/pim/documents/Panssari_Akva_FI_PDS_Tikkurila_0.pdf). For bare steel,
-the topcoat instructions specify two primer coats followed by 1–2 topcoats.
+under [Unica Akva Maali](https://tikkurila.fi/sites/default/files/pim/documents/Unica_Akva_Maali_FI_PDS_Tikkurila.pdf).
 Primer application requires at least +3 °C; topcoating and drying require
 air, surface and paint above +5 °C. Both require a dry surface warmer than the
 air and relative humidity below 80%.
 
 Allow at least four hours before overcoating the primer at +10 °C or warmer;
-otherwise wait until the next day. Panssari Akva recoating time is 24 hours.
+otherwise wait until the next day. Recoat Unica Akva the following day.
 Roof-sealant compatibility remains to be confirmed when the sealant is selected.
 
 ## Bring Before Starting
