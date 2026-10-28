@@ -1,6 +1,6 @@
 # Diesel Heater — Planar 44D Relocation
 
-**Status (2026-10-25):** Installation in progress.
+**Status (2026-10-28):** Step-well holes drilled; cut edges being protected. Heater not yet mounted.
 
 ## Setup
 
@@ -17,10 +17,19 @@
   diagram before marking the holes.
 - Aim for individual penetrations for fuel, combustion air and exhaust rather
   than the old large mounting-plate opening.
-- Mark from the heater/template, then check underside access and drill.
-- The reported holes are between 20 and 30 mm; a Bosch 6–30 mm step drill is
-  selected, not purchased. Deburr with the existing files and coat the cut
-  edges using the [shared primer/topcoat kit](#shared-coatings-and-preparation).
+- Used a hand-cut cardboard template, checked against the heater and adjusted
+  to fit the step riser. Marked the holes with a centre punch and drilled using
+  a step drill.
+- **28 October:** The two large combustion-air/exhaust openings and the small
+  holes are visible in the finished step riser. The fuel opening was approached
+  conservatively with a trial fit rather than enlarging it blindly.
+- Applied rust-preventive metal paint to the cut edges from inside the van.
+  Underside edge treatment and local removal of unknown underbody coating
+  around the hot exhaust route were still planned at this stage.
+- Photos taken: front view of the new hole pattern, underside view showing
+  their emergence through the coated metal, and the cardboard template with
+  the corrugated exhaust passing through it. **Photos not yet copied into
+  this repository.**
 
 ```{figure} images/installation_02.jpg
 :name: fig-diesel-heater-step-well
@@ -47,8 +56,12 @@ Fan/intake end clearance in the sliding-door step well.
 - Trial-fitted metal joining tube: ~22 mm ID, ~1 mm wall. Nominal OD would be
   24 mm; **measure actual OD** (23 mm was suggested in the review).
   Material/coating unknown.
-- Final exhaust joint, clamps and mounting holes still to be completed and
-  inspected.
+- Final exhaust joint and clamps still to be completed and inspected.
+- The upper mounting points fall beyond the available flat step-riser area.
+  Two lower mounting holes are accessible; additional secure support/bracketing
+  remains unresolved. Do not operate the heater relying on two bolts alone.
+- Considering a 45 cm Autoterm 909 exhaust heat-insulation sleeve near the
+  step penetration; no purchase or installation confirmed.
 
 ```{figure} images/installation_06.jpg
 :name: fig-diesel-heater-gasket
@@ -85,7 +98,10 @@ well.
 ## Next Actions
 
 - [ ] Confirm mounting orientation.
-- [ ] Mark and drill floor holes.
+- [x] Mark and drill the step-riser holes (2026-10-28).
+- [ ] Test-fit all spigots and verify hole clearance and gasket contact.
+- [ ] Protect underside cut edges and remove heat-sensitive underbody coating near exhaust.
+- [ ] Arrange secure mounting support and heat protection at the exhaust penetration.
 - [ ] Complete heater mounting and fuel / air / exhaust connections.
 - [ ] Have the installed exhaust joint checked at inspection.
 - [ ] Add final mounted and underside photos.
