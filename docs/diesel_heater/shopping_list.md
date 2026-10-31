@@ -26,6 +26,12 @@ edges. The ordered paints are shared; do not buy an additional set per work pack
 
 The ordered white is not a verified match to RAL 9010 or the Transit factory paint.
 
+## Handy Tools — Future Purchase
+
+| Item | Qty | Use / Status |
+| --- | --- | --- |
+| **Flush cutters / precision side cutters (tasakatkaisupihdit)** | 1 | **Buy later.** Handy for trimming cable ties flush during heater wiring and other van electrical work. Photo reference: small angled flush cutters marked for copper wire up to 1 mm diameter; choose a sturdier model if also cutting larger ties. |
+
 ## Already available / not buying for this work package
 
 - Existing metal files: use these for deburring; no separate deburring tool.
