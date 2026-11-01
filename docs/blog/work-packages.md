@@ -36,7 +36,8 @@ each package as the work develops.
 ## Later
 
 - **Cab bulkhead:** remove the partition between the cab and cargo area.
-- **Seat swivels:** select and install swivel bases.
+- **[Front seat swivels — VAN-46](seats/front_swivels.md):** replace passenger bench with a single seat, fit both swivel bases and lower the driver handbrake.
+- **[Cargo-area passenger seats — VAN-47](seats/rear_passenger_seats.md):** investigate one or two approved travel seats; inspection, taxation and layout feasibility must be resolved first.
 - **House electrics:** wiring, cable sizing and installation.
 
 More detailed instructions and links to Linear can be added later.
