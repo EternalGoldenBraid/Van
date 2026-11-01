@@ -14,7 +14,11 @@ Resume author session:
 - Pump-cable solder-seal connectors (tinallinen kutistejatkoliitin):
   two joints if cut once; match conductor size, not just connector colour.
 - Heater exhaust sleeve OR wrap; metal ties if choosing wrap.
-- Check heat gun, wire stripper and CO alarm are available before use.
+- CO alarm (häkävaroitin), suitable for campervan use / EN 50291-2;
+  not a CO2 monitor.
+- Heat gun (kuumailmapuhallin): not owned; cordless Makita candidate below.
+- Automatic wire stripper (automaattiset kuorintapihdit), 0.2-6 mm2,
+  for pump repair and later small-cable electrical work; not owned.
 - Flush cutters (tasakatkaisupihdit): useful later, not today's blocker.
 
 Stove installation: Wednesday at earliest; roof/stove purchases can wait.
@@ -65,6 +69,14 @@ Buy:
   pump cable: two joints if cut once. Photos identify harness 2061 with
   red/black wires, but not conductor size. [Puuilo assortment][connectors]
   found; check included small-wire sizes and local stock before selecting.
+
+Heat gun choice: [Makita DHG181][heat-gun], 18V LXT, adjustable 150-550 C,
+70/110 l/min; manufacturer quotes up to 22 min at maximum settings with
+a 6.0 Ah battery. Confirm existing battery label before buying tool-only;
+Makita CXT/XGT are different systems. Corded adjustable heat is the cheaper
+option with mains available. Prefer adjustable heat over fixed 550 C.
+Connector pack instructions determine heat/application; do not assume 550 C.
+Wire stripper's 0.2-6 mm2 range does not cover large battery cables.
 
 Resolve before operation: secure mounting support/brackets; two lower bolts
 alone are not a completed mounting. Verify existing exhaust joiner/clamps
@@ -225,3 +237,4 @@ Next:
 [boot-profile]: https://www.lethfast.ca/products/mf_std_redsilicone
 [damper-rule]: https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2017/745
 [roof-blades]: https://www.k-rauta.fi/tuote/pistosahantera-fxa-metalli-ja-muovi-n-1-3mm-76mm-tpi-21-3kpl/6438313743781
+[heat-gun]: https://www.makita.fi/fi/product/dhg181
