@@ -12,9 +12,20 @@
   const GH_PATH = "docs/blog/_static/shopping_graph.json";
   const GH_TOKEN_KEY = "van_shopping_graph_gh_token";
 
+  function getSiteRootPrefix() {
+    const scriptEl = document.querySelector('script[src*="shopping-graph.js"]');
+    if (scriptEl) {
+      const src = scriptEl.getAttribute("src") || "";
+      const idx = src.indexOf("_static/shopping-graph.js");
+      if (idx >= 0) return src.slice(0, idx);
+    }
+    return "";
+  }
+
   function docHref(docPath) {
     if (!docPath) return null;
-    return docPath.replace(/^docs\/blog\//, "").replace(/\.md$/, ".html");
+    const rel = docPath.replace(/^docs\/blog\//, "").replace(/\.md$/, ".html");
+    return getSiteRootPrefix() + rel;
   }
 
   function slugify(str) {
@@ -40,7 +51,9 @@
   }
 
   async function initShoppingGraph(root) {
-    const jsonUrl = root.dataset.graphUrl || "_static/shopping_graph.json";
+    const fixedWp = root.dataset.workPackage || null;
+    const sitePrefix = getSiteRootPrefix();
+    const jsonUrl = root.dataset.graphUrl || `${sitePrefix}_static/shopping_graph.json`;
     let data;
     let localApiAvailable = false;
 
@@ -65,7 +78,7 @@
     }
 
     let state = {
-      wpFilter: "all",
+      wpFilter: fixedWp || "all",
       statusFilter: "all",
       selectedItemId: null,
       saveMsg: localApiAvailable
@@ -162,14 +175,39 @@
       })
       .join("");
 
-    root.innerHTML = `
-      <div class="sg-toolbar">
+    const wpFilterRowHtml = fixedWp
+      ? ""
+      : `
         <div class="sg-filter-row">
           <span class="sg-filter-label">Work package:</span>
           <div class="sg-filters" role="group" aria-label="Filter by work package">
             ${wpButtonsHtml}
           </div>
         </div>
+      `;
+
+    const fullGraphLinkHtml = fixedWp
+      ? `<a class="sg-btn" href="${escapeHtml(sitePrefix + "shopping-graph.html")}">Full graph →</a>`
+      : "";
+
+    const canvasBlockHtml = fixedWp
+      ? `
+        <details class="sg-graph-details">
+          <summary class="sg-add-summary">Show bipartite graph connections</summary>
+          <div class="sg-canvas-wrap">
+            <svg class="sg-svg" role="img" aria-label="Bipartite graph of work packages and shopping items"></svg>
+          </div>
+        </details>
+      `
+      : `
+        <div class="sg-canvas-wrap">
+          <svg class="sg-svg" role="img" aria-label="Bipartite graph of work packages and shopping items"></svg>
+        </div>
+      `;
+
+    root.innerHTML = `
+      <div class="sg-toolbar">
+        ${wpFilterRowHtml}
         <div class="sg-filter-row">
           <span class="sg-filter-label">Status:</span>
           <div class="sg-filters" role="group" aria-label="Filter by status">
@@ -179,6 +217,7 @@
             <button type="button" class="sg-status-pill" data-status="owned">Bought / Owned</button>
           </div>
           <div class="sg-actions-right">
+            ${fullGraphLinkHtml}
             <button type="button" class="sg-btn sg-gh-btn" ${localApiAvailable ? "hidden" : ""}>GitHub Sync</button>
           </div>
         </div>
@@ -215,10 +254,7 @@
         </div>
       </div>
       <div class="sg-item-editor" hidden></div>
-      <div class="sg-canvas-wrap">
-        <svg class="sg-svg" role="img" aria-label="Bipartite graph of work packages and shopping items"></svg>
-      </div>
-      <div class="sg-detail"></div>
+      ${fixedWp ? '<div class="sg-detail"></div>' + canvasBlockHtml : canvasBlockHtml + '<div class="sg-detail"></div>'}
     `;
 
     const svg = root.querySelector(".sg-svg");

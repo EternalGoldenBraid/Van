@@ -408,17 +408,199 @@
       "notes": "Replaces Bosch 6–30 mm and Wolfcraft 4–10 mm step drill candidates."
     },
     {
-      "id": "item:stove_remaining_fitout",
+      "id": "item:stove_alarms_extinguisher",
       "node_type": "shopping_item",
-      "name": "Wood stove hearth, heat shields, chimney brackets, high-temp boot sealant & CO/smoke alarms",
+      "name": "Wood stove: CO alarm, smoke alarm and suitable extinguisher",
       "status": "tbd",
-      "sku": "WS-09..WS-22",
-      "supplier": "TBD",
-      "qty": "See WS shopping list",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
       "url": null,
       "ordered_date": null,
-      "doc_path": null,
-      "notes": "Finalise after dry-fitting delivered stove & chimney parts."
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-18. Check ownership and mounting locations; buy only missing equipment."
+    },
+    {
+      "id": "item:stove_body_wall_shields",
+      "node_type": "shopping_item",
+      "name": "Stove-body wall shields, spacers and fixings",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-16. Cut-to-size shield material, spacers and fixings; construction, airspaces and dimensions pending."
+    },
+    {
+      "id": "item:stove_boot_fixings",
+      "node_type": "shopping_item",
+      "name": "Wood stove: roof boot mechanical fixings",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-11. Select fixing type and count from the boot mounting pattern and vehicle roof."
+    },
+    {
+      "id": "item:stove_boot_sealant",
+      "node_type": "shopping_item",
+      "name": "Wood stove: boot-compatible roof sealant/adhesive",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-09. Select for the Master Flash silicone boot and painted roof, service temperature and application/cure conditions. Product and quantity pending."
+    },
+    {
+      "id": "item:stove_chimney_supports",
+      "node_type": "shopping_item",
+      "name": "Wood stove: chimney clamps/supports and vehicle-side brackets",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-12. Match the 145 mm Jeremias outer shell; mounting gap, load support, backing and attachment layout pending."
+    },
+    {
+      "id": "item:stove_cleaning_brush_rods",
+      "node_type": "shopping_item",
+      "name": "Wood stove: 80 mm stainless-flue-compatible brush and rods",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-20. Select brush and rod reach from the actual cleaning route."
+    },
+    {
+      "id": "item:stove_cold_closure",
+      "node_type": "shopping_item",
+      "name": "Wood stove: cold-stove weather/insulation closure",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-22. Deferred, not selected; depends on final chimney arrangement. For a fully cold stove only."
+    },
+    {
+      "id": "item:stove_flue_wall_shields",
+      "node_type": "shopping_item",
+      "name": "Single-wall flue wall shields, spacers and fixings",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-23. Shield material, spacers and fixings where required by the final flue route; may share a continuous sheet with the stove-body shield."
+    },
+    {
+      "id": "item:stove_gloves_ash_kit",
+      "node_type": "shopping_item",
+      "name": "Wood stove: heat-resistant gloves and ash tools/container",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-21. Check ownership before selecting missing handling and maintenance items."
+    },
+    {
+      "id": "item:stove_hearth",
+      "node_type": "shopping_item",
+      "name": "Wood stove: hearth / floor protection",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-15. Placeholder for thermal protection, ember-catching surface and load-bearing construction. No product, dimensions or quantity selected."
+    },
+    {
+      "id": "item:stove_mounting_fasteners",
+      "node_type": "shopping_item",
+      "name": "Wood stove: support/restraint bolts, washers, nuts and screws",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-14. Sizes and quantities follow chimney-support and stove-restraint design. Excludes separately counted boot fixings."
+    },
+    {
+      "id": "item:stove_other_sealants",
+      "node_type": "shopping_item",
+      "name": "Wood stove: other joint/installation sealants, if specified",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-10. Conditional on the selected assembly instructions; do not duplicate boot sealant."
+    },
+    {
+      "id": "item:stove_restraints",
+      "node_type": "shopping_item",
+      "name": "Wood stove: restraints, backing plates and optional raised stand",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-13. Provisional location near the side door for use from inside and outside under the awning. Height undecided; stand only if raised."
+    },
+    {
+      "id": "item:stove_roof_passage",
+      "node_type": "shopping_item",
+      "name": "Wood stove: roof/ceiling passage protection",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-24. Specify the insulated chimney passage, airspaces and lining protection separately from the exterior silicone weather boot."
+    },
+    {
+      "id": "item:stove_thermometer",
+      "node_type": "shopping_item",
+      "name": "Wood stove: stove/flue thermometer",
+      "status": "tbd",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
+      "notes": "WS-19. Select compatible thermometer type and measuring location."
     },
     {
       "id": "item:unica_akva_maali",
@@ -513,12 +695,6 @@
     }
   ],
   "edges": [
-    {
-      "work_package_id": "wp:diesel_heater",
-      "shopping_item_id": "item:bosch_hss_drill_set_2_10",
-      "role": "required",
-      "notes": "Pilot and flange screw holes."
-    },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:brushes_sokeva_3pc",
@@ -671,6 +847,12 @@
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
+      "shopping_item_id": "item:bosch_hss_drill_set_2_10",
+      "role": "required",
+      "notes": "Pilot and flange screw holes."
+    },
+    {
+      "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:brass_cup_brush",
       "role": "required",
       "notes": "Brush loose rust"
@@ -734,12 +916,6 @@
       "shopping_item_id": "item:unica_akva_maali",
       "role": "required",
       "notes": "Topcoat primed hole edges"
-    },
-    {
-      "work_package_id": "wp:maxxfan",
-      "shopping_item_id": "item:bosch_hss_drill_set_2_10",
-      "role": "required",
-      "notes": "Pilot and flange screw holes."
     },
     {
       "work_package_id": "wp:maxxfan",
@@ -893,9 +1069,93 @@
     },
     {
       "work_package_id": "wp:wood_stove",
-      "shopping_item_id": "item:stove_remaining_fitout",
+      "shopping_item_id": "item:stove_alarms_extinguisher",
       "role": "required",
-      "notes": "See docs/blog/wood_stove/shopping_list_boutique.md"
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_body_wall_shields",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_boot_fixings",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_boot_sealant",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_chimney_supports",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_cleaning_brush_rods",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_cold_closure",
+      "role": "conditional",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_flue_wall_shields",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_gloves_ash_kit",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_hearth",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_mounting_fasteners",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_other_sealants",
+      "role": "conditional",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_restraints",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_roof_passage",
+      "role": "required",
+      "notes": null
+    },
+    {
+      "work_package_id": "wp:wood_stove",
+      "shopping_item_id": "item:stove_thermometer",
+      "role": "required",
+      "notes": null
     },
     {
       "work_package_id": "wp:wood_stove",
