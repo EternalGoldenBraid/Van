@@ -26,7 +26,7 @@ items by work package in the [interactive shopping graph](shopping-graph.md).
 
 - **Roof fan (MaxxFan Deluxe):** cut and bed the 400 x 400 mm roof fan —
   [Plan](maxxfan/index.md) ·
-  [Shopping list](maxxfan/shopping_list.md).
+  [Shopping list](maxxfan/index.md#shopping-list).
 - **Insulation:** finish wheel arches, ceiling and walls.
 - **Wood stove:** Boutique Traditional + Jeremias DW-FU installation —
   [Overview](wood_stove/index.md) ·

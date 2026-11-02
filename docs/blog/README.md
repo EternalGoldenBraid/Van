@@ -22,8 +22,8 @@ parts are not treated as installed.
   [replacement-air inlet (*korvausilma*)](floor/replacement_air.md), and
   [floor levelling & XPS support](floor/levelling.md).
 - [Roof fan (MaxxFan Deluxe)](maxxfan/index.md): installation flow, butyl
-  levelling method, reference placeholders and
-  [shopping list](maxxfan/shopping_list.md).
+  levelling method, reference placeholders and embedded
+  [shopping list](maxxfan/index.md#shopping-list).
 - [Wood stove](wood_stove/index.md):
   [installation plan](wood_stove/installation-plan.md),
   [shopping list with costs](wood_stove/shopping_list_boutique.md), story drafts
@@ -68,8 +68,7 @@ uv run --no-project \
   --with-requirements docs/blog/requirements.txt \
   sphinx-build -n -W --keep-going -b html \
   docs/blog docs/blog/_build/html
-python -m http.server 8000 \
-  --directory docs/blog/_build/html
+python3 scripts/shopping_graph.py serve --port 8000
 ```
 
 Open `http://localhost:8000`. Generated HTML stays out of Git. The editable
@@ -83,9 +82,8 @@ Publication makes the blog and its downloadable evidence publicly accessible.
 
 All build documentation and blog source live on **`main`**. Use temporary
 branches for drafts and merge them into `main` when ready to publish.
-The diesel-heater shopping list is maintained in
-`docs/diesel_heater/shopping_list.md`; the relocation page includes that file
-directly under Shopping List.
+Work-package shopping lists are rendered from the bipartite shopping graph
+(`docs/blog/_static/shopping_graph.json` and `docs/shopping_graph.sqlite`).
 
 The workflow in `.github/workflows/blog-pages.yml` publishes relevant pushes to
 **`main`**, including changes to the canonical heater shopping list. It builds

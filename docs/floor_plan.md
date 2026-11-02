@@ -29,12 +29,12 @@ Current sealing decision and coating sources: see
    through-bolting with backing plates.
 
 ## Shopping List (Floor)
-Run:
-`python3 scripts/material_needs_insluation.py`
+Floor shopping items are tracked per work package in the
+[bipartite shopping graph](blog/shopping-graph.md)
+(`wp:floor_rivet_holes`, `wp:floor_replacement_air`, `wp:floor_levelling`).
 
-Look at:
-- `floor` for area-based materials (butyl/CCF/XPS/plywood).
-- `floor_aux` for tools/consumables (rivets, step drill, primer/topcoat, aluminum tape, foam, respirator, etc.).
+For area-based insulation quantity estimates, run:
+`python3 scripts/material_needs_insluation.py`
 
 ## Current Work Order
 

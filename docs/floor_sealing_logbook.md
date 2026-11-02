@@ -27,8 +27,9 @@ Check for leaks before covering the floor.
   necessary; compatibility with a particular primer remains unverified.
 - **Ordered 2026-10-26 from Pintavari:** [Tikkurila Rostex Super Akva, light
   grey, 0.3 l][primer-order] and [Unica Akva Maali, untinted white A-base,
-  0.225 l][topcoat-order]. Both are brush-on products. Use the
-  [shared heater/fan coating kit](diesel_heater/shopping_list.md#shared-coatings-and-preparation);
+  0.225 l][topcoat-order]. Both are brush-on products, tracked as shared items in
+  the [bipartite shopping graph](blog/shopping-graph.md) and rendered on
+  [floor/rivet_holes.md](blog/floor/rivet_holes.md#shopping-list);
   no additional set.
 - **Manufacturer instructions:** [Rostex Super Akva datasheet][primer] permits
   brush application on prepared steel/galvanised steel. Use on clean fresh
