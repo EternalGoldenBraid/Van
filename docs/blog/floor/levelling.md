@@ -17,16 +17,11 @@ the floor with no give before permanent installation.
 
 ## Shopping List
 
-| Item | Status | Source / Notes |
-| --- | --- | --- |
-| Finnfoam FI-300 XPS, 30 x 600 x 2500 mm | Planned / Owned | [K-Rauta](https://www.k-rauta.fi/tuote/eristyslevy-finnfoam-fi-300-30x600x2500-suorareunainen/6418711190431) — infill / replacement pieces where needed. |
-| NMC self-adhesive CCF, 6 mm | Planned | [Puuilo](https://www.puuilo.fi/nmc-solukumieriste-liimalla-6mm-x-1m-x-1m) — rib valley levelling / wheel arches. |
-| Planed pine battens, Cello 33 x 33 x 2400 mm | Planned | [K-Rauta](https://www.k-rauta.fi/tuote/hoylatty-cello-33x33x2400-us-1-3-manty/6420611090315). |
-| Würth RST AISI 410 screws, 4.5 x 50 mm (250 pcs, `10075605`) | **Ordered 2026-10-26** | [Puuilo](https://www.puuilo.fi/wurth-terassi-lauderuuvi-rst-aisi410-4-5x50mm-250kpl) — screwing plywood subfloor to battens. |
-| CRC Power Stick spray adhesive, 500 ml (`10166294`) | **Ordered 2026-10-26** | [Puuilo](https://www.puuilo.fi/crc-power-stick-sprayliima-500ml) — insulation / CCF bonding. |
-| Sikaflex-118 Extreme Grab, 290 ml | Planned | [Puuilo](https://www.puuilo.fi/sikaflex-asennusliima-118-extreme-grab-290ml) — bonding battens. |
-| PU foam (Würth Megafoam 750 ml) | Optional | [Puuilo](https://www.puuilo.fi/wurth-megafoam-pistoolivaahto-750ml) — filling XPS gaps. |
-| Aluminum tape, 50 mm x 25 m | Planned | [Puuilo](https://www.puuilo.fi/tarmo-alumiiniteippi-50mmx25m). |
+```{raw} html
+<div class="js-shopping-graph" data-work-package="wp:floor_levelling">
+  <p>Loading shopping list from graph database…</p>
+</div>
+```
 
 ## Progress And Photos
 

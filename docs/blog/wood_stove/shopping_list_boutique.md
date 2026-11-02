@@ -1,6 +1,6 @@
 # Wood-Stove Shopping List
 
-**Updated 2026-10-25.** Working inventory for the
+**Updated 2026-10-26.** Working inventory for the
 [installation process](installation-plan.md). Main orders are recorded;
 delivery and on-hand quantities are not confirmed. Do not reorder them from
 this list without checking receipt.
@@ -68,17 +68,24 @@ single-wall pipe order is planned before measuring the delivered assembly.
 All rows below are **unpriced**. No specific product or quantity is selected
 unless stated. Resolve the selection input before putting a row into a bulk order.
 
+The [shopping graph](../shopping-graph.md) tracks these as separate pending
+items (`tbd`), not one bundled purchase. Products, quantities and prices remain
+open. The provisional location is near the side door for use from inside and
+outside under the awning; floor-level versus raised mounting is undecided.
+
 | Item ID | Item | Required qty | Status | Selection input / source |
 | --- | --- | --- | --- | --- |
 | WS-09 | Boot-compatible roof sealant/adhesive | TBD cartridges | Select, price and obtain | Boot/roof interface and application/cure conditions |
 | WS-10 | Other joint/installation sealants or adhesives, if specified | TBD | Conditional on method | Actual system instructions; avoid duplicating WS-09 |
 | WS-11 | Roof boot mechanical fixings | TBD pcs | Select, price and obtain | Boot mounting pattern and vehicle roof |
 | WS-12 | Chimney supports/clamps and vehicle-side brackets | TBD pcs | Design, price and obtain | 145 mm shell, mounting gap and attachment layout; [system support examples][supports] |
-| WS-13 | Stove restraints and backing/attachment plates | TBD pcs | Design, price and obtain | Final stove position and vehicle attachment points |
+| WS-13 | Stove restraints, backing/attachment plates and optional raised stand | TBD pcs | Design, price and obtain | Final stove position, height and vehicle attachment points; stand only if raised |
 | WS-14 | Attachment bolts, washers, nuts and screws | TBD by size | Select, price and obtain | WS-12/13 design; excludes boot fixings counted in WS-11 |
-| WS-15 | Hearth/platform materials | TBD area/pieces | Design, price and obtain | Measured layout and selected construction |
-| WS-16 | Wall/ceiling shields and roof-passage protection | TBD area/pieces | Design, price and obtain | Specified passage, airspaces and shield construction |
-| WS-17 | Cut-edge coating and preparation consumables | Shared kit | Rostex Super Akva + Unica Akva (Pintavari) & Sokeva brushes `10155894` + Bosser P240 `10167359` (Puuilo) **ordered 2026-10-26**; `Tikkurila Panssaripesu` still to buy | [Shared heater/fan coating kit](../diesel_heater/index.md#shared-coatings-and-preparation) |
+| WS-15 | Hearth / floor protection | TBD area/pieces | Placeholder; no product selected | Thermal protection, ember-catching surface and load-bearing construction; final layout and dimensions |
+| WS-16 | Wall protection beside the stove body | TBD area/pieces | Select material, then size | Cut-to-size shield material, spacers and fixings; specified airspaces and nearby surfaces |
+| WS-23 | Wall protection beside the single-wall flue | TBD area/pieces | Select material, then size | Final route and required clearances; may share a continuous sheet with WS-16 |
+| WS-24 | Roof/ceiling passage protection | TBD area/pieces | Specify construction, then obtain | Insulated chimney passage, airspaces and lining protection; separate from the exterior weather boot |
+| WS-17 | Cut-edge coating and preparation consumables | Shared kit | Rostex Super Akva + Unica Akva (Pintavari) & Sokeva brushes `10155894` + Bosser P240 `10167359` (Puuilo) **ordered 2026-10-26**; `Tikkurila Panssaripesu` still to buy | [Shared heater/fan purchases](../diesel_heater/index.md#shopping-list) |
 | WS-18 | CO alarm, smoke alarm and suitable extinguisher | TBD | Check ownership, then obtain missing items | Selected equipment and mounting locations |
 | WS-19 | Stove/flue thermometer | TBD | Not ordered | Compatible type and measuring location |
 | WS-20 | 80 mm stainless-flue-compatible brush and rods | TBD | Not ordered | Actual cleaning route and reach |

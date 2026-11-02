@@ -1,7 +1,7 @@
 # Roof Fan — MaxxFan Deluxe Installation
 
-**Status (2026-10-25):** Work-package placeholder; parts and tools listed in the
-[MaxxFan shopping list](shopping_list.md).
+**Status (2026-10-25):** Work-package placeholder; parts and tools rendered in
+the [shopping list below](#shopping-list).
 
 ## Scope And Placement
 
@@ -30,7 +30,7 @@
 3. **Protect bare steel edges**
    - Clean the cut edge and drilled holes with isopropyl alcohol.
    - Brush-coat every bare metal edge and hole with the
-     [shared Rostex Super Akva / Unica Akva Maali kit](../diesel_heater/index.md#shared-coatings-and-preparation)
+     [shared Rostex Super Akva / Unica Akva Maali kit](#shopping-list)
      and allow it to cure before bedding the flange.
 4. **Bed and seal the receiving flange (butyl levelling method)**
    - Dry-fit the receiving flange over the opening.
@@ -62,15 +62,15 @@
 `docs/blog/maxxfan/images/` and add dated build notes below as the roof cut and
 mounting proceed.*
 
+## Shopping List
+
+```{raw} html
+<div class="js-shopping-graph" data-work-package="wp:maxxfan">
+  <p>Loading shopping list from graph database…</p>
+</div>
+```
+
 ## Related
 
-- [MaxxFan shopping list](shopping_list.md)
 - [Replacement-air inlet (*korvausilma*)](../floor/replacement_air.md)
 - {download}`Roof layout plan <../../roof_layout_plan.md>`
-
-```{toctree}
-:hidden:
-:caption: Roof fan
-
-shopping_list
-```

@@ -19,10 +19,11 @@ do not run the MaxxFan in exhaust mode with a live stove.
 
 ## Shopping List
 
-- [ ] Through-floor collar / spigot (measure hole diameter first)
-- [ ] Stainless rodent / insect mesh
-- [ ] Closeable interior vent / damper
-- [ ] Weather sealant and edge protection (shared with rivet-hole work)
+```{raw} html
+<div class="js-shopping-graph" data-work-package="wp:floor_replacement_air">
+  <p>Loading shopping list from graph database…</p>
+</div>
+```
 
 ## References And Progress
 

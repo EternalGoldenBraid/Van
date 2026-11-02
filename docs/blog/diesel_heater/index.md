@@ -25,10 +25,9 @@
   holes are visible in the finished step riser. The fuel opening was approached
   conservatively with a trial fit rather than enlarging it blindly.
 - Deburred with the existing files and applied the
-  [shared primer/topcoat kit](#shared-coatings-and-preparation) to the cut
-  edges from inside the van. Underside edge treatment and local removal of
-  unknown underbody coating around the hot exhaust route were still planned at
-  this stage.
+  [shared primer/topcoat kit](#shopping-list) to the cut edges from inside the
+  van. Underside edge treatment and local removal of unknown underbody coating
+  around the hot exhaust route were still planned at this stage.
 - Photos taken: front view of the new hole pattern, underside view showing
   their emergence through the coated metal, and the cardboard template with
   the corrugated exhaust passing through it. **Photos not yet copied into
@@ -111,12 +110,13 @@ well.
 
 ## Shopping List
 
-```{include} ../../diesel_heater/shopping_list.md
-:start-line: 2
-:heading-offset: 1
-```
+Rendered live from the [bipartite shopping graph](../shopping-graph.md) (`wp:diesel_heater`). Click any item to edit its details or change its status (`Planned`, `Ordered`, `Bought`, `Owned`):
 
-{download}`Download shopping list as Markdown <../../diesel_heater/shopping_list.md>`.
+```{raw} html
+<div class="js-shopping-graph" data-work-package="wp:diesel_heater">
+  <p>Loading diesel heater shopping list from graph database…</p>
+</div>
+```
 
 ## Related
 
