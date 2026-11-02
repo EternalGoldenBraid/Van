@@ -1,24 +1,24 @@
 # 2026-11-01 12:47 - Build next steps and purchases
 
-Updated 2026-11-01. Shared primer and topcoat have arrived.
+Updated 2026-11-02. Shared primer and topcoat have arrived.
 
-Pickup: today in Tampere/Kangasala; K-Rauta or Puuilo preferred.
+Pickup area: Tampere/Kangasala; K-Rauta or Puuilo preferred.
 Mon-Wed: Helsinki region also possible. Stock verified only where noted.
 
 Resume author session:
 `copilot --resume=e190de56-148f-44f3-adc6-c8c9129359be`
 
-## Pickup now - floor and diesel heater
+## Purchases - floor and diesel heater
 
 - Floor removal: no new purchase identified from confirmed supplies.
 - Pump-cable solder-seal connectors (tinallinen kutistejatkoliitin):
-  two joints if cut once; match conductor size, not just connector colour.
+  purchased 1 November. Two joints if cut once; match conductor size.
 - Heater exhaust sleeve OR wrap; metal ties if choosing wrap.
-- CO alarm (häkävaroitin), suitable for campervan use / EN 50291-2;
-  not a CO2 monitor.
-- Heat gun (kuumailmapuhallin): not owned; cordless Makita candidate below.
-- Automatic wire stripper (automaattiset kuorintapihdit), 0.2-6 mm2,
-  for pump repair and later small-cable electrical work; not owned.
+- CO alarm (häkävaroitin): purchased 1 November. Confirm campervan
+  suitability / EN 50291-2 on the actual unit.
+- Heat gun (kuumailmapuhallin): will borrow; no purchase planned.
+- Wire strippers (kuorintapihdit): purchased 1 November,
+  for pump repair and later small-cable electrical work.
 - Flush cutters (tasakatkaisupihdit): useful later, not today's blocker.
 
 Stove installation: Wednesday at earliest; roof/stove purchases can wait.
@@ -58,6 +58,9 @@ Effort: 1 worker
 Next: check current fit; finish underside edge protection, secure mounting
 and exhaust connections. Repair the cut heater-pump cable.
 
+Ready: solder-seal connectors, wire strippers and CO alarm purchased.
+Borrow the heat gun before repairing the cable.
+
 Buy:
 - [Autoterm 909 sleeve, 24 mm / 45 cm][heater-sleeve]: EUR 22.88,
   KMT-Export shows stock; delivery normally 1-3 working days, freight extra.
@@ -65,18 +68,10 @@ Buy:
   Polar Autovaruste, Hatanpaan valtatie 26, Tampere; shows stock.
   Buy one insulation option, not both; wrap needs suitable metal ties.
   Neither option establishes safe clearance at the penetration.
-- Solder-seal heat-shrink wire connectors (heat-gun activated) for the cut
-  pump cable: two joints if cut once. Photos identify harness 2061 with
-  red/black wires, but not conductor size. [Puuilo assortment][connectors]
-  found; check included small-wire sizes and local stock before selecting.
 
-Heat gun choice: [Makita DHG181][heat-gun], 18V LXT, adjustable 150-550 C,
-70/110 l/min; manufacturer quotes up to 22 min at maximum settings with
-a 6.0 Ah battery. Confirm existing battery label before buying tool-only;
-Makita CXT/XGT are different systems. Corded adjustable heat is the cheaper
-option with mains available. Prefer adjustable heat over fixed 550 C.
-Connector pack instructions determine heat/application; do not assume 550 C.
-Wire stripper's 0.2-6 mm2 range does not cover large battery cables.
+Cable repair: match the purchased connectors and stripper setting to the
+wire size; harness 2061 photos do not establish conductor size.
+Follow the connector pack's heating instructions with the borrowed gun.
 
 Resolve before operation: secure mounting support/brackets; two lower bolts
 alone are not a completed mounting. Verify existing exhaust joiner/clamps
@@ -90,7 +85,7 @@ Source: [heater](../docs/blog/diesel_heater/index.md).
 Effort: <= 2 workers
 
 Status: stove arrived. Jeremias parts last tracked in Germany on Friday.
-Silicone boot estimated tomorrow, 2 November.
+Silicone boot estimated 2 November; receipt not confirmed.
 
 Next: measure stove position; dry-fit the full flue when delivered.
 
@@ -221,7 +216,6 @@ Next:
 
 [heater-sleeve]: https://kmt-export.fi/tuotteet/lisaeristys-pakoputkelle-45-cm/
 [exhaust-wrap]: https://www.polarautovaruste.com/p13959-pakoputken-eristenauha-50mm-x-10-metria-fi.html
-[connectors]: https://www.puuilo.fi/finbullet-kutistejatkoliitin-tinalla-100kpl-sarja
 [shield]: https://www.puuilo.fi/warma-palosuojalevy-musta-730x980mm
 [stove-manual]: https://boutiquecamping.com/en-eu/pages/instruction-manuals
 [butyl]: https://www.puuilo.fi/finbullet-butyylitiivistenauha-3m
@@ -237,4 +231,3 @@ Next:
 [boot-profile]: https://www.lethfast.ca/products/mf_std_redsilicone
 [damper-rule]: https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2017/745
 [roof-blades]: https://www.k-rauta.fi/tuote/pistosahantera-fxa-metalli-ja-muovi-n-1-3mm-76mm-tpi-21-3kpl/6438313743781
-[heat-gun]: https://www.makita.fi/fi/product/dhg181
