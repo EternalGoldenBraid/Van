@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Useful van places</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoTfjcXZsVQ=" crossorigin="">
+<style>
+:root {color-scheme:light dark;font-family:system-ui,-apple-system,sans-serif;}
+* {box-sizing:border-box}
+body {margin:0;background:transparent;color:CanvasText}
+.wrap {display:grid;grid-template-columns:minmax(0,1.4fr) minmax(245px,1fr);gap:12px;padding:4px}
+#map {height:450px;width:100%;border-radius:12px;background:#e6e9e7;z-index:0}
+#places {display:grid;gap:10px;align-content:start;max-height:450px;overflow:auto}
+.place {border:1px solid #8a8a8a70;border-radius:10px;padding:12px;background:Canvas}
+.place h2 {font-size:1.05rem;margin:0 0 5px}
+.place p {margin:5px 0;font-size:.88rem;line-height:1.45}
+.place small {font-size:.8rem}
+.actions {display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
+a {color:LinkText}
+.notice {padding:8px 12px;font-size:.83rem}
+@media(max-width:650px) {.wrap {grid-template-columns:1fr}#map {height:310px}#places {max-height:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="map" aria-label="Map of useful van service locations"></div>
+  <div id="places" aria-live="polite">Loading places…</div>
+</div>
+<p class="notice" id="notice">Location pins are indicative. Open navigation for the destination before driving. Never rely on the map to confirm vehicle clearance.</p>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(async function () {
+  const list = document.getElementById('places');
+  const notice = document.getElementById('notice');
+  const escapeHtml = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let places;
+  try {
+    const response = await fetch('./useful-places.json');
+    if (!response.ok) throw new Error('Cannot load location catalog');
+    places = await response.json();
+  } catch (error) {
+    list.textContent = 'Could not load locations. See the links on the parent page.';
+    return;
+  }
+  list.innerHTML = places.map(p => `
+    <article class="place" id="place-${escapeHtml(p.id)}">
+      <h2>${escapeHtml(p.name)}</h2>
+      <p>${escapeHtml(p.address)}</p>
+      <p><strong>${escapeHtml(p.status)}</strong></p>
+      <p>${escapeHtml(p.washType)}. ${p.heightClearanceMeters == null ? 'Entrance height not confirmed.' : 'Published door height: ' + escapeHtml(p.heightClearanceMeters) + ' m.'}
+      ${p.underbodyWash === true ? ' Underbody pressure wash listed.' : ''}</p>
+      <p>${escapeHtml(p.notes)}</p>
+      <small>${escapeHtml(p.access)}</small>
+      <div class="actions">
+        <a href="${escapeHtml(p.navigation)}" target="_blank" rel="noopener noreferrer">Navigate ↗</a>
+        <a href="${escapeHtml(p.website)}" target="_blank" rel="noopener noreferrer">Operator ↗</a>
+      </div>
+    </article>`).join('');
+  if (typeof L === 'undefined') {
+    notice.textContent = 'Map tiles unavailable. The locations and navigation links above remain usable.';
+    document.getElementById('map').style.display = 'none';
+    return;
+  }
+  const map = L.map('map', {scrollWheelZoom:false}).setView([60.7,24.6], 8);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom:19, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  const bounds=[];
+  for (const p of places) {
+    let lat=p.latitude, lon=p.longitude;
+    // Unknown positions are resolved only when needed. Cache to avoid repeat requests.
+    if (lat == null || lon == null) {
+      const key='van-place-geocode-v1-'+p.id;
+      try {
+        const cached=JSON.parse(localStorage.getItem(key) || 'null');
+        if (cached && Number.isFinite(cached.lat) && Number.isFinite(cached.lon)) {
+          lat=cached.lat;lon=cached.lon;
+        } else {
+          const q=encodeURIComponent(p.address);
+          const res=await fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&q='+q);
+          if (res.ok) {
+            const results=await res.json();
+            if (results.length) {
+              lat=Number(results[0].lat);lon=Number(results[0].lon);
+              localStorage.setItem(key,JSON.stringify({lat,lon}));
+            }
+          }
+        }
+      } catch (_) { /* Navigation links remain usable without geocoding. */ }
+    }
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) continue;
+    L.marker([lat,lon]).addTo(map)
+      .bindPopup('<strong>'+escapeHtml(p.name)+'</strong><br>'+escapeHtml(p.address)+'<br><a href="'+escapeHtml(p.navigation)+'" target="_blank" rel="noopener noreferrer">Navigate</a>')
+      .on('click',()=>document.getElementById('place-'+p.id)?.scrollIntoView({block:'nearest',behavior:'smooth'}));
+    bounds.push([lat,lon]);
+  }
+  if (bounds.length > 1) map.fitBounds(bounds,{padding:[30,30],maxZoom:12});
+  else if (bounds.length === 1) map.setView(bounds[0],11);
+  else notice.textContent='Map positions temporarily unavailable; use the navigation links in the location cards.';
+  setTimeout(()=>map.invalidateSize(),100);
+})();
+</script>
+</body>
+</html>
