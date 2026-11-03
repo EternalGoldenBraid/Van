@@ -33,6 +33,10 @@ parts are not treated as installed.
 adhesives, fixings and remaining materials. The floor page is the current
 working instruction, not a report of completed construction.
 
+## Useful Places
+
+[Useful Places](useful-places.md) is a separate, mobile-friendly reference map for places useful while operating the van, starting with two large-vehicle washes. It is not a work package. Location entries live in `_static/useful-places.json`, with the interactive map in `_static/useful-places-map.html`. The map uses OpenStreetMap and Leaflet and requires no backend API key. Avoid adding personal/home locations to the public site.
+
 ## Earlier Stages Still To Write
 
 The earlier preparation, corrosion work, insulation decisions, windows,

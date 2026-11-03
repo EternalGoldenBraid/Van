@@ -1,0 +1,42 @@
+[
+  {
+    "id": "tekar-hameenlinna",
+    "name": "TEKAR",
+    "category": "Truck / van wash",
+    "address": "Terminaalitie 11, 13430 Hämeenlinna, Finland",
+    "city": "Hämeenlinna",
+    "region": "On the Tampere–Helsinki route",
+    "website": "https://www.tekar.fi/",
+    "source": "https://www.tekar.fi/about/",
+    "navigation": "https://www.google.com/maps/search/?api=1&query=TEKAR%20Terminaalitie%2011%20H%C3%A4meenlinna",
+    "latitude": null,
+    "longitude": null,
+    "locationPrecision": "Address lookup (confirm pin before navigating)",
+    "heightClearanceMeters": 4.5,
+    "underbodyWash": true,
+    "washType": "Truck wash with brush machine and pressure underbody wash",
+    "access": "Staffed Mon–Fri 10:00–18:00; 24/7 self-service with issued card (verify current terms)",
+    "status": "Candidate — roof accessories / brush-free process unconfirmed",
+    "notes": "Published 4.5 m door height; listed for vans and motorhomes. Ask whether the roof can be skipped or washed without brushes around lights and antenna."
+  },
+  {
+    "id": "autopesu-konala",
+    "name": "Autopesu-Center Konala",
+    "category": "Truck / bus wash",
+    "address": "Malminkartanonkuja 1–3, 00390 Helsinki, Finland",
+    "city": "Helsinki",
+    "region": "Helsinki area",
+    "website": "https://autopesucenter.fi/pesupaikat.html",
+    "source": "https://autopesucenter.fi/pesupaikat.html",
+    "navigation": "https://www.google.com/maps/search/?api=1&query=Autopesu-Center%20Konala%20Helsinki",
+    "latitude": 60.243204,
+    "longitude": 24.848194,
+    "locationPrecision": "Approximate business location from public listing",
+    "heightClearanceMeters": null,
+    "underbodyWash": null,
+    "washType": "Large-vehicle wash; confirm brush / touchless options",
+    "access": "See operator for current opening hours",
+    "status": "Candidate — numerical clearance and roof accessory compatibility unconfirmed",
+    "notes": "Operator advertises washing vehicles up to heavy trucks; do not assume the exact entrance height or roof treatment without asking."
+  }
+]

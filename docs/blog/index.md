@@ -21,6 +21,10 @@ Ford Transit L3H3 conversion dashboard.
 - **Window locations:** reserve openings before framing —
   {download}`Window notes <../window_plan.md>`.
 
+## Reference
+
+- **[Useful Places — map](useful-places.md):** van washes and other useful stops, separate from work packages.
+
 ## Work Packages
 
 - [All work packages](work-packages.md) · [Interactive shopping graph](shopping-graph.md)
@@ -41,6 +45,7 @@ Ford Transit L3H3 conversion dashboard.
 
 work-packages
 shopping-graph
+useful-places
 heater_removal/index
 diesel_heater/index
 floor/index
