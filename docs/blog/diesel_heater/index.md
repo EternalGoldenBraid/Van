@@ -1,6 +1,6 @@
 # Diesel Heater — Planar 44D Relocation
 
-**Status (2026-10-28):** Step-well holes drilled; cut edges being protected. Heater not yet mounted.
+**Status (2026-11-03):** Installation in progress. Heater placed in the step well, new hole pattern drilled, underside fuel/pump-wiring route arranged; final connections, mounting and test are pending.
 
 ## Setup
 
@@ -24,14 +24,14 @@
 - **28 October:** The two large combustion-air/exhaust openings and the small
   holes are visible in the finished step riser. The fuel opening was approached
   conservatively with a trial fit rather than enlarging it blindly.
-- Deburred with the existing files and applied the
-  [shared primer/topcoat kit](#shopping-list) to the cut edges from inside the
-  van. Underside edge treatment and local removal of unknown underbody coating
-  around the hot exhaust route were still planned at this stage.
-- Photos taken: front view of the new hole pattern, underside view showing
-  their emergence through the coated metal, and the cardboard template with
-  the corrugated exhaust passing through it. **Photos not yet copied into
-  this repository.**
+- Deburred with the existing files and treated cut edges from inside the van.
+  Later wire-brushed some of the underbody coating near the exhaust penetration
+  and applied rust-protective paint underneath; not all old undercoating was
+  removed. The newly drilled muffler-support rivnut hole was also painted on
+  **3 November** and left to cure before setting the rivnut.
+- Further photos were taken of the new hole pattern, treated underside,
+  fuel-line routing, driveshaft clearance and pump-wiring grommet. These newer
+  photos have not yet been incorporated into this page.
 
 ```{figure} images/installation_02.jpg
 :name: fig-diesel-heater-step-well
@@ -58,12 +58,20 @@ Fan/intake end clearance in the sliding-door step well.
 - Trial-fitted metal joining tube: ~22 mm ID, ~1 mm wall. Nominal OD would be
   24 mm; **measure actual OD** (23 mm was suggested in the review).
   Material/coating unknown.
-- Final exhaust joint and clamps still to be completed and inspected.
+- Homemade joining sleeve dry-fits tightly in the exhaust; final hose clamps,
+  joint sealing and inspection are outstanding.
+- A new mounting location for the muffler was selected, with a hole drilled
+  for a rivnut on **3 November**. Install the rivnut after the paint cures;
+  secure the muffler and orient its outlet clear of the bodywork and other parts.
 - The upper mounting points fall beyond the available flat step-riser area.
   Two lower mounting holes are accessible; additional secure support/bracketing
   remains unresolved. Do not operate the heater relying on two bolts alone.
-- Considering a 45 cm Autoterm 909 exhaust heat-insulation sleeve near the
-  step penetration; no purchase or installation confirmed.
+- Exhaust crosses the steel sliding-door step wall. Heat insulation at the
+  penetration is still missing; considering the **Autoterm 909 (450 mm)**
+  sleeve or [Biltema 25 mm exhaust wrap](https://www.biltema.fi/en-fi/car---mc/tuning/exhaust-pipes/exhaust-bandage-black-25-mm-2000032773).
+  Neither purchase nor suitability of the Biltema alternative is confirmed.
+- Retained rubber mounting gasket is intended to seal the heater-to-metal
+  interface; its contact and compression still need verification.
 
 ```{figure} images/installation_06.jpg
 :name: fig-diesel-heater-gasket
@@ -97,16 +105,35 @@ Test-fit of the metal joining sleeve in the corrugated exhaust pipe in the step
 well.
 ```
 
+## Fuel And Pump Wiring — 31 October to 3 November
+
+- Rerouted the existing fuel line and metering-pump wiring from the heater
+  toward the pump, across the underside of the van. The route passes above the
+  vehicle exhaust heat shield, near the driveshaft and between the diesel and
+  AdBlue tanks; cable ties and stationary supports provide retention and some
+  slack for vibration. Approximately **70 mm driveshaft clearance** was
+  reported. Heat exposure and abrasion clearance at the exhaust crossing
+  remain unverified.
+- Used an existing rubber-grommeted floor opening for the pump wiring rather
+  than drilling another hole.
+- Acquired solder-seal connectors and a heat gun for repairing the previously
+  cut pump cable. **Fuel line and pump wiring are not yet finally connected.**
+- The combustion-air intake hose remains to be fitted and supported.
+- A CO alarm is available; the heater has not yet been commissioned in the new
+  location.
+
 ## Next Actions
 
-- [ ] Confirm mounting orientation.
-- [x] Mark and drill the step-riser holes (2026-10-28).
-- [ ] Test-fit all spigots and verify hole clearance and gasket contact.
-- [ ] Protect underside cut edges and remove heat-sensitive underbody coating near exhaust.
-- [ ] Arrange secure mounting support and heat protection at the exhaust penetration.
-- [ ] Complete heater mounting and fuel / air / exhaust connections.
-- [ ] Have the installed exhaust joint checked at inspection.
-- [ ] Add final mounted and underside photos.
+- [x] Mark and drill the step-riser openings (2026-10-28).
+- [x] Route fuel line and pump wiring under the van; pass wiring through an existing grommet.
+- [ ] Install muffler-support rivnut after paint cure, and secure the exhaust assembly.
+- [ ] Fit and support the combustion-air intake hose.
+- [ ] Finish fuel connections and repair the cut pump wiring.
+- [ ] Fit suitable exhaust insulation at the steel step penetration and verify heat clearance near the main vehicle exhaust.
+- [ ] Resolve the two unavailable upper mounting points with a secure mount, check the gasket and confirm approved heater orientation.
+- [ ] Inspect exhaust joints for mechanical security and gas-tightness, and check fuel/electrical connections before commissioning.
+- [ ] Have the modified installation professionally inspected before operating it.
+- [ ] Add October 28–November 3 installation and routing photographs.
 
 ## Shopping List
 
