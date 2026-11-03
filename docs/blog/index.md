@@ -32,6 +32,8 @@ Ford Transit L3H3 conversion dashboard.
 - [Roof fan (MaxxFan Deluxe)](maxxfan/index.md) ([shopping list](maxxfan/index.md#shopping-list))
 - [Wood stove](wood_stove/index.md) ([installation plan](wood_stove/installation-plan.md) · [shopping list](wood_stove/shopping_list_boutique.md))
 
+- [Front seat swivels — VAN-46](seats/front_swivels.md) (initial parts list)
+
 ```{toctree}
 :hidden:
 :caption: Van build
@@ -43,4 +45,5 @@ diesel_heater/index
 floor/index
 maxxfan/index
 wood_stove/index
+seats/front_swivels
 ```
