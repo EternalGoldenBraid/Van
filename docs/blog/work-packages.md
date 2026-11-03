@@ -37,6 +37,7 @@ items by work package in the [interactive shopping graph](shopping-graph.md).
 
 - **Cab bulkhead:** remove the partition between the cab and cargo area.
 - **[Front seat swivels — VAN-46](seats/front_swivels.md):** replace passenger bench, add both swivel bases and lower the driver handbrake; initial parts list included.
+- **Electronics:** [DC clamp meter for diagnostics](electronics/clamp_meter.md) (exploratory; low priority).
 - **House electrics:** wiring, cable sizing and installation.
 
 More detailed instructions and links to Linear can be added later.
