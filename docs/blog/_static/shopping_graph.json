@@ -57,6 +57,19 @@
       "notes": "Clamped on both faces of each floor rivet hole."
     },
     {
+      "id": "item:biltema_exhaust_wrap_25mm",
+      "node_type": "shopping_item",
+      "name": "Biltema pakosarjakääre, musta, 25 mm — diesel heater exhaust thermal wrap",
+      "status": "planned",
+      "sku": "79-453",
+      "supplier": "Biltema (Kangasala / Tampere)",
+      "qty": "1 roll",
+      "url": "https://www.biltema.fi/autoilu---mp/tuning/pakoputki/pakosarjakaare-musta-25-mm-2000032773",
+      "ordered_date": null,
+      "doc_path": "docs/blog/diesel_heater/index.md",
+      "notes": "Candidate for insulating the Planar 44D exhaust at the steel step-wall penetration. Verify temperature rating and suitability with Autoterm guidance before installation. Alternative: Autoterm 909 purpose-made 450 mm sleeve. Not purchased; local stock not verified."
+    },
+    {
       "id": "item:bosch_hss_drill_set_2_10",
       "node_type": "shopping_item",
       "name": "Bosch HSS metal drill set, 2–10 mm (7 pcs)",
@@ -708,6 +721,12 @@
     }
   ],
   "edges": [
+    {
+      "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:biltema_exhaust_wrap_25mm",
+      "role": "required",
+      "notes": "Thermal protection for exhaust penetration; confirm product suitability prior to buying."
+    },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:brushes_sokeva_3pc",
