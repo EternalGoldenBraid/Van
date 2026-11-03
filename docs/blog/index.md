@@ -29,6 +29,7 @@ Ford Transit L3H3 conversion dashboard.
   [Rivet holes](floor/rivet_holes.md) ·
   [Replacement air (*korvausilma*)](floor/replacement_air.md) ·
   [Levelling & XPS support](floor/levelling.md)
+- [Electronics — DC clamp meter diagnostics](electronics/clamp_meter.md) (later / exploratory)
 - [Roof fan (MaxxFan Deluxe)](maxxfan/index.md) ([shopping list](maxxfan/index.md#shopping-list))
 - [Wood stove](wood_stove/index.md) ([installation plan](wood_stove/installation-plan.md) · [shopping list](wood_stove/shopping_list_boutique.md))
 
@@ -43,6 +44,7 @@ shopping-graph
 heater_removal/index
 diesel_heater/index
 floor/index
+electronics/clamp_meter
 maxxfan/index
 wood_stove/index
 seats/front_swivels
