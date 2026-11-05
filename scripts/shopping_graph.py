@@ -50,7 +50,9 @@ CREATE TABLE IF NOT EXISTS nodes (
     url TEXT,
     ordered_date TEXT,
     doc_path TEXT,
-    notes TEXT
+    notes TEXT,
+    price_eur REAL,
+    price_basis TEXT
 );
 
 CREATE TABLE IF NOT EXISTS edges (
@@ -72,6 +74,7 @@ SELECT
     si.supplier AS supplier,
     si.sku AS sku,
     si.ordered_date AS ordered_date,
+    si.price_eur AS price_eur,
     e.role AS role,
     COALESCE(e.notes, si.notes, '') AS notes
 FROM edges e
@@ -115,7 +118,14 @@ def save_graph(
 
     db_path.parent.mkdir(parents=True, exist_ok=True)
     with connect(db_path) as conn:
-        conn.executescript(SCHEMA_SQL)
+        conn.executescript(SCHEMA_SQL.replace("CREATE VIEW IF NOT EXISTS v_bipartite_shopping AS", "CREATE VIEW IF NOT EXISTS v_bipartite_shopping AS"))
+        existing_cols = {r[1] for r in conn.execute("PRAGMA table_info(nodes)")}
+        if "price_eur" not in existing_cols:
+            conn.execute("ALTER TABLE nodes ADD COLUMN price_eur REAL")
+        if "price_basis" not in existing_cols:
+            conn.execute("ALTER TABLE nodes ADD COLUMN price_basis TEXT")
+        conn.execute("DROP VIEW IF EXISTS v_bipartite_shopping")
+        conn.executescript(SCHEMA_SQL[SCHEMA_SQL.index("CREATE VIEW IF NOT EXISTS v_bipartite_shopping AS"):])
         conn.execute("DELETE FROM edges;")
         conn.execute("DELETE FROM nodes;")
 
@@ -123,9 +133,9 @@ def save_graph(
             conn.execute(
                 """
                 INSERT INTO nodes (
-                    id, node_type, name, status, sku, supplier, qty, url, ordered_date, doc_path, notes
+                    id, node_type, name, status, sku, supplier, qty, url, ordered_date, doc_path, notes, price_eur, price_basis
                 )
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     n["id"],
@@ -139,6 +149,8 @@ def save_graph(
                     n.get("ordered_date"),
                     n.get("doc_path"),
                     n.get("notes"),
+                    n.get("price_eur"),
+                    n.get("price_basis"),
                 ),
             )
 
@@ -250,7 +262,7 @@ def cmd_package(conn: sqlite3.Connection, wp_query: str) -> None:
         date_str = f" ({r['ordered_date']})" if r["ordered_date"] else ""
         print(
             f"- [{r['status'].upper()}{date_str}] {r['item_name']}{sku_str} "
-            f"({r['qty']}, {r['supplier']}) — {r['notes']}"
+            f"({r['qty']}, {r['supplier']}; {r['price_eur'] if r['price_eur'] is not None else 'price TBD'} €) — {r['notes']}"
         )
 
 
@@ -338,6 +350,7 @@ def cmd_add_item(
     url: str | None,
     ordered_date: str | None,
     notes: str | None,
+    price_eur: float | None,
 ) -> None:
     new_id = item_id or f"item:{slugify(name)}"
     if not new_id.startswith("item:"):
@@ -346,11 +359,11 @@ def cmd_add_item(
         conn.execute(
             """
             INSERT OR REPLACE INTO nodes (
-                id, node_type, name, status, sku, supplier, qty, url, ordered_date, notes
+                id, node_type, name, status, sku, supplier, qty, url, ordered_date, notes, price_eur, price_basis
             )
-            VALUES (?, 'shopping_item', ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, 'shopping_item', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
-            (new_id, name, status, sku, supplier, qty, url, ordered_date, notes),
+            (new_id, name, status, sku, supplier, qty, url, ordered_date, notes, price_eur, "listed" if price_eur is not None else None),
         )
         conn.execute("DELETE FROM edges WHERE shopping_item_id = ?", (new_id,))
         for wp in packages:
@@ -472,6 +485,7 @@ def main() -> None:
     p_add.add_argument("--url", default=None)
     p_add.add_argument("--date", default=None)
     p_add.add_argument("--notes", default="")
+    p_add.add_argument("--price", type=float, default=None, help="Listed unit price in euros")
 
     p_rm = sub.add_parser("remove", help="Remove a shopping item by ID or SKU")
     p_rm.add_argument("key", help="Item ID or SKU")
@@ -518,6 +532,7 @@ def main() -> None:
                 url=args.url,
                 ordered_date=args.date,
                 notes=args.notes,
+                price_eur=args.price,
             )
             save_graph(load_graph_from_sqlite(conn), args.json, args.db)
         elif args.cmd == "remove":
