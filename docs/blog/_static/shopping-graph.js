@@ -772,7 +772,13 @@
         .join("");
 
       detail.innerHTML = `
-        <p class="sg-summary-line"><strong>${escapeHtml(title)}</strong> — ${visibleItems.length} items${wpLinkHtml} · <strong>€${visibleItems.reduce((sum, item) => sum + (Number(item.price_eur) || 0), 0).toFixed(2)}</strong> listed/estimated budget (≈ means estimate; shared items counted once within view)</p>
+        <p class="sg-summary-line"><strong>${escapeHtml(title)}</strong> — ${visibleItems.length} items${wpLinkHtml}</p>
+        <p class="sg-summary-line">
+          <strong>Baseline allocated budget:</strong> ${euro(visibleItems.reduce((sum, item) => sum + (Number(item.baseline_estimate_eur ?? item.price_eur) || 0) / (selWp ? Math.max(1, itemLinks(item.id).length) : 1), 0))}
+          · <strong>Current budget:</strong> ${euro(visibleItems.reduce((sum, item) => sum + (Number(item.price_eur) || 0) / (selWp ? Math.max(1, itemLinks(item.id).length) : 1), 0))}
+          · <strong>Recorded expenditure:</strong> ${euro(visibleItems.reduce((sum, item) => sum + (Number(item.actual_spend_eur) || 0) / (selWp ? Math.max(1, itemLinks(item.id).length) : 1), 0))} ${visibleItems.some((item) => item.actual_spend_eur == null) ? "(partial)" : ""}
+        </p>
+        <p class="sg-summary-line"><small>Shared items split evenly across work packages for budget reporting until material usage is recorded. Purchased quantities, used quantities, discarded quantities, and surplus are tracked in item details. An unknown expenditure is not €0.</small></p>
         <div class="table-wrapper">
           <table class="sg-table">
             <thead>
