@@ -89,6 +89,16 @@
     const workPackages = () => data.nodes.filter((n) => n.node_type === "work_package");
     const shoppingItems = () => data.nodes.filter((n) => n.node_type === "shopping_item");
     const edges = () => data.edges || [];
+    const numeric = (v) => v === null || v === undefined || v === "" ? null : Number(v);
+    const itemLinks = (id) => edges().filter((e) => e.shopping_item_id === id);
+    const euro = (v) => `${Number(v).toFixed(2)} €`;
+    function reconciliation(item) {
+      const links = itemLinks(item.id);
+      const used = links.reduce((s, e) => s + (Number(e.used_qty) || 0), 0);
+      const waste = links.reduce((s, e) => s + (Number(e.waste_qty) || 0), 0);
+      const known = links.some((e) => e.used_qty != null || e.waste_qty != null);
+      return item.purchased_qty == null || !known ? null : Number(item.purchased_qty) - used - waste;
+    }
 
     async function persistGraph(commitMessage) {
       if (localApiAvailable) {
@@ -324,6 +334,10 @@
         url: String(fd.get("url") || "").trim() || null,
         ordered_date: status === "ordered" || status === "bought" ? todayIso() : null,
         price_eur: fd.get("price_eur") !== "" ? Number(fd.get("price_eur")) : null,
+        baseline_estimate_eur: fd.get("price_eur") !== "" ? Number(fd.get("price_eur")) : null,
+        purchased_qty: null,
+        quantity_unit: null,
+        actual_spend_eur: null,
         price_basis: fd.get("price_eur") !== "" ? "listed" : null,
         doc_path: null,
         notes: String(fd.get("notes") || "").trim() || null,
@@ -417,6 +431,9 @@
               <input type="text" name="sku" value="${escapeHtml(item.sku || "")}" class="sg-input" placeholder="SKU">
               <input type="number" name="price_eur" min="0" step="0.01" value="${item.price_eur ?? ""}" class="sg-input" placeholder="Listed price (€)">
               <input type="url" name="url" value="${escapeHtml(item.url || "")}" class="sg-input" placeholder="URL">
+              <input type="number" name="purchased_qty" min="0" step="any" value="${item.purchased_qty ?? ""}" class="sg-input" placeholder="Purchased quantity">
+              <input type="text" name="quantity_unit" value="${escapeHtml(item.quantity_unit || "")}" class="sg-input" placeholder="Unit (pcs, m, L, m²)">
+              <input type="number" name="actual_spend_eur" min="0" step="0.01" value="${item.actual_spend_eur ?? ""}" class="sg-input" placeholder="Actual paid (€)">
             </div>
             <div class="sg-wp-checks">
               <span class="sg-filter-label">Work packages:</span>
@@ -457,12 +474,17 @@
         item.sku = String(fd.get("sku") || "").trim() || null;
         item.price_eur = fd.get("price_eur") !== "" ? Number(fd.get("price_eur")) : null;
         item.price_basis = item.price_eur !== null ? "listed" : null;
+        item.purchased_qty = numeric(fd.get("purchased_qty"));
+        item.quantity_unit = String(fd.get("quantity_unit") || "").trim() || null;
+        item.actual_spend_eur = numeric(fd.get("actual_spend_eur"));
         item.url = String(fd.get("url") || "").trim() || null;
         item.notes = String(fd.get("notes") || "").trim() || null;
 
         const chosenWps = fd.getAll("edit_wp").map(String);
+        const existingLinks = new Map(itemLinks(item.id).map((e) => [e.work_package_id, e]));
         data.edges = data.edges.filter((e) => e.shopping_item_id !== item.id);
         for (const wpId of chosenWps) {
+          if (existingLinks.has(wpId)) { data.edges.push(existingLinks.get(wpId)); continue; }
           data.edges.push({
             work_package_id: wpId,
             shopping_item_id: item.id,
