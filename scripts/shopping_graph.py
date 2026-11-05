@@ -52,7 +52,12 @@ CREATE TABLE IF NOT EXISTS nodes (
     doc_path TEXT,
     notes TEXT,
     price_eur REAL,
-    price_basis TEXT
+    price_basis TEXT,
+    price_notes TEXT,
+    baseline_estimate_eur REAL,
+    purchased_qty REAL,
+    actual_spend_eur REAL,
+    quantity_unit TEXT
 );
 
 CREATE TABLE IF NOT EXISTS edges (
@@ -60,6 +65,9 @@ CREATE TABLE IF NOT EXISTS edges (
     shopping_item_id TEXT NOT NULL REFERENCES nodes(id) ON DELETE CASCADE,
     role TEXT DEFAULT 'required',
     notes TEXT,
+    estimated_qty REAL,
+    used_qty REAL,
+    waste_qty REAL,
     PRIMARY KEY (work_package_id, shopping_item_id)
 );
 
@@ -124,6 +132,13 @@ def save_graph(
             conn.execute("ALTER TABLE nodes ADD COLUMN price_eur REAL")
         if "price_basis" not in existing_cols:
             conn.execute("ALTER TABLE nodes ADD COLUMN price_basis TEXT")
+        for column, type_sql in (("price_notes", "TEXT"), ("baseline_estimate_eur", "REAL"), ("purchased_qty", "REAL"), ("actual_spend_eur", "REAL"), ("quantity_unit", "TEXT")):
+            if column not in existing_cols:
+                conn.execute(f"ALTER TABLE nodes ADD COLUMN {column} {type_sql}")
+        edge_cols = {r[1] for r in conn.execute("PRAGMA table_info(edges)")}
+        for column in ("estimated_qty", "used_qty", "waste_qty"):
+            if column not in edge_cols:
+                conn.execute(f"ALTER TABLE edges ADD COLUMN {column} REAL")
         conn.execute("DROP VIEW IF EXISTS v_bipartite_shopping")
         conn.executescript(SCHEMA_SQL[SCHEMA_SQL.index("CREATE VIEW IF NOT EXISTS v_bipartite_shopping AS"):])
         conn.execute("DELETE FROM edges;")
@@ -133,9 +148,9 @@ def save_graph(
             conn.execute(
                 """
                 INSERT INTO nodes (
-                    id, node_type, name, status, sku, supplier, qty, url, ordered_date, doc_path, notes, price_eur, price_basis
+                    id, node_type, name, status, sku, supplier, qty, url, ordered_date, doc_path, notes, price_eur, price_basis, price_notes, baseline_estimate_eur, purchased_qty, actual_spend_eur, quantity_unit
                 )
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     n["id"],
@@ -151,6 +166,11 @@ def save_graph(
                     n.get("notes"),
                     n.get("price_eur"),
                     n.get("price_basis"),
+                    n.get("price_notes"),
+                    n.get("baseline_estimate_eur"),
+                    n.get("purchased_qty"),
+                    n.get("actual_spend_eur"),
+                    n.get("quantity_unit"),
                 ),
             )
 
@@ -161,10 +181,10 @@ def save_graph(
             if wp_id in node_ids and si_id in node_ids:
                 conn.execute(
                     """
-                    INSERT OR REPLACE INTO edges (work_package_id, shopping_item_id, role, notes)
-                    VALUES (?, ?, ?, ?)
+                    INSERT OR REPLACE INTO edges (work_package_id, shopping_item_id, role, notes, estimated_qty, used_qty, waste_qty)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
                     """,
-                    (wp_id, si_id, e.get("role") or "required", e.get("notes")),
+                    (wp_id, si_id, e.get("role") or "required", e.get("notes"), e.get("estimated_qty"), e.get("used_qty"), e.get("waste_qty")),
                 )
 
         canonical = load_graph_from_sqlite(conn)
