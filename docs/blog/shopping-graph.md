@@ -33,6 +33,32 @@ to multiple packages. Prices are not receipts and the total can contain already
 owned tools, optional materials and unpurchased estimates. Some reused items are
 set to €0 incremental cost, not zero historical value.
 
+## Material reconciliation
+
+Each shopping item now has a **frozen baseline estimate**, an optional **actual
+amount paid**, a **purchased quantity**, and a physical unit (pieces, metres,
+litres, square metres, etc.). The original baseline is retained even if the
+current estimated price changes.
+
+Open a shopping item and use **Edit details & work packages** to enter the
+purchased quantity and actual expenditure. Use **Reconcile material usage** to
+record, for each linked work package:
+
+- **Estimated quantity:** initial expectation (leave empty if unknown)
+- **Installed quantity:** material actually consumed in the build
+- **Discarded quantity:** irrecoverable waste/scrap
+
+**Reusable surplus = purchased quantity − installed quantity across all packages
+− discarded quantity across all packages.** Unknown quantities remain blank,
+not zero. The physical unit must be consistent across all work packages for a
+particular item. A negative surplus identifies inconsistent quantities.
+
+The work-package budget summary initially distributes shared purchases **equally
+across linked packages**. This is an allocation estimate, not a claim that
+each package consumed an equal share. Actual usage should replace that assumption
+in a later costing pass. The graph-wide total counts each shopping item once.
+No historical spending or material usage has been guessed.
+
 ## Updating From Terminal
 
 ```bash
