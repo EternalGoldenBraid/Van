@@ -446,6 +446,23 @@
             </div>
           </form>
         </details>
+        <details class="sg-edit-details">
+          <summary class="sg-add-summary">Reconcile material usage</summary>
+          <p><small>Use one unit consistently for purchased, installed and wasted quantities. Empty = not measured.</small></p>
+          <form class="sg-reconcile-form">
+            ${itemLinks(item.id).map((e) => {
+              const wp = workPackages().find((w) => w.id === e.work_package_id);
+              return `<fieldset data-reconcile-wp="${escapeHtml(e.work_package_id)}"><legend>${escapeHtml(wp?.name || e.work_package_id)}</legend>
+                <div class="sg-add-grid">
+                  <label>Estimated qty <input type="number" min="0" step="any" name="estimated" value="${e.estimated_qty ?? ""}" class="sg-input"></label>
+                  <label>Installed qty <input type="number" min="0" step="any" name="used" value="${e.used_qty ?? ""}" class="sg-input"></label>
+                  <label>Discarded qty <input type="number" min="0" step="any" name="waste" value="${e.waste_qty ?? ""}" class="sg-input"></label>
+                </div></fieldset>`;
+            }).join("")}
+            <p><small>Unallocated surplus: ${reconciliation(item) == null ? "unknown" : `${reconciliation(item).toFixed(2)} ${escapeHtml(item.quantity_unit || "units")}`}. Negative indicates a quantity mismatch.</small></p>
+            <button type="submit" class="sg-btn sg-btn-primary">Save usage</button>
+          </form>
+        </details>
       `;
 
       editorEl.querySelector(".sg-editor-close").addEventListener("click", () => {
@@ -493,6 +510,18 @@
           });
         }
         await persistGraph(`docs: update shopping item '${item.name}'`);
+      });
+
+      editorEl.querySelector(".sg-reconcile-form").addEventListener("submit", async (ev) => {
+        ev.preventDefault();
+        for (const fs of editorEl.querySelectorAll("[data-reconcile-wp]")) {
+          const e = itemLinks(item.id).find((e) => e.work_package_id === fs.getAttribute("data-reconcile-wp"));
+          if (!e) continue;
+          e.estimated_qty = numeric(fs.querySelector('[name="estimated"]').value);
+          e.used_qty = numeric(fs.querySelector('[name="used"]').value);
+          e.waste_qty = numeric(fs.querySelector('[name="waste"]').value);
+        }
+        await persistGraph(`docs: record material usage for ${item.name}`);
       });
 
       const delBtn = editorEl.querySelector("[data-delete-item]");
