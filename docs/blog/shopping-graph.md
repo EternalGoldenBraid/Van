@@ -21,11 +21,17 @@ new items** (`+ Add item`), or **remove items** (`✕`):
 
 ## Prices
 
-The graph now stores an optional **listed unit or pack price in euros** for each
-shopping item. Click an item, then open **Edit details & work packages** to
-set its price. A dash means the price is not verified yet; it is not zero.
-Listed prices are not necessarily the amounts paid. Shared tools appear in
-multiple work packages but represent a single purchase, not repeated costs.
+The graph records a **EUR budget per shopping entry**. Entries with `≈`
+are estimates; other amounts are retailer-listed figures. Prices for a specified
+number of sheets or rolls include that quantity when noted in the item details.
+For items marked *as needed*, a provisional quantity is assumed. Click an item,
+then open **Edit details & work packages** to override its price.
+
+The summary shows a total for the current filter, counting shared tools once
+within that view. **Do not sum work-package totals**: the same tool may be linked
+to multiple packages. Prices are not receipts and the total can contain already
+owned tools, optional materials and unpurchased estimates. Some reused items are
+set to €0 incremental cost, not zero historical value.
 
 ## Updating From Terminal
 
