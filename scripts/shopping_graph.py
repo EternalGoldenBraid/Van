@@ -118,7 +118,7 @@ def save_graph(
 
     db_path.parent.mkdir(parents=True, exist_ok=True)
     with connect(db_path) as conn:
-        conn.executescript(SCHEMA_SQL.replace("CREATE VIEW IF NOT EXISTS v_bipartite_shopping AS", "CREATE VIEW IF NOT EXISTS v_bipartite_shopping AS"))
+        conn.executescript(SCHEMA_SQL)
         existing_cols = {r[1] for r in conn.execute("PRAGMA table_info(nodes)")}
         if "price_eur" not in existing_cols:
             conn.execute("ALTER TABLE nodes ADD COLUMN price_eur REAL")
