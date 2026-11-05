@@ -15,7 +15,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Enlarged floor hole clamping stacks."
+      "notes": "Enlarged floor hole clamping stacks.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:aisi316_m6_fasteners",
@@ -28,7 +30,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Standard pop-rivet hole clamping stacks."
+      "notes": "Standard pop-rivet hole clamping stacks.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:alu_tape_50mm",
@@ -41,7 +45,9 @@
       "url": "https://www.puuilo.fi/tarmo-alumiiniteippi-50mmx25m",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Taping XPS board joints."
+      "notes": "Taping XPS board joints.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:bike_tube_seals",
@@ -54,7 +60,24 @@
       "url": null,
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Clamped on both faces of each floor rivet hole."
+      "notes": "Clamped on both faces of each floor rivet hole.",
+      "price_eur": null,
+      "price_basis": null
+    },
+    {
+      "id": "item:biltema_dc_clamp_meter_400a",
+      "node_type": "shopping_item",
+      "name": "Biltema 400 A AC/DC clamp meter (pihtiampeerimittari)",
+      "status": "planned",
+      "sku": "15-338",
+      "supplier": "Biltema",
+      "qty": "1 pc",
+      "url": "https://episerver.biltema.fi/tyokalut/mittavalineet/mittalaitteet/virtamittarit/",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Candidate for diagnosing 12 V van circuits, including higher current branches. Purchase deferred; verify DC measurement specifications.",
+      "price_eur": 49.95,
+      "price_basis": "listed"
     },
     {
       "id": "item:biltema_exhaust_wrap_25mm",
@@ -67,7 +90,9 @@
       "url": "https://www.biltema.fi/autoilu---mp/tuning/pakoputki/pakosarjakaare-musta-25-mm-2000032773",
       "ordered_date": null,
       "doc_path": "docs/blog/diesel_heater/index.md",
-      "notes": "Candidate for insulating the Planar 44D exhaust at the steel step-wall penetration. Verify temperature rating and suitability with Autoterm guidance before installation. Alternative: Autoterm 909 purpose-made 450 mm sleeve. Not purchased; local stock not verified."
+      "notes": "Candidate for insulating the Planar 44D exhaust at the steel step-wall penetration. Verify temperature rating and suitability with Autoterm guidance before installation. Alternative: Autoterm 909 purpose-made 450 mm sleeve. Not purchased; local stock not verified.",
+      "price_eur": 22.95,
+      "price_basis": "listed"
     },
     {
       "id": "item:bosch_hss_drill_set_2_10",
@@ -80,7 +105,9 @@
       "url": "https://www.k-rauta.fi/tuote/metalliporanterasarja-bosch-2-10mm-hss-r-pointtec-7-osainen/3165140917650",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Pilot and flange screw holes."
+      "notes": "Pilot and flange screw holes.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:boutique_stove",
@@ -93,7 +120,9 @@
       "url": "https://boutiquecamping.com/en-eu/products/traditional-wood-burning-stove?view=v2",
       "ordered_date": "2026-10-19",
       "doc_path": null,
-      "notes": "Includes 6x single-wall flue sections, spark arrestor, top plate, ashtray."
+      "notes": "Includes 6x single-wall flue sections, spark arrestor, top plate, ashtray.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:brass_cup_brush",
@@ -106,7 +135,9 @@
       "url": "https://www.puuilo.fi/wolfcraft-kuppiharja-messinki-35x80mm",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Mechanical rust removal around floor holes."
+      "notes": "Mechanical rust removal around floor holes.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:brushes_sokeva_3pc",
@@ -119,7 +150,9 @@
       "url": "https://www.puuilo.fi/sokeva-sivellinsarja-tomera-3-osaa",
       "ordered_date": "2026-10-26",
       "doc_path": null,
-      "notes": "Shared coating brushes; replaces FXA brush set."
+      "notes": "Shared coating brushes; replaces FXA brush set.",
+      "price_eur": 4.99,
+      "price_basis": "listed"
     },
     {
       "id": "item:centre_punch_pajala",
@@ -132,7 +165,9 @@
       "url": "https://www.puuilo.fi/pajala-automaattipistepuikko",
       "ordered_date": "2026-10-26",
       "doc_path": null,
-      "notes": "Automatic centre punch; replaces Tamo candidate."
+      "notes": "Automatic centre punch; replaces Tamo candidate.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:crc_rust_seal",
@@ -145,7 +180,9 @@
       "url": "https://www.puuilo.fi/crc-rust-seal-ruosteenmuunnin-750ml",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "For remaining rust around old rivet holes."
+      "notes": "For remaining rust around old rivet holes.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:cutting_oil_boltoff",
@@ -158,7 +195,9 @@
       "url": "https://www.puuilo.fi/bolt-off-leikkuuoljy-500ml",
       "ordered_date": "2026-10-26",
       "doc_path": null,
-      "notes": "Shared cutting/drilling lubricant for sheet metal."
+      "notes": "Shared cutting/drilling lubricant for sheet metal.",
+      "price_eur": 6.49,
+      "price_basis": "listed"
     },
     {
       "id": "item:finnfoam_xps_30mm",
@@ -171,7 +210,9 @@
       "url": "https://www.k-rauta.fi/tuote/eristyslevy-finnfoam-fi-300-30x600x2500-suorareunainen/6418711190431",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "XPS infill & shimming under yielding floor zones."
+      "notes": "XPS infill & shimming under yielding floor zones.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:flush_cutters_tasakatkaisupihdit",
@@ -184,7 +225,9 @@
       "url": null,
       "ordered_date": "2026-11-03",
       "doc_path": "docs/blog/diesel_heater/index.md",
-      "notes": "Buy later for trimming cable ties flush during heater wiring and van electrical work."
+      "notes": "Buy later for trimming cable ties flush during heater wiring and van electrical work.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:fxa_jigsaw_blades_metal",
@@ -197,7 +240,9 @@
       "url": "https://www.k-rauta.fi/tuote/pistosahantera-fxa-metalli-ja-muovi-n-1-3mm-76mm-tpi-21-3kpl/6438313743781",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Sheet-metal roof cutouts."
+      "notes": "Sheet-metal roof cutouts.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:jeremias_dw1076080",
@@ -210,7 +255,9 @@
       "url": "https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-regenhaube-mit-muendungsabschluss-doppelwandig-dw-fu/?number=DW1076080",
       "ordered_date": "2026-10-21",
       "doc_path": null,
-      "notes": "Integrated terminal hood."
+      "notes": "Integrated terminal hood.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:jeremias_dw13080",
@@ -223,7 +270,9 @@
       "url": "https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-laengenelement-1000-mm-doppelwandig-dw-fu/?number=DW13080",
       "ordered_date": "2026-10-21",
       "doc_path": null,
-      "notes": "940 mm effective installed length."
+      "notes": "940 mm effective installed length.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:jeremias_dw37f080",
@@ -236,7 +285,9 @@
       "url": "https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-uebergang-ferro-lux-dw-fu-jeremias-dw-fu/?number=DW37F080",
       "ordered_date": "2026-10-21",
       "doc_path": null,
-      "notes": "Single-to-twin-wall transition."
+      "notes": "Single-to-twin-wall transition.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:korvausilma_collar_mesh_vent",
@@ -249,7 +300,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Measure existing floor hole diameter before selecting."
+      "notes": "Measure existing floor hole diameter before selecting.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:master_flash_sq402ra",
@@ -262,7 +315,9 @@
       "url": "https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97737833",
       "ordered_date": "2026-10-21",
       "doc_path": null,
-      "notes": "High-temp silicone roof flashing boot."
+      "notes": "High-temp silicone roof flashing boot.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:metal_files_ipa",
@@ -275,7 +330,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Used for deburring and degreasing."
+      "notes": "Used for deburring and degreasing.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:nmc_ccf_6mm",
@@ -288,7 +345,9 @@
       "url": "https://www.puuilo.fi/nmc-solukumieriste-liimalla-6mm-x-1m-x-1m",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Rib valley levelling & internal wheel arches."
+      "notes": "Rib valley levelling & internal wheel arches.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:pine_battens_33x33",
@@ -301,7 +360,9 @@
       "url": "https://www.k-rauta.fi/tuote/hoylatty-cello-33x33x2400-us-1-3-manty/6420611090315",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Floor support grid."
+      "notes": "Floor support grid.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:planar_44d_kit",
@@ -314,7 +375,24 @@
       "url": null,
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Removed during underside cleaning; relocating to step well."
+      "notes": "Removed during underside cleaning; relocating to step well.",
+      "price_eur": null,
+      "price_basis": null
+    },
+    {
+      "id": "item:probuilder_300w_multitool",
+      "node_type": "shopping_item",
+      "name": "Probuilder 300 W oscillating multitool (monitoimityökalu)",
+      "status": "bought",
+      "sku": "70-22095",
+      "supplier": "Motonet",
+      "qty": "1 pc",
+      "url": "https://www.motonet.fi/tuote/probuilder-monitoimityokalu-300w?product=70-22095",
+      "ordered_date": null,
+      "doc_path": null,
+      "notes": "Purchased for controlled cutting of insulation and flooring near heater step. €39.90 is currently listed retail price, not verified receipt price.",
+      "price_eur": 39.9,
+      "price_basis": "listed"
     },
     {
       "id": "item:rostex_super_akva",
@@ -327,7 +405,9 @@
       "url": "https://pintavari.fi/products/rostex-super-akva-v-harm-0-3l",
       "ordered_date": "2026-10-26",
       "doc_path": null,
-      "notes": "Shared brush-on anti-corrosion primer for bare steel."
+      "notes": "Shared brush-on anti-corrosion primer for bare steel.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:rv_butyl_tape",
@@ -340,7 +420,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Level roof rib valleys and bed MaxxFan flange."
+      "notes": "Level roof rib valleys and bed MaxxFan flange.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:rv_roof_lap_sealant",
@@ -353,7 +435,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Perimeter and screw-head sealing on MaxxFan flange."
+      "notes": "Perimeter and screw-head sealing on MaxxFan flange.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:sandpaper_p240",
@@ -366,7 +450,9 @@
       "url": "https://www.puuilo.fi/bosser-hioma-arkki-p240",
       "ordered_date": "2026-10-26",
       "doc_path": null,
-      "notes": "Smooth filed edges & feather paint; replaces Mirka P240."
+      "notes": "Smooth filed edges & feather paint; replaces Mirka P240.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:screws_rst_4_5x50",
@@ -379,7 +465,9 @@
       "url": "https://www.puuilo.fi/wurth-terassi-lauderuuvi-rst-aisi410-4-5x50mm-250kpl",
       "ordered_date": "2026-10-26",
       "doc_path": null,
-      "notes": "Stainless screws for subfloor-to-batten and timber frame fixing."
+      "notes": "Stainless screws for subfloor-to-batten and timber frame fixing.",
+      "price_eur": 16.99,
+      "price_basis": "listed"
     },
     {
       "id": "item:sikaflex_118_grab",
@@ -392,7 +480,9 @@
       "url": "https://www.puuilo.fi/sikaflex-asennusliima-118-extreme-grab-290ml",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Bonding floor battens to prepared steel."
+      "notes": "Bonding floor battens to prepared steel.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:sikaflex_11fc",
@@ -405,7 +495,9 @@
       "url": "https://www.puuilo.fi/sikaflex-liima-ja-saumausmassa-11fc-purform-valkoinen-300ml",
       "ordered_date": null,
       "doc_path": null,
-      "notes": "Weather sealing floor penetrations."
+      "notes": "Weather sealing floor penetrations.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:spray_adhesive_crc",
@@ -418,7 +510,9 @@
       "url": "https://www.puuilo.fi/crc-power-stick-sprayliima-500ml",
       "ordered_date": "2026-10-26",
       "doc_path": null,
-      "notes": "Spray contact adhesive for insulation / foam bonding."
+      "notes": "Spray contact adhesive for insulation / foam bonding.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:step_drill_6_30",
@@ -431,7 +525,9 @@
       "url": "https://www.puuilo.fi/kramfors-askelpora-hss-6-30",
       "ordered_date": "2026-10-26",
       "doc_path": null,
-      "notes": "Replaces Bosch 6–30 mm and Wolfcraft 4–10 mm step drill candidates."
+      "notes": "Replaces Bosch 6–30 mm and Wolfcraft 4–10 mm step drill candidates.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_alarms_extinguisher",
@@ -444,7 +540,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-18. Check ownership and mounting locations; buy only missing equipment."
+      "notes": "WS-18. Check ownership and mounting locations; buy only missing equipment.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_body_wall_shields",
@@ -457,7 +555,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-16. Cut-to-size shield material, spacers and fixings; construction, airspaces and dimensions pending."
+      "notes": "WS-16. Cut-to-size shield material, spacers and fixings; construction, airspaces and dimensions pending.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_boot_fixings",
@@ -470,7 +570,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-11. Select fixing type and count from the boot mounting pattern and vehicle roof."
+      "notes": "WS-11. Select fixing type and count from the boot mounting pattern and vehicle roof.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_boot_sealant",
@@ -483,7 +585,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-09. Select for the Master Flash silicone boot and painted roof, service temperature and application/cure conditions. Product and quantity pending."
+      "notes": "WS-09. Select for the Master Flash silicone boot and painted roof, service temperature and application/cure conditions. Product and quantity pending.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_chimney_supports",
@@ -496,7 +600,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-12. Match the 145 mm Jeremias outer shell; mounting gap, load support, backing and attachment layout pending."
+      "notes": "WS-12. Match the 145 mm Jeremias outer shell; mounting gap, load support, backing and attachment layout pending.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_cleaning_brush_rods",
@@ -509,7 +615,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-20. Select brush and rod reach from the actual cleaning route."
+      "notes": "WS-20. Select brush and rod reach from the actual cleaning route.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_cold_closure",
@@ -522,7 +630,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-22. Deferred, not selected; depends on final chimney arrangement. For a fully cold stove only."
+      "notes": "WS-22. Deferred, not selected; depends on final chimney arrangement. For a fully cold stove only.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_flue_wall_shields",
@@ -535,7 +645,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-23. Shield material, spacers and fixings where required by the final flue route; may share a continuous sheet with the stove-body shield."
+      "notes": "WS-23. Shield material, spacers and fixings where required by the final flue route; may share a continuous sheet with the stove-body shield.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_gloves_ash_kit",
@@ -548,7 +660,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-21. Check ownership before selecting missing handling and maintenance items."
+      "notes": "WS-21. Check ownership before selecting missing handling and maintenance items.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_hearth",
@@ -561,7 +675,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-15. Placeholder for thermal protection, ember-catching surface and load-bearing construction. No product, dimensions or quantity selected."
+      "notes": "WS-15. Placeholder for thermal protection, ember-catching surface and load-bearing construction. No product, dimensions or quantity selected.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_mounting_fasteners",
@@ -574,7 +690,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-14. Sizes and quantities follow chimney-support and stove-restraint design. Excludes separately counted boot fixings."
+      "notes": "WS-14. Sizes and quantities follow chimney-support and stove-restraint design. Excludes separately counted boot fixings.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_other_sealants",
@@ -587,7 +705,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-10. Conditional on the selected assembly instructions; do not duplicate boot sealant."
+      "notes": "WS-10. Conditional on the selected assembly instructions; do not duplicate boot sealant.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_restraints",
@@ -600,7 +720,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-13. Provisional location near the side door for use from inside and outside under the awning. Height undecided; stand only if raised."
+      "notes": "WS-13. Provisional location near the side door for use from inside and outside under the awning. Height undecided; stand only if raised.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_roof_passage",
@@ -613,7 +735,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-24. Specify the insulated chimney passage, airspaces and lining protection separately from the exterior silicone weather boot."
+      "notes": "WS-24. Specify the insulated chimney passage, airspaces and lining protection separately from the exterior silicone weather boot.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:stove_thermometer",
@@ -626,7 +750,9 @@
       "url": null,
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
-      "notes": "WS-19. Select compatible thermometer type and measuring location."
+      "notes": "WS-19. Select compatible thermometer type and measuring location.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "item:unica_akva_maali",
@@ -639,7 +765,9 @@
       "url": "https://pintavari.fi/products/unica-akva-a-0-225l",
       "ordered_date": "2026-10-26",
       "doc_path": null,
-      "notes": "Shared brush-on water-borne topcoat over Rostex Super Akva."
+      "notes": "Shared brush-on water-borne topcoat over Rostex Super Akva.",
+      "price_eur": null,
+      "price_basis": null
     },
     {
       "id": "wp:diesel_heater",
@@ -653,6 +781,19 @@
       "ordered_date": null,
       "doc_path": "docs/blog/diesel_heater/index.md",
       "notes": "Relocating Planar 44D into sliding-door step well."
+    },
+    {
+      "id": "wp:electronics",
+      "node_type": "work_package",
+      "name": "House electronics & diagnostic tooling",
+      "status": "upcoming",
+      "sku": null,
+      "supplier": null,
+      "qty": null,
+      "url": null,
+      "ordered_date": null,
+      "doc_path": "docs/blog/work-packages.md",
+      "notes": "DC wiring, monitoring, diagnostics and electrical tools."
     },
     {
       "id": "wp:floor_levelling",
@@ -765,6 +906,12 @@
     },
     {
       "work_package_id": "wp:diesel_heater",
+      "shopping_item_id": "item:probuilder_300w_multitool",
+      "role": "shared_tool",
+      "notes": "Cut back floor insulation to seat the heater gasket"
+    },
+    {
+      "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:rostex_super_akva",
       "role": "required",
       "notes": "Prime step-well cut edges"
@@ -786,6 +933,18 @@
       "shopping_item_id": "item:unica_akva_maali",
       "role": "required",
       "notes": "Topcoat step-well cut edges"
+    },
+    {
+      "work_package_id": "wp:electronics",
+      "shopping_item_id": "item:biltema_dc_clamp_meter_400a",
+      "role": "optional",
+      "notes": "DC clamp diagnostics for van wiring and charging"
+    },
+    {
+      "work_package_id": "wp:electronics",
+      "shopping_item_id": "item:flush_cutters_tasakatkaisupihdit",
+      "role": "shared_tool",
+      "notes": "Trim cable ties flush"
     },
     {
       "work_package_id": "wp:floor_levelling",
@@ -810,6 +969,12 @@
       "shopping_item_id": "item:pine_battens_33x33",
       "role": "required",
       "notes": "Floor batten grid"
+    },
+    {
+      "work_package_id": "wp:floor_levelling",
+      "shopping_item_id": "item:probuilder_300w_multitool",
+      "role": "shared_tool",
+      "notes": "Shaping plywood and insulation"
     },
     {
       "work_package_id": "wp:floor_levelling",
