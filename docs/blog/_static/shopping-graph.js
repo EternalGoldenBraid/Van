@@ -709,7 +709,7 @@
                 ${item.url ? ` <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" title="Open product link">↗</a>` : ""}
               </td>
               <td>${escapeHtml(item.qty || "")}</td>
-              <td>${item.price_eur == null ? "—" : `${Number(item.price_eur).toFixed(2)} €`}</td>
+              <td title="${escapeHtml(item.price_notes || (item.price_basis === "listed" ? "Retail listing price" : "Budget estimate"))}">${item.price_eur == null ? "—" : `${item.price_basis === "estimated" ? "≈ " : ""}${Number(item.price_eur).toFixed(2)} €`}</td>
               <td>${escapeHtml(item.supplier || "")}</td>
               <td>${pkgLinks}</td>
               <td>
@@ -721,7 +721,7 @@
         .join("");
 
       detail.innerHTML = `
-        <p class="sg-summary-line"><strong>${escapeHtml(title)}</strong> — ${visibleItems.length} items${wpLinkHtml}</p>
+        <p class="sg-summary-line"><strong>${escapeHtml(title)}</strong> — ${visibleItems.length} items${wpLinkHtml} · <strong>€${visibleItems.reduce((sum, item) => sum + (Number(item.price_eur) || 0), 0).toFixed(2)}</strong> listed/estimated budget (≈ means estimate; shared items counted once within view)</p>
         <div class="table-wrapper">
           <table class="sg-table">
             <thead>
