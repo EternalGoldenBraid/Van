@@ -1,6 +1,6 @@
 # 2026-11-01 12:47 - Build next steps and purchases
 
-Updated 2026-11-02. Shared primer and topcoat have arrived.
+Updated 2026-11-05. Shared primer and topcoat have arrived.
 
 Pickup area: Tampere/Kangasala; K-Rauta or Puuilo preferred.
 Mon-Wed: Helsinki region also possible. Stock verified only where noted.
@@ -21,7 +21,7 @@ Resume author session:
   for pump repair and later small-cable electrical work.
 - Flush cutters (tasakatkaisupihdit): useful later, not today's blocker.
 
-Stove installation: Wednesday at earliest; roof/stove purchases can wait.
+Stove installation: layout and remaining materials are the current focus.
 Rain cover/tape remain on the roof-work list. Hold stove boards/frame,
 saw blades, butyl and sealants pending dimensions/tool/compatibility checks.
 
@@ -85,28 +85,42 @@ Source: [heater](../docs/blog/diesel_heater/index.md).
 Effort: <= 2 workers
 
 Status: stove arrived. Jeremias parts last tracked in Germany on Friday.
-Silicone boot estimated 2 November; receipt not confirmed.
+Silicone boot now estimated 5 November per shopping list; receipt not confirmed.
 
 Next: measure stove position; dry-fit the full flue when delivered.
 
 Layout goal: close to wall, usable from outside under the awning.
-Trial a roughly 200 mm raised base for seated viewing; height not fixed.
-Briquette storage underneath is an idea, not a confirmed safe arrangement.
+Trial the stove feet roughly 600-800 mm above the finished floor.
+Height remains open; use this range for preliminary stand material estimates.
+Firewood storage underneath is the goal; underside heat protection and
+ember containment remain to design before treating the space as fuel storage.
+Check raised stove/flue clearances to ceiling and outlet-to-terminal rise.
+
+Next selections:
+- Steel raised stand + supported insulating hearth + ember-catching surface.
+- Ventilated steel wall shields beside both stove and single-wall flue.
+- Flexible boot-compatible outdoor silicone + mechanical roof fixings.
+Butyl tape is for the fan, not the stove boot.
+Still open: chimney supports, travel restraints, roof-passage protection
+and cold-stove closure; the hearth and wall lining are not the whole kit.
 
 ### Materials shortlist - not ordered
 
 - Support frame (korotusjalusta / tukirunko): steel angle or box section,
-  not timber for this proposal. [Steel stock][steel-stock]; section sizes,
+  not timber for this proposal. [30 x 30 x 1.5 mm tube, 2 m][steel-stock],
+  Puuilo EUR 16.99 stock example; not a designed section. Section sizes,
   joints and vehicle anchors still to specify. A 30 kg static load alone
   does not size the travel restraints (kuljetuskiinnitys).
 - Insulating hearth board (tulisijan alustan lämmöneriste):
   calcium silicate (kalsiumsilikaattilevy). [Skamol 50 mm][hearth-board],
   1000 x 1220 mm: Lahdesjärvi showed 14 boards, EUR 129 each, 1 November;
-  open today until 18:00. Candidate, not a verified hearth specification:
+  historical stock/price, not rechecked. Candidate, not a verified hearth specification:
   check thermal properties and allowable loading before buying.
 - Hearth support/top (alustan tukilevy / pintapelti): steel tray/support
   and load-spreading face around the insulating board; no unsupported
   board or concentrated stove-foot loads assumed acceptable.
+  [3 x 400 x 1000 mm steel][hearth-steel], Puuilo EUR 47.99 stock example;
+  [1.5 x 330 x 1250 mm sheet][hearth-sheet], EUR 24.99 for an ember surface.
   Separate [ember plate (kipinäpelti / eduspelti)][ember-plate] if needed;
   this thin sheet is not the insulating slab or structural support.
 - Wall shields (seinän lämpösuojalevyt): [Warma][shield], 480 or
@@ -150,10 +164,18 @@ forms the base to the roof ribs, seals beneath, then mechanically fastens.
 dry-fit the delivered boot. No fan-style butyl levelling layer specified.
 Select compatible weather/temperature-rated silicone and fixings for
 the actual thin-sheet/support build-up; sealant alone must not bridge ribs.
+[Master Flash's MODESIL NO13 data][boot-sealant]: flexible/UV-stable,
+-40 to +250 C service; application +5 to +40 C, cure about 2 mm/day.
+Use as a specification reference, not a required brand/import.
+Finnish candidate: Soudal Silirub HT-N, [Ruuvikeskus][local-sealant]
+or [Ahlsell 3267522][local-sealant-alt]. Neutral, outdoor-rated, -50 to
++280 C cured service; apply at +5 to +35 C. Check adhesion to actual
+boot/painted roof and single-cartridge pickup; stock/price unconfirmed.
+Rigid fire cement is not a flexible roof weather seal.
 
 Design requirement: reduce cold-stove draught/heat loss; plan a compatible
 flue damper (savupelti) or cold-only closure before final flue assembly.
-Selection remains open, not omitted; no purchase needed today.
+Selection remains open, not omitted; include it in the final assembly plan.
 A damper reduces airflow loss, not conduction through the metal chimney.
 [Finnish chimney regulation, section 7][damper-rule] requires residual
 CO to escape even with a closed damper. Never seal a flue with fire/embers;
@@ -220,7 +242,9 @@ Next:
 [stove-manual]: https://boutiquecamping.com/en-eu/pages/instruction-manuals
 [butyl]: https://www.puuilo.fi/finbullet-butyylitiivistenauha-3m
 [fan-video]: https://www.youtube.com/watch?v=ZrSy0apd_IQ
-[steel-stock]: https://www.puuilo.fi/rakentaminen/pienrauta/kayttorauta
+[steel-stock]: https://www.puuilo.fi/warma-terasputki-30x30mm-2m
+[hearth-steel]: https://www.puuilo.fi/warma-teraslevy-3x400x1000mm
+[hearth-sheet]: https://www.puuilo.fi/warma-peltilevy-330x1250x1-5mm
 [hearth-board]: https://www.k-rauta.fi/tuote/kalsiumsilikaattilevy-skamol-50mm-1000x1220/6418614502898
 [ember-plate]: https://www.k-rauta.fi/tuote/uunineduspelti-pisla-41700210-40x60cm-sinkitty/6414673170238
 [shield-details]: https://www.karkkainen.com/verkkokauppa/warma-980mm-musta-palosuojalevy
@@ -229,5 +253,8 @@ Next:
 [flue-holder]: https://www.kamin-store24.de/Jeremias-DW-FU-Wand-und-Deckenhalter-in-verschiedenen-Ausfuehrungen
 [boot-guide]: https://www.aztecwasher.com/docs/cut-marks-installation-guides/
 [boot-profile]: https://www.lethfast.ca/products/mf_std_redsilicone
+[boot-sealant]: https://master-flash.eu/wp-content/uploads/2022/12/Silicone-TDS-EN.pdf
+[local-sealant]: https://www.ruuvikeskus.fi/index.php?tuote=352-50-108266
+[local-sealant-alt]: https://www.ahlsell.fi/products/kayttotavarat/kemiallistekniset-tuotteet/saumausmassat-rakennus/saumaus--ja-tiivistysmassat/3267522f
 [damper-rule]: https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2017/745
 [roof-blades]: https://www.k-rauta.fi/tuote/pistosahantera-fxa-metalli-ja-muovi-n-1-3mm-76mm-tpi-21-3kpl/6438313743781

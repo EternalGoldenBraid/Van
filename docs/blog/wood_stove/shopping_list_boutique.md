@@ -69,21 +69,49 @@ All rows below are **unpriced**. No specific product or quantity is selected
 unless stated. Resolve the selection input before putting a row into a bulk order.
 
 The [shopping graph](../shopping-graph.md) tracks these as separate pending
-items (`tbd`), not one bundled purchase. Products, quantities and prices remain
-open. The provisional location is near the side door for use from inside and
-outside under the awning; floor-level versus raised mounting is undecided.
+items (`tbd` or `candidate`), not one bundled purchase. The Finnish sourcing
+shortlist below was checked on **2026-11-05**; no order or local shelf stock
+is confirmed. Trial stove feet 600-800 mm above the finished floor near the
+side door; final height and construction remain open.
+
+### Finnish Purchase Links - Candidates
+
+- **WS-15 hearth insulation:** [Skamol 50 x 1000 x 1220 mm, K-Rauta][hearth-board].
+  Required thickness and supported loading still to establish.
+- **WS-15 steel support / load spreading:** [Warma steel plate,
+  3 x 400 x 1000 mm, Puuilo][hearth-steel], EUR 47.99.
+  [Uncoated sheet, 1.5 x 330 x 1250 mm][hearth-sheet], EUR 24.99,
+  is an ember-surface stock option. Dimensions/thicknesses are stock examples,
+  not a designed hearth stack or approval for firewood storage below.
+- **WS-16/23 ventilated wall shields:** [Warma 730 x 980 mm][shield-wide],
+  EUR 74.90, or [480 x 980 mm][shield-narrow], EUR 69.90, Puuilo.
+  Includes 30 mm spacers and screws; layer count, coverage and attachments
+  remain to specify. Count shared stove/flue coverage once.
+- **WS-13 raised stand:** [Warma 30 x 30 x 1.5 mm steel tube, 2 m][stand-steel],
+  EUR 16.99, Puuilo. Stock example only; section, lengths, joints, bracing
+  and vehicle restraints depend on the stand design.
+- **WS-09 roof-boot sealant:** [Soudal Silirub HT-N, Ruuvikeskus][boot-sealant],
+  supplier code 108266; also [Ahlsell article 3267522][boot-sealant-alt].
+  Neutral-cure, flexible outdoor silicone; [Finnish technical sheet][sealant-tds]:
+  -50 to +280 C cured service, +5 to +35 C application, about 2 mm/day
+  cure at 23 C / 50% RH. Verify adhesion to the actual boot/painted roof,
+  package size, price and single-cartridge pickup before purchase.
+  No Master Flash-branded sealant or butyl purchase is specified.
+
+Prices above are per stock piece/panel, not complete installation totals.
+Graph estimates remain provisional allowances while quantities are unknown.
 
 | Item ID | Item | Required qty | Status | Selection input / source |
 | --- | --- | --- | --- | --- |
-| WS-09 | Boot-compatible roof sealant/adhesive | TBD cartridges | Select, price and obtain | Boot/roof interface and application/cure conditions |
+| WS-09 | Boot-compatible roof sealant/adhesive | TBD cartridges | Silirub HT-N candidate; compatibility/stock pending | [Finnish purchase link][boot-sealant]; boot/roof interface and application/cure conditions |
 | WS-10 | Other joint/installation sealants or adhesives, if specified | TBD | Conditional on method | Actual system instructions; avoid duplicating WS-09 |
 | WS-11 | Roof boot mechanical fixings | TBD pcs | Select, price and obtain | Boot mounting pattern and vehicle roof |
 | WS-12 | Chimney supports/clamps and vehicle-side brackets | TBD pcs | Design, price and obtain | 145 mm shell, mounting gap and attachment layout; [system support examples][supports] |
-| WS-13 | Stove restraints, backing/attachment plates and optional raised stand | TBD pcs | Design, price and obtain | Final stove position, height and vehicle attachment points; stand only if raised |
+| WS-13 | Stove restraints, backing/attachment plates and raised stand | TBD pcs | Steel stock candidate; design pending | [Tube stock][stand-steel]; final section, joints, height and vehicle attachment points |
 | WS-14 | Attachment bolts, washers, nuts and screws | TBD by size | Select, price and obtain | WS-12/13 design; excludes boot fixings counted in WS-11 |
-| WS-15 | Hearth / floor protection | TBD area/pieces | Placeholder; no product selected | Thermal protection, ember-catching surface and load-bearing construction; final layout and dimensions |
-| WS-16 | Wall protection beside the stove body | TBD area/pieces | Select material, then size | Cut-to-size shield material, spacers and fixings; specified airspaces and nearby surfaces |
-| WS-23 | Wall protection beside the single-wall flue | TBD area/pieces | Select material, then size | Final route and required clearances; may share a continuous sheet with WS-16 |
+| WS-15 | Hearth / floor protection | TBD area/pieces | Skamol + steel candidates; stack not specified | [Board][hearth-board], [steel][hearth-steel]; thermal protection, ember-catching surface and load-bearing construction |
+| WS-16 | Wall protection beside the stove body | TBD area/pieces | Warma candidate; size/layers pending | [Panels][shield-wide], spacers and fixings; specified airspaces and nearby surfaces |
+| WS-23 | Wall protection beside the single-wall flue | TBD area/pieces | Warma candidate; route/coverage pending | [Panels][shield-wide]; final route and required clearances; may share coverage with WS-16 |
 | WS-24 | Roof/ceiling passage protection | TBD area/pieces | Specify construction, then obtain | Insulated chimney passage, airspaces and lining protection; separate from the exterior weather boot |
 | WS-17 | Cut-edge coating and preparation consumables | Shared kit | Rostex Super Akva + Unica Akva (Pintavari) & Sokeva brushes `10155894` + Bosser P240 `10167359` (Puuilo) **ordered 2026-10-26**; `Tikkurila Panssaripesu` still to buy | [Shared heater/fan purchases](../diesel_heater/index.md#shopping-list) |
 | WS-18 | CO alarm, smoke alarm and suitable extinguisher | TBD | Check ownership, then obtain missing items | Selected equipment and mounting locations |
@@ -124,3 +152,12 @@ spending and order charges here; do not add an unknown amount as zero.
 [cap]: https://www.feuerdepot.de/edelstahlschornstein-bauteile/edelstahlschornstein-regenhaube-mit-muendungsabschluss-doppelwandig-dw-fu/?number=DW1076080
 [boot]: https://hobbyhall.fi/fi/kodin-remontointi/lammityslaitteet/savupiiput-ja-hormit/silikoninen-kattolapivienti-koza-tyyppisille-tulisijoille-lampotiloille-jopa?id=97737833
 [supports]: https://www.kamin-store24.de/Jeremias-DW-FU-Wand-und-Deckenhalter-in-verschiedenen-Ausfuehrungen
+[hearth-board]: https://www.k-rauta.fi/tuote/kalsiumsilikaattilevy-skamol-50mm-1000x1220/6418614502898
+[hearth-steel]: https://www.puuilo.fi/warma-teraslevy-3x400x1000mm
+[hearth-sheet]: https://www.puuilo.fi/warma-peltilevy-330x1250x1-5mm
+[shield-wide]: https://www.puuilo.fi/warma-palosuojalevy-musta-730x980mm
+[shield-narrow]: https://www.puuilo.fi/warma-palosuojalevy-musta-480x980mm
+[stand-steel]: https://www.puuilo.fi/warma-terasputki-30x30mm-2m
+[boot-sealant]: https://www.ruuvikeskus.fi/index.php?tuote=352-50-108266
+[boot-sealant-alt]: https://www.ahlsell.fi/products/kayttotavarat/kemiallistekniset-tuotteet/saumausmassat-rakennus/saumaus--ja-tiivistysmassat/3267522f
+[sealant-tds]: https://www.soudal.fi/sites/default/files/soudal_api/document/F0032691_0001.pdf
