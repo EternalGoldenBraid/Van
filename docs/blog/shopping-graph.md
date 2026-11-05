@@ -19,6 +19,14 @@ new items** (`+ Add item`), or **remove items** (`✕`):
 </div>
 ```
 
+## Prices
+
+The graph now stores an optional **listed unit or pack price in euros** for each
+shopping item. Click an item, then open **Edit details & work packages** to
+set its price. A dash means the price is not verified yet; it is not zero.
+Listed prices are not necessarily the amounts paid. Shared tools appear in
+multiple work packages but represent a single purchase, not repeated costs.
+
 ## Updating From Terminal
 
 ```bash
