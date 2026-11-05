@@ -18,7 +18,11 @@
       "notes": "Enlarged floor hole clamping stacks.",
       "price_eur": 30,
       "price_basis": "estimated",
-      "price_notes": "Allowance for stainless bolt, washer, nut packs"
+      "price_notes": "Allowance for stainless bolt, washer, nut packs",
+      "baseline_estimate_eur": 30,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:aisi316_m6_fasteners",
@@ -34,7 +38,11 @@
       "notes": "Standard pop-rivet hole clamping stacks.",
       "price_eur": 20,
       "price_basis": "estimated",
-      "price_notes": "Allowance for stainless fastener packs"
+      "price_notes": "Allowance for stainless fastener packs",
+      "baseline_estimate_eur": 20,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:alu_tape_50mm",
@@ -50,7 +58,11 @@
       "notes": "Taping XPS board joints.",
       "price_eur": 11.98,
       "price_basis": "estimated",
-      "price_notes": "2 rolls × €5.99; assumed mid-range quantity"
+      "price_notes": "2 rolls × €5.99; assumed mid-range quantity",
+      "baseline_estimate_eur": 11.98,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:bike_tube_seals",
@@ -66,7 +78,11 @@
       "notes": "Clamped on both faces of each floor rivet hole.",
       "price_eur": 0,
       "price_basis": "estimated",
-      "price_notes": "Reused inner tube; zero incremental purchase assumed"
+      "price_notes": "Reused inner tube; zero incremental purchase assumed",
+      "baseline_estimate_eur": 0,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:biltema_dc_clamp_meter_400a",
@@ -81,7 +97,11 @@
       "doc_path": null,
       "notes": "Candidate for diagnosing 12 V van circuits, including higher current branches. Purchase deferred; verify DC measurement specifications.",
       "price_eur": 49.95,
-      "price_basis": "listed"
+      "price_basis": "listed",
+      "baseline_estimate_eur": 49.95,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:biltema_exhaust_wrap_25mm",
@@ -96,7 +116,11 @@
       "doc_path": "docs/blog/diesel_heater/index.md",
       "notes": "Purchased and used for fitting at the heater exhaust step-wall penetration. Verify installation geometry, temperature suitability, and final clamping before operating. Listed price is not receipt-confirmed. Alternative reference: Autoterm 909 purpose-made 450 mm sleeve.",
       "price_eur": 22.95,
-      "price_basis": "listed"
+      "price_basis": "listed",
+      "baseline_estimate_eur": 22.95,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:bosch_hss_drill_set_2_10",
@@ -112,7 +136,11 @@
       "notes": "Pilot and flange screw holes.",
       "price_eur": 17,
       "price_basis": "estimated",
-      "price_notes": "Approximate market price for Bosch 7-piece drill set"
+      "price_notes": "Approximate market price for Bosch 7-piece drill set",
+      "baseline_estimate_eur": 17,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:boutique_stove",
@@ -128,7 +156,11 @@
       "notes": "Includes 6x single-wall flue sections, spark arrestor, top plate, ashtray.",
       "price_eur": 360,
       "price_basis": "listed",
-      "price_notes": "Current listed price for Traditional model (one stove)"
+      "price_notes": "Current listed price for Traditional model (one stove)",
+      "baseline_estimate_eur": 360,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:brass_cup_brush",
@@ -144,7 +176,11 @@
       "notes": "Mechanical rust removal around floor holes.",
       "price_eur": 9,
       "price_basis": "estimated",
-      "price_notes": "Small cup brush budget estimate"
+      "price_notes": "Small cup brush budget estimate",
+      "baseline_estimate_eur": 9,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:brushes_sokeva_3pc",
@@ -159,7 +195,11 @@
       "doc_path": null,
       "notes": "Shared coating brushes; replaces FXA brush set.",
       "price_eur": 4.99,
-      "price_basis": "listed"
+      "price_basis": "listed",
+      "baseline_estimate_eur": 4.99,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:centre_punch_pajala",
@@ -175,7 +215,11 @@
       "notes": "Automatic centre punch; replaces Tamo candidate.",
       "price_eur": 7.99,
       "price_basis": "listed",
-      "price_notes": "Puuilo linked price"
+      "price_notes": "Puuilo linked price",
+      "baseline_estimate_eur": 7.99,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:crc_rust_seal",
@@ -191,7 +235,11 @@
       "notes": "For remaining rust around old rivet holes.",
       "price_eur": 74.9,
       "price_basis": "listed",
-      "price_notes": "Puuilo listed 750 ml price (already owned; not a new purchase)"
+      "price_notes": "Puuilo listed 750 ml price (already owned; not a new purchase)",
+      "baseline_estimate_eur": 74.9,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:cutting_oil_boltoff",
@@ -206,7 +254,11 @@
       "doc_path": null,
       "notes": "Shared cutting/drilling lubricant for sheet metal.",
       "price_eur": 6.49,
-      "price_basis": "listed"
+      "price_basis": "listed",
+      "baseline_estimate_eur": 6.49,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:finnfoam_xps_30mm",
@@ -222,7 +274,11 @@
       "notes": "XPS infill & shimming under yielding floor zones.",
       "price_eur": 50,
       "price_basis": "estimated",
-      "price_notes": "Allowance for around 3–4 boards; amount depends on floor area"
+      "price_notes": "Allowance for around 3–4 boards; amount depends on floor area",
+      "baseline_estimate_eur": 50,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:flush_cutters_tasakatkaisupihdit",
@@ -238,7 +294,11 @@
       "notes": "Buy later for trimming cable ties flush during heater wiring and van electrical work.",
       "price_eur": 10,
       "price_basis": "estimated",
-      "price_notes": "Budget estimate for one pair"
+      "price_notes": "Budget estimate for one pair",
+      "baseline_estimate_eur": 10,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:fxa_jigsaw_blades_metal",
@@ -254,7 +314,11 @@
       "notes": "Sheet-metal roof cutouts.",
       "price_eur": 7,
       "price_basis": "estimated",
-      "price_notes": "Budget estimate for three-blade pack"
+      "price_notes": "Budget estimate for three-blade pack",
+      "baseline_estimate_eur": 7,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:jeremias_dw1076080",
@@ -270,7 +334,11 @@
       "notes": "Integrated terminal hood.",
       "price_eur": 95,
       "price_basis": "estimated",
-      "price_notes": "Estimate for DN80 stainless DW-FU rain terminal; do not confuse with copper variant"
+      "price_notes": "Estimate for DN80 stainless DW-FU rain terminal; do not confuse with copper variant",
+      "baseline_estimate_eur": 95,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:jeremias_dw13080",
@@ -286,7 +354,11 @@
       "notes": "940 mm effective installed length.",
       "price_eur": 190,
       "price_basis": "estimated",
-      "price_notes": "Estimate for DN80 1 m insulated stainless DW-FU chimney; exact quote not accessible"
+      "price_notes": "Estimate for DN80 1 m insulated stainless DW-FU chimney; exact quote not accessible",
+      "baseline_estimate_eur": 190,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:jeremias_dw37f080",
@@ -302,7 +374,11 @@
       "notes": "Single-to-twin-wall transition.",
       "price_eur": 45,
       "price_basis": "estimated",
-      "price_notes": "Estimate for DN80 stainless flue adapter; exact quote not accessible"
+      "price_notes": "Estimate for DN80 stainless flue adapter; exact quote not accessible",
+      "baseline_estimate_eur": 45,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:korvausilma_collar_mesh_vent",
@@ -318,7 +394,11 @@
       "notes": "Measure existing floor hole diameter before selecting.",
       "price_eur": 35,
       "price_basis": "estimated",
-      "price_notes": "Collar, mesh and damper kit allowance"
+      "price_notes": "Collar, mesh and damper kit allowance",
+      "baseline_estimate_eur": 35,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:master_flash_sq402ra",
@@ -334,7 +414,11 @@
       "notes": "High-temp silicone roof flashing boot.",
       "price_eur": 60,
       "price_basis": "estimated",
-      "price_notes": "Estimate for silicone roof flashing boot; linked listing price not accessible"
+      "price_notes": "Estimate for silicone roof flashing boot; linked listing price not accessible",
+      "baseline_estimate_eur": 60,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:metal_files_ipa",
@@ -350,7 +434,11 @@
       "notes": "Used for deburring and degreasing.",
       "price_eur": 0,
       "price_basis": "estimated",
-      "price_notes": "Already owned; zero incremental purchase assumed"
+      "price_notes": "Already owned; zero incremental purchase assumed",
+      "baseline_estimate_eur": 0,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:nmc_ccf_6mm",
@@ -366,7 +454,11 @@
       "notes": "Rib valley levelling & internal wheel arches.",
       "price_eur": 29.99,
       "price_basis": "listed",
-      "price_notes": "One 1 m² sheet; more may be needed"
+      "price_notes": "One 1 m² sheet; more may be needed",
+      "baseline_estimate_eur": 29.99,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:pine_battens_33x33",
@@ -382,7 +474,11 @@
       "notes": "Floor support grid.",
       "price_eur": 45,
       "price_basis": "estimated",
-      "price_notes": "Allowance for roughly 9 battens at €5 each"
+      "price_notes": "Allowance for roughly 9 battens at €5 each",
+      "baseline_estimate_eur": 45,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:planar_44d_kit",
@@ -398,7 +494,11 @@
       "notes": "Removed during underside cleaning; relocating to step well.",
       "price_eur": 0,
       "price_basis": "estimated",
-      "price_notes": "Existing heater bundled with van; no new purchase budgeted"
+      "price_notes": "Existing heater bundled with van; no new purchase budgeted",
+      "baseline_estimate_eur": 0,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:probuilder_300w_multitool",
@@ -413,7 +513,11 @@
       "doc_path": null,
       "notes": "Purchased for controlled cutting of insulation and flooring near heater step. €39.90 is currently listed retail price, not verified receipt price.",
       "price_eur": 39.9,
-      "price_basis": "listed"
+      "price_basis": "listed",
+      "baseline_estimate_eur": 39.9,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:rostex_super_akva",
@@ -429,7 +533,11 @@
       "notes": "Shared brush-on anti-corrosion primer for bare steel.",
       "price_eur": 20,
       "price_basis": "estimated",
-      "price_notes": "Estimate for 0.3 l specialty primer"
+      "price_notes": "Estimate for 0.3 l specialty primer",
+      "baseline_estimate_eur": 20,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:rv_butyl_tape",
@@ -445,7 +553,11 @@
       "notes": "Level roof rib valleys and bed MaxxFan flange.",
       "price_eur": 30,
       "price_basis": "estimated",
-      "price_notes": "Two rolls, approximately €15 per roll"
+      "price_notes": "Two rolls, approximately €15 per roll",
+      "baseline_estimate_eur": 30,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:rv_roof_lap_sealant",
@@ -461,7 +573,11 @@
       "notes": "Perimeter and screw-head sealing on MaxxFan flange.",
       "price_eur": 35,
       "price_basis": "estimated",
-      "price_notes": "Allowance for two cartridges"
+      "price_notes": "Allowance for two cartridges",
+      "baseline_estimate_eur": 35,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:sandpaper_p240",
@@ -477,7 +593,11 @@
       "notes": "Smooth filed edges & feather paint; replaces Mirka P240.",
       "price_eur": 4.95,
       "price_basis": "estimated",
-      "price_notes": "5 sheets × €0.99 each"
+      "price_notes": "5 sheets × €0.99 each",
+      "baseline_estimate_eur": 4.95,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:screws_rst_4_5x50",
@@ -492,7 +612,11 @@
       "doc_path": null,
       "notes": "Stainless screws for subfloor-to-batten and timber frame fixing.",
       "price_eur": 16.99,
-      "price_basis": "listed"
+      "price_basis": "listed",
+      "baseline_estimate_eur": 16.99,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:sikaflex_118_grab",
@@ -508,7 +632,11 @@
       "notes": "Bonding floor battens to prepared steel.",
       "price_eur": 17.99,
       "price_basis": "listed",
-      "price_notes": "One cartridge, additional cartridges if needed"
+      "price_notes": "One cartridge, additional cartridges if needed",
+      "baseline_estimate_eur": 17.99,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:sikaflex_11fc",
@@ -524,7 +652,11 @@
       "notes": "Weather sealing floor penetrations.",
       "price_eur": 17.99,
       "price_basis": "listed",
-      "price_notes": "Puuilo linked price"
+      "price_notes": "Puuilo linked price",
+      "baseline_estimate_eur": 17.99,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:spray_adhesive_crc",
@@ -540,7 +672,11 @@
       "notes": "Spray contact adhesive for insulation / foam bonding.",
       "price_eur": 17.99,
       "price_basis": "listed",
-      "price_notes": "Puuilo listed 500 ml price"
+      "price_notes": "Puuilo listed 500 ml price",
+      "baseline_estimate_eur": 17.99,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:step_drill_6_30",
@@ -556,7 +692,11 @@
       "notes": "Replaces Bosch 6–30 mm and Wolfcraft 4–10 mm step drill candidates.",
       "price_eur": 17.99,
       "price_basis": "listed",
-      "price_notes": "Puuilo linked price"
+      "price_notes": "Puuilo linked price",
+      "baseline_estimate_eur": 17.99,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_alarms_extinguisher",
@@ -572,7 +712,11 @@
       "notes": "WS-18. Check ownership and mounting locations; buy only missing equipment.",
       "price_eur": 80,
       "price_basis": "estimated",
-      "price_notes": "Allowance for CO/smoke alarms and suitable extinguisher; account for already owned alarm separately later"
+      "price_notes": "Allowance for CO/smoke alarms and suitable extinguisher; account for already owned alarm separately later",
+      "baseline_estimate_eur": 80,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_body_wall_shields",
@@ -588,7 +732,11 @@
       "notes": "WS-16. Cut-to-size shield material, spacers and fixings; construction, airspaces and dimensions pending.",
       "price_eur": 80,
       "price_basis": "estimated",
-      "price_notes": "Shield material and standoff allowance"
+      "price_notes": "Shield material and standoff allowance",
+      "baseline_estimate_eur": 80,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_boot_fixings",
@@ -604,7 +752,11 @@
       "notes": "WS-11. Select fixing type and count from the boot mounting pattern and vehicle roof.",
       "price_eur": 20,
       "price_basis": "estimated",
-      "price_notes": "Fixings allowance"
+      "price_notes": "Fixings allowance",
+      "baseline_estimate_eur": 20,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_boot_sealant",
@@ -620,7 +772,11 @@
       "notes": "WS-09. Select for the Master Flash silicone boot and painted roof, service temperature and application/cure conditions. Product and quantity pending.",
       "price_eur": 25,
       "price_basis": "estimated",
-      "price_notes": "Roof sealant allowance; material compatibility still to be selected"
+      "price_notes": "Roof sealant allowance; material compatibility still to be selected",
+      "baseline_estimate_eur": 25,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_chimney_supports",
@@ -636,7 +792,11 @@
       "notes": "WS-12. Match the 145 mm Jeremias outer shell; mounting gap, load support, backing and attachment layout pending.",
       "price_eur": 60,
       "price_basis": "estimated",
-      "price_notes": "Supports and brackets allowance"
+      "price_notes": "Supports and brackets allowance",
+      "baseline_estimate_eur": 60,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_cleaning_brush_rods",
@@ -652,7 +812,11 @@
       "notes": "WS-20. Select brush and rod reach from the actual cleaning route.",
       "price_eur": 30,
       "price_basis": "estimated",
-      "price_notes": "Flue brush and rods allowance"
+      "price_notes": "Flue brush and rods allowance",
+      "baseline_estimate_eur": 30,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_cold_closure",
@@ -668,7 +832,11 @@
       "notes": "WS-22. Deferred, not selected; depends on final chimney arrangement. For a fully cold stove only.",
       "price_eur": 25,
       "price_basis": "estimated",
-      "price_notes": "Optional closure budget"
+      "price_notes": "Optional closure budget",
+      "baseline_estimate_eur": 25,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_flue_wall_shields",
@@ -684,7 +852,11 @@
       "notes": "WS-23. Shield material, spacers and fixings where required by the final flue route; may share a continuous sheet with the stove-body shield.",
       "price_eur": 70,
       "price_basis": "estimated",
-      "price_notes": "Flue shield material and supports allowance"
+      "price_notes": "Flue shield material and supports allowance",
+      "baseline_estimate_eur": 70,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_gloves_ash_kit",
@@ -700,7 +872,11 @@
       "notes": "WS-21. Check ownership before selecting missing handling and maintenance items.",
       "price_eur": 35,
       "price_basis": "estimated",
-      "price_notes": "Gloves and ash-handling kit allowance"
+      "price_notes": "Gloves and ash-handling kit allowance",
+      "baseline_estimate_eur": 35,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_hearth",
@@ -716,7 +892,11 @@
       "notes": "WS-15. Placeholder for thermal protection, ember-catching surface and load-bearing construction. No product, dimensions or quantity selected.",
       "price_eur": 80,
       "price_basis": "estimated",
-      "price_notes": "Hearth protection allowance"
+      "price_notes": "Hearth protection allowance",
+      "baseline_estimate_eur": 80,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_mounting_fasteners",
@@ -732,7 +912,11 @@
       "notes": "WS-14. Sizes and quantities follow chimney-support and stove-restraint design. Excludes separately counted boot fixings.",
       "price_eur": 25,
       "price_basis": "estimated",
-      "price_notes": "Fasteners allowance"
+      "price_notes": "Fasteners allowance",
+      "baseline_estimate_eur": 25,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_other_sealants",
@@ -748,7 +932,11 @@
       "notes": "WS-10. Conditional on the selected assembly instructions; do not duplicate boot sealant.",
       "price_eur": 20,
       "price_basis": "estimated",
-      "price_notes": "Conditional sealants allowance"
+      "price_notes": "Conditional sealants allowance",
+      "baseline_estimate_eur": 20,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_restraints",
@@ -764,7 +952,11 @@
       "notes": "WS-13. Provisional location near the side door for use from inside and outside under the awning. Height undecided; stand only if raised.",
       "price_eur": 80,
       "price_basis": "estimated",
-      "price_notes": "Restraint plates and optional support allowance"
+      "price_notes": "Restraint plates and optional support allowance",
+      "baseline_estimate_eur": 80,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_roof_passage",
@@ -780,7 +972,11 @@
       "notes": "WS-24. Specify the insulated chimney passage, airspaces and lining protection separately from the exterior silicone weather boot.",
       "price_eur": 120,
       "price_basis": "estimated",
-      "price_notes": "Roof passage protection hardware/material allowance; critical specification TBD"
+      "price_notes": "Roof passage protection hardware/material allowance; critical specification TBD",
+      "baseline_estimate_eur": 120,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:stove_thermometer",
@@ -796,7 +992,11 @@
       "notes": "WS-19. Select compatible thermometer type and measuring location.",
       "price_eur": 20,
       "price_basis": "estimated",
-      "price_notes": "Basic stove/flue thermometer allowance"
+      "price_notes": "Basic stove/flue thermometer allowance",
+      "baseline_estimate_eur": 20,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "item:unica_akva_maali",
@@ -812,7 +1012,11 @@
       "notes": "Shared brush-on water-borne topcoat over Rostex Super Akva.",
       "price_eur": 20,
       "price_basis": "estimated",
-      "price_notes": "Estimate for 0.225 l paint"
+      "price_notes": "Estimate for 0.225 l paint",
+      "baseline_estimate_eur": 20,
+      "purchased_qty": null,
+      "actual_spend_eur": null,
+      "quantity_unit": null
     },
     {
       "id": "wp:diesel_heater",
@@ -911,511 +1115,766 @@
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:biltema_exhaust_wrap_25mm",
       "role": "required",
-      "notes": "Thermal protection for exhaust penetration; confirm product suitability prior to buying."
+      "notes": "Thermal protection for exhaust penetration; confirm product suitability prior to buying.",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:brushes_sokeva_3pc",
       "role": "required",
-      "notes": "Shared cut-edge primer/topcoat application"
+      "notes": "Shared cut-edge primer/topcoat application",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:centre_punch_pajala",
       "role": "required",
-      "notes": "Centre-punch step-well holes"
+      "notes": "Centre-punch step-well holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:cutting_oil_boltoff",
       "role": "required",
-      "notes": "Step-drilling heater penetrations"
+      "notes": "Step-drilling heater penetrations",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:flush_cutters_tasakatkaisupihdit",
       "role": "optional",
-      "notes": "Handy for trimming cable ties flush during 12 V wiring."
+      "notes": "Handy for trimming cable ties flush during 12 V wiring.",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:metal_files_ipa",
       "role": "required",
-      "notes": "Deburr & degrease step-well holes"
+      "notes": "Deburr & degrease step-well holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:planar_44d_kit",
       "role": "required",
-      "notes": "Core heater & fuel/exhaust kit"
+      "notes": "Core heater & fuel/exhaust kit",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:probuilder_300w_multitool",
       "role": "shared_tool",
-      "notes": "Cut back floor insulation to seat the heater gasket"
+      "notes": "Cut back floor insulation to seat the heater gasket",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:rostex_super_akva",
       "role": "required",
-      "notes": "Prime step-well cut edges"
+      "notes": "Prime step-well cut edges",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:sandpaper_p240",
       "role": "required",
-      "notes": "Feather step-well hole edges"
+      "notes": "Feather step-well hole edges",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:step_drill_6_30",
       "role": "required",
-      "notes": "20–30 mm step-well holes"
+      "notes": "20–30 mm step-well holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:diesel_heater",
       "shopping_item_id": "item:unica_akva_maali",
       "role": "required",
-      "notes": "Topcoat step-well cut edges"
+      "notes": "Topcoat step-well cut edges",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:electronics",
       "shopping_item_id": "item:biltema_dc_clamp_meter_400a",
       "role": "optional",
-      "notes": "DC clamp diagnostics for van wiring and charging"
+      "notes": "DC clamp diagnostics for van wiring and charging",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:electronics",
       "shopping_item_id": "item:flush_cutters_tasakatkaisupihdit",
       "role": "shared_tool",
-      "notes": "Trim cable ties flush"
+      "notes": "Trim cable ties flush",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_levelling",
       "shopping_item_id": "item:alu_tape_50mm",
       "role": "required",
-      "notes": "Seal XPS seams"
+      "notes": "Seal XPS seams",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_levelling",
       "shopping_item_id": "item:finnfoam_xps_30mm",
       "role": "required",
-      "notes": "Level & support plywood subfloor"
+      "notes": "Level & support plywood subfloor",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_levelling",
       "shopping_item_id": "item:nmc_ccf_6mm",
       "role": "required",
-      "notes": "Rib levelling & wheel arches"
+      "notes": "Rib levelling & wheel arches",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_levelling",
       "shopping_item_id": "item:pine_battens_33x33",
       "role": "required",
-      "notes": "Floor batten grid"
+      "notes": "Floor batten grid",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_levelling",
       "shopping_item_id": "item:probuilder_300w_multitool",
       "role": "shared_tool",
-      "notes": "Shaping plywood and insulation"
+      "notes": "Shaping plywood and insulation",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_levelling",
       "shopping_item_id": "item:screws_rst_4_5x50",
       "role": "required",
-      "notes": "Screw plywood subfloor into 33x33 mm battens"
+      "notes": "Screw plywood subfloor into 33x33 mm battens",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_levelling",
       "shopping_item_id": "item:sikaflex_118_grab",
       "role": "required",
-      "notes": "Glue battens to floor steel"
+      "notes": "Glue battens to floor steel",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_levelling",
       "shopping_item_id": "item:spray_adhesive_crc",
       "role": "required",
-      "notes": "Bonding CCF / XPS shims and insulation layers"
+      "notes": "Bonding CCF / XPS shims and insulation layers",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_replacement_air",
       "shopping_item_id": "item:brushes_sokeva_3pc",
       "role": "required",
-      "notes": "Cut-edge coating"
+      "notes": "Cut-edge coating",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_replacement_air",
       "shopping_item_id": "item:korvausilma_collar_mesh_vent",
       "role": "required",
-      "notes": "Make-up air inlet hardware"
+      "notes": "Make-up air inlet hardware",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_replacement_air",
       "shopping_item_id": "item:rostex_super_akva",
       "role": "required",
-      "notes": "Prime air-inlet cut edge"
+      "notes": "Prime air-inlet cut edge",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_replacement_air",
       "shopping_item_id": "item:sikaflex_11fc",
       "role": "required",
-      "notes": "Seal through-floor air collar"
+      "notes": "Seal through-floor air collar",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_replacement_air",
       "shopping_item_id": "item:step_drill_6_30",
       "role": "shared_tool",
-      "notes": "Pilot/collar hole work"
+      "notes": "Pilot/collar hole work",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_replacement_air",
       "shopping_item_id": "item:unica_akva_maali",
       "role": "required",
-      "notes": "Topcoat air-inlet edge"
+      "notes": "Topcoat air-inlet edge",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:aisi316_m10_fasteners",
       "role": "required",
-      "notes": "Enlarged hole bolt stacks"
+      "notes": "Enlarged hole bolt stacks",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:aisi316_m6_fasteners",
       "role": "required",
-      "notes": "Standard hole bolt stacks"
+      "notes": "Standard hole bolt stacks",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:bike_tube_seals",
       "role": "required",
-      "notes": "Inner & outer rubber seals"
+      "notes": "Inner & outer rubber seals",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:bosch_hss_drill_set_2_10",
       "role": "required",
-      "notes": "Pilot and flange screw holes."
+      "notes": "Pilot and flange screw holes.",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:brass_cup_brush",
       "role": "required",
-      "notes": "Brush loose rust"
+      "notes": "Brush loose rust",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:brushes_sokeva_3pc",
       "role": "required",
-      "notes": "CRC Rust Seal / primer brush application"
+      "notes": "CRC Rust Seal / primer brush application",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:centre_punch_pajala",
       "role": "shared_tool",
-      "notes": "Mark floor holes"
+      "notes": "Mark floor holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:crc_rust_seal",
       "role": "required",
-      "notes": "Rust converter on rivet holes"
+      "notes": "Rust converter on rivet holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:cutting_oil_boltoff",
       "role": "shared_tool",
-      "notes": "Drilling enlarged floor holes"
+      "notes": "Drilling enlarged floor holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:metal_files_ipa",
       "role": "required",
-      "notes": "Clean around rivet holes"
+      "notes": "Clean around rivet holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:rostex_super_akva",
       "role": "required",
-      "notes": "Prime fresh bare-steel hole edges"
+      "notes": "Prime fresh bare-steel hole edges",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:sandpaper_p240",
       "role": "required",
-      "notes": "Prep around rivet holes"
+      "notes": "Prep around rivet holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:sikaflex_11fc",
       "role": "optional",
-      "notes": "Supplemental sealing if needed"
+      "notes": "Supplemental sealing if needed",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:step_drill_6_30",
       "role": "required",
-      "notes": "Enlarging/cleaning M6/M10 floor holes"
+      "notes": "Enlarging/cleaning M6/M10 floor holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:floor_rivet_holes",
       "shopping_item_id": "item:unica_akva_maali",
       "role": "required",
-      "notes": "Topcoat primed hole edges"
+      "notes": "Topcoat primed hole edges",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:brushes_sokeva_3pc",
       "role": "required",
-      "notes": "Roof cutout edge coating"
+      "notes": "Roof cutout edge coating",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:centre_punch_pajala",
       "role": "required",
-      "notes": "Mark roof corner & flange holes"
+      "notes": "Mark roof corner & flange holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:cutting_oil_boltoff",
       "role": "required",
-      "notes": "Drilling & jigsawing 400x400 roof opening"
+      "notes": "Drilling & jigsawing 400x400 roof opening",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:flush_cutters_tasakatkaisupihdit",
       "role": "optional",
-      "notes": "Handy for trimming cable ties flush during 12 V wiring."
+      "notes": "Handy for trimming cable ties flush during 12 V wiring.",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:fxa_jigsaw_blades_metal",
       "role": "required",
-      "notes": "Cut 400x400 mm roof opening"
+      "notes": "Cut 400x400 mm roof opening",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:metal_files_ipa",
       "role": "required",
-      "notes": "Deburr & degrease roof opening"
+      "notes": "Deburr & degrease roof opening",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:rostex_super_akva",
       "role": "required",
-      "notes": "Prime 400x400 roof cutout edge"
+      "notes": "Prime 400x400 roof cutout edge",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:rv_butyl_tape",
       "role": "required",
-      "notes": "Bedding flange & rib levelling"
+      "notes": "Bedding flange & rib levelling",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:rv_roof_lap_sealant",
       "role": "required",
-      "notes": "Seal flange perimeter & screw heads"
+      "notes": "Seal flange perimeter & screw heads",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:sandpaper_p240",
       "role": "required",
-      "notes": "Feather roof cutout paint edge"
+      "notes": "Feather roof cutout paint edge",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:screws_rst_4_5x50",
       "role": "shared_material",
-      "notes": "Interior timber support frame fastening"
+      "notes": "Interior timber support frame fastening",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:step_drill_6_30",
       "role": "shared_tool",
-      "notes": "Corner/cable holes"
+      "notes": "Corner/cable holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:maxxfan",
       "shopping_item_id": "item:unica_akva_maali",
       "role": "required",
-      "notes": "Topcoat roof cutout edge"
+      "notes": "Topcoat roof cutout edge",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:boutique_stove",
       "role": "required",
-      "notes": "Primary wood stove"
+      "notes": "Primary wood stove",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:brushes_sokeva_3pc",
       "role": "required",
-      "notes": "Roof penetration cut-edge coating"
+      "notes": "Roof penetration cut-edge coating",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:centre_punch_pajala",
       "role": "shared_tool",
-      "notes": "Mark roof boot & bracket holes"
+      "notes": "Mark roof boot & bracket holes",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:cutting_oil_boltoff",
       "role": "required",
-      "notes": "Drilling & cutting chimney roof opening"
+      "notes": "Drilling & cutting chimney roof opening",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:fxa_jigsaw_blades_metal",
       "role": "shared_tool",
-      "notes": "Cut circular roof opening"
+      "notes": "Cut circular roof opening",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:jeremias_dw1076080",
       "role": "required",
-      "notes": "Chimney terminal"
+      "notes": "Chimney terminal",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:jeremias_dw13080",
       "role": "required",
-      "notes": "Insulated chimney section"
+      "notes": "Insulated chimney section",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:jeremias_dw37f080",
       "role": "required",
-      "notes": "Flue transition"
+      "notes": "Flue transition",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:master_flash_sq402ra",
       "role": "required",
-      "notes": "Exterior roof weather seal"
+      "notes": "Exterior roof weather seal",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:metal_files_ipa",
       "role": "required",
-      "notes": "Deburr & degrease chimney opening"
+      "notes": "Deburr & degrease chimney opening",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:rostex_super_akva",
       "role": "required",
-      "notes": "Prime cold roof-cutout edge if within temp limits"
+      "notes": "Prime cold roof-cutout edge if within temp limits",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:sandpaper_p240",
       "role": "required",
-      "notes": "Feather chimney cutout paint edge"
+      "notes": "Feather chimney cutout paint edge",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:step_drill_6_30",
       "role": "shared_tool",
-      "notes": "Roof/bracket penetrations"
+      "notes": "Roof/bracket penetrations",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_alarms_extinguisher",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_body_wall_shields",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_boot_fixings",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_boot_sealant",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_chimney_supports",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_cleaning_brush_rods",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_cold_closure",
       "role": "conditional",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_flue_wall_shields",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_gloves_ash_kit",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_hearth",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_mounting_fasteners",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_other_sealants",
       "role": "conditional",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_restraints",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_roof_passage",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:stove_thermometer",
       "role": "required",
-      "notes": null
+      "notes": null,
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     },
     {
       "work_package_id": "wp:wood_stove",
       "shopping_item_id": "item:unica_akva_maali",
       "role": "required",
-      "notes": "Topcoat cold roof-cutout edge"
+      "notes": "Topcoat cold roof-cutout edge",
+      "used_qty": null,
+      "waste_qty": null,
+      "estimated_qty": null
     }
   ]
 }
