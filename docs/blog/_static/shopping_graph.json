@@ -16,8 +16,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Enlarged floor hole clamping stacks.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 30,
+      "price_basis": "estimated",
+      "price_notes": "Allowance for stainless bolt, washer, nut packs"
     },
     {
       "id": "item:aisi316_m6_fasteners",
@@ -31,8 +32,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Standard pop-rivet hole clamping stacks.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 20,
+      "price_basis": "estimated",
+      "price_notes": "Allowance for stainless fastener packs"
     },
     {
       "id": "item:alu_tape_50mm",
@@ -46,8 +48,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Taping XPS board joints.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 11.98,
+      "price_basis": "estimated",
+      "price_notes": "2 rolls × €5.99; assumed mid-range quantity"
     },
     {
       "id": "item:bike_tube_seals",
@@ -61,8 +64,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Clamped on both faces of each floor rivet hole.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 0,
+      "price_basis": "estimated",
+      "price_notes": "Reused inner tube; zero incremental purchase assumed"
     },
     {
       "id": "item:biltema_dc_clamp_meter_400a",
@@ -106,8 +110,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Pilot and flange screw holes.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 17,
+      "price_basis": "estimated",
+      "price_notes": "Approximate market price for Bosch 7-piece drill set"
     },
     {
       "id": "item:boutique_stove",
@@ -121,8 +126,9 @@
       "ordered_date": "2026-10-19",
       "doc_path": null,
       "notes": "Includes 6x single-wall flue sections, spark arrestor, top plate, ashtray.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 360,
+      "price_basis": "listed",
+      "price_notes": "Current listed price for Traditional model (one stove)"
     },
     {
       "id": "item:brass_cup_brush",
@@ -136,8 +142,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Mechanical rust removal around floor holes.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 9,
+      "price_basis": "estimated",
+      "price_notes": "Small cup brush budget estimate"
     },
     {
       "id": "item:brushes_sokeva_3pc",
@@ -166,8 +173,9 @@
       "ordered_date": "2026-10-26",
       "doc_path": null,
       "notes": "Automatic centre punch; replaces Tamo candidate.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 7.99,
+      "price_basis": "listed",
+      "price_notes": "Puuilo linked price"
     },
     {
       "id": "item:crc_rust_seal",
@@ -181,8 +189,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "For remaining rust around old rivet holes.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 74.9,
+      "price_basis": "listed",
+      "price_notes": "Puuilo listed 750 ml price (already owned; not a new purchase)"
     },
     {
       "id": "item:cutting_oil_boltoff",
@@ -211,8 +220,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "XPS infill & shimming under yielding floor zones.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 50,
+      "price_basis": "estimated",
+      "price_notes": "Allowance for around 3–4 boards; amount depends on floor area"
     },
     {
       "id": "item:flush_cutters_tasakatkaisupihdit",
@@ -226,8 +236,9 @@
       "ordered_date": "2026-11-03",
       "doc_path": "docs/blog/diesel_heater/index.md",
       "notes": "Buy later for trimming cable ties flush during heater wiring and van electrical work.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 10,
+      "price_basis": "estimated",
+      "price_notes": "Budget estimate for one pair"
     },
     {
       "id": "item:fxa_jigsaw_blades_metal",
@@ -241,8 +252,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Sheet-metal roof cutouts.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 7,
+      "price_basis": "estimated",
+      "price_notes": "Budget estimate for three-blade pack"
     },
     {
       "id": "item:jeremias_dw1076080",
@@ -256,8 +268,9 @@
       "ordered_date": "2026-10-21",
       "doc_path": null,
       "notes": "Integrated terminal hood.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 95,
+      "price_basis": "estimated",
+      "price_notes": "Estimate for DN80 stainless DW-FU rain terminal; do not confuse with copper variant"
     },
     {
       "id": "item:jeremias_dw13080",
@@ -271,8 +284,9 @@
       "ordered_date": "2026-10-21",
       "doc_path": null,
       "notes": "940 mm effective installed length.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 190,
+      "price_basis": "estimated",
+      "price_notes": "Estimate for DN80 1 m insulated stainless DW-FU chimney; exact quote not accessible"
     },
     {
       "id": "item:jeremias_dw37f080",
@@ -286,8 +300,9 @@
       "ordered_date": "2026-10-21",
       "doc_path": null,
       "notes": "Single-to-twin-wall transition.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 45,
+      "price_basis": "estimated",
+      "price_notes": "Estimate for DN80 stainless flue adapter; exact quote not accessible"
     },
     {
       "id": "item:korvausilma_collar_mesh_vent",
@@ -301,8 +316,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Measure existing floor hole diameter before selecting.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 35,
+      "price_basis": "estimated",
+      "price_notes": "Collar, mesh and damper kit allowance"
     },
     {
       "id": "item:master_flash_sq402ra",
@@ -316,8 +332,9 @@
       "ordered_date": "2026-10-21",
       "doc_path": null,
       "notes": "High-temp silicone roof flashing boot.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 60,
+      "price_basis": "estimated",
+      "price_notes": "Estimate for silicone roof flashing boot; linked listing price not accessible"
     },
     {
       "id": "item:metal_files_ipa",
@@ -331,8 +348,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Used for deburring and degreasing.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 0,
+      "price_basis": "estimated",
+      "price_notes": "Already owned; zero incremental purchase assumed"
     },
     {
       "id": "item:nmc_ccf_6mm",
@@ -346,8 +364,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Rib valley levelling & internal wheel arches.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 29.99,
+      "price_basis": "listed",
+      "price_notes": "One 1 m² sheet; more may be needed"
     },
     {
       "id": "item:pine_battens_33x33",
@@ -361,8 +380,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Floor support grid.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 45,
+      "price_basis": "estimated",
+      "price_notes": "Allowance for roughly 9 battens at €5 each"
     },
     {
       "id": "item:planar_44d_kit",
@@ -376,8 +396,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Removed during underside cleaning; relocating to step well.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 0,
+      "price_basis": "estimated",
+      "price_notes": "Existing heater bundled with van; no new purchase budgeted"
     },
     {
       "id": "item:probuilder_300w_multitool",
@@ -406,8 +427,9 @@
       "ordered_date": "2026-10-26",
       "doc_path": null,
       "notes": "Shared brush-on anti-corrosion primer for bare steel.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 20,
+      "price_basis": "estimated",
+      "price_notes": "Estimate for 0.3 l specialty primer"
     },
     {
       "id": "item:rv_butyl_tape",
@@ -421,8 +443,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Level roof rib valleys and bed MaxxFan flange.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 30,
+      "price_basis": "estimated",
+      "price_notes": "Two rolls, approximately €15 per roll"
     },
     {
       "id": "item:rv_roof_lap_sealant",
@@ -436,8 +459,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Perimeter and screw-head sealing on MaxxFan flange.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 35,
+      "price_basis": "estimated",
+      "price_notes": "Allowance for two cartridges"
     },
     {
       "id": "item:sandpaper_p240",
@@ -451,8 +475,9 @@
       "ordered_date": "2026-10-26",
       "doc_path": null,
       "notes": "Smooth filed edges & feather paint; replaces Mirka P240.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 4.95,
+      "price_basis": "estimated",
+      "price_notes": "5 sheets × €0.99 each"
     },
     {
       "id": "item:screws_rst_4_5x50",
@@ -481,8 +506,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Bonding floor battens to prepared steel.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 17.99,
+      "price_basis": "listed",
+      "price_notes": "One cartridge, additional cartridges if needed"
     },
     {
       "id": "item:sikaflex_11fc",
@@ -496,8 +522,9 @@
       "ordered_date": null,
       "doc_path": null,
       "notes": "Weather sealing floor penetrations.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 17.99,
+      "price_basis": "listed",
+      "price_notes": "Puuilo linked price"
     },
     {
       "id": "item:spray_adhesive_crc",
@@ -511,8 +538,9 @@
       "ordered_date": "2026-10-26",
       "doc_path": null,
       "notes": "Spray contact adhesive for insulation / foam bonding.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 17.99,
+      "price_basis": "listed",
+      "price_notes": "Puuilo listed 500 ml price"
     },
     {
       "id": "item:step_drill_6_30",
@@ -526,8 +554,9 @@
       "ordered_date": "2026-10-26",
       "doc_path": null,
       "notes": "Replaces Bosch 6–30 mm and Wolfcraft 4–10 mm step drill candidates.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 17.99,
+      "price_basis": "listed",
+      "price_notes": "Puuilo linked price"
     },
     {
       "id": "item:stove_alarms_extinguisher",
@@ -541,8 +570,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-18. Check ownership and mounting locations; buy only missing equipment.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 80,
+      "price_basis": "estimated",
+      "price_notes": "Allowance for CO/smoke alarms and suitable extinguisher; account for already owned alarm separately later"
     },
     {
       "id": "item:stove_body_wall_shields",
@@ -556,8 +586,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-16. Cut-to-size shield material, spacers and fixings; construction, airspaces and dimensions pending.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 80,
+      "price_basis": "estimated",
+      "price_notes": "Shield material and standoff allowance"
     },
     {
       "id": "item:stove_boot_fixings",
@@ -571,8 +602,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-11. Select fixing type and count from the boot mounting pattern and vehicle roof.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 20,
+      "price_basis": "estimated",
+      "price_notes": "Fixings allowance"
     },
     {
       "id": "item:stove_boot_sealant",
@@ -586,8 +618,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-09. Select for the Master Flash silicone boot and painted roof, service temperature and application/cure conditions. Product and quantity pending.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 25,
+      "price_basis": "estimated",
+      "price_notes": "Roof sealant allowance; material compatibility still to be selected"
     },
     {
       "id": "item:stove_chimney_supports",
@@ -601,8 +634,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-12. Match the 145 mm Jeremias outer shell; mounting gap, load support, backing and attachment layout pending.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 60,
+      "price_basis": "estimated",
+      "price_notes": "Supports and brackets allowance"
     },
     {
       "id": "item:stove_cleaning_brush_rods",
@@ -616,8 +650,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-20. Select brush and rod reach from the actual cleaning route.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 30,
+      "price_basis": "estimated",
+      "price_notes": "Flue brush and rods allowance"
     },
     {
       "id": "item:stove_cold_closure",
@@ -631,8 +666,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-22. Deferred, not selected; depends on final chimney arrangement. For a fully cold stove only.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 25,
+      "price_basis": "estimated",
+      "price_notes": "Optional closure budget"
     },
     {
       "id": "item:stove_flue_wall_shields",
@@ -646,8 +682,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-23. Shield material, spacers and fixings where required by the final flue route; may share a continuous sheet with the stove-body shield.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 70,
+      "price_basis": "estimated",
+      "price_notes": "Flue shield material and supports allowance"
     },
     {
       "id": "item:stove_gloves_ash_kit",
@@ -661,8 +698,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-21. Check ownership before selecting missing handling and maintenance items.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 35,
+      "price_basis": "estimated",
+      "price_notes": "Gloves and ash-handling kit allowance"
     },
     {
       "id": "item:stove_hearth",
@@ -676,8 +714,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-15. Placeholder for thermal protection, ember-catching surface and load-bearing construction. No product, dimensions or quantity selected.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 80,
+      "price_basis": "estimated",
+      "price_notes": "Hearth protection allowance"
     },
     {
       "id": "item:stove_mounting_fasteners",
@@ -691,8 +730,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-14. Sizes and quantities follow chimney-support and stove-restraint design. Excludes separately counted boot fixings.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 25,
+      "price_basis": "estimated",
+      "price_notes": "Fasteners allowance"
     },
     {
       "id": "item:stove_other_sealants",
@@ -706,8 +746,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-10. Conditional on the selected assembly instructions; do not duplicate boot sealant.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 20,
+      "price_basis": "estimated",
+      "price_notes": "Conditional sealants allowance"
     },
     {
       "id": "item:stove_restraints",
@@ -721,8 +762,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-13. Provisional location near the side door for use from inside and outside under the awning. Height undecided; stand only if raised.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 80,
+      "price_basis": "estimated",
+      "price_notes": "Restraint plates and optional support allowance"
     },
     {
       "id": "item:stove_roof_passage",
@@ -736,8 +778,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-24. Specify the insulated chimney passage, airspaces and lining protection separately from the exterior silicone weather boot.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 120,
+      "price_basis": "estimated",
+      "price_notes": "Roof passage protection hardware/material allowance; critical specification TBD"
     },
     {
       "id": "item:stove_thermometer",
@@ -751,8 +794,9 @@
       "ordered_date": null,
       "doc_path": "docs/blog/wood_stove/shopping_list_boutique.md",
       "notes": "WS-19. Select compatible thermometer type and measuring location.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 20,
+      "price_basis": "estimated",
+      "price_notes": "Basic stove/flue thermometer allowance"
     },
     {
       "id": "item:unica_akva_maali",
@@ -766,8 +810,9 @@
       "ordered_date": "2026-10-26",
       "doc_path": null,
       "notes": "Shared brush-on water-borne topcoat over Rostex Super Akva.",
-      "price_eur": null,
-      "price_basis": null
+      "price_eur": 20,
+      "price_basis": "estimated",
+      "price_notes": "Estimate for 0.225 l paint"
     },
     {
       "id": "wp:diesel_heater",
