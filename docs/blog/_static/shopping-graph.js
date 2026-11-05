@@ -237,6 +237,7 @@
               <input type="text" name="qty" placeholder="Qty (e.g. 1 pc)" value="1 pc" class="sg-input">
               <input type="text" name="supplier" placeholder="Supplier (e.g. Puuilo)" class="sg-input">
               <input type="text" name="sku" placeholder="SKU / EAN (optional)" class="sg-input">
+              <input type="number" name="price_eur" min="0" step="0.01" placeholder="Listed price (€; optional)" class="sg-input">
               <input type="url" name="url" placeholder="Product URL (optional)" class="sg-input">
             </div>
             <div class="sg-wp-checks">
@@ -322,6 +323,8 @@
         qty: String(fd.get("qty") || "1 pc").trim(),
         url: String(fd.get("url") || "").trim() || null,
         ordered_date: status === "ordered" || status === "bought" ? todayIso() : null,
+        price_eur: fd.get("price_eur") !== "" ? Number(fd.get("price_eur")) : null,
+        price_basis: fd.get("price_eur") !== "" ? "listed" : null,
         doc_path: null,
         notes: String(fd.get("notes") || "").trim() || null,
       };
@@ -412,6 +415,7 @@
               <input type="text" name="qty" value="${escapeHtml(item.qty || "")}" class="sg-input" placeholder="Qty">
               <input type="text" name="supplier" value="${escapeHtml(item.supplier || "")}" class="sg-input" placeholder="Supplier">
               <input type="text" name="sku" value="${escapeHtml(item.sku || "")}" class="sg-input" placeholder="SKU">
+              <input type="number" name="price_eur" min="0" step="0.01" value="${item.price_eur ?? ""}" class="sg-input" placeholder="Listed price (€)">
               <input type="url" name="url" value="${escapeHtml(item.url || "")}" class="sg-input" placeholder="URL">
             </div>
             <div class="sg-wp-checks">
@@ -451,6 +455,8 @@
         item.qty = String(fd.get("qty") || "").trim() || null;
         item.supplier = String(fd.get("supplier") || "").trim() || null;
         item.sku = String(fd.get("sku") || "").trim() || null;
+        item.price_eur = fd.get("price_eur") !== "" ? Number(fd.get("price_eur")) : null;
+        item.price_basis = item.price_eur !== null ? "listed" : null;
         item.url = String(fd.get("url") || "").trim() || null;
         item.notes = String(fd.get("notes") || "").trim() || null;
 
@@ -703,6 +709,7 @@
                 ${item.url ? ` <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" title="Open product link">↗</a>` : ""}
               </td>
               <td>${escapeHtml(item.qty || "")}</td>
+              <td>${item.price_eur == null ? "—" : `${Number(item.price_eur).toFixed(2)} €`}</td>
               <td>${escapeHtml(item.supplier || "")}</td>
               <td>${pkgLinks}</td>
               <td>
@@ -722,13 +729,14 @@
                 <th>Status</th>
                 <th>Item / SKU (click to edit)</th>
                 <th>Qty</th>
+                <th>Price (€)</th>
                 <th>Supplier</th>
                 <th>Used in</th>
                 <th></th>
               </tr>
             </thead>
             <tbody>
-              ${rowsHtml || '<tr><td colspan="6">No matching items.</td></tr>'}
+              ${rowsHtml || '<tr><td colspan="7">No matching items.</td></tr>'}
             </tbody>
           </table>
         </div>
