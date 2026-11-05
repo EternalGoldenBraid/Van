@@ -92,6 +92,18 @@
     const numeric = (v) => v === null || v === undefined || v === "" ? null : Number(v);
     const itemLinks = (id) => edges().filter((e) => e.shopping_item_id === id);
     const euro = (v) => `${Number(v).toFixed(2)} €`;
+    function usageValue(items, wpId, field) {
+      let total = 0, recorded = 0;
+      for (const item of items) {
+        if (item.purchased_qty == null || Number(item.purchased_qty) <= 0 || item.actual_spend_eur == null) continue;
+        const unitCost = Number(item.actual_spend_eur) / Number(item.purchased_qty);
+        const links = itemLinks(item.id).filter((e) => !wpId || e.work_package_id === wpId);
+        for (const edge of links) {
+          if (edge[field] != null) { total += unitCost * Number(edge[field]); recorded++; }
+        }
+      }
+      return { total, recorded };
+    }
     function reconciliation(item) {
       const links = itemLinks(item.id);
       const used = links.reduce((s, e) => s + (Number(e.used_qty) || 0), 0);
@@ -778,7 +790,8 @@
           · <strong>Current budget:</strong> ${euro(visibleItems.reduce((sum, item) => sum + (Number(item.price_eur) || 0) / (selWp ? Math.max(1, itemLinks(item.id).length) : 1), 0))}
           · <strong>Recorded expenditure:</strong> ${euro(visibleItems.reduce((sum, item) => sum + (Number(item.actual_spend_eur) || 0) / (selWp ? Math.max(1, itemLinks(item.id).length) : 1), 0))} ${visibleItems.some((item) => item.actual_spend_eur == null) ? "(partial)" : ""}
         </p>
-        <p class="sg-summary-line"><small>Shared items split evenly across work packages for budget reporting until material usage is recorded. Purchased quantities, used quantities, discarded quantities, and surplus are tracked in item details. An unknown expenditure is not €0.</small></p>
+        <p class="sg-summary-line"><strong>Recorded installed value:</strong> ${euro(usageValue(visibleItems, selWp?.id, "used_qty").total)} · <strong>Recorded waste value:</strong> ${euro(usageValue(visibleItems, selWp?.id, "waste_qty").total)} ${usageValue(visibleItems, selWp?.id, "used_qty").recorded === 0 ? "(not reconciled yet)" : "(partial until all quantities and receipts entered)"}</p>
+        <p class="sg-summary-line"><small>Shared purchase budgets are split evenly between linked packages as an initial allocation. Installed and discarded material values use recorded purchase cost divided by purchased quantity, with no double-counting. Missing expenditure or quantities remain uncounted rather than assumed zero.</small></p>
         <div class="table-wrapper">
           <table class="sg-table">
             <thead>
