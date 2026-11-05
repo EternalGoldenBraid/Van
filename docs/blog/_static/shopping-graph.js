@@ -108,8 +108,8 @@
       const links = itemLinks(item.id);
       const used = links.reduce((s, e) => s + (Number(e.used_qty) || 0), 0);
       const waste = links.reduce((s, e) => s + (Number(e.waste_qty) || 0), 0);
-      const known = links.some((e) => e.used_qty != null || e.waste_qty != null);
-      return item.purchased_qty == null || !known ? null : Number(item.purchased_qty) - used - waste;
+      const fullyRecorded = links.length > 0 && links.every((e) => e.used_qty != null && e.waste_qty != null);
+      return item.purchased_qty == null || !fullyRecorded ? null : Number(item.purchased_qty) - used - waste;
     }
 
     async function persistGraph(commitMessage) {
