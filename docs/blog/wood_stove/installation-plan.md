@@ -1,16 +1,29 @@
 # Wood-Stove Installation
 
-**Working procedure, updated 2026-10-25.** Main components ordered; installation
+**Working procedure, updated 2026-11-06.** Main components ordered; installation
 not recorded as completed. Start at the first unfinished step. The sequence is
 defined below; final dimensions and construction methods remain to be filled in.
 
-```{admonition} Next action
-:class: stove-next note
+::: info Next action
 
 Measure the deployed stove and delivered joints, then record
 the proposed position and height in the layout table. Complete the remaining
 design before ordering its attachment materials.
-```
+:::
+
+## Current Build Status
+
+The proposed stove-feet elevation is **600-800 mm above the finished floor**,
+near the side door. Final height, hearth stack, firewood storage protection,
+shield coverage/layers, ventilation and attachments remain unresolved.
+No completed installation or commissioning is recorded.
+
+Verify received contents against the
+[stove's included-parts record](shopping_list_boutique.md#item:boutique_stove)
+and [DW-FU pipe's joint-band record](shopping_list_boutique.md#item:jeremias_dw13080)
+before buying additional parts. Extra pipe/connector needs depend on the
+delivered assembly's dry-fit. The replacement-air vent belongs to the
+[floor work package](../floor/replacement_air.md).
 
 [Shopping list](shopping_list_boutique.md) covers parts, consumables and tools.
 [Build story](story/index.md) contains the narrative.
@@ -87,6 +100,13 @@ mounting or a roof cut. Preserve any underfloor attachment access while the
 **Output:** a measured installation drawing, complete bill of materials and
 available tools. No support, hearth or roof-passage design is selected yet.
 
+Check owned or borrowed measuring tools, square/level, markers/templates,
+sheet-metal cutter, drill/bits, files, swarf collection/masking, sealant
+applicator/preparation supplies, clamps, matching fastening tools and PPE
+before buying more. Count shared stove/flue shield coverage once.
+The [chimney-support examples](https://www.kamin-store24.de/Jeremias-DW-FU-Wand-und-Deckenhalter-in-verschiedenen-Ausfuehrungen)
+are references, not a vehicle attachment design.
+
 ## 3. Fit The Hearth, Shields And Stove Mounting
 
 1. Build the specified hearth/platform and shields to the measured layout.
@@ -148,6 +168,9 @@ Unresolved values stay unresolved; the historical schematic does not supply them
   actual roof, boot and heat exposure, cured cold service and application/cure
   conditions. Boot temperature ratings are not sealant or clearance ratings;
   Dektite-specific fixing instructions do not specify a Master Flash installation.
+  The Silirub HT-N candidate's [Finnish technical sheet](https://www.soudal.fi/sites/default/files/soudal_api/document/F0032691_0001.pdf)
+  supplies its preparation and cure conditions; verify adhesion to the actual
+  boot and painted roof before selection.
 - **Air and equipment:** provide replacement air, CO/smoke alarms and a suitable
   extinguisher. No MaxxFan extraction with a live stove unless the arrangement
   is designed/tested for depressurization and smoke spillage.

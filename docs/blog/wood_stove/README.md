@@ -1,16 +1,17 @@
 # Wood Stove
 
-**Updated 2026-10-25.** Boutique Traditional stove installation in a Ford Transit
+**Updated 2026-11-06.** Boutique Traditional stove installation in a Ford Transit
 L3H3. Main components are ordered; final layout, attachment materials and
 installation are unfinished.
 
 ## Working Documents
 
-- **[Installation process](installation-plan.md):** next action, measured layout,
+- **[Installation process](installation-plan.md):** current build status, next action, measured layout,
   decisions/trade-offs and ordered work steps. Existing installation precautions
   are collected under [requirements and checks](installation-plan.md#requirements-and-checks).
-- **[Shopping list](shopping_list_boutique.md):** ordered/included parts,
-  materials to select and tools to check, in tables for later bulk-order planning.
+- **[Shopping list](shopping_list_boutique.md):** graph records for parts,
+  materials, tools and checkout charges. Included contents and purchase checks
+  stay with the relevant item record.
 - **[Build story](story/index.md):** dated narrative chapters, separate from
   the working procedure.
 
@@ -25,7 +26,7 @@ part of the floor work package.
 
 Keep confirmed purchases separate from estimates. Record a quote's date,
 currency, tax basis and delivery assumptions. Unknown amounts stay unknown,
-not zero. Update the shopping list when invoices, refunds or further purchases
+not zero. Update graph records when invoices, refunds or further purchases
 are available; the story links to it rather than maintaining another budget.
 
 See the [blog homepage](../index.md) for the whole-build scope and the repository's
