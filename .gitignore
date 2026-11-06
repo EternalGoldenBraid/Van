@@ -2,3 +2,5 @@ docs/.$*.drawio.bkp
 docs/*.svg
 docs/wood_stove/_build/
 docs/blog/_build/
+docs/blog/node_modules/
+docs/blog/.vitepress/.temp/

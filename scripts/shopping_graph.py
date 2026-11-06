@@ -423,6 +423,14 @@ def run_server(
         def __init__(self, *args: Any, **kwargs: Any) -> None:
             super().__init__(*args, directory=str(build_html_dir), **kwargs)
 
+        def translate_path(self, path: str) -> str:
+            if path.startswith("/Van/"):
+                path = path.removeprefix("/Van")
+            target = super().translate_path(path)
+            if not Path(target).exists() and Path(target + ".html").is_file():
+                return target + ".html"
+            return target
+
         def do_GET(self) -> None:
             if self.path.split("?")[0] == "/api/graph":
                 with ensure_synced(json_path, db_path) as conn:
@@ -468,7 +476,7 @@ def run_server(
             self.send_error(HTTPStatus.NOT_FOUND, "Unknown endpoint")
 
     server = ThreadingHTTPServer((bind, port), GraphHTTPRequestHandler)
-    print(f"Serving blog & /api/graph on http://{bind}:{port}/")
+    print(f"Serving blog & /api/graph on http://{bind}:{server.server_port}/", flush=True)
     server.serve_forever()
 
 

@@ -27,8 +27,11 @@ unless the user explicitly asks. Prefer small commits that each implement one
 concept.
 
 Build documentation and the blog share `main`. Use temporary branches for drafts;
-relevant pushes to `main` publish the blog. The canonical diesel-heater shopping
-list is `docs/diesel_heater/shopping_list.md`, included directly by its blog page.
+relevant pushes to `main` publish the VitePress blog. Preview all published
+pages with `npm --prefix docs/blog run dev`; local agent comments are optional.
+Work-package shopping lists come from `docs/blog/_static/shopping_graph.json`,
+with `docs/shopping_graph.sqlite` as its mirror. The older diesel-heater
+shopping document is not the blog's live shopping source.
 
 ## Project Management
 

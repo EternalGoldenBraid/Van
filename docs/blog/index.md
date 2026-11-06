@@ -19,7 +19,7 @@ Ford Transit L3H3 conversion dashboard.
 - **Floor levelling & XPS support:** remove give under the plywood subfloor —
   [Plan & shopping list](floor/levelling.md).
 - **Window locations:** reserve openings before framing —
-  {download}`Window notes <../window_plan.md>`.
+  <a :href="$withBase('/downloads/window_plan.md')" download>Window notes</a>.
 
 ## Reference
 
@@ -38,19 +38,3 @@ Ford Transit L3H3 conversion dashboard.
 - [Wood stove](wood_stove/index.md) ([installation plan](wood_stove/installation-plan.md) · [shopping list](wood_stove/shopping_list_boutique.md))
 
 - [Front seat swivels — VAN-46](seats/front_swivels.md) (initial parts list)
-
-```{toctree}
-:hidden:
-:caption: Van build
-
-work-packages
-shopping-graph
-useful-places
-heater_removal/index
-diesel_heater/index
-floor/index
-electronics/clamp_meter
-maxxfan/index
-wood_stove/index
-seats/front_swivels
-```

@@ -24,7 +24,8 @@
 
   function docHref(docPath) {
     if (!docPath) return null;
-    const rel = docPath.replace(/^docs\/blog\//, "").replace(/\.md$/, ".html");
+    const cleanUrls = document.querySelector('script[src*="shopping-graph.js"]')?.dataset.cleanUrls === "true";
+    const rel = docPath.replace(/^docs\/blog\//, "").replace(/\.md$/, cleanUrls ? "" : ".html");
     return getSiteRootPrefix() + rel;
   }
 
@@ -65,6 +66,11 @@
       }
     } catch (_) {
       // Fallback to static JSON
+    }
+
+    if (!data && document.querySelector('script[src*="shopping-graph.js"]')?.dataset.localOnly === "true") {
+      root.innerHTML = "<p>Local shopping API unavailable. Editing is disabled; reload after restoring the local server.</p>";
+      return;
     }
 
     if (!data) {
@@ -209,7 +215,7 @@
       `;
 
     const fullGraphLinkHtml = fixedWp
-      ? `<a class="sg-btn" href="${escapeHtml(sitePrefix + "shopping-graph.html")}">Full graph →</a>`
+      ? `<a class="sg-btn" href="${escapeHtml(docHref("docs/blog/shopping-graph.md"))}">Full graph →</a>`
       : "";
 
     const canvasBlockHtml = fixedWp
@@ -433,6 +439,8 @@
           <span class="sg-filter-label">Mark status:</span>
           <div class="sg-filters">${statusBtns}</div>
         </div>
+        ${item.notes ? `<p class="sg-item-notes">${escapeHtml(item.notes)}</p>` : ""}
+        ${item.price_notes ? `<p><small>${escapeHtml(item.price_notes)}</small></p>` : ""}
         <details class="sg-edit-details">
           <summary class="sg-add-summary">Edit details & work packages</summary>
           <form class="sg-edit-form">
@@ -865,12 +873,44 @@
       });
     });
 
+    function openLinkedItem(id) {
+      if (!shoppingItems().some(item => item.id === id) ||
+          (fixedWp && !itemLinks(id).some(edge => edge.work_package_id === fixedWp))) {
+        state.saveMsg = `Shopping item not found in this view: ${id}`;
+        updateSaveStatus();
+        return;
+      }
+      state.selectedItemId = id;
+      state.statusFilter = "all";
+      statusButtons.forEach(button => button.classList.toggle("is-active", button.getAttribute("data-status") === "all"));
+      render();
+      editorEl.scrollIntoView({ block: "nearest" });
+    }
+    root.addEventListener("van:shopping-item-link", event => openLinkedItem(event.detail));
     render();
+    root.dataset.shoppingGraphReady = "true";
+    initShoppingGraphs();
   }
 
-  document.addEventListener("DOMContentLoaded", () => {
+  function initShoppingGraphs() {
     document.querySelectorAll(".js-shopping-graph").forEach((el) => {
-      initShoppingGraph(el);
+      if (!el.dataset.shoppingGraphInitialized) {
+        el.dataset.shoppingGraphInitialized = "true";
+        initShoppingGraph(el);
+      }
+      if (el.dataset.shoppingGraphReady === "true" && el.dataset.shoppingGraphHash !== location.hash) {
+        el.dataset.shoppingGraphHash = location.hash;
+        if (location.hash.startsWith("#item:")) {
+          el.dispatchEvent(new CustomEvent("van:shopping-item-link", { detail: location.hash.slice(1) }));
+        }
+      }
     });
-  });
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initShoppingGraphs, { once: true });
+  } else {
+    initShoppingGraphs();
+  }
+  document.addEventListener("van:shopping-graph-ready", initShoppingGraphs);
+  window.addEventListener("hashchange", initShoppingGraphs);
 })();

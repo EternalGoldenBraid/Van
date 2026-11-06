@@ -4,7 +4,7 @@ A lightweight catalog of useful places for the van, separate from the build's wo
 
 <iframe src="_static/useful-places-map.html" title="Map of useful van locations" loading="lazy" style="width:100%;height:850px;border:0;border-radius:12px"></iframe>
 
-[Open the map full-screen](_static/useful-places-map.html)
+<a :href="$withBase('/_static/useful-places-map.html')" target="_blank" rel="noopener">Open the map full-screen</a>
 
 ## Van washes
 

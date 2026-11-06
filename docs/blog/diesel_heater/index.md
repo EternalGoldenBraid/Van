@@ -33,20 +33,18 @@
   fuel-line routing, driveshaft clearance and pump-wiring grommet. These newer
   photos have not yet been incorporated into this page.
 
-```{figure} images/installation_02.jpg
-:name: fig-diesel-heater-step-well
-:alt: Planar 44D heater test-placed sideways in the sliding-door step well with a cardboard hole template on the left.
+<span id="fig-diesel-heater-step-well"></span>
+
+[![Planar 44D heater test-placed sideways in the sliding-door step well with a cardboard hole template on the left.](images/installation_02.jpg)](images/installation_02.jpg)
 
 Planar 44D test-placed sideways in the sliding-door step well alongside the
 cardboard hole template.
-```
 
-```{figure} images/installation_04.jpg
-:name: fig-diesel-heater-fan-end
-:alt: Close-up of the Planar 44D air-intake grille and fan end inside the sliding-door step well.
+<span id="fig-diesel-heater-fan-end"></span>
+
+[![Close-up of the Planar 44D air-intake grille and fan end inside the sliding-door step well.](images/installation_04.jpg)](images/installation_04.jpg)
 
 Fan/intake end clearance in the sliding-door step well.
-```
 
 ## Mounting And Exhaust
 
@@ -73,37 +71,33 @@ Fan/intake end clearance in the sliding-door step well.
 - Retained rubber mounting gasket is intended to seal the heater-to-metal
   interface; its contact and compression still need verification.
 
-```{figure} images/installation_06.jpg
-:name: fig-diesel-heater-gasket
-:alt: Underside/back face of the Planar 44D showing the retained rubber gasket, fuel and combustion-air spigots, and attached corrugated exhaust after cutting off the backing plate.
+<span id="fig-diesel-heater-gasket"></span>
+
+[![Underside/back face of the Planar 44D showing the retained rubber gasket, fuel and combustion-air spigots, and attached corrugated exhaust after cutting off the backing plate.](images/installation_06.jpg)](images/installation_06.jpg)
 
 Retained mounting gasket, fuel and combustion-air spigots, and attached
 corrugated exhaust after removing the original backing plate.
-```
 
-```{figure} images/installation_03.jpg
-:name: fig-diesel-heater-exhaust-route
-:alt: Corrugated exhaust pipe and heater spigots positioned against the sliding-door step-well riser.
+<span id="fig-diesel-heater-exhaust-route"></span>
+
+[![Corrugated exhaust pipe and heater spigots positioned against the sliding-door step-well riser.](images/installation_03.jpg)](images/installation_03.jpg)
 
 Exhaust routing and spigot position against the step-well riser with the heater
 on its side.
-```
 
-```{figure} images/installation_01.jpg
-:name: fig-diesel-heater-sleeve-bench
-:alt: Candidate metal joining sleeve held next to the cut corrugated exhaust pipe on a workbench with calipers and hacksaw.
+<span id="fig-diesel-heater-sleeve-bench"></span>
+
+[![Candidate metal joining sleeve held next to the cut corrugated exhaust pipe on a workbench with calipers and hacksaw.](images/installation_01.jpg)](images/installation_01.jpg)
 
 Candidate metal joining sleeve (~22 mm ID, ~1 mm wall) next to the cut
 corrugated exhaust pipe.
-```
 
-```{figure} images/installation_05.jpg
-:name: fig-diesel-heater-sleeve-test-fit
-:alt: Metal joining sleeve test-fitted into the corrugated exhaust pipe behind the heater in the step well.
+<span id="fig-diesel-heater-sleeve-test-fit"></span>
+
+[![Metal joining sleeve test-fitted into the corrugated exhaust pipe behind the heater in the step well.](images/installation_05.jpg)](images/installation_05.jpg)
 
 Test-fit of the metal joining sleeve in the corrugated exhaust pipe in the step
 well.
-```
 
 ## Fuel And Pump Wiring — 31 October to 3 November
 
@@ -139,11 +133,9 @@ well.
 
 Rendered live from the [bipartite shopping graph](../shopping-graph.md) (`wp:diesel_heater`). Click any item to edit its details or change its status (`Planned`, `Ordered`, `Bought`, `Owned`):
 
-```{raw} html
 <div class="js-shopping-graph" data-work-package="wp:diesel_heater">
   <p>Loading diesel heater shopping list from graph database…</p>
 </div>
-```
 
 ## Related
 

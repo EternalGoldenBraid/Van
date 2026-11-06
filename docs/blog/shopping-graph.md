@@ -6,18 +6,20 @@ node on the left) and by **status** (`All`, `To buy`, `Ordered`, `Owned`).
 You can also **change an item's status** using its dropdown in the table, **add
 new items** (`+ Add item`), or **remove items** (`✕`):
 
-- **On `localhost:8000`** (`python3 scripts/shopping_graph.py serve`): edits
+- **On the local preview** (`npm --prefix docs/blog run dev`): edits
   save directly to `docs/blog/_static/shopping_graph.json` and
   `docs/shopping_graph.sqlite`.
 - **On GitHub Pages:** click **GitHub Sync** once to store a GitHub Personal
   Access Token in your browser (`localStorage`), and edits commit straight to
   `EternalGoldenBraid/Van`.
 
-```{raw} html
+Item links such as
+[the Jeremias connector](shopping-graph.md#item:jeremias_dw37f080)
+open that graph record directly, including its purchase notes.
+
 <div class="js-shopping-graph" data-graph-url="_static/shopping_graph.json">
   <p>Loading interactive bipartite graph…</p>
 </div>
-```
 
 ## Prices
 
@@ -66,4 +68,3 @@ python3 scripts/shopping_graph.py set-status 10129724 ordered --date 2026-10-26
 python3 scripts/shopping_graph.py add --name "Sikaflex-221" --packages maxxfan --status planned
 python3 scripts/shopping_graph.py remove item:sikaflex_221
 ```
-

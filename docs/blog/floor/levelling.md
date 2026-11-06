@@ -17,11 +17,9 @@ the floor with no give before permanent installation.
 
 ## Shopping List
 
-```{raw} html
 <div class="js-shopping-graph" data-work-package="wp:floor_levelling">
   <p>Loading shopping list from graph database…</p>
 </div>
-```
 
 ## Progress And Photos
 

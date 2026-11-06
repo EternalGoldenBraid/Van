@@ -1,0 +1,14 @@
+{
+  "name": "van-build-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ../../scripts/blog_review.mjs",
+    "build": "vitepress build .",
+    "preview": "vitepress preview . --host 127.0.0.1 --port 4173 --strictPort",
+    "test": "npm run build && node --test ../../scripts/blog_review.test.mjs"
+  },
+  "dependencies": {
+    "vitepress": "1.6.4"
+  }
+}

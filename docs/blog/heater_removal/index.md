@@ -20,22 +20,22 @@ Source images and original observations are attached to [VAN-6 in Linear](https:
 
 ### Fuel line and pump disconnection
 
-```{figure} images/302.jpg
-:alt: Fuel pump disconnection during removal.
+<span id="id1"></span>
+
+[![Fuel pump disconnection during removal.](images/302.jpg)](images/302.jpg)
 
 Fuel pump disconnection (photo 302, from VAN-6).
-```
 
-```{figure} images/303.jpg
-:alt: Fuel pump disconnection during removal.
+<span id="id2"></span>
+
+[![Fuel pump disconnection during removal.](images/303.jpg)](images/303.jpg)
 
 Fuel pump disconnection (photo 303, from VAN-6).
-```
 
-```{figure} images/304.jpg
-:alt: Fuel-pump connector and fuel-line state photographed during heater removal.
+<span id="id3"></span>
+
+[![Fuel-pump connector and fuel-line state photographed during heater removal.](images/304.jpg)](images/304.jpg)
 
 Fuel-pump connector and fuel-line state during heater removal (photo 304, from VAN-6).
-```
 
 The remaining original photographs are available in Linear and have not yet been imported into GitHub.

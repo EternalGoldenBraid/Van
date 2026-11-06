@@ -8,7 +8,7 @@ the [shopping list below](#shopping-list).
 - **Unit:** 400 x 400 mm MaxxFan Deluxe on the Ford Transit L3H3 roof.
 - **Longitudinal position:** foremost sufficiently flat roof bay behind the
   front curved transition, clear of structural roof ribs (see
-  {download}`roof layout plan <../../roof_layout_plan.md>`).
+  <a :href="$withBase('/downloads/roof_layout_plan.md')" download>roof layout plan</a>).
 - **Lateral position:** centred or shifted toward the passenger side only as far
   as the receiving flange sits fully supported on the roof crown.
 - **Make-up air (*korvausilma*):** shares the floor replacement-air inlet
@@ -64,13 +64,11 @@ mounting proceed.*
 
 ## Shopping List
 
-```{raw} html
 <div class="js-shopping-graph" data-work-package="wp:maxxfan">
   <p>Loading shopping list from graph database…</p>
 </div>
-```
 
 ## Related
 
 - [Replacement-air inlet (*korvausilma*)](../floor/replacement_air.md)
-- {download}`Roof layout plan <../../roof_layout_plan.md>`
+- <a :href="$withBase('/downloads/roof_layout_plan.md')" download>Roof layout plan</a>

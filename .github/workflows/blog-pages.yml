@@ -11,6 +11,11 @@ on:
       - docs/wood_stove/**
       - docs/floor_plan.md
       - docs/floor_sealing_logbook.md
+      - docs/window_plan.md
+      - docs/roof_layout_plan.md
+      - scripts/blog_review_preview.mjs
+      - scripts/blog_review.test.mjs
+      - scripts/shopping_graph.py
 
 permissions:
   contents: read
@@ -33,20 +38,23 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Set up Python
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: docs/blog/package-lock.json
+
+      - name: Install documentation dependencies
+        run: npm --prefix docs/blog ci --no-audit --no-fund
+
+      - name: Set up Python for graph checks
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-          cache: pip
-          cache-dependency-path: docs/blog/requirements.txt
-
-      - name: Install documentation dependencies
-        run: python -m pip install --requirement docs/blog/requirements.txt
 
       - name: Build the blog
-        run: >-
-          sphinx-build -n -W --keep-going -b html
-          docs/blog docs/blog/_build/html
+        run: npm --prefix docs/blog test
 
       - name: Upload the site
         uses: actions/upload-pages-artifact@v4

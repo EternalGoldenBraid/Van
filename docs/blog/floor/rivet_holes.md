@@ -1,7 +1,7 @@
 # Floor Rivet-Hole Sealing
 
 **Status (2026-10-25):** Active work package. Full coating notes are in the
-{download}`floor-sealing logbook <../../floor_sealing_logbook.md>`.
+<a :href="$withBase('/downloads/floor_sealing_logbook.md')" download>floor-sealing logbook</a>.
 
 ## Flow
 
@@ -14,11 +14,9 @@
 
 ## Shopping List
 
-```{raw} html
 <div class="js-shopping-graph" data-work-package="wp:floor_rivet_holes">
   <p>Loading shopping list from graph database…</p>
 </div>
-```
 
 ## Progress And Photos
 

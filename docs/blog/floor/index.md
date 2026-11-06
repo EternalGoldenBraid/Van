@@ -7,13 +7,5 @@ closing the floor permanently:
 - **[Replacement-air inlet (*korvausilma*)](replacement_air.md):** use the existing floor hole above the rivet holes as the fresh-air intake (*räppänä*) for the wood stove and MaxxFan.
 - **[Floor levelling & XPS support](levelling.md):** eliminate soft/yielding spots by ensuring the plywood floor is evenly supported by the XPS and battens.
 
-See {download}`floor_plan.md <../../floor_plan.md>` for the full floor stack notes.
-
-```{toctree}
-:hidden:
-:caption: Floor packages
-
-rivet_holes
-replacement_air
-levelling
-```
+See <a :href="$withBase('/downloads/floor_plan.md')" download>floor_plan.md</a>
+for the full floor stack notes.

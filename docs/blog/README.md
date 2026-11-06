@@ -61,23 +61,69 @@ Historical drawings retain their status labels.
 
 ## Reading And Maintaining The Site
 
-Use the sun/moon control in the site header to choose **light, dark or automatic
-system appearance**. The browser remembers the selection. The stove's draw.io
+Use the sun/moon control in the site header to choose **light or dark
+appearance**. The browser remembers the selection. The stove's draw.io
 figure opens at full size when clicked; its editable source is downloadable.
 
-The pages are Markdown, rendered with Sphinx and MyST. From the repository root:
+All published pages are Markdown rendered with VitePress. Node.js 20+ is
+required; the local shopping API also uses Python 3.10+ and the existing graph
+synchronizer. From the repository root:
 
 ```sh
-uv run --no-project \
-  --with-requirements docs/blog/requirements.txt \
-  sphinx-build -n -W --keep-going -b html \
-  docs/blog docs/blog/_build/html
-python3 scripts/shopping_graph.py serve --port 8000
+npm --prefix docs/blog ci
+npm --prefix docs/blog run dev
 ```
 
-Open `http://localhost:8000`. Generated HTML stays out of Git. The editable
+Open `http://127.0.0.1:8766`. Source edits hot-reload directly. Generated HTML
+and caches stay under `docs/blog/_build/`, outside Git. The editable
 stove drawings stay in `docs/wood_stove/`; blog pages and assets live under
 `docs/blog/`.
+
+The shopping graph uses the existing JSON and SQLite mirror. Local browser
+edits save to those real repository files, without a commit or push; reading
+alone does not rewrite them. If the local shopping API is unavailable,
+editing is disabled. Local previews never fall back to GitHub Sync.
+
+Build and check all published pages and the graph adapter:
+
+```sh
+npm --prefix docs/blog test
+```
+
+Site navigation, search and the deployment base live in `.vitepress/config.mjs`.
+Use native Markdown, `::: info` blocks and `<!--@include: ./file.md-->`
+includes. `README.md` files are included source/reference documents, not
+separate published pages. Downloads use the theme's `$withBase` helper.
+`public/` links to canonical assets and selected planning-file downloads;
+legacy Sphinx download aliases preserve existing public URLs. Keep these
+links pointed at their original sources, without duplicating editable content.
+
+### Local Agent Comments
+
+Comments are optional and use the separate `agent-doc-review` checkout.
+No comment service or connection data is included in the published site.
+
+Connect a session-scoped Copilot extension using the
+`agent-doc-review/docs/preview-comments.md` adapter instructions. Set its
+`documentRoot` to this repository's `docs/blog`, `previewOrigin` to
+`http://127.0.0.1:8766`, and `storageRoot` to a private local directory outside
+Git. Reload the extension, then use its logged connection-file path:
+
+```sh
+node scripts/blog_review.mjs \
+  --review-package /absolute/path/to/agent-doc-review \
+  --connection-file /absolute/private/state/session-id/connection.json
+```
+
+Open `http://127.0.0.1:8766/`. Select text and click **Comment**;
+**History** shows replies and resolution. Feedback stays in the owning Copilot
+session's local state. Do not share or commit the connection file or comments.
+If changing `--port`, change the extension's preview origin to match.
+
+Comments map to the original Markdown under `docs/blog/`. Saved comments remain
+in the private state directory when the server stops. The review plugin is
+loaded only for this local command; VitePress itself is pinned in this blog's
+package manifest and lockfile.
 
 ## GitHub Pages
 
@@ -91,7 +137,7 @@ Work-package shopping lists are rendered from the bipartite shopping graph
 
 The workflow in `.github/workflows/blog-pages.yml` publishes relevant pushes to
 **`main`**, including changes to the canonical heater shopping list. It builds
-Sphinx with warnings treated as errors, uploads only
+VitePress with dead-link checking and runs the graph/site checks, uploads only
 `docs/blog/_build/html` and deploys that artifact. Generated HTML stays out of
 Git. Review drafts and downloadable evidence before pushing changes that
 publish them.

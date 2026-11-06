@@ -20,7 +20,7 @@ items by work package in the [interactive shopping graph](shopping-graph.md).
 - **Floor levelling & XPS support:** eliminate soft spots under the plywood
   floor — [Plan & shopping list](floor/levelling.md).
 - **Window locations:** reserve openings; window installation can wait.
-  {download}`Window planning notes <../window_plan.md>`.
+  <a :href="$withBase('/downloads/window_plan.md')" download>Window planning notes</a>.
 
 ## Upcoming
 

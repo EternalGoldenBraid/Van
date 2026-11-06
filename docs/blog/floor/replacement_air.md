@@ -19,11 +19,9 @@ do not run the MaxxFan in exhaust mode with a live stove.
 
 ## Shopping List
 
-```{raw} html
 <div class="js-shopping-graph" data-work-package="wp:floor_replacement_air">
   <p>Loading shopping list from graph database…</p>
 </div>
-```
 
 ## References And Progress
 

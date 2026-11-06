@@ -8,15 +8,14 @@ comparisons predate the latest orders. Use the
 [shopping list](shopping_list_boutique.md) for current parts and costs and the
 [installation process](installation-plan.md) for the work sequence.
 
-```{figure} ../_static/figures/chimney-drawio.png
-:name: fig-chimney-drawio
-:alt: Draw.io side elevation showing the stove, single-wall flue, connector, insulated chimney, roof weather seal and separate structural support.
+<span id="fig-chimney-drawio"></span>
+
+[![Draw.io side elevation showing the stove, single-wall flue, connector, insulated chimney, roof weather seal and separate structural support.](../_static/figures/chimney-drawio.png)](../_static/figures/chimney-drawio.png)
 
 Assembly and roof-passage schematic. Not to scale; final mounting and
 clearance dimensions remain unresolved.
-```
 
-{download}`Download editable draw.io source <../../wood_stove/boutique-chimney-plan.drawio>`.
+<a :href="$withBase('/downloads/boutique-chimney-plan.drawio')" download>Download editable draw.io source</a>.
 Open it in the draw.io desktop app or the VS Code draw.io extension.
 
 ## Updating The Figure

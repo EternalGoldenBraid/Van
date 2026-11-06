@@ -1,0 +1,34 @@
+:root {
+  --color-background-border: var(--vp-c-divider);
+  --color-background-primary: var(--vp-c-bg);
+  --color-foreground-primary: var(--vp-c-text-1);
+}
+
+.vp-doc .sg-table {
+  display: table;
+  margin: 0;
+  min-width: 760px;
+  font-size: 13px;
+}
+
+.js-shopping-graph .table-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.vp-doc .sg-table tr {
+  background: transparent;
+}
+
+.vp-doc .sg-table td,
+.vp-doc .sg-table th {
+  border: 0;
+}
+
+.js-shopping-graph {
+  min-width: 0;
+}
+
+.sg-item-notes {
+  overflow-wrap: anywhere;
+}
