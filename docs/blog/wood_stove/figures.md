@@ -1,6 +1,28 @@
 # Chimney Figure
 
-Draw.io schematic of the selected assembly and roof passage. Click the image
+## Layout Measurements
+
+The [installation layout picture](installation-plan.md#measure-and-fix-the-layout)
+shows selected component dimensions, the proposed stove elevation and unknowns
+to fill in during the physical layout trial.
+
+<a :href="$withBase('/downloads/stove-layout-measurements.drawio')" download>Download editable measurement sheet</a>.
+Open it in draw.io or the VS Code draw.io extension; double-click a label to
+record a measurement.
+
+Export the updated sheet from the repository root:
+
+```sh
+drawio --export --format png \
+  --output docs/blog/_static/figures/stove-layout-measurements.png \
+  docs/wood_stove/stove-layout-measurements.drawio
+```
+
+Rebuild and inspect the rendered picture after an edit.
+
+## Historical Assembly Schematic
+
+Draw.io schematic of the assembly and roof passage. Click the image
 to open it at full size, or download the editable source.
 
 **Historical schematic, last edited 2026-10-20.** Purchase badges and flashing

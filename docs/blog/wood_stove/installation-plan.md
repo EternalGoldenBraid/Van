@@ -6,9 +6,9 @@ defined below; final dimensions and construction methods remain to be filled in.
 
 ::: info Next action
 
-Measure the deployed stove and delivered joints, then record
-the proposed position and height in the layout table. Complete the remaining
-design before ordering its attachment materials.
+Dry-fit the delivered flue parts and trial the stove position. Fill in the
+unknown dimensions in the [layout picture](#measure-and-fix-the-layout)
+before choosing the remaining mounting and heat-protection materials.
 :::
 
 ## Current Build Status
@@ -17,13 +17,6 @@ The proposed stove-feet elevation is **600-800 mm above the finished floor**,
 near the side door. Final height, hearth stack, firewood storage protection,
 shield coverage/layers, ventilation and attachments remain unresolved.
 No completed installation or commissioning is recorded.
-
-Verify received contents against the
-[stove's included-parts record](shopping_list_boutique.md#item:boutique_stove)
-and [DW-FU pipe's joint-band record](shopping_list_boutique.md#item:jeremias_dw13080)
-before buying additional parts. Extra pipe/connector needs depend on the
-delivered assembly's dry-fit. The replacement-air vent belongs to the
-[floor work package](../floor/replacement_air.md).
 
 [Shopping list](shopping_list_boutique.md) covers parts, consumables and tools.
 [Build story](story/index.md) contains the narrative.
@@ -43,7 +36,7 @@ weather boot: 69-177 mm pipe range and 254 x 254 mm base.
 
 | Decision | Reason and accepted trade-off | Still to settle |
 | --- | --- | --- |
-| Boutique Traditional | Broad cooktop, large front window and rigid body; clean 1-2 kW operation is unproven. Resale is the accepted fallback; installation work may not be recoverable. | Actual operating behaviour |
+| Boutique Traditional | Broad cooktop, large front window and rigid body; clean 1-2 kW operation is unproven. | Actual operating behaviour |
 | Included single-wall flue and separate DW37F080 | Use supplied pipe; nominal-size fit risk accepted when ordering the connector. | Delivered joint geometry and seating |
 | 1000 mm insulated element, 940 mm installed | More indoor/outdoor layout margin than the 500 mm option; extra length can extend downwards without raising the top. | Measured split at the roof |
 | Low exterior chimney, retained while driving | Avoid a tall removable exterior assembly. | Terminal position, supports and travel retention |
@@ -55,130 +48,86 @@ The [research notes](research.md) retain source evidence and alternatives.
 The [shopping list](shopping_list_boutique.md) records actual order amounts
 and remaining purchases.
 
+<span id="specify-the-installation-and-complete-the-kit"></span>
+
 ## 1. Measure And Fix The Layout
 
-1. Confirm receipt and inventory the stove, supplied flue and ordered parts.
-2. Measure the deployed stove, outlet position and mating ends. Dry-fit the
-   supplied flue, connector, insulated section and terminal; record seating
-   depths and effective assembled lengths.
-3. Trial the stove position, orientation and mounting elevation in the van.
-   Measure from the finished-floor reference and mark the flue route on both
-   sides of the roof. Compare it with the rack, fan and window locations.
-4. Fill in the table and update the [draw.io schematic](figures.md)
-   to match the measurements.
+[![Stove layout measurement sheet: 940 mm installed insulated length, 80/145 mm bore/shell, proposed 600-800 mm stove-feet elevation, and unknown layout dimensions marked with question marks.](../_static/figures/stove-layout-measurements.png)](../_static/figures/stove-layout-measurements.png)
 
-| Layout input | Current value |
-| --- | --- |
-| Vehicle side, longitudinal position and door direction | To measure/select |
-| Deployed width, depth, height and outlet offset | To measure; published 323 mm height is legs collapsed |
-| Finished floor, hearth and mounting elevation | To measure/select |
-| Outlet-to-roof distance and roof build-up | To measure |
-| Single-wall/connector assembled span | To derive from actual joint seating |
-| Insulated span below/through/above roof | To derive; 940 mm effective element length |
-| Terminal position and complete travel height | To measure/select |
-| Hearth/shield dimensions and required airspaces | To specify |
-| Stove and chimney attachment points/backing access | To specify |
+Not to scale. Known component dimensions are labelled; **?** marks measurements
+or design still open. The 600-800 mm elevation is a proposal, not a fixed dimension.
+[Open full-size picture](../_static/figures/stove-layout-measurements.png) ·
+[Editable picture and schematic reference](figures.md).
 
-**Output:** one measured layout with the open inputs resolved before permanent
-mounting or a roof cut. Preserve any underfloor attachment access while the
-[floor work](../floor/index.md) is completed.
+1. **Dry-fit the flue:** assemble the supplied pipe, connector, insulated section
+   and terminal. Measure joint seating and effective lengths, check
+   [joint bands](shopping_list_boutique.md#item:jeremias_dw13080), and identify
+   any extra pipe/connector needs.
+2. **Trial the position:** measure the deployed stove and outlet offset.
+   Choose orientation and feet elevation from the finished floor; mark the roof
+   route and compare it with the rack, fan and windows.
+3. **Complete the drawing:** fill in the unknown dimensions, hearth/shields,
+   airspaces, stand, restraints, chimney supports and backing/fastener access.
+   Specify roof-passage protection, boot fixings/sealant and the shared
+   [replacement-air inlet](../floor/replacement_air.md).
+4. **Complete the kit:** enter selected materials and quantities in the
+   [shopping list](shopping_list_boutique.md). Check owned/borrowed tools and
+   included hardware before ordering.
 
-## 2. Specify The Installation And Complete The Kit
+Resolve the layout and [requirements](#requirements-and-checks) before permanent
+mounting or a roof cut. Preserve underfloor attachment access during
+[floor work](../floor/index.md).
 
-1. Record the selected hearth/platform, shields and roof-passage construction
-   against the requirements below.
-2. Draw the stove restraints and chimney supports, including vehicle attachment
-   points, backing plates, mounting gaps and access to fasteners.
-3. Specify the roof boot's base arrangement, fixings, sealant and cut-edge
-   coating, including application and cure conditions.
-4. Confirm the shared [replacement-air inlet](../floor/replacement_air.md)
-   arrangement and cleaning access.
-5. Enter the selected products, quantities and suppliers in the
-   [shopping list](shopping_list_boutique.md). Check owned tools and included
-   hardware, then order only the missing items.
+## 2. Fit The Hearth, Shields And Stove Mounting
 
-**Output:** a measured installation drawing, complete bill of materials and
-available tools. No support, hearth or roof-passage design is selected yet.
-
-Check owned or borrowed measuring tools, square/level, markers/templates,
-sheet-metal cutter, drill/bits, files, swarf collection/masking, sealant
-applicator/preparation supplies, clamps, matching fastening tools and PPE
-before buying more. Count shared stove/flue shield coverage once.
-The [chimney-support examples](https://www.kamin-store24.de/Jeremias-DW-FU-Wand-und-Deckenhalter-in-verschiedenen-Ausfuehrungen)
-are references, not a vehicle attachment design.
-
-## 3. Fit The Hearth, Shields And Stove Mounting
+Materials: [hearth](shopping_list_boutique.md#item:stove_hearth),
+[body shields](shopping_list_boutique.md#item:stove_body_wall_shields),
+[flue shields](shopping_list_boutique.md#item:stove_flue_wall_shields),
+[stand/restraints](shopping_list_boutique.md#item:stove_restraints) and
+[mounting fasteners](shopping_list_boutique.md#item:stove_mounting_fasteners).
 
 1. Build the specified hearth/platform and shields to the measured layout.
 2. Fit the backing plates and stove restraints; position and secure the stove.
 3. Recheck the actual outlet position against the marked roof route.
 
-**Output:** the stove in its final restrained position, with mounting dimensions
-recorded. Fastener sizes and the exact assembly method come from step 2.
+## 3. Install The Roof Passage And Chimney
 
-## 4. Install The Roof Passage And Chimney
+Materials: [passage protection](shopping_list_boutique.md#item:stove_roof_passage),
+[chimney supports](shopping_list_boutique.md#item:stove_chimney_supports),
+[Master Flash boot](shopping_list_boutique.md#item:master_flash_sq402ra),
+[boot fixings](shopping_list_boutique.md#item:stove_boot_fixings) and
+[sealant](shopping_list_boutique.md#item:stove_boot_sealant).
 
 1. Dry-fit the complete route in the final stove position.
 2. Transfer the specified penetration and fixing pattern to the roof.
 3. Cut, deburr and protect the exposed steel using the selected coating process.
 4. Fit the specified passage protection and structural supports, then assemble
    the flue, connector, insulated element and terminal to the system instructions.
-5. Fit the Master Flash boot and its selected fixings/sealant; observe the
-   recorded cure conditions before the water check.
+5. Fit the Master Flash boot and its selected fixings/sealant. After curing,
+   check for water ingress; record joint seating, indoor/outdoor split and
+   overall travel height.
 
-**Output:** the assembled, supported chimney and completed weather seal.
-Record final joint seating, indoor/outdoor split and overall height.
-
-## 5. Check, Record And Hand Over To Use
-
-1. Complete the requirements/checks below and record their results.
-2. Check the cured roof seal for water ingress and retain access for inspection
-   and cleaning.
-3. Record the initial firing procedure from the applicable instructions before
-   carrying it out; document draft, smoke behaviour and heat output observed.
-4. Add final measurements, installation photos and actual purchases to this
-   record and the [shopping list](shopping_list_boutique.md).
-
-**Output:** a dated installation/check record. First-fire instructions and
-acceptance criteria still need specifying; no commissioning result is recorded.
+<span id="check-record-and-hand-over-to-use"></span>
 
 ## Requirements And Checks
 
-This section collects the existing installation and operating constraints.
-Unresolved values stay unresolved; the historical schematic does not supply them.
-
-- **Clearances and heat protection:** establish Boutique-specific body/flue
-  clearances, deployed projections, hearth/shields and any permitted reductions.
-  Allow door/loading space; comparison assumptions and another stove's lining
-  do not establish reduced clearances. Preserve specified airspaces.
-  The boot is a weather seal, not a firestop or
-  support; adding loose insulation around a pipe is not a specified penetration
-  design.
-- **Joints and chimney:** verify actual adapter fit, joint direction, insertion,
-  sealing and temperature suitability. Neither matching nominal diameters nor
-  the supplied tent-flue length establishes compatible joints or adequate draft.
-  Boutique minimum chimney height and final terminal requirements remain open;
-  other stove brands' dimensions are not Boutique instructions.
-- **Supports and travel:** carry weight/lateral loads into vehicle structure,
-  allow required thermal movement and resolve road retention. Joint bands,
-  the boot and thin supplied pipe are not vehicle anchors. Include the retained
-  chimney in overall travel height; the documented Finnish maximum is 4.40 m,
-  with route clearances checked separately.
-- **Materials and weather:** confirm sealant/coating compatibility with the
-  actual roof, boot and heat exposure, cured cold service and application/cure
-  conditions. Boot temperature ratings are not sealant or clearance ratings;
-  Dektite-specific fixing instructions do not specify a Master Flash installation.
-  The Silirub HT-N candidate's [Finnish technical sheet](https://www.soudal.fi/sites/default/files/soudal_api/document/F0032691_0001.pdf)
-  supplies its preparation and cure conditions; verify adhesion to the actual
-  boot and painted roof before selection.
-- **Air and equipment:** provide replacement air, CO/smoke alarms and a suitable
-  extinguisher. No MaxxFan extraction with a live stove unless the arrangement
-  is designed/tested for depressurization and smoke spillage.
-- **Use and maintenance:** retain cleaning access, inspect frequently during
-  initial use and use dry wood. Do not achieve low output by smouldering a large
-  charge. A cold-stove closure is for a fully cold stove only; never close it
-  over fire or hot coals. Vehicle-installation/approval requirements remain
-  unverified.
+- **Heat protection:** establish Boutique-specific clearances, hearth/shields,
+  storage protection and airspaces. The weather boot is not a firestop or support.
+- **Flue:** verify compatible joints, seating, direction, sealing and temperature
+  ratings. Required chimney height and terminal position remain unconfirmed.
+- **Mounting/travel:** anchor stove and chimney to vehicle structure, allow thermal
+  movement, and resolve road retention. Check total height against Finland's
+  4.40 m limit and route clearances; confirm vehicle approval requirements.
+- **Weather seal:** confirm roof/boot/sealant compatibility, application and cure
+  conditions, then water-test. The [sealant record](shopping_list_boutique.md#item:stove_boot_sealant)
+  links its technical sheet.
+- **Air/safety equipment:** provide replacement air, CO/smoke alarms and an
+  extinguisher. No MaxxFan extraction with a live stove unless depressurization
+  and smoke spillage are designed/tested for.
+- **First firing:** follow applicable instructions and establish acceptance
+  checks for draft, smoke spillage and nearby surface temperatures before use.
+- **Maintenance:** retain cleaning access, inspect early use, and burn dry wood
+  without smouldering. Close a cold-stove closure only when fully cold.
 
 Sources: [technical evidence](research.md#mounting-and-chimney-height),
 [Boutique product/instructions source](https://boutiquecamping.com/en-eu/products/traditional-wood-burning-stove?view=v2),
