@@ -19,7 +19,7 @@
 
 ## Wiring diagram
 
-Existing editable [12 V electrical diagram](../../electronics_victron_12v.drawio) — **historical/planning drawing, not an as-built verification**. Its old-auxiliary-system block still depicts **two inverters**, so it is now out of date. The removed inverter had separate positive, negative, and chassis-bond connections.
+Existing editable [12 V electrical diagram](../../electronics_victron_12v.drawio) — **historical/planning drawing, not an as-built verification**. Its observed old-auxiliary-system block now marks the ~1,000 W inverter **removed** in grey and the ~350 W inverter **remaining**. The broader topology is still a planning/observational diagram, not a verified as-built schematic. The removed inverter had separate positive, negative, and chassis-bond connections.
 
 ## Checks before the next removal
 
