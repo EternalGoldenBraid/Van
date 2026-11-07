@@ -13,6 +13,7 @@ parts are not treated as installed.
 
 - [Work-package overview](work-packages.md): a short summary of current,
   upcoming and later work, linking to instructions and shopping lists.
+- [Inverter removal](electrical/inverter-removal.md): completed 7 November 2026; repeatable procedure and existing electrical diagram reference.
 - [Heater removal](heater_removal/index.md): completed removal record and
   original routing photographs.
 - [Diesel heater](diesel_heater/index.md): active Planar 44D relocation log,
