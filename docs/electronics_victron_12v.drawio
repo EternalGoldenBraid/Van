@@ -22,9 +22,10 @@
         <mxCell id="obs-old-aux" parent="existing" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#450a0a;strokeColor=#f87171;fillStyle=solid;" value="Old auxiliary battery&lt;br&gt;old inverter supply&lt;br&gt;not connected to new house battery" vertex="1">
           <mxGeometry height="70" width="210" x="1020" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="obs-old-inverters" parent="existing" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#052e16;strokeColor=#4ade80;" value="Existing inverters x2&lt;br&gt;remain on old aux system for now" vertex="1">
+        <mxCell id="obs-old-inverters" parent="existing" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#052e16;strokeColor=#4ade80;" value="350 W inverter — remains connected&lt;br&gt;~1000 W inverter — REMOVED 2026-11-07 (greyed below)" vertex="1">
           <mxGeometry height="70" width="200" x="1240" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="obs-removed-inverter" parent="existing" style="fontColor=#9ca3af;rounded=1;whiteSpace=wrap;html=1;fillColor=#374151;strokeColor=#6b7280;dashed=1;opacity=55;" value="~1000 W inverter&lt;br&gt;REMOVED 2026-11-07&lt;br&gt;DC + / - and chassis bond" vertex="1"><mxGeometry height="70" width="200" x="1240" y="142" as="geometry" /></mxCell>
         <mxCell id="obs-note" parent="existing" style="fontColor=#e5e7eb;rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#cbd5e1;fontStyle=2;" value="Open question: is there a separate battery combiner / split-charge relay / DC-DC charger elsewhere in the OEM path?" vertex="1">
           <mxGeometry height="44" width="720" x="350" y="168" as="geometry" />
         </mxCell>
