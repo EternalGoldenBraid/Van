@@ -19,6 +19,11 @@
 
 ## Wiring diagram
 
+![Focused auxiliary inverter subgraph showing remaining 350 W inverter and greyed-out removed ~1000 W inverter](./inverter-removal-subgraph.svg)
+
+[Open the SVG separately](./inverter-removal-subgraph.svg). This is a simplified view of the observed subgraph, not a full export of the draw.io plan.
+
+
 Existing editable [12 V electrical diagram](../../electronics_victron_12v.drawio) — **historical/planning drawing, not an as-built verification**. Its observed old-auxiliary-system block now marks the ~1,000 W inverter **removed** in grey and the ~350 W inverter **remaining**. The broader topology is still a planning/observational diagram, not a verified as-built schematic. The removed inverter had separate positive, negative, and chassis-bond connections.
 
 ## Checks before the next removal
